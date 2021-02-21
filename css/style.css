@@ -49,7 +49,7 @@ body {
   height: 100vh;
 }
 
-.logo-name {
+#logo-name {
   font-family: "Press Start 2P", cursive;
   color: var(--white);
   font-size: 32px;
@@ -62,8 +62,18 @@ body {
   font-size: 32px;
 }
 
-.navbar-nav span {
-  color: var(--grey);
+.navbar-toggler-icon {
+  color: var(--white2);
+}
+.navbar-toggler {
+  color: var(--white2);
+}
+.nav-item {
+  text-align: center;
+}
+
+.navbar-collapse.collapse.in {
+  display: block !important;
 }
 
 .nav-link {
@@ -130,8 +140,6 @@ body {
   margin-top: 7px;
   width: 1px;
   height: 150%;
-<<<<<<< HEAD
-=======
   z-index: 1;
   position: absolute;
   background-color: #5918df;
@@ -144,7 +152,6 @@ body {
   margin-top: 7px;
   width: 1px;
   height: 5%;
->>>>>>> 40e860b25986f28d838de7ba378e608614016691
   z-index: 1;
   position: absolute;
   background-color: #5918df;
@@ -152,21 +159,6 @@ body {
     -3px 0 14px #181619, 0 3px 6px #181619, 0 -3px 6px #181619,
     3px 0 6px #181619, -3px 0 6px #181619;
   overflow-inline: unset;
-<<<<<<< HEAD
-}
-.timeline-son {
-  margin-top: 7px;
-  width: 1px;
-  height: 5%;
-  z-index: 1;
-  position: absolute;
-  background-color: #5918df;
-  text-shadow: 0 3px 14px #181619, 0 -3px 14px #181619, 3px 0 14px #181619,
-    -3px 0 14px #181619, 0 3px 6px #181619, 0 -3px 6px #181619,
-    3px 0 6px #181619, -3px 0 6px #181619;
-  overflow-inline: unset;
-=======
->>>>>>> 40e860b25986f28d838de7ba378e608614016691
 }
 
 .bullet {
