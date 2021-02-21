@@ -1,0 +1,830 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://css.gg/mouse.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #191425;
+}
+
+:root {
+  --white: #ffffff;
+  --white2: #f9f9f9;
+  --grey: hsla(0, 0%, 100%, 0.5);
+  --grey2: #988e9f;
+  --gap-horizontal: 10px;
+  --gap-vertical: 5px;
+  --time-anim: 2s;
+  --delay-anim: 0s;
+  --blend-mode-1: none;
+  --blend-mode-2: none;
+  --blend-mode-3: none;
+  --blend-mode-4: none;
+  --blend-mode-5: overlay;
+  --blend-color-1: transparent;
+  --blend-color-2: transparent;
+  --blend-color-3: transparent;
+  --blend-color-4: transparent;
+  --blend-color-5: #af4949;
+}
+
+.gg-code-slash {
+  color: #5918df;
+}
+#start {
+  background-image: url("../img/background.png");
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 560px;
+  height: 100vh;
+}
+
+.logo-name {
+  font-family: "Press Start 2P", cursive;
+  color: var(--white);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#logo-span {
+  color: #5918df;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.navbar-nav span {
+  color: var(--grey);
+}
+
+.nav-link {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: var(--grey);
+}
+.active_link {
+  color: white;
+}
+
+#header-first-element {
+  color: var(--grey2);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+}
+
+.padding-top-header {
+  padding-top: 144px;
+}
+
+.header-baslik {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--white2);
+}
+.header-baslik strong {
+  color: #5918df;
+}
+
+#hader-baslik_italic {
+  font-style: italic;
+  font-weight: lighter;
+  font-family: Palatino, Georgia, Times New Roman, Times, serif;
+}
+#header-second-element {
+  font-size: 24px;
+  color: var(--grey2);
+}
+
+#output {
+  /* The command I know best. */
+  color: var(--white2);
+  font-size: 45px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.timeline {
+  margin-top: 7px;
+  width: 1px;
+  height: 300%;
+  z-index: 1;
+  position: absolute;
+  background-color: #5918df;
+  text-shadow: 0 3px 14px #181619, 0 -3px 14px #181619, 3px 0 14px #181619,
+    -3px 0 14px #181619, 0 3px 6px #181619, 0 -3px 6px #181619,
+    3px 0 6px #181619, -3px 0 6px #181619;
+}
+
+.bullet {
+  content: "";
+  left: -4px;
+  top: 0;
+  z-index: 1;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 2px solid #5918df;
+  background-color: #1b191e;
+  position: absolute;
+}
+
+.gg-mouse {
+  top: 13.5%;
+  left: -7px;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 16px;
+  height: 24px;
+  border: 2px solid;
+  border-radius: 10px;
+  color: var(--white2);
+  background-color: rgba(17, 15, 24, 0.7);
+}
+
+.gg-mouse::after {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 3px;
+  width: 2px;
+  height: 6px;
+  background: currentColor;
+  top: 3px;
+  left: 5px;
+}
+#scroll {
+  transform: rotate(-90deg);
+  top: 16%;
+  left: -28px;
+  color: var(--white2);
+  position: absolute;
+  color: #5918df;
+  z-index: 1;
+}
+
+#work {
+  background-color: #191425;
+  position: relative;
+}
+
+#work:before {
+  content: "WORK";
+  font-family: Roboto Mono, Courier New, Courier, monospace !important;
+  font-size: 270px;
+  font-weight: 700;
+  color: #221d35;
+  position: absolute;
+  right: 0px;
+  top: -20px;
+}
+
+#work h4 {
+  font-family: Roboto Condensed, Lato, Arial, sans-serif !important;
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--grey2);
+}
+
+.project-meta {
+  position: absolute;
+  z-index: 5;
+}
+
+.project-meta-head {
+  font-family: Roboto Condensed, Lato, Arial, sans-serif !important;
+  font-size: 24px;
+  color: var(--white2);
+  font-weight: bold;
+}
+
+.project-meta-line {
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  margin: 10px 1px 13px;
+}
+
+.project-meta-number {
+  font-family: "Roboto Mono", monospace;
+  color: #988e9f;
+}
+
+.project-meta-arrow {
+  font-family: "Roboto Mono", monospace;
+  color: #988e9f;
+}
+
+.header-content {
+  z-index: 5;
+}
+
+.work00 {
+  margin-left: 100px;
+}
+
+.work01 {
+  position: absolute;
+  margin-left: 500px;
+}
+
+.work02 {
+  position: absolute;
+  padding-left: 1285px;
+}
+
+.work02 .example .example__img {
+  width: 230px;
+  height: 410px;
+}
+
+.work03 {
+  margin-left: 100px;
+  margin-top: 400px;
+}
+
+/* h4 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.4;
+} */
+
+/* Work00 Baslangici */
+
+.example {
+  z-index: 9;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.9em;
+  cursor: pointer;
+}
+.example:hover .example__img .glitch__img:nth-child(n + 2) {
+  animation-duration: var(--time-anim);
+  animation-delay: var(--delay-anim);
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+.example:hover .example__img .glitch__img:nth-child(2) {
+  background-color: var(--blend-color-2);
+  background-blend-mode: var(--blend-mode-2);
+  -webkit-animation-name: glitch-anim-1;
+  animation-name: glitch-anim-1;
+}
+.example:hover .example__img .glitch__img:nth-child(3) {
+  background-color: var(--blend-color-3);
+  background-blend-mode: var(--blend-mode-3);
+  -webkit-animation-name: glitch-anim-2;
+  animation-name: glitch-anim-2;
+}
+.example:hover .example__img .glitch__img:nth-child(4) {
+  background-color: var(--blend-color-4);
+  background-blend-mode: var(--blend-mode-4);
+  -webkit-animation-name: glitch-anim-3;
+  animation-name: glitch-anim-3;
+}
+.example:hover .example__img .glitch__img:nth-child(5) {
+  background-color: var(--blend-color-5);
+  background-blend-mode: var(--blend-mode-5);
+  -webkit-animation-name: glitch-anim-flash;
+  animation-name: glitch-anim-flash;
+}
+.example:hover .example__link {
+  color: red;
+}
+.example:hover .example__link:before {
+  transform: scaleX(0);
+  transition-delay: 0s;
+  transform-origin: right;
+}
+.example:hover .example__link:after {
+  transform: scaleX(1);
+  background: red;
+  transition-delay: 0.2s;
+  transform-origin: left;
+}
+
+.example__img {
+  width: 410px;
+  height: 230px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.example__img:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: linear-gradient(to left, #583991 0, #223991 100%);
+  mix-blend-mode: hard-light;
+}
+
+.glitch {
+  overflow: hidden;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.glitch__img {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--blend-color-1);
+  transform: translate3d(0, 0, 0);
+  background-blend-mode: var(--blend-mode-1);
+}
+.glitch__img:nth-child(n + 2) {
+  opacity: 0;
+}
+
+@keyframes glitch-anim-1 {
+  0%,
+  100% {
+    opacity: 1;
+    transform: translate3d(var(--gap-horizontal), 0, 0) scale3d(-1, -1, 1);
+    clip-path: polygon(0 2%, 100% 2%, 100% 5%, 0 5%);
+  }
+  20% {
+    clip-path: polygon(0 15%, 100% 15%, 100% 15%, 0 15%);
+  }
+  30% {
+    clip-path: polygon(0 10%, 100% 10%, 100% 20%, 0 20%);
+  }
+  40% {
+    clip-path: polygon(0 1%, 100% 1%, 100% 2%, 0 2%);
+  }
+  50% {
+    clip-path: polygon(0 33%, 100% 33%, 100% 33%, 0 33%);
+  }
+  55% {
+    clip-path: polygon(0 44%, 100% 44%, 100% 44%, 0 44%);
+  }
+  60% {
+    clip-path: polygon(0 50%, 100% 50%, 100% 20%, 0 20%);
+  }
+  65% {
+    clip-path: polygon(0 70%, 100% 70%, 100% 70%, 0 70%);
+  }
+  70% {
+    clip-path: polygon(0 80%, 100% 80%, 100% 80%, 0 80%);
+  }
+  80% {
+    clip-path: polygon(0 50%, 100% 50%, 100% 55%, 0 55%);
+  }
+  85% {
+    clip-path: polygon(0 60%, 100% 60%, 100% 65%, 0 65%);
+  }
+  95% {
+    clip-path: polygon(0 72%, 100% 72%, 100% 78%, 0 78%);
+  }
+}
+@keyframes glitch-anim-2 {
+  0%,
+  100% {
+    opacity: 1;
+    transform: translate3d(calc(-1 * var(--gap-horizontal)), 0, 0);
+    clip-path: polygon(0 25%, 100% 25%, 100% 30%, 0 30%);
+  }
+  10% {
+    clip-path: polygon(0 3%, 100% 3%, 100% 3%, 0 3%);
+  }
+  15% {
+    clip-path: polygon(0 5%, 100% 5%, 100% 20%, 0 20%);
+  }
+  17% {
+    clip-path: polygon(0 20%, 100% 20%, 100% 20%, 0 20%);
+  }
+  19% {
+    clip-path: polygon(0 40%, 100% 40%, 100% 40%, 0 40%);
+  }
+  33% {
+    clip-path: polygon(0 52%, 100% 52%, 100% 59%, 0 59%);
+  }
+  35% {
+    clip-path: polygon(0 60%, 100% 60%, 100% 60%, 0 60%);
+  }
+  40% {
+    clip-path: polygon(0 75%, 100% 75%, 100% 75%, 0 75%);
+  }
+  45% {
+    clip-path: polygon(0 65%, 100% 65%, 100% 40%, 0 40%);
+  }
+  49% {
+    clip-path: polygon(0 45%, 100% 45%, 100% 50%, 0 50%);
+  }
+  50% {
+    clip-path: polygon(0 14%, 100% 14%, 100% 33%, 0 33%);
+  }
+  55% {
+    clip-path: polygon(0 15%, 100% 15%, 100% 35%, 0 35%);
+  }
+  60% {
+    clip-path: polygon(0 15%, 100% 15%, 100% 15%, 0 15%);
+  }
+  70% {
+    clip-path: polygon(0 65%, 100% 65%, 100% 60%, 0 60%);
+  }
+  80% {
+    clip-path: polygon(0 80%, 100% 80%, 100% 85%, 0 85%);
+  }
+  90% {
+    clip-path: polygon(0 55%, 100% 55%, 100% 65%, 0 65%);
+  }
+}
+@keyframes glitch-anim-3 {
+  0%,
+  100% {
+    opacity: 1;
+    transform: translate3d(0, calc(-1 * var(--gap-vertical)), 0)
+      scale3d(-1, -1, 1);
+    clip-path: polygon(0 1%, 100% 1%, 100% 3%, 0 3%);
+  }
+  5% {
+    clip-path: polygon(0 10%, 100% 10%, 100% 9%, 0 9%);
+  }
+  11% {
+    clip-path: polygon(0 5%, 100% 5%, 100% 6%, 0 6%);
+  }
+  20% {
+    clip-path: polygon(0 20%, 100% 20%, 100% 20%, 0 20%);
+  }
+  25% {
+    clip-path: polygon(0 10%, 100% 10%, 100% 10%, 0 10%);
+  }
+  35% {
+    clip-path: polygon(0 30%, 100% 30%, 100% 25%, 0 25%);
+  }
+  42% {
+    clip-path: polygon(0 15%, 100% 15%, 100% 16%, 0 16%);
+  }
+  48% {
+    clip-path: polygon(0 40%, 100% 40%, 100% 39%, 0 39%);
+  }
+  50% {
+    clip-path: polygon(0 20%, 100% 20%, 100% 21%, 0 21%);
+  }
+  56% {
+    clip-path: polygon(0 60%, 100% 60%, 100% 55%, 0 55%);
+  }
+  61% {
+    clip-path: polygon(0 30%, 100% 30%, 100% 31%, 0 31%);
+  }
+  68% {
+    clip-path: polygon(0 70%, 100% 70%, 100% 69%, 0 69%);
+  }
+  72% {
+    clip-path: polygon(0 40%, 100% 40%, 100% 41%, 0 41%);
+  }
+  77% {
+    clip-path: polygon(0 80%, 100% 80%, 100% 75%, 0 75%);
+  }
+  81% {
+    clip-path: polygon(0 50%, 100% 50%, 100% 51%, 0 51%);
+  }
+  86% {
+    clip-path: polygon(0 90%, 100% 90%, 100% 90%, 0 90%);
+  }
+  90% {
+    clip-path: polygon(0 60%, 100% 60%, 100% 60%, 0 60%);
+  }
+  92% {
+    clip-path: polygon(0 100%, 100% 100%, 100% 99%, 0 99%);
+  }
+  94% {
+    clip-path: polygon(0 70%, 100% 70%, 100% 71%, 0 71%);
+  }
+}
+@keyframes glitch-anim-flash {
+  0%,
+  5% {
+    opacity: 0.2;
+    transform: translate3d(var(--gap-horizontal), var(--gap-vertical), 0);
+  }
+  100%,
+  5.5% {
+    opacity: 0;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.example__name {
+  font-family: Roboto Condensed, Lato, Arial, sans-serif !important;
+  font-size: 24px;
+  color: var(--white2);
+  font-weight: bold;
+  max-width: 16em;
+}
+
+.example__info {
+  font-size: 3rem;
+  z-index: 2;
+  position: absolute;
+  top: 30%;
+  left: -25%;
+}
+
+.example__link {
+  font-family: Roboto Condensed, Lato, Arial, sans-serif !important;
+  margin-top: 20px;
+  position: relative;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--white2);
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  padding-left: 132px;
+  height: 20px;
+  display: block;
+  transition: all 0.2s;
+}
+.example__link:before,
+.example__link:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background: #5918df;
+  position: absolute;
+  top: 9px;
+  left: 0;
+  transition: transform 0.2s ease-in-out;
+}
+.example__link:before {
+  transition-delay: 0.2s;
+  transform-origin: left;
+}
+.example__link:after {
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+/* Work00 Bitis */
+
+/* Lab Baslangic */
+
+#lab {
+  background-color: #0e0c16;
+  z-index: 5;
+  height: 400px;
+}
+
+#lab:before {
+  content: "LAB";
+  font-family: Roboto Mono, Courier New, Courier, monospace !important;
+  font-size: 270px;
+  font-weight: 700;
+  color: #221d35;
+  position: absolute;
+  right: 0px;
+  z-index: 1;
+}
+
+#lab-second-element {
+  font-size: 20px;
+  line-height: 1.6;
+  color: var(--white2);
+  font-family: "Roboto Condensed", sans-serif;
+}
+.card-head {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 30.4px;
+  color: #302a4b;
+  font-weight: bold;
+}
+
+#previewImage {
+  position: absolute;
+  display: none;
+  color: #fff;
+  z-index: 2;
+}
+#previewImage img {
+  width: 35vw;
+}
+
+.screenshot {
+  font-family: Roboto Mono, Courier New, Courier, monospace !important;
+  font-size: 14.4px;
+  color: var(--white);
+  text-decoration: none;
+  line-height: 1.8rem;
+  height: 1.8rem;
+}
+
+.screenshot:hover {
+  color: red;
+}
+
+.card-body {
+  margin-left: 20px;
+}
+
+/* Lab Bitis */
+
+/* Smooting Baslangic */
+
+#smoothing-01 {
+  height: 100px;
+  background: rgb(25, 20, 37);
+  background: linear-gradient(
+    180deg,
+    rgba(25, 20, 37, 1) 35%,
+    rgba(14, 12, 22, 1) 100%
+  );
+}
+
+#smoothing-02 {
+  height: 100px;
+  background: rgb(14, 12, 22);
+  background: linear-gradient(
+    180deg,
+    rgba(14, 12, 22, 1) 49%,
+    rgba(25, 20, 37, 1) 100%
+  );
+}
+
+#smoothing-03 {
+  margin-top: 10px;
+  height: 100px;
+  background: rgb(14, 13, 16);
+  background: linear-gradient(
+    0deg,
+    rgba(14, 13, 16, 1) 35%,
+    rgba(25, 20, 37, 1) 100%
+  );
+}
+
+/* Smooting Bitis */
+
+/* About Baslangic */
+
+#about {
+  position: relative;
+  color: var(--white);
+}
+
+#about:before {
+  content: "ABOUT";
+  font-family: Roboto Mono, Courier New, Courier, monospace !important;
+  font-size: 270px;
+  font-weight: 700;
+  color: #221d35;
+  position: absolute;
+  right: 0;
+  top: -20px;
+}
+
+#about .dot {
+  color: #3b3553;
+  display: inline;
+}
+#about .methods {
+  color: #5918df;
+  display: inline;
+}
+
+#about .methods {
+  color: #5918df;
+  display: inline;
+}
+
+#about .propname {
+  color: #eeff31;
+}
+
+#about .code-wrp {
+  font-family: Roboto Mono, Courier New, Courier, monospace !important;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+#about .comment {
+  color: #78707e;
+  display: inline;
+}
+
+#about .scope {
+  color: #e3244c;
+  display: inline;
+}
+
+#about .string {
+  color: #24e33a;
+}
+
+#about .prop2 {
+  color: #24e394;
+}
+
+#about .number {
+  color: #e39d24;
+}
+
+#about .code-l {
+  z-index: 5;
+  position: relative;
+}
+
+#about .code-l:after {
+  content: attr(data-line-nr);
+  position: absolute;
+  left: -60px;
+  color: #3b3553;
+  font-family: Roboto Mono, Courier New, Courier, monospace !important;
+  font-size: 16px;
+  line-height: 1.6;
+  z-index: 5;
+  top: 0;
+}
+/* .code-table .code-l:hover {
+  background-color: #231d28;
+  position: absolute;
+  width: 100%;
+} */
+
+#about .code-l:hover:before {
+  background-color: #231d28;
+  top: 0;
+  width: 300%;
+  left: -100%;
+  position: absolute;
+  content: "";
+  height: 100%;
+  z-index: -1;
+}
+
+/* Contact Baslangic    */
+
+#contact {
+  background-color: #0e0d10;
+  height: 500px;
+}
+
+/* Contact Bitis */
+
+/*  Footer Section  Baslangic*/
+
+.footer {
+  clear: both;
+  position: relative;
+  height: 200px;
+  margin-top: -200px;
+}
+
+.footer-head {
+  color: var(--white2);
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.footer-inside {
+  margin-left: 25px;
+}
+
+.footer-inside svg path {
+  fill: #5918df;
+}
+
+.footer-inside a {
+  margin-top: 5px;
+  font-size: 19.2px;
+  color: #5918df;
+  text-decoration: none;
+  font-family: Roboto Condensed, Lato, Arial, sans-serif !important;
+}
+
+.copy {
+  margin-top: 100px;
+  color: #988e9f;
+  float: left;
+  padding-left: 25px;
+}
+
+/*  Footer Section  Bitis*/
