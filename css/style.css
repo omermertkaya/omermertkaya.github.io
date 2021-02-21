@@ -12,8 +12,8 @@
 html,
 body {
   height: 100%;
-  background-color: #191425;
   width: 100%;
+  background-color: #191425;
 }
 
 :root {
@@ -42,9 +42,10 @@ body {
 }
 #start {
   background-image: url("../img/background.png");
-  background-position: 50%;
-  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   min-height: 560px;
   height: 100vh;
 }
@@ -882,5 +883,21 @@ Media Screen Settings */
   }
   #about:before {
     font-size: 150px;
+  }
+}
+
+@media only screen and (max-width: 1034px) {
+  .header-content {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 1221px) {
+  .example__info {
+    font-size: 3rem;
+    z-index: 2;
+    position: absolute;
+    top: 30%;
+    left: 0%;
   }
 }
