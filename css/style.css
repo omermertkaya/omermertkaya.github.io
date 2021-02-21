@@ -9,8 +9,9 @@
 :before {
   box-sizing: border-box;
 }
-
+html,
 body {
+  height: 100%;
   background-color: #191425;
 }
 
@@ -115,13 +116,38 @@ body {
 .timeline {
   margin-top: 7px;
   width: 1px;
-  height: 300%;
+  height: 200%;
   z-index: 1;
   position: absolute;
   background-color: #5918df;
   text-shadow: 0 3px 14px #181619, 0 -3px 14px #181619, 3px 0 14px #181619,
     -3px 0 14px #181619, 0 3px 6px #181619, 0 -3px 6px #181619,
     3px 0 6px #181619, -3px 0 6px #181619;
+  overflow-inline: unset;
+}
+.timeline-ozel {
+  margin-top: 7px;
+  width: 1px;
+  height: 150%;
+  z-index: 1;
+  position: absolute;
+  background-color: #5918df;
+  text-shadow: 0 3px 14px #181619, 0 -3px 14px #181619, 3px 0 14px #181619,
+    -3px 0 14px #181619, 0 3px 6px #181619, 0 -3px 6px #181619,
+    3px 0 6px #181619, -3px 0 6px #181619;
+  overflow-inline: unset;
+}
+.timeline-son {
+  margin-top: 7px;
+  width: 1px;
+  height: 5%;
+  z-index: 1;
+  position: absolute;
+  background-color: #5918df;
+  text-shadow: 0 3px 14px #181619, 0 -3px 14px #181619, 3px 0 14px #181619,
+    -3px 0 14px #181619, 0 3px 6px #181619, 0 -3px 6px #181619,
+    3px 0 6px #181619, -3px 0 6px #181619;
+  overflow-inline: unset;
 }
 
 .bullet {
@@ -784,7 +810,7 @@ body {
 
 #contact {
   background-color: #0e0d10;
-  height: 500px;
+  height: 400px;
 }
 
 /* Contact Bitis */
@@ -792,10 +818,9 @@ body {
 /*  Footer Section  Baslangic*/
 
 .footer {
-  clear: both;
-  position: relative;
-  height: 200px;
-  margin-top: -200px;
+  position: fixed;
+
+  overflow: hidden;
 }
 
 .footer-head {
@@ -821,7 +846,7 @@ body {
 }
 
 .copy {
-  margin-top: 100px;
+  float: right;
   color: #988e9f;
   float: left;
   padding-left: 25px;
