@@ -4,7 +4,11 @@
 @import url("https://css.gg/mouse.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
-*,
+html,
+body {
+  height: 100%;
+}
+
 :after,
 :before {
   box-sizing: border-box;
