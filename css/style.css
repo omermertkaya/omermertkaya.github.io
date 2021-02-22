@@ -118,7 +118,6 @@ body {
 }
 
 #output {
-  /* The command I know best. */
   color: var(--white2);
   font-size: 45px;
   font-weight: bold;
@@ -128,7 +127,7 @@ body {
 .timeline {
   margin-top: 7px;
   width: 1px;
-  height: 200%;
+  height: 223%;
   z-index: 1;
   position: absolute;
   background-color: #5918df;
@@ -140,7 +139,7 @@ body {
 .timeline-ozel {
   margin-top: 7px;
   width: 1px;
-  height: 150%;
+  height: 300%;
   z-index: 1;
   position: absolute;
   background-color: #5918df;
@@ -270,8 +269,8 @@ body {
 }
 
 .work-vertical-pos .example__img {
-  width: 230px !important;
-  height: 410px !important;
+  width: 230px;
+  height: 410px;
 }
 .vertical-position {
   position: absolute;
@@ -719,6 +718,7 @@ body {
 #about {
   position: relative;
   color: var(--white);
+  overflow: hidden;
 }
 
 #about:before {
@@ -816,6 +816,7 @@ body {
 #contact {
   background-color: #0e0d10;
   height: 400px;
+  overflow: hidden;
 }
 
 /* Contact Bitis */
@@ -823,9 +824,10 @@ body {
 /*  Footer Section  Baslangic*/
 
 .footer {
-  position: fixed;
-
-  overflow: hidden;
+  align-content: flex-end;
+  position: absolute;
+  bottom: 10;
+  padding: 1em;
 }
 
 .footer-head {
@@ -863,6 +865,16 @@ body {
 Media Screen Settings */
 
 @media only screen and (max-width: 1130px) {
+  #start {
+    background-image: url("../img/background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 560px;
+    height: 100vh;
+  }
+
   .work-vertical-pos .example__img {
     width: 410px !important;
     height: 230px !important;
@@ -898,6 +910,64 @@ Media Screen Settings */
     z-index: 2;
     position: absolute;
     top: 30%;
-    left: 0%;
+    left: 5%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .example__img {
+    width: 200px;
+    height: 117px;
+  }
+  .work-vertical-pos .example__img {
+    width: 200px !important;
+    height: 117px !important;
+  }
+  .example__name {
+    font-family: Roboto Condensed, Lato, Arial, sans-serif !important;
+    font-size: 1rem;
+    color: var(--white2);
+    font-weight: bold;
+    max-width: 16em;
+  }
+  .example__info {
+    font-size: 3rem;
+    z-index: 2;
+    position: absolute;
+    top: 0%;
+    left: 5%;
+  }
+  .example__link {
+    font-family: Roboto Condensed, Lato, Arial, sans-serif !important;
+    margin-top: 5px;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--white2);
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    padding-left: 132px;
+    height: 20px;
+    display: block;
+    transition: all 0.2s;
+  }
+
+  .header-baslik {
+    font-size: 30px;
+  }
+
+  #hader-baslik_italic {
+    font-size: 30px;
+  }
+  #header-second-element {
+    font-size: 18px;
+  }
+
+  #output {
+    font-size: 20px;
+  }
+  #scroll {
+    font-size: 18px;
+    left: -32px;
   }
 }
