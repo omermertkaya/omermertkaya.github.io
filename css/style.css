@@ -10,24 +10,11 @@
 }
 html,
 body {
+  height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
   background-color: #191425;
-}
-div#handler {
-  width: 100%;
-  height: 110%;
-  display: block;
-}
-div#content {
-  width: 100%;
-  height: 100%;
-  background: red;
-}
-div#content2 {
-  width: 100%;
-  height: 10%;
-  background: blue;
 }
 
 :root {
@@ -203,18 +190,6 @@ div#content2 {
   background-color: rgba(17, 15, 24, 0.7);
 }
 
-.gg-mouse::after {
-  content: "";
-  display: block;
-  box-sizing: border-box;
-  position: absolute;
-  border-radius: 3px;
-  width: 2px;
-  height: 6px;
-  background: currentColor;
-  top: 3px;
-  left: 5px;
-}
 #scroll {
   font-size: 25px;
   transform: rotate(-90deg);
@@ -825,7 +800,6 @@ div#content2 {
 #contact {
   background-color: #0e0d10;
   height: 400px;
-  overflow: hidden;
 }
 
 /* Contact Bitis */
@@ -872,6 +846,20 @@ div#content2 {
 
 /* 
 Media Screen Settings */
+
+@media only screen and (max-width: 371px) {
+  #logo-name {
+    font-size: 18px !important;
+  }
+
+  #logo-span {
+    font-size: 18px !important;
+  }
+  .navbar-toggler {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+}
 
 @media only screen and (max-width: 1130px) {
   .work-vertical-pos .example__img {
@@ -920,7 +908,23 @@ Media Screen Settings */
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1025px) {
+  .timeline {
+    height: 212%;
+  }
+  #contact {
+    height: 100%;
+  }
+  .gg-mouse {
+    top: 10%;
+  }
+
+  #scroll {
+    top: 17%;
+  }
+}
+
+@media only screen and (max-width: 769px) {
   .example__img {
     width: 200px;
     height: 117px;
@@ -983,5 +987,40 @@ Media Screen Settings */
 
   #logo-span {
     font-size: 24px;
+  }
+  .timeline {
+    height: 292%;
+  }
+
+  .gg-mouse {
+    top: 11%;
+  }
+
+  #scroll {
+    top: 15%;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .timeline {
+    height: 315%;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .timeline {
+    height: 325%;
+  }
+  #contact {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .timeline {
+    height: 335%;
+  }
+  #contact {
+    height: 100%;
   }
 }
