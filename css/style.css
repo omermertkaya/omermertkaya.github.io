@@ -175,7 +175,7 @@ body {
 }
 
 .gg-mouse {
-  top: 21%;
+  top: 13.6%;
   left: -7px;
   box-sizing: border-box;
   position: relative;
@@ -204,7 +204,7 @@ body {
 #scroll {
   font-size: 25px;
   transform: rotate(-90deg);
-  top: 26%;
+  top: 18%;
   left: -45px;
   color: var(--white2);
   position: absolute;
@@ -794,11 +794,6 @@ body {
   z-index: 5;
   top: 0;
 }
-/* .code-table .code-l:hover {
-  background-color: #231d28;
-  position: absolute;
-  width: 100%;
-} */
 
 #about .code-l:hover:before {
   background-color: #231d28;
@@ -865,16 +860,6 @@ body {
 Media Screen Settings */
 
 @media only screen and (max-width: 1130px) {
-  #start {
-    background-image: url("../img/background.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    min-height: 560px;
-    height: 100vh;
-  }
-
   .work-vertical-pos .example__img {
     width: 410px !important;
     height: 230px !important;
@@ -883,6 +868,10 @@ Media Screen Settings */
   .vertical-position {
     position: relative;
     margin-top: 0px;
+  }
+  .example__info {
+    top: 30%;
+    left: -10%;
   }
 }
 
@@ -899,6 +888,9 @@ Media Screen Settings */
 }
 
 @media only screen and (max-width: 1034px) {
+  #start {
+    overflow: hidden;
+  }
   .header-content {
     margin-left: 20px;
   }
@@ -934,8 +926,8 @@ Media Screen Settings */
     font-size: 3rem;
     z-index: 2;
     position: absolute;
-    top: 0%;
-    left: 5%;
+    top: 30%;
+    left: -25%;
   }
   .example__link {
     font-family: Roboto Condensed, Lato, Arial, sans-serif !important;
@@ -969,5 +961,20 @@ Media Screen Settings */
   #scroll {
     font-size: 18px;
     left: -32px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .timeline-son {
+    margin-top: 7px;
+    width: 1px;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    background-color: #5918df;
+    text-shadow: 0 3px 14px #181619, 0 -3px 14px #181619, 3px 0 14px #181619,
+      -3px 0 14px #181619, 0 3px 6px #181619, 0 -3px 6px #181619,
+      3px 0 6px #181619, -3px 0 6px #181619;
+    overflow-inline: unset;
   }
 }
