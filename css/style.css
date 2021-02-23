@@ -4,16 +4,30 @@
 @import url("https://css.gg/mouse.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
-*,
-:after,
-:before {
-  box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
 }
 html,
 body {
-  height: 100%;
-  width: 100%;
+  margin: 0;
+  padding: 0;
   background-color: #191425;
+}
+div#handler {
+  width: 100%;
+  height: 110%;
+  display: block;
+}
+div#content {
+  width: 100%;
+  height: 100%;
+  background: red;
+}
+div#content2 {
+  width: 100%;
+  height: 10%;
+  background: blue;
 }
 
 :root {
@@ -960,21 +974,14 @@ Media Screen Settings */
   }
   #scroll {
     font-size: 18px;
-    left: -32px;
+    left: -31px;
   }
-}
 
-@media only screen and (max-width: 769px) {
-  .timeline-son {
-    margin-top: 7px;
-    width: 1px;
-    height: 100%;
-    z-index: 1;
-    position: absolute;
-    background-color: #5918df;
-    text-shadow: 0 3px 14px #181619, 0 -3px 14px #181619, 3px 0 14px #181619,
-      -3px 0 14px #181619, 0 3px 6px #181619, 0 -3px 6px #181619,
-      3px 0 6px #181619, -3px 0 6px #181619;
-    overflow-inline: unset;
+  #logo-name {
+    font-size: 24px;
+  }
+
+  #logo-span {
+    font-size: 24px;
   }
 }
