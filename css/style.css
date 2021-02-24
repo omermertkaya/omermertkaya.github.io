@@ -836,10 +836,7 @@ body {
 }
 
 .copy {
-  float: right;
   color: #988e9f;
-  float: left;
-  padding-left: 25px;
 }
 
 /*  Footer Section  Bitis*/
@@ -999,6 +996,9 @@ Media Screen Settings */
   #scroll {
     top: 8%;
   }
+  #contact {
+    height: 400px;
+  }
 }
 
 @media only screen and (max-width: 426px) {
@@ -1026,10 +1026,19 @@ Media Screen Settings */
   #contact {
     height: 400px;
   }
+  .footer-head {
+    font-size: 12px;
+  }
+  .footer-inside a {
+    font-size: 12px;
+  }
+  .copy {
+    font-size: 12px;
+  }
 }
 
 @media only screen and (min-width: 2559px) {
   #contact {
-    height: 100%;
+    height: 200%;
   }
 }
