@@ -24,8 +24,8 @@
       return jQuery;
     };
   } else {
-    // Browser globals
-    factory(jQuery);
+
+
   }
 })(function ($) {
   $.fn.tilt = function (options) {
