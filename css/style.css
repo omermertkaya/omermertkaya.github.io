@@ -898,7 +898,7 @@ Media Screen Settings */
   }
 }
 
-@media only screen and (max-width: 1221px) {
+@media only screen and (max-width: 1301px) {
   .example__info {
     font-size: 3rem;
     z-index: 2;
@@ -993,17 +993,20 @@ Media Screen Settings */
   }
 
   .gg-mouse {
-    top: 11%;
+    top: 5%;
   }
 
   #scroll {
-    top: 15%;
+    top: 8%;
   }
 }
 
 @media only screen and (max-width: 426px) {
   .timeline {
     height: 315%;
+  }
+  #contact {
+    height: 425px;
   }
 }
 
@@ -1012,14 +1015,20 @@ Media Screen Settings */
     height: 325%;
   }
   #contact {
-    height: 100%;
+    height: 400px;
   }
 }
 
 @media only screen and (max-width: 321px) {
   .timeline {
-    height: 335%;
+    height: 320%;
   }
+  #contact {
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 2559px) {
   #contact {
     height: 100%;
   }
