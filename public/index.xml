@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ömer Mert Kaya</title>
-    <link>https://example.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Ömer Mert Kaya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 23 Mar 2024 19:30:57 +0300</lastBuildDate>
-    <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test Yazısıdır</title>
-      <link>https://example.com/posts/testpost/</link>
+      <link>http://localhost:1313/posts/testpost/</link>
       <pubDate>Sat, 23 Mar 2024 19:30:57 +0300</pubDate>
-      <guid>https://example.com/posts/testpost/</guid>
+      <guid>http://localhost:1313/posts/testpost/</guid>
       <description>Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum.</description>
     </item>
     <item>
       <title>Hakkında</title>
-      <link>https://example.com/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>Merhabalar, Kişisel Blog sayfama hoş geldiniz. Bendeniz Ömer Mert Kaya.</description>
     </item>
     <item>
       <title>Özgeçmiş</title>
-      <link>https://example.com/ozgecmis/</link>
+      <link>http://localhost:1313/ozgecmis/</link>
       <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ozgecmis/</guid>
-      <description>Ömer Mert KAYA omermertkaya@hotmail.com.tr Ankara, Türkiye&#xD;Evli&#xD;01.03.1995&#xD;Eğitim Süleyman Demirel Üniversitesi | Isparta 2014 - 2019 Bilgisayar Mühendisliği Tuzluçayır Anadolu Lisesi | Ankara Sep 2009 - 2013 Fen Bilimleri Deneyim Identity And Access Management Uzmanı | AgeSA Hayat ve Emeklilik | 2022 - Devam Ediyor Kimlik ve Erişim Yönetimi (IAM) çözümlerinin tasarımı, geliştirilmesi ve uygulanmasında deneyimli İnsan Kaynakları teknoloji sistemleriyle çalışmada yetenekli Kullanıcı Yaşam Döngüsü Yönetimi konusunda uzman Active Directory, Azure AD, LDAP veya diğer dizin sistemlerinde bilgili Web Servisleri konusunda aşinalık Powershell, Batch ve Zamanlı Görevler yazma konusunda deneyimli Kanban, Scrum gibi Agile metodolojiler hakkında bilgi sahibi Web yazılımları geliştirme ve test süreçlerinde deneyim sahibi API yapılarına hakim Postman deneyimli Database SQL sorgularında raporlama ve analiz yapabilen Giriş yapma(authentication) ve Yetkilendirme(authorization) mimari tasarımlarına hakim Yetki gözden geçirme sürecini şirket yapısına uyarlamada deneyimli Yayın Sistem Mühendisi Uzman Yardımcısı | Türk Telekom | 2021 - 2022 Tivibu Active Directory ortamının yönetilmesi Isilion H500 alt yapısına sahip 5 Petabayt büyük verinin fileserver yetki yönetimi ve bakımı Yayıncılık ve habercilik yazılım sistemlerinde yetkilendirme işlemlerinin yapılması Kritik yayın/bilgi teknolojileri sistemlerini destekleme Yayın otomasyonu ve yayın sistemi sorunlarını giderme ve bakımını sağlama Haber düzenleme ve senaryo yazma sistemleri/yazılımlarını destekleme Intranet temel network alt yapısının yönetilmesini sağlama Bilgisayar Mühendisi Yedek Subay | Milli Savunma Bakanlığı Sivas | 2020 - 2021 KaraNet ve MSBNet ağlarının kullanımı ve yönetimi TEMPEST açısından güvenlik düzenlemelerine uyumun sağlanması Birim Bilgi Sistemleri Sorumlusu olarak bakım, onarım, yazılım planlama ve malzeme desteği sağlanması Personel Yönetim sisteminde personel oluşturma, özlük girdisi yapma ve Active Directory hesap oluşturma işlemleri FileServer yapısı ile kurum için dosya dizin yetkilendirme işlemlerinin yapılması Belgenet uygulamasında kurum için yetkilendirme yapılması Fiziksel Authentication uygulamalarının kurulumu, düzenlenmesi ve yetkilendirilmesi Satış Danışmanı | LC Waikiki | 2015 - 2020 Süleyman Demirel Üniversitesi&amp;rsquo;nde Bilgisayar Mühendisliği okurken, LC Waikiki&amp;rsquo;de yarı zamanlı olarak çalıştım.</description>
+      <guid>http://localhost:1313/ozgecmis/</guid>
+      <description>İngilizce Özgeçmiş PDF dosyasını indirmek için buraya tıklayın.&#xA;Ömer Mert KAYA omermertkaya@hotmail.</description>
     </item>
   </channel>
 </rss>

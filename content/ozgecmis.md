@@ -4,6 +4,8 @@ type: section
 title: "Özgeçmiş"
 ---
 
+İngilizce Özgeçmiş PDF dosyasını indirmek için [buraya tıklayın](/pdf/omermertkaya_2024.pdf).
+
 
 ## <span style="color:#c27062">Ömer Mert KAYA</span>
 
@@ -16,7 +18,6 @@ title: "Özgeçmiş"
     <td>01.03.1995</td>
  </tr>
 </table> 
-
 
 
 
@@ -44,15 +45,18 @@ title: "Özgeçmiş"
 - Kimlik ve Erişim Yönetimi (IAM) çözümlerinin tasarımı, geliştirilmesi ve uygulanmasında deneyimli
 - İnsan Kaynakları teknoloji sistemleriyle çalışmada yetenekli
 - Kullanıcı Yaşam Döngüsü Yönetimi konusunda uzman
+- Rol ve Yönetişim yapısının kurulması
+- Yetki gözden geçirme sürecini şirket yapısına uyarlamada deneyimli
+- Giriş yapma(authentication) ve Yetkilendirme(authorization) mimari tasarımlarına hakim
 - Active Directory, Azure AD, LDAP veya diğer dizin sistemlerinde bilgili
 - Web Servisleri konusunda aşinalık
 - Powershell, Batch ve Zamanlı Görevler yazma konusunda deneyimli
-- Kanban, Scrum gibi Agile metodolojiler hakkında bilgi sahibi
 - Web yazılımları geliştirme ve test süreçlerinde deneyim sahibi
 - API yapılarına hakim Postman deneyimli
 - Database SQL sorgularında raporlama ve analiz yapabilen
-- Giriş yapma(authentication) ve Yetkilendirme(authorization) mimari tasarımlarına hakim
-- Yetki gözden geçirme sürecini şirket yapısına uyarlamada deneyimli
+- Kanban, Scrum gibi Agile metodolojiler hakkında bilgi sahibi
+
+
 
 ### Yayın Sistem Mühendisi Uzman Yardımcısı | Türk Telekom | 
 <time> 2021 - 2022 </time>
@@ -115,7 +119,7 @@ Banka Çalışanları ve Brokerlar olarak sınıflandırılabilir.
 
 ##### Uygulama Yönetimi
 
-Active Directory alt yapısı kullanılarak 13+ uygulamanın yetki yönetimi yapılmakta, Oracle LDAP alt yapısı kullanılarak Sigortacılık uygulamaları Java Spring Boot backend'i kullanılarak yenilen yapıda yetki yönetimine dahil edilmekle birlikte 10+ uygulama yönetimi yapılmaktadır. AS400 ile çekirdek sigortacılık uygulamasının yetki ve hesap yönetimi yapılmaktadır.
+Active Directory alt yapısı kullanılarak 13+ uygulamanın yetki yönetimi yapılmakta, Oracle LDAP alt yapısı kullanılarak Sigortacılık uygulamaları Java Spring Boot backend'i kullanılarak yeni yapıda yetki yönetimine dahil edilmekle birlikte 10+ uygulama yönetimi yapılmaktadır. AS400 ile çekirdek sigortacılık uygulamasının yetki ve hesap yönetimi yapılmaktadır.
 
 ##### Rol Yaygınlaştırma Çalışmaları
 

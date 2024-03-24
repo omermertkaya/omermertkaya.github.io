@@ -2,28 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/tags/green/</loc>
+    <loc>http://localhost:1313/tags/green/</loc>
     <lastmod>2024-03-23T19:30:57+03:00</lastmod>
   </url><url>
-    <loc>https://example.com/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-03-23T19:30:57+03:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/red/</loc>
+    <loc>http://localhost:1313/tags/red/</loc>
     <lastmod>2024-03-23T19:30:57+03:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-03-23T19:30:57+03:00</lastmod>
   </url><url>
-    <loc>https://example.com/posts/testpost/</loc>
+    <loc>http://localhost:1313/posts/testpost/</loc>
     <lastmod>2024-03-23T19:30:57+03:00</lastmod>
   </url><url>
-    <loc>https://example.com/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2023-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/ozgecmis/</loc>
+    <loc>http://localhost:1313/ozgecmis/</loc>
     <lastmod>2023-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url>
 </urlset>

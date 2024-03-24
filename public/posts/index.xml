@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Ömer Mert Kaya</title>
-    <link>https://example.com/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Ömer Mert Kaya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 23 Mar 2024 19:30:57 +0300</lastBuildDate>
-    <atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test Yazısıdır</title>
-      <link>https://example.com/posts/testpost/</link>
+      <link>http://localhost:1313/posts/testpost/</link>
       <pubDate>Sat, 23 Mar 2024 19:30:57 +0300</pubDate>
-      <guid>https://example.com/posts/testpost/</guid>
+      <guid>http://localhost:1313/posts/testpost/</guid>
       <description>Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum.</description>
     </item>
   </channel>
