@@ -1,1 +1,0 @@
-# omermertkaya.github.io
