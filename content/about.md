@@ -42,8 +42,7 @@ Askerlik bitmeden iş bulmam gerektiği düşüncesi ile 2020 sonlarına doğru 
 
 ### AgeSA
 
-2022 yılının ortalarında enflasyonun bir hayli artması İstanbul'daki ev kiralarının x2 x3'lere çıkmasıyla birlikte malesef benim ev sahibimde kira ücretini *2 *3 yapmak istedi.
-Fakat maaşım bu dönemde bu kadar artmadığı için nasıl bir yol izleyeceğimi düşünürken AgeSA Hayat ve Emelilik'te Identity and Access Management Uzman Yardımcısı olarak bir pozisyondan teklif aldım. Teklif ekonomik olarak çıkmazdan beni kurtacağı için çok sevdiğim Türk Telekom'dan ayrılmak durumnda kaldım. Özellikle süreçte beni her zaman destekleyen *Halil Özgür ÖZTÜRKMEN*, *İlhan KURT*, *Mevlüt TOPRAK*, *Mehmet ÖZDEMİR* ve *Erdem ÖZÇELİK'e* teşekkürlerimi borç bilirim.
+2022 yılının ortalarında enflasyonun bir hayli artması ile iş değiştirmek durumunda kaldım. AgeSA Hayat ve Emelilik'te Identity and Access Management Uzman Yardımcısı olarak pozisyondan teklif aldım. Teklif ekonomik olarak çıkmazdan beni kurtacağı için çok sevdiğim Türk Telekom'dan ayrılmak durumnda kaldım. Özellikle süreçte beni her zaman destekleyen *Halil Özgür ÖZTÜRKMEN*, *İlhan KURT*, *Mevlüt TOPRAK*, *Mehmet ÖZDEMİR* ve *Erdem ÖZÇELİK'e* teşekkürlerimi borç bilirim.
 
 2024 yılı itibariyle AgeSA'da çalışmaya devam ediyorum ve kendimi Identity and Access Management alanında geliştirmeye devam ediyorum.
 

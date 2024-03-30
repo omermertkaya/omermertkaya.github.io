@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ömer Mert Kaya</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://example.com/tags/</link>
     <description>Recent content in Tags on Ömer Mert Kaya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 23 Mar 2024 19:30:57 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Green</title>
-      <link>http://localhost:1313/tags/green/</link>
+      <link>https://example.com/tags/green/</link>
       <pubDate>Sat, 23 Mar 2024 19:30:57 +0300</pubDate>
-      <guid>http://localhost:1313/tags/green/</guid>
+      <guid>https://example.com/tags/green/</guid>
       <description></description>
     </item>
     <item>
       <title>Red</title>
-      <link>http://localhost:1313/tags/red/</link>
+      <link>https://example.com/tags/red/</link>
       <pubDate>Sat, 23 Mar 2024 19:30:57 +0300</pubDate>
-      <guid>http://localhost:1313/tags/red/</guid>
+      <guid>https://example.com/tags/red/</guid>
       <description></description>
     </item>
   </channel>
