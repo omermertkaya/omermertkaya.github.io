@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Ömer Mert Kaya</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Ömer Mert Kaya</description>
+    <title>Authentication on Ömer Mert Kaya</title>
+    <link>http://localhost:1313/tags/authentication/</link>
+    <description>Recent content in Authentication on Ömer Mert Kaya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 30 Mar 2024 16:57:45 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/authentication/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Clerk Authentication Nedir?</title>
       <link>http://localhost:1313/posts/clerk-authentication-nedir/</link>
       <pubDate>Sat, 30 Mar 2024 16:57:45 +0300</pubDate>
       <guid>http://localhost:1313/posts/clerk-authentication-nedir/</guid>
       <description>Cleark Authencation Servisi ile kimlik doğrulama hizmetlerini çok hızlı yönetebiliriz. Clerk kullanarak web ve mobil cihazlara uyumlu giriş yapma yöntemi sağlayabiliriz.</description>
-    </item>
-    <item>
-      <title>Test Yazısıdır</title>
-      <link>http://localhost:1313/posts/testpost/</link>
-      <pubDate>Sat, 23 Mar 2024 19:30:57 +0300</pubDate>
-      <guid>http://localhost:1313/posts/testpost/</guid>
-      <description>Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum.</description>
     </item>
   </channel>
 </rss>

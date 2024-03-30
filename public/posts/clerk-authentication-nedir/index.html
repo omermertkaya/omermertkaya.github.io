@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no"/>
 
-    <title>404 Page not found | Ömer Mert Kaya</title>
+    <title>Clerk Authentication Nedir? | Ömer Mert Kaya</title>
     
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -146,9 +146,58 @@
 
         <div id="content" class="content-container">
         
-    <h1 class="not-found-title">404: Not found</h1>
-    <h2>Sorry, we couldn't find the page you're looking for.</h2>
-    <a href="/">Go back home</a>
+
+<h1 class="post-title">Clerk Authentication Nedir?</h1>
+    
+    <time>March 30, 2024</time>
+    
+    <div>
+        <p>
+        <p>Cleark Authencation Servisi ile kimlik doğrulama hizmetlerini çok hızlı yönetebiliriz. Clerk kullanarak web ve mobil cihazlara uyumlu giriş yapma yöntemi sağlayabiliriz.
+Giriş yapmak için normalde kurmamız gereken efordan bu servisi kullanarak kurtulabiliriz.</p>
+<p>En güzel özelliklerinden birisi çok geniş giriş yapma yelpazesi sunuyor olmasıdır. Örneğin google, linkedin, apple, facebook, github ve microsoft vb. hesaplarınız ile oturum açmanızı sağlar. Örnek olarak aşağıdaki giriş ekranını baz alabiliriz.</p>
+<p><img src="/images/clerk-authentication-nedir/clerk-authentication.png" alt="Clerk Authentication"></p>
+<h2 id="clerki-birlikte-deneyelim">Clerk&rsquo;i birlikte deneyelim</h2>
+<h4 id="1-üye-olma-ve-giriş-uygulamasını-oluşturma">1) Üye olma ve giriş uygulamasını oluşturma</h4>
+<p><a href="https://dashboard.clerk.com/sign-up">https://dashboard.clerk.com/sign-up</a> adresinden üye oluyorum. Sonrasında aslında geniş bir dökümantasyon yelpazisi ile bizi karşılıyor.
+Ben öğretici rehberi javascript seçerek takip ediyorum. Giriş yaptıktan sonra ilk uygulama için isim belirliyor ve giriş yöntemlerini yönetiyoruz.</p>
+<p><img src="/images/clerk-authentication-nedir/Build%20SignIn.png" alt="Clerk Authentication"></p>
+<h4 id="2-javascript-ile-hızlıca-bir-uygulama-yapalım">2) Javascript ile hızlıca bir uygulama yapalım</h4>
+<p>Bu aşamada Clerk&rsquo;in kendi sağlamış olduğu repostory bize hızlıca deneme imkanı sunuyor.
+<a href="https://github.com/clerk/clerk-javascript-quickstart">https://github.com/clerk/clerk-javascript-quickstart</a> adresine giderek repoyu download edebiliriz.</p>
+<p>Bu aşamada repoyu indirdikten sonra nodejs npm&rsquo;in bilgisayarınız yüklü olması gerekiyor.
+Eğer yüklü değil ise <a href="https://nodejs.org/en/download">https://nodejs.org/en/download</a> buradan indirebilirsiniz.</p>
+<p>Github&rsquo;tan indirdiğimiz clerk reposunun dosyasını açıyoruz.</p>
+<p><img src="/images/clerk-authentication-nedir/dosyaDizini.png" alt="Clerk Dosya Dizini"></p>
+<p>Bu dosya dizininde yer alan .env dosyasınde keyimizi düzenlememiz gerekiyor.
+Clerk&rsquo;in web sayfasından kopyaladığımız key&rsquo;i aşağıdaki formatta düzenleyip kayıt ediyoruz.</p>
+<p><img src="/images/clerk-authentication-nedir/key.png" alt="Clerk Key Düzenleme"></p>
+<p>Kayıt işleminden sonra repomumuz npm gereksinimlerini yükleyelim.</p>
+<pre tabindex="0"><code>npm install
+npm run dev
+</code></pre><p>Komutlarını çalıştırarak uygulamayı ayağa kaldırabiliriz. Localhost&rsquo;ta çalışan uygulamamızı tarayıcıda açıyoruz.</p>
+<p><img src="/images/clerk-authentication-nedir/LocalLoginEkran%C4%B1.png" alt="Clerk Local Login Ekranı"></p>
+<p>Uygulamayı kullanarak artık authentication işlemini gerçekleştirebiliriz. Ben gmail hesabım ile giriş yapmayı seçtikten sonra login oluyorum.</p>
+<p><img src="/images/clerk-authentication-nedir/GirisYapilanEkran.png" alt="Clerk Giriş Yapılan Ekran"></p>
+<p>Clerk bununla birlikte kendi yönetim panelinde bize açıklayıcı bir dashboard ile authenticationları takip etmemizi ve yönetmemizi sağlıyor.</p>
+<p>ClerkDashboard</p>
+<p><img src="/images/clerk-authentication-nedir/ClerkDashboard.png" alt="Clerk Key Dashboard"></p>
+
+        </p>
+    </div>
+    
+
+    
+
+    <div class="page-footer">
+        
+        <hr class="footer-divider">
+        
+            <a class="tag" href="/tags/authentication">#authentication</a>
+        
+      
+    </div>
+
 
         
 
