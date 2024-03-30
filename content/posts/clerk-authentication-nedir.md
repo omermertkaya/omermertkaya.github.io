@@ -6,7 +6,7 @@ tags = ['authentication']
 +++
 
 
-Cleark Authencation Servisi ile kimlik doğrulama hizmetlerini çok hızlı yönetebiliriz. Clerk kullanarak web ve mobil cihazlara uyumlu giriş yapma yöntemi sağlayabiliriz.
+Clerk Authencation Servisi ile kimlik doğrulama hizmetlerini çok hızlı yönetebiliriz. Clerk kullanarak web ve mobil cihazlara uyumlu giriş yapma yöntemi sağlayabiliriz.
 Giriş yapmak için normalde kurmamız gereken efordan bu servisi kullanarak kurtulabiliriz. 
 
 En güzel özelliklerinden birisi çok geniş giriş yapma yelpazesi sunuyor olmasıdır. Örneğin google, linkedin, apple, facebook, github ve microsoft vb. hesaplarınız ile oturum açmanızı sağlar. Örnek olarak aşağıdaki giriş ekranını baz alabiliriz.
