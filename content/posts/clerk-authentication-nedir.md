@@ -43,7 +43,7 @@ Bu dosya dizininde yer alan .env dosyasınde keyimizi düzenlememiz gerekiyor.
 Clerk'in web sayfasından kopyaladığımız key'i aşağıdaki formatta düzenleyip kayıt ediyoruz.
 
 
-![Clerk Key Düzenleme](/images/clerk-authentication-nedir/key.png)
+![Clerk Key Düzenleme](/images/clerk-authentication-nedir/Key.png)
 
 Kayıt işleminden sonra repomumuz npm gereksinimlerini yükleyelim.
 
