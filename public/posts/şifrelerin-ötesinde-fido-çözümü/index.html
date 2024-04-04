@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 
 <html lang="en-us">
-    <head>
-	<meta name="generator" content="Hugo 0.124.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no"/>
 
-    <title>Ömer Mert Kaya</title>
+    <title>Şifrelerin Ötesinde FIDO Çözümü | Ömer Mert Kaya</title>
     
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -29,8 +28,6 @@
     
     
  
-    
-    <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="Ömer Mert Kaya" />
     </head>
 
     <body>
@@ -149,96 +146,48 @@
 
         <div id="content" class="content-container">
         
-<div class = "article-content">
-        
-        <div class="description">
-            <p></p>
-        </div>
-        
-        
-        
-        
-        <article>
-            <h2>
-                <a href="http://localhost:1313/posts/%C5%9Fifrelerin-%C3%B6tesinde-fido-%C3%A7%C3%B6z%C3%BCm%C3%BC/">
-                    Şifrelerin Ötesinde FIDO Çözümü
-                </a>
-            </h2>
-            <div>
-                <p>FIDO&rsquo;nun sırlarını Çözmeye Ne dersin? FIDO&rsquo;nun açılımı Fast Identity Online Authentication(Çevrimiçi Hızlı Kimlik Doğrulama) olarak tanımlanmıştır.</p>
-                
-            </div>
-            <div class="post-footer">
-            <time>March 30, 2024</time>
 
-            
-            
-                
-                    <a class="tag" href="/tags/fido">#FIDO</a>
-                
-                    <a class="tag" href="/tags/uaf">#UAF</a>
-                
-                    <a class="tag" href="/tags/2fa">#2FA</a>
-                
-            
-            </div> 
-           
-        </article>
-        
-        <article>
-            <h2>
-                <a href="http://localhost:1313/posts/clerk-authentication-nedir/">
-                    Clerk Authentication Nedir?
-                </a>
-            </h2>
-            <div>
-                <p>Clerk Authencation Servisi ile kimlik doğrulama hizmetlerini çok hızlı yönetebiliriz. Clerk kullanarak web ve mobil cihazlara uyumlu giriş yapma yöntemi sağlayabiliriz.</p>
-                
-            </div>
-            <div class="post-footer">
-            <time>March 30, 2024</time>
+<h1 class="post-title">Şifrelerin Ötesinde FIDO Çözümü</h1>
+    
+    <time>March 30, 2024</time>
+    
+    <div>
+        <p>
+        <h2 id="fidonun-sırlarını-çözmeye-ne-dersin">FIDO&rsquo;nun sırlarını Çözmeye Ne dersin?</h2>
+<p>FIDO&rsquo;nun açılımı Fast Identity Online Authentication(Çevrimiçi Hızlı Kimlik Doğrulama) olarak tanımlanmıştır.</p>
+<p>FIDO&rsquo;yu online dünya ve gerçek dünya arasındaki bir el sıkışma olarak düşünebiliriz. Bu sayade doğru kişi olduğumuzu online dünyaya tanıtırız. FIDO Authentication yöntemiyle teknoloji ve güvenlik arasında sağlam bir denge kurarız.</p>
+<p>Çeşitli kullanım yöntemleri olsa da hayalinizde şöyle canlandırmanızı isteyeceğim. Kullandığınız tüm bankacılık uygulamaları için ayrı ayrı şifreleri sürekli değiştirmek ve hatırlamak durumunda kalmadığınızı düşünün. Bunun yerine parmak izi, yüz, ses ve göz irisi seçenellerinden birisiyle giriş yaptığınızı hayal edin.</p>
+<p>Aslında düşündüğümüzde Türkiye&rsquo;de bankacılık alt yapısı ile birlikte birçok banka uygulaması yüz tanıma ile girişleri doğrulama yönetimini kullanmaya başladı ve çok kolay bir şekilde uygulamaya hızlıca giriş yapabiliyoruz.</p>
+<p>Tabi bankalar FIDO&rsquo;nun yanında uygulamaya giriş yaptıktan sonra para göndermek istediğinizde genellikle yine 6 hanali şifrenizi doğrulamanızı isteyebiliyor. Burada finansal uygulamalar için daha zorlayıcı ve çift doğrulamalı yapıların kurulması finansal güvenlik açısından önem ifade ediyor.</p>
+<h2 id="fidonun-protokolünü-anlayalım">FIDO&rsquo;nun Protokolünü Anlayalım</h2>
+<h4 id="uafuser-authentication-framework">UAF(User Authentication Framework):</h4>
+<p>User Authentication Framework ile geleneksel şifreleme yöntemlerinden farklı olarak biyometrik veya security key(usb şifre cihazı ile doğrulama) yaparak giriş yapmayı sağlar.</p>
+<p><img src="/images/sifrelerin-otesinde-fido/fido-uat.png" alt="IBM Security Verify"></p>
+<h3 id="u2funiversal-2nd-factor-evrensel-ikinci-faktör">U2F(Universal 2nd Factor) (Evrensel İkinci Faktör):</h3>
+<p>Yöntemi aslında 2FA olarak düşünebiliriz fakat ikisinin birbirinden farklı özellikleri bulunuyor.
+U2F&rsquo;de standart olarak giriş yaparken kullandığımız kullanıcı adı ve şifrenin yanında aslında yukarıda bahsetmiş olduğum sadece bize özel oluşturulmuş benzersiz bir usb cihazı bulunuyor ve bu cihaz ile doğrulama yapılmadığı taktirde oturum açılmasına izin verilmiyor. Böylece doğrudan fiziksel bir yöntem ile 2FA sağlanması hedefleniyor.</p>
+<p><img src="/images/sifrelerin-otesinde-fido/fido-cihaz.png" alt="IBM Security Verify"></p>
+<p>FIDO doğrulama prokollerinin kullanımları git gide yaygınlaşmasına rağmen web güvenliği noktasında henüz çok ileri boyutlarda bir doğrulama söz konusu değil. Web için daha çok 2FA ile mobil bildirim ile doğrulama, e-postaya güvenlik kodu göndererek doğrulama veya authenticator süreli doğrulama kodları yöntemleri tercih ediliyor.</p>
 
-            
-            
-                
-                    <a class="tag" href="/tags/authentication">#authentication</a>
-                
-            
-            </div> 
-           
-        </article>
-        
-        <article>
-            <h2>
-                <a href="http://localhost:1313/posts/testpost/">
-                    Test Yazısıdır
-                </a>
-            </h2>
-            <div>
-                <p>Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum.</p>
-                
-            </div>
-            <div class="post-footer">
-            <time>March 23, 2024</time>
-
-            
-            
-                
-                    <a class="tag" href="/tags/red">#red</a>
-                
-                    <a class="tag" href="/tags/green">#green</a>
-                
-            
-            </div> 
-           
-        </article>
-        
+        </p>
     </div>
+    
+
+    
+
+    <div class="page-footer">
         
-        <div class="paginator">
+        <hr class="footer-divider">
         
+            <a class="tag" href="/tags/fido">#FIDO</a>
         
+            <a class="tag" href="/tags/uaf">#UAF</a>
+        
+            <a class="tag" href="/tags/2fa">#2FA</a>
+        
+      
     </div>
+
 
         
 

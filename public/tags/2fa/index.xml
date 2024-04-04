@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2FA on Ömer Mert Kaya</title>
+    <link>http://localhost:1313/tags/2fa/</link>
+    <description>Recent content in 2FA on Ömer Mert Kaya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Mar 2024 22:17:41 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/2fa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Şifrelerin Ötesinde FIDO Çözümü</title>
+      <link>http://localhost:1313/posts/%C5%9Fifrelerin-%C3%B6tesinde-fido-%C3%A7%C3%B6z%C3%BCm%C3%BC/</link>
+      <pubDate>Sat, 30 Mar 2024 22:17:41 +0300</pubDate>
+      <guid>http://localhost:1313/posts/%C5%9Fifrelerin-%C3%B6tesinde-fido-%C3%A7%C3%B6z%C3%BCm%C3%BC/</guid>
+      <description>FIDO&amp;rsquo;nun sırlarını Çözmeye Ne dersin? FIDO&amp;rsquo;nun açılımı Fast Identity Online Authentication(Çevrimiçi Hızlı Kimlik Doğrulama) olarak tanımlanmıştır.</description>
+    </item>
+  </channel>
+</rss>
