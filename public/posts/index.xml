@@ -22,12 +22,5 @@
       <guid>http://localhost:1313/posts/clerk-authentication-nedir/</guid>
       <description>Clerk Authencation Servisi ile kimlik doğrulama hizmetlerini çok hızlı yönetebiliriz. Clerk kullanarak web ve mobil cihazlara uyumlu giriş yapma yöntemi sağlayabiliriz.</description>
     </item>
-    <item>
-      <title>Test Yazısıdır</title>
-      <link>http://localhost:1313/posts/testpost/</link>
-      <pubDate>Sat, 23 Mar 2024 19:30:57 +0300</pubDate>
-      <guid>http://localhost:1313/posts/testpost/</guid>
-      <description>Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum.</description>
-    </item>
   </channel>
 </rss>

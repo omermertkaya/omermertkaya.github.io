@@ -36,19 +36,5 @@
       <guid>http://localhost:1313/tags/authentication/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Green</title>
-      <link>http://localhost:1313/tags/green/</link>
-      <pubDate>Sat, 23 Mar 2024 19:30:57 +0300</pubDate>
-      <guid>http://localhost:1313/tags/green/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Red</title>
-      <link>http://localhost:1313/tags/red/</link>
-      <pubDate>Sat, 23 Mar 2024 19:30:57 +0300</pubDate>
-      <guid>http://localhost:1313/tags/red/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
