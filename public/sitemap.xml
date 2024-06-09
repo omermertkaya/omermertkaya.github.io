@@ -2,8 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/access/</loc>
+    <lastmod>2024-06-04T21:45:54+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/entitlement/</loc>
+    <lastmod>2024-06-04T21:45:54+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/entitlement-nedir/</loc>
+    <lastmod>2024-06-04T21:45:54+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/identity/</loc>
+    <lastmod>2024-06-04T21:45:54+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/identity-access-management/</loc>
+    <lastmod>2024-06-04T21:45:54+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</loc>
+    <lastmod>2024-06-04T21:45:54+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/management/</loc>
+    <lastmod>2024-06-04T21:45:54+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-04-02T20:11:04+03:00</lastmod>
+    <lastmod>2024-06-04T21:45:54+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-06-04T21:45:54+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/2fa/</loc>
     <lastmod>2024-03-30T22:17:41+03:00</lastmod>
@@ -12,9 +36,6 @@
     <lastmod>2024-03-30T22:17:41+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/%C5%9Fifrelerin-%C3%B6tesinde-fido-%C3%A7%C3%B6z%C3%BCm%C3%BC/</loc>
-    <lastmod>2024-03-30T22:17:41+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-03-30T22:17:41+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/uaf/</loc>

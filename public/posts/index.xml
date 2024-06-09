@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Ömer Mert Kaya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Mar 2024 22:17:41 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 04 Jun 2024 21:45:54 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Entitlement Nedir?</title>
+      <link>http://localhost:1313/posts/entitlement-nedir/</link>
+      <pubDate>Tue, 04 Jun 2024 21:45:54 +0300</pubDate>
+      <guid>http://localhost:1313/posts/entitlement-nedir/</guid>
+      <description>Entitlement kavramı, kimlik erişimi yönetimi(Identity Access Management) ürünlerinde en fazla kullandığımız kavramlardan biridir.</description>
+    </item>
     <item>
       <title>Şifrelerin Ötesinde FIDO Çözümü</title>
       <link>http://localhost:1313/posts/%C5%9Fifrelerin-%C3%B6tesinde-fido-%C3%A7%C3%B6z%C3%BCm%C3%BC/</link>
