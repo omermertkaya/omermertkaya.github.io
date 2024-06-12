@@ -155,13 +155,19 @@
         <p>
         <p>Entitlement kavramı, kimlik erişimi yönetimi(Identity Access Management) ürünlerinde en fazla kullandığımız kavramlardan biridir. Yetki verme veya hak verme anlamına gelen Entitlement, aslında bir kimliğin erişim haklarının bütünüdür.</p>
 <ul>
-<li>Rol Tanımlamaları bir entitlement türüdür. Örneğin, IT Rolleri veya İş rolleri olarak tanımlayabiliriz.</li>
+<li>Rol tanımlamaları bir entitlement türüdür. Örneğin, <strong>IT rolleri</strong> veya <strong>iş rolleri</strong> olarak tanımlayabiliriz.</li>
 <li>İzinler (permission) yetkinin en küçük yapı taşı olarak düşünülebilir. Örneğin, dosya okuma yetkisi, yazma veya silme yetkisi vb.</li>
 <li>Erişim Politikaları (Access Policies) koşullu erişimleri işaret eder. Örneğin, IP adresine erişim izinleri vb.</li>
 <li>Kaynaklar (Resources) kullanıcıların erişebileceği dosyalar, uygulamalar veya veritabanları vb.</li>
 </ul>
-<p>Entitlement&rsquo;ları yönetirken genellikle roller üzerinden yönetim yapıları kurmayı tercih edebiliriz. Örneğin, İnsan Kaynaklarında bulunan Çalışma İlişkileri organizasyonun yönetici ve çalışan görev tanımlarını düşünelim. Ekibin çalışanları tüm çalışanların izinleri görebilir ve sadece kendi bordrolarını görebilirler, yani bunu Çalışma İlişkileri Çalışan İş Rolü olarak tanımlayıp ilişkilendirebiliriz. Çalışma İlişkileri Yönetici İş Rolü ise tüm çalışanların izinlerini görebilir, düzenleyebilir ve tüm çalışanların bordrolarını görüntüleyebilir.</p>
+<p>Entitlement&rsquo;ları yönetirken genellikle roller üzerinden yönetim yapıları kurmayı tercih edebiliriz. Örneğin, İnsan Kaynaklarında bulunan Çalışma İlişkileri organizasyonun yönetici ve çalışan görev tanımlarını düşünelim.</p>
+<p><img src="/images/entitlement/entitlements_1.png" alt="Entitlement-İnsan_Kaynaklari"></p>
+<p>Ekibin çalışanları tüm çalışanların izinleri görebilir ve sadece kendi bordrolarını görebilirler, yani bunu Çalışma İlişkileri Çalışan İş Rolü olarak tanımlayıp ilişkilendirebiliriz. Çalışma İlişkileri Yönetici İş Rolü ise tüm çalışanların izinlerini görebilir, düzenleyebilir ve tüm çalışanların bordrolarını görüntüleyebilir.</p>
 <p>Burada iş rollerini tanımlarken, aslında bir iş rolü içinde kaynaklara erişim izinlerini, erişim politikalarını ve izinlerini düzenlediğimiz bütüne ise bir kullanıcının entitlements&rsquo;leri diyebiliriz.</p>
+<p>IBM&rsquo;ın ürünü Security Verify Governance ürünü için modelleyecek olursam aşağıdaki yapı aslında yukarıda dile getirmiş olduğum <strong>IT rolleri</strong> ve <strong>iş rolleri</strong> kavramını daha iyi açıklayacaktır.</p>
+<p><img src="/images/entitlement/entitlements_2.png" alt="Entitlement-İnsan_Kaynaklari"></p>
+<p>Modeli incelediğimiz bir <strong>iş rolünün</strong> birden fazla IT ve/veya iş rolü ile ilişkili olabileceği, farklı uygulamalara ait permissionları içerebileceğini görüyoruz.
+<strong>IT rölü</strong> ise spesifik bir uygulamaya ait permissionlardan oluşan bir rol türünü gösteriyor.</p>
 <p>Kimlik ve Erişim Yönetiminde (Identity and Access Management)&lsquo;de kullanıcı entitlements&rsquo;ları neler diye sorulduğunda kullanıcıya ait bütün uygulamalardaki tüm yetkileri, izinleri ve erişimlerini düşünebiliriz. Genellikle authorization tablolarında hangi kullanıcıya ait hangi yetkilerin olduğunun tutulduğunu küçük bir dipnot yer verelim.</p>
 
         </p>
@@ -175,12 +181,6 @@
         <hr class="footer-divider">
         
             <a class="tag" href="/tags/entitlement">#entitlement</a>
-        
-            <a class="tag" href="/tags/identity">#identity</a>
-        
-            <a class="tag" href="/tags/access">#access</a>
-        
-            <a class="tag" href="/tags/management">#management</a>
         
             <a class="tag" href="/tags/identity-access-management">#identity access management</a>
         
