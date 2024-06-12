@@ -26,6 +26,6 @@ IBM'ın ürünü Security Verify Governance ürünü için modelleyecek olursam 
 ![Entitlement-İnsan_Kaynaklari](/images/entitlement/entitlements_2.png)
 
 Modeli incelediğimiz bir **iş rolünün** birden fazla IT ve/veya iş rolü ile ilişkili olabileceği, farklı uygulamalara ait permissionları içerebileceğini görüyoruz.
-**IT rölü** ise spesifik bir uygulamaya ait permissionlardan oluşan bir rol türünü gösteriyor.
+**IT rolü** ise spesifik bir uygulamaya ait permissionlardan oluşan bir rol türünü gösteriyor.
 
 Kimlik ve Erişim Yönetiminde (Identity and Access Management)'de kullanıcı entitlements'ları neler diye sorulduğunda kullanıcıya ait bütün uygulamalardaki tüm yetkileri, izinleri ve erişimlerini düşünebiliriz. Genellikle authorization tablolarında hangi kullanıcıya ait hangi yetkilerin olduğunun tutulduğunu küçük bir dipnot yer verelim.
