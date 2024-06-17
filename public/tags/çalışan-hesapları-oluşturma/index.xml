@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Çalışan Hesapları Oluşturma on Ömer Mert Kaya</title>
+    <link>http://localhost:1313/tags/%C3%A7al%C4%B1%C5%9Fan-hesaplar%C4%B1-olu%C5%9Fturma/</link>
+    <description>Recent content in Çalışan Hesapları Oluşturma on Ömer Mert Kaya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Jun 2024 12:00:00 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%C3%A7al%C4%B1%C5%9Fan-hesaplar%C4%B1-olu%C5%9Fturma/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kullanıcı Provizyonlama Nedir?</title>
+      <link>http://localhost:1313/posts/kullanici-provizyonlama-nedir/</link>
+      <pubDate>Mon, 17 Jun 2024 12:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/kullanici-provizyonlama-nedir/</guid>
+      <description>Identity and Access Management ürünlerinin temel görevlerinden bir tanesi belki de en önemlisi kullanıcı provizyonlama işlemleridir.</description>
+    </item>
+  </channel>
+</rss>

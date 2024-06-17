@@ -6,27 +6,55 @@
     <description>Recent content in Tags on Ömer Mert Kaya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Jun 2024 21:45:54 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jun 2024 12:00:00 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Entitlement</title>
-      <link>http://localhost:1313/tags/entitlement/</link>
-      <pubDate>Tue, 04 Jun 2024 21:45:54 +0300</pubDate>
-      <guid>http://localhost:1313/tags/entitlement/</guid>
+      <title>Çalışan Hesapları Oluşturma</title>
+      <link>http://localhost:1313/tags/%C3%A7al%C4%B1%C5%9Fan-hesaplar%C4%B1-olu%C5%9Fturma/</link>
+      <pubDate>Mon, 17 Jun 2024 12:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tags/%C3%A7al%C4%B1%C5%9Fan-hesaplar%C4%B1-olu%C5%9Fturma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Çalışan Provizyonlama</title>
+      <link>http://localhost:1313/tags/%C3%A7al%C4%B1%C5%9Fan-provizyonlama/</link>
+      <pubDate>Mon, 17 Jun 2024 12:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tags/%C3%A7al%C4%B1%C5%9Fan-provizyonlama/</guid>
       <description></description>
     </item>
     <item>
       <title>Identity Access Management</title>
       <link>http://localhost:1313/tags/identity-access-management/</link>
-      <pubDate>Tue, 04 Jun 2024 21:45:54 +0300</pubDate>
+      <pubDate>Mon, 17 Jun 2024 12:00:00 +0300</pubDate>
       <guid>http://localhost:1313/tags/identity-access-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Idm Kullanici Provizyonlama</title>
+      <link>http://localhost:1313/tags/idm-kullanici-provizyonlama/</link>
+      <pubDate>Mon, 17 Jun 2024 12:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tags/idm-kullanici-provizyonlama/</guid>
       <description></description>
     </item>
     <item>
       <title>Kimlik Ve Erişim Yönetimi</title>
       <link>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</link>
-      <pubDate>Tue, 04 Jun 2024 21:45:54 +0300</pubDate>
+      <pubDate>Mon, 17 Jun 2024 12:00:00 +0300</pubDate>
       <guid>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kullanici Provizyonlama</title>
+      <link>http://localhost:1313/tags/kullanici-provizyonlama/</link>
+      <pubDate>Mon, 17 Jun 2024 12:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tags/kullanici-provizyonlama/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Entitlement</title>
+      <link>http://localhost:1313/tags/entitlement/</link>
+      <pubDate>Tue, 04 Jun 2024 21:45:54 +0300</pubDate>
+      <guid>http://localhost:1313/tags/entitlement/</guid>
       <description></description>
     </item>
     <item>

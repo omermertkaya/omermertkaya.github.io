@@ -2,22 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/%C3%A7al%C4%B1%C5%9Fan-hesaplar%C4%B1-olu%C5%9Fturma/</loc>
+    <lastmod>2024-06-17T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%C3%A7al%C4%B1%C5%9Fan-provizyonlama/</loc>
+    <lastmod>2024-06-17T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/identity-access-management/</loc>
+    <lastmod>2024-06-17T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/idm-kullanici-provizyonlama/</loc>
+    <lastmod>2024-06-17T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</loc>
+    <lastmod>2024-06-17T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kullanici-provizyonlama/</loc>
+    <lastmod>2024-06-17T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/kullanici-provizyonlama-nedir/</loc>
+    <lastmod>2024-06-17T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-06-17T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-06-17T12:00:00+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/entitlement/</loc>
     <lastmod>2024-06-04T21:45:54+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/entitlement-nedir/</loc>
-    <lastmod>2024-06-04T21:45:54+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/identity-access-management/</loc>
-    <lastmod>2024-06-04T21:45:54+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</loc>
-    <lastmod>2024-06-04T21:45:54+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-06-04T21:45:54+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-06-04T21:45:54+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/2fa/</loc>
