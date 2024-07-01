@@ -15,6 +15,10 @@ IAM ekibi ile onlarla dirsek temasında olan diğer ekipler Kimlik ve Erişim Y�
 
 Dashboard tasarımının resim olarak örneğini aşağıda yer verdim. Chart.js sayesinde html olarak paylaştığınızda grafiklerin daha dinamik bir yapıya sahip olduğunu belirtmek isterim.
 
+HTML Live Dashboard olarak görüntülemek isterseniz [buraya tıklayın](/pdf/kimlik-ve-erisim-yonetimi-dashboard/dashboard_TR.html).
+
+PDF olarak indirmek isterseniz [buraya tıklayın](/pdf/kimlik-ve-erisim-yonetimi-dashboard/dashboard_TRPDF.pdf).
+
 <img src="/images/kimlik-ve-erisim-yonetimi-dashboard/Dashboard.png" alt="AltText">
 
 Bu dashboard ile IAM’in değerini ve katkısını görselleştirerek anlatmak yaptığımız işin daha anlaşılır olmasını sağlayacaktır. Dashboard'un tasarımında kullanılan Chart.js ve Bootstrap, hem esneklik hem de görsel zenginlik sağlar.

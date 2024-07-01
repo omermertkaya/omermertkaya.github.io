@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiKimlik IDM Haziran Raporu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <style>
+        .card {
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+        }
+        .stat-card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .stat-icon {
+            font-size: 2rem;
+            margin-right: 15px;
+        }
+        .chart-container {
+            position: relative;
+            height: 400px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">IAM/IDM Dashboard Raporu</h1>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card text-center">
+                    <h2><i class="fa-solid fa-user me-2"></i>Kullanıcı Sayısı</h2>
+                    <hr>
+                    <div id="userCount" class="display-4">65.000</div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card text-center text-bg-light">
+                    <h2><i class="fa-brands fa-app-store-ios me-2"></i>Uygulama Sayısı</h2>
+                    <hr>
+                    <div id="applicationCount" class="display-4">45</div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card text-center ">
+                    <h2><i class="fa-solid fa-folder-tree me-2"></i>Organizasyon Sayısı</h2>
+                    <hr>
+                    <div id="organizationCount" class="display-4">450</div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4 ">
+                <div class="card">
+                    <h2>Aktif/Pasif Kullanıcı Sayısı</h2>
+                    <canvas id="userStatusChart"></canvas>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <h2>Roller ve Yetkiler</h2>
+                        <canvas id="rolePermissionChart"></canvas>
+                    </div>
+                    <div class="card mt-4">
+                        <h2>Yetki, IT Rolü ve İş Rolü Nedir?</h2>
+                        <p>
+                        <ul>
+                            <li>
+                                5000 adet yetki, herhangi bir uygulamadaki en küçük izin parçacığıdır. 
+                            </li>
+                            <li>
+                                100 adet IT rolü, belirli bir uygulamaya ait oluşturulmuş yetki bütünleridir.
+                            </li>
+                            <li>
+                                50 adet iş rolü, IT rolü ve yetkilerini içeren bir yetki bütünüdür. Örneğin, "Bordolu Varsayılan Çalışan Rolü" tüm bordrolu çalışanlara atanır.
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+            </div>
+            <div class="col-md-12 mb-4">
+                <div class="card">
+                    <h2>İşe Giren(Onboarding) ve İşten Ayrılan(Offboarding) Çalışan Sayıları</h2>
+                    <p><ul>
+                        <li>Bu grafik, 2024 yılına ait işe giren (Onboarding) ve işten ayrılan (Offboarding) çalışan sayılarının karşılaştırmasını göstermektedir. </li>
+                        <li>Kimlik ve erişim yönetimi (Identity and Access Management) açısından, bu veriler otomatik olarak yapılan işe giriş ve çıkış operasyon süreçlerinin IAM tarafından yönetilmesini değerlendirmemizi sağlar.</li>
+                    </ul></p>
+                    <canvas id="monthlyHiresExitsChart"></canvas>
+                </div>
+            </div>
+            <div class="col-md-12 mb-4 ">
+                <div class="card">
+                    <h2>IAM ile Otomatik Olarak Oluşturulan ve Kapatılan Hesap Sayıları</h2>
+                    <p><ul>
+                        <li>Bu grafik, belirli bir dönemde IAM (Kimlik ve Erişim Yönetimi) sistemleri tarafından otomatik olarak oluşturulan ve kapatılan hesap sayılarının karşılaştırmasını göstermektedir.</li>
+                        <li>Bu veriler, kimlik yönetimi süreçlerinin operasyon maliyetilerini azaltma etkinliğini ve hesap güvenliğini değerlendirmemizi sağlar.</li>
+                    </ul></p>
+                    <canvas id="monthlyCreateDeleteAccountChart"></canvas>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4 ">
+                <div class="card">
+                    <h2>Hesap Sayıları</h2>
+                    <canvas id="totalAccount" ></canvas>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4 ">
+                <div class="card">
+                    <h2>Aktif Dizin Mail ve Güvenlik Grupları</h2>
+                    <canvas id="activeDirectoryGroup"></canvas>
+                </div>
+            </div>
+            <div class="col-md-12 mb-4 ">
+                <div class="card">
+                    <h2>Otomatik Ataması Yapılan ve Kaldırılan Yetki Sayıları</h2>
+                    <p><ul>
+                        <li>Bu grafik, 2024 yılına ait otomatik olarak atanan ve kaldırılan yetki sayılarının karşılaştırmasını göstermektedir.</li>
+                        <li>Bu veriler, yetki yönetimi süreçlerinin etkinliğini ve sistem güvenliğini artırma potansiyelini değerlendirmemizi sağlar.</li>
+                        <li>Ayrca, insan eliyle yapılması mümkün olmayan derecede operasyonel verimlilik ve rol bazlı yetki yönetimi sağlar. </li>
+                    </ul></p>
+                    <canvas id="monthlyEntitlementAddRemoveChart"></canvas>
+                </div>
+            </div>
+            <div class="col-md-12 mb-4 ">
+                <div class="card">
+                    <h2>IAM/IDM Tarafından Otomatik Çözülen Kayıtlar ve Adam/Saat Kazancı</h2>
+                    <p>
+                    <ul>
+                        <li>Bu grafik, IAM/IDM sistemleri tarafından otomatik olarak çözülen kayıtlar ve bu sayede elde edilen adam/saat kazancını göstermektedir.</li>
+                        <li>Bu veriler, kimlik ve erişim yönetimi süreçlerinin verimliliğini artırma ve operasyonel maliyetleri düşürme potansiyelini değerlendirmemizi sağlar.</li>
+                        <li>İnsan eliyle yapıldığında her kayıt için 30 dakika süre harcandığı varsayılmıştır.</li>
+                    </ul>
+                    </p>
+                    <canvas id="monthlyAutoRecordSolution"></canvas>
+                </div>
+            </div>
+        </div>
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item">Ömer Mert Kaya - Identity And Access Management Engineer - <a
+                        href="mailto:omermertkaya@hotmail.com.tr"
+                        class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">omermertkaya@hotmail.com.tr</a>
+                </li>
+            </ul>
+            <p class="text-center text-muted">© 2024 Şirket Adı</p>
+        </footer>
+    </div>
+    <script>
+        // Aktif/Pasif Kullanıcı Sayısı Grafiği
+        //#B3C100, #CED2CC, #23282D, #4CB5F5, #1F3F49, #D32D41, #6AB187 palet renklerim
+        var ctx1 = document.getElementById('userStatusChart').getContext('2d');
+        var userStatusChart = new Chart(ctx1, {
+            type: 'pie',
+            data: {
+                labels: ['Aktif Kullanıcılar', 'Pasif Kullanıcılar'],
+                datasets: [{
+                    label: 'Kullanıcı Durumu',
+                    data: [35000, 30000], // Örnek veri
+                    backgroundColor: ['#4CB5F5', '#CED2CC'],
+           
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    datalabels: {
+                        formatter: (value, ctx) => {
+                            let sum = 0;
+                            let dataArr = ctx.chart.data.datasets[0].data;
+                            dataArr.map(data => {
+                                sum += data;
+                            });
+                            let percentage = (value * 100 / sum).toFixed(2) + "%";
+                            return percentage + "  (" + value + ")";
+                        },
+                        color: '#fdfdfd',
+                        font: {
+                            weight: 'bold',
+                            size: 14
+                        }
+                    }
+                }
+            },
+            plugins: [ChartDataLabels]
+        });
+        // Toplam Rol ve Yetki Sayısı Grafiği
+        var ctx2 = document.getElementById('rolePermissionChart').getContext('2d');
+        var rolePermissionChart = new Chart(ctx2, {
+            type: 'bar',
+            data: {
+                labels: ['Yetkiler', 'IT Roller', 'İş Rolleri'],
+                datasets: [{
+                    axis: 'y',
+                    label: false,
+                    data: [5000, 150, 50], // Örnek veri
+                    backgroundColor: ['rgba(76, 181, 245, 0.5)', 'rgba(179, 193, 0, 0.5)', 'rgba(31, 63, 73, 0.5)'],
+                    borderColor:['rgba(76, 181, 270, 1)','rgba(179, 193, 0, 1)','rgba(31, 63, 73, 1)'],
+                    borderWidth: 1,
+                    borderSkipped: false
+
+                }
+                ]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: false // This hides all text in the legend and also the labels.
+                    },
+                    datalabels: {
+                        anchor: 'end',
+                        align: 'right',
+                        formatter: Math.round,
+                        color: '#0f0f0f',
+                        font: {
+                            weight: 'bold',
+                            size: 14
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    },
+                    x:{
+                        max: 6000
+                    }
+                }
+            },
+            plugins: [ChartDataLabels]
+        });
+        // İşe Giren(Onboarding) ve İşten Ayrılan(Offboarding) Çalışan Sayıları
+        var ctx3 = document.getElementById('monthlyHiresExitsChart').getContext('2d');
+        var monthlyHiresExitsChart = new Chart(ctx3, {
+            type: 'bar',
+            data: {
+                labels: ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'],
+                datasets: [
+                    {
+                        label: 'İşe Girişler',
+                        data: [750, 500, 400, 350, 800, 250, 350, 50, 75, 250, 150, 350], // Örnek veri
+                        backgroundColor: 'rgba(76, 181, 245, 0.5)',
+                        borderColor: 'rgba(76, 181, 245, 1)',
+                        borderWidth: 1,
+                    },
+                    {
+                        label: 'İşten Çıkışlar',
+                        data: [100, 80, 50, 30, 150, 30, 35, 35, 40, 50, 75, 75], // Örnek veri
+                        backgroundColor: 'rgba(211, 45, 65, 0.5)',
+                        borderColor: 'rgba(211, 45, 65, 1)',
+                        borderWidth: 1,
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    datalabels: {
+                        anchor: 'end',
+                        align: 'top',
+                        formatter: Math.round,
+                        color: '#0f0f0f',
+                        font: {
+                            weight: 'bold',
+                            size: 14
+                        }
+                    }   
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 900
+                    },
+                },
+            },
+            plugins: [ChartDataLabels]
+        });
+        // IAM ile Otomatik Olarak Oluşturulan ve Kapatılan Hesap Sayıları
+        var ctx4 = document.getElementById('monthlyCreateDeleteAccountChart').getContext('2d');
+        var monthlyCreateDeleteAccountChart = new Chart(ctx4, {
+            type: 'bar',
+            data: {
+                labels: ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'],
+                datasets: [
+                    {
+                        label: 'Hesap Oluşturma Adeti',
+                        data: [2150, 721, 667, 572, 2482, 1241, 572, 100, 150, 452, 352, 584], // Örnek veri
+                        backgroundColor: 'rgba(76, 181, 245, 0.5)',
+                        borderColor: 'rgba(76, 181, 245, 1)',
+                        borderWidth: 1,
+                    },
+                    {
+                        label: 'Hesap Kapatma Adeti',
+                        data: [252, 450, 591, 562, 750, 562, 585, 60, 80, 76, 100, 145], // Örnek veri
+                        backgroundColor: 'rgba(211, 45, 65, 0.5)',
+                        borderColor: 'rgba(211, 45, 65, 1)',
+                        borderWidth: 1,
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    datalabels: {
+                        anchor: 'end',
+                        align: 'top',
+                        formatter: Math.round,
+                        color: '#0f0f0f',
+                        font: {
+                            weight: 'bold',
+                            size: 14
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 3000
+                    },
+                },
+            },
+            plugins: [ChartDataLabels]
+        });
+        // Hesap Sayıları Grafği
+        var ctx = document.getElementById('totalAccount').getContext('2d');
+        // Grafik verilerini ve ayarlarını tanımlayın
+        var myChart = new Chart(ctx, {
+            type: 'doughnut', // Grafik tipi: halka
+            data: {
+                labels: ['Active Directory', 'Oracle LDAP', 'Lokal Uygulama1', 'Lokal Uygulama2'], // Etiketler
+                datasets: [{
+                    label: 'Hesap Adetleri', // Veri seti başlığı
+                    data: [120, 80, 150, 60], // Veri değerleri
+                    backgroundColor: ['#B3C100', '#4CB5F5', '#1F3F49', '#D32D41'], // Çubuk renkleri
+                    borderWidth: 1 // Çubuk kenar kalınlığı
+                }]
+            },
+            options: {
+                responsive: true, // Grafik duyarlı olacak şekilde ayarla
+                plugins: {
+                    datalabels: {
+                        anchor: 'center',
+                        align: 'center',
+                        formatter: Math.round,
+                        color: '#fdfdfd',
+                        font: {
+                            weight: 'bold',
+                            size: 14
+                        }
+                    },
+                    legend: {
+                        display: true, // Göster legend'i
+                        position: 'top' // Üst kısmına yerleştir
+                    },
+                    tooltip: {
+                        enabled: true, // Tooltip'i etkinleştir
+                        callbacks: {
+                            label: function(tooltipItem) {
+                                return tooltipItem.label + ': ' + tooltipItem.raw;
+                            }
+                        }
+                    }
+                }
+            },
+            plugins: [ChartDataLabels]
+
+        });
+        //Aktif Dizin Mail ve Güvenlik Grupları
+        var ctx1 = document.getElementById('activeDirectoryGroup').getContext('2d');
+        var userStatusChart = new Chart(ctx1, {
+            type: 'pie',
+            data: {
+                labels: ['Dağıtım Grupları', 'Güvenlik Grupları'],
+                datasets: [{
+                    label: 'Kullanıcı Durumu',
+                    data: [750, 300], // Örnek veri
+                    backgroundColor: ['#B3C100', '#4CB5F5'],
+          
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    datalabels: {
+                        formatter: (value, ctx) => {
+                            let sum = 0;
+                            let dataArr = ctx.chart.data.datasets[0].data;
+                            dataArr.map(data => {
+                                sum += data;
+                            });
+                            let percentage = (value * 100 / sum).toFixed(2) + "%";
+                            return percentage + "  (" + value + ")";
+                        },
+                        color: '#fdfdfd',
+                        font: {
+                            weight: 'bold',
+                            size: 14
+                        }
+                    }
+                }
+            },
+            plugins: [ChartDataLabels]
+        });
+
+        // Ataması ve Kaldırılması Yapılan Yetki Sayıları
+        var ctx5 = document.getElementById('monthlyEntitlementAddRemoveChart').getContext('2d');
+        var monthlyEntitlementAddRemoveChart = new Chart(ctx5, {
+            type: 'bar',
+            data: {
+                labels: ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'],
+                datasets: [
+                    {
+                        label: 'Atanan Yetki Adeti',
+                        data: [3500, 3210, 3850, 2435, 7525, 3650, 2300, 2350, 3580, 2450, 1100, 3785], // Örnek veri
+                        backgroundColor: 'rgba(76, 181, 245, 0.5)',
+                        borderColor: 'rgba(76, 181, 245, 1)',
+                        borderWidth: 1,
+                    },
+                    {
+                        label: 'Kaldırılan Yetki Adeti',
+                        data: [3000, 2410, 1650, 2850, 2645, 1985, 1100, 2000, 1219, 1180, 500, 600], // Örnek veri
+                        backgroundColor: 'rgba(211, 45, 65, 0.5)',
+                        borderColor: 'rgba(211, 45, 65, 1)',
+                        borderWidth: 1,
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    datalabels: {
+                        anchor: 'end',
+                        align: 'top',
+                        formatter: Math.round,
+                        color: '#0f0f0f',
+                        font: {
+                            weight: 'bold',
+                            size: 14
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 9000
+                    },
+                },
+            },
+            plugins: [ChartDataLabels]
+        });
+        // Servis Yönetimi tarafından kazanc
+        // Örnek veri: Aylık gelen kayıt sayıları
+        var monthlyRecords = [540, 390, 444, 319, 307, 211, 353, 485, 185, 650, 258, 455]; // Örnek veri
+        var timePerRecord = 0.5; // Kayıt başına harcanan süre (saat cinsinden)
+        // Aylık toplam saat kazançlarını hesaplayın
+        var monthlyTimeSaved = monthlyRecords.map(function (recordCount) {
+            return recordCount * timePerRecord;
+        });
+        var ctx6 = document.getElementById('monthlyAutoRecordSolution').getContext('2d');
+        var timeSavedChart = new Chart(ctx6, {
+            type: 'bar', // Mixed type chart: bar and line
+            data: {
+                labels: ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'],
+                datasets: [
+                    {
+                        type: 'bar',
+                        label: 'Toplam Kayıt Kazancı',
+                        data: monthlyRecords,
+                        backgroundColor: 'rgba(106, 177, 135, 0.2)',
+                        borderColor: 'rgba(106, 177, 135, 1)',
+                        borderWidth: 1,
+                        borderRadius: 10,
+                        borderSkipped: false
+                    },
+                    {
+                        type: 'line',
+                        label: 'Toplam Saat Kazancı',
+                        data: monthlyTimeSaved,
+                        borderColor: 'rgba(211, 45, 65, 1)',
+                        borderWidth: 3,
+                        fill: false
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    datalabels: {
+                        display: (context) => context.dataset.type === 'bar',
+                        anchor: 'end',
+                        align: 'top',
+                        formatter: (value, ctx) => {
+                            return value + ' Adet';
+                        },
+                        color: '#0f0f0f',
+                        font: {
+                            weight: 'bold',
+                            size: 14
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            },
+            plugins: [ChartDataLabels]
+        });
+        // Çizgi grafiği için ayrı etiketler ekleme
+        Chart.register({
+            id: 'monthlyAutoRecordSolution',
+            afterDatasetsDraw: function (chart, easing) {
+                var ctx = chart.ctx;
+                if (ctx.canvas.id == 'monthlyAutoRecordSolution') {
+                    chart.data.datasets.forEach(function (dataset, i) {
+                        var meta = chart.getDatasetMeta(i);
+                        if (!meta.hidden && dataset.type === 'line') {
+                            meta.data.forEach(function (element, index) {
+                                if (dataset.data[index] !== 0) {
+                                    // Draw the text in black, with the specified font
+                                    ctx.fillStyle = '#0f0f0f';
+                                    var fontSize = 14;
+                                    var fontStyle = 'normal';
+                                    var fontFamily = 'Helvetica Neue';
+                                    ctx.font = Chart.helpers.fontString(fontSize, fontStyle, fontFamily);
+                                    // Just naively convert to string for now
+                                    var dataString = dataset.data[index]
+                                    // Make sure alignment settings are correct
+                                    ctx.textAlign = 'center';
+                                    ctx.textBaseline = 'bottom';
+                                    var padding = 5;
+                                    var position = element.tooltipPosition();
+                                    ctx.fillText(dataString + ' Saat', position.x, position.y - (fontSize / 2) - padding);
+                                }
+                            });
+                        }
+                    });
+                }
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
