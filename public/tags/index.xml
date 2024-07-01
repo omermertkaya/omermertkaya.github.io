@@ -6,8 +6,36 @@
     <description>Recent content in Tags on Ömer Mert Kaya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Jun 2024 12:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 30 Jun 2024 12:00:00 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Iam Dashboard</title>
+      <link>http://localhost:1313/tags/iam-dashboard/</link>
+      <pubDate>Sun, 30 Jun 2024 12:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tags/iam-dashboard/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Iam Metrics</title>
+      <link>http://localhost:1313/tags/iam-metrics/</link>
+      <pubDate>Sun, 30 Jun 2024 12:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tags/iam-metrics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Identity and Access Management</title>
+      <link>http://localhost:1313/tags/identity-and-access-management/</link>
+      <pubDate>Sun, 30 Jun 2024 12:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tags/identity-and-access-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kimlik Ve Erişim Yönetimi</title>
+      <link>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</link>
+      <pubDate>Sun, 30 Jun 2024 12:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Çalışan Hesapları Oluşturma</title>
       <link>http://localhost:1313/tags/%C3%A7al%C4%B1%C5%9Fan-hesaplar%C4%B1-olu%C5%9Fturma/</link>
@@ -34,13 +62,6 @@
       <link>http://localhost:1313/tags/idm-kullanici-provizyonlama/</link>
       <pubDate>Mon, 17 Jun 2024 12:00:00 +0300</pubDate>
       <guid>http://localhost:1313/tags/idm-kullanici-provizyonlama/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kimlik Ve Erişim Yönetimi</title>
-      <link>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</link>
-      <pubDate>Mon, 17 Jun 2024 12:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</guid>
       <description></description>
     </item>
     <item>
