@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IAM Insights Reporting Dashboard - IAM Metrics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <style>
+        .card {
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+        }
+        .stat-card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .stat-icon {
+            font-size: 2rem;
+            margin-right: 15px;
+        }
+        .chart-container {
+            position: relative;
+            height: 400px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">IAM Insights Reporting Dashboard - IAM Metrics</h1>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card text-center">
+                    <h2><i class="fa-solid fa-user me-2"></i>Total Number of Users</h2>
+                    <hr>
+                    <div id="userCount" class="display-4">65.000</div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card text-center text-bg-light">
+                    <h2><i class="fa-brands fa-app-store-ios me-2"></i>Managed Applications</h2>
+                    <hr>
+                    <div id="applicationCount" class="display-4">45</div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card text-center ">
+                    <h2><i class="fa-solid fa-folder-tree me-2"></i>Organization Unit</h2>
+                    <hr>
+                    <div id="organizationCount" class="display-4">450</div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4 ">
+                <div class="card">
+                    <h2>Active/Inactive Users</h2>
+                    <canvas id="userStatusChart"></canvas>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <h2>Roles and Permissions</h2>
+                        <canvas id="rolePermissionChart"></canvas>
+                    </div>
+                    <div class="card mt-4">
+                        <h2>What are Permission, IT Role, and Business Role?</h2>
+                        <p>
+                        <ul>
+                            <li>
+                                5000 permissions, are the smallest permission units in any application.
+                            </li>
+                            <li>
+                                1100 IT roles are collections of permissions created for a specific application.
+                            </li>
+                            <li>
+                                350 business roles are collections of IT roles and permissions.
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+            </div>
+            <div class="col-md-12 mb-4">
+                <div class="card">
+                    <h2>Employee Onboarding and Offboarding</h2>
+                    <p><ul>
+                        <li>This chart compares the number of employees onboarded and offboarded in the year 2024. </li>
+                        <li>From an Identity and Access Management (IAM) perspective, these data help us assess how IAM handles the automatic processes of employees joining and leaving the company.</li>
+                    </ul></p>
+                    <canvas id="monthlyHiresExitsChart"></canvas>
+                </div>
+            </div>
+            <div class="col-md-12 mb-4 ">
+                <div class="card">
+                    <h2>Chart of accounts created and deactivated automatically by IAM</h2>
+                    <p><ul>
+                        <li>This chart shows a comparison of the number of accounts automatically created and deactivated by Identity and Access Management (IAM) systems during a specific period.</li>
+                        <li>These data help us assess how well identity management processes reduce costs and improve account security.</li>
+                    </ul></p>
+                    <canvas id="monthlyCreateDeleteAccountChart"></canvas>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4 ">
+                <div class="card">
+                    <h2>Total Account</h2>
+                    <canvas id="totalAccount" ></canvas>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4 ">
+                <div class="card">
+                    <h2>Active Directory Distribution/Security</h2>
+                    <canvas id="activeDirectoryGroup"></canvas>
+                </div>
+            </div>
+            <div class="col-md-12 mb-4 ">
+                <div class="card">
+                    <h2>Number of Entitlements(Roles,Permissions) automatically assigned and revoked</h2>
+                    <p><ul>
+                        <li>This chart displays the comparison of entitlements automatically assigned and revoked in the year 2024.</li>
+                        <li>These data enable us to assess the effectiveness of permission management processes and their potential to enhance system security.</li>
+                    </ul></p>
+                    <canvas id="monthlyEntitlementAddRemoveChart"></canvas>
+                </div>
+            </div>
+            <div class="col-md-12 mb-4 ">
+                <div class="card">
+                    <h2>Records auto-resolved by Self Service and man-hours saved</h2>
+                    <p>
+                    <ul>
+                        <li>This chart illustrates records automatically resolved by IAM/IDM systems and the resulting man-hours saved.</li>
+                        <li>These data allow us to assess the potential of identity and access management processes to enhance efficiency and reduce operational costs.</li>
+                        <li>It is assumed that each record takes 30 minutes when done manually.</li>
+                    </ul>
+                    </p>
+                    <canvas id="monthlyAutoRecordSolution"></canvas>
+                </div>
+            </div>
+        </div>
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item">Omer Mert Kaya - Identity And Access Management Engineer - <a
+                        href="mailto:omermertkaya@hotmail.com.tr"
+                        class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">omermertkaya@hotmail.com.tr</a>
+                </li>
+            </ul>
+            <p class="text-center text-muted">© 2024 Company name</p>
+        </footer>
+    </div>
+    <script>
+        // Active/Inactive Users
+        //#B3C100, #CED2CC, #23282D, #4CB5F5, #1F3F49, #D32D41, #6AB187 palet renklerim
+        var ctx1 = document.getElementById('userStatusChart').getContext('2d');
+        var userStatusChart = new Chart(ctx1, {
+            type: 'pie',
+            data: {
+                labels: ['Active Users', 'Inactive Users'],
+                datasets: [{
+                    label: 'Users Status',
+                    data: [35000, 30000], 
+                    backgroundColor: ['#4CB5F5', '#CED2CC'],
+           
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    datalabels: {
+                        formatter: (value, ctx1) => {
+                            let sum = 0;
+                            let dataArr = ctx1.chart.data.datasets[0].data;
+                            dataArr.map(data => {
+                                sum += data;
+                            });
+                            let percentage = (value * 100 / sum).toFixed(2) + "%";
+                            return percentage + "  (" + value + ")";
+                        },
+                        color: '#fdfdfd',
+                        font: {
+                            weight: 'bold',
+                            size: 14
+                        }
+                    }
+                }
+            },
+            plugins: [ChartDataLabels]
+        });
+        // Roles and Permissions
+        var ctx2 = document.getElementById('rolePermissionChart').getContext('2d');
+        var rolePermissionChart = new Chart(ctx2, {
+            type: 'bar',
+            data: {
+                labels: ['Permission', 'IT Role', 'Business Role'],
+                datasets: [{
+                    axis: 'y',
+                    label: false,
+                    data: [5000, 1100, 350],
+                    backgroundColor: ['rgba(76, 181, 245, 0.5)', 'rgba(179, 193, 0, 0.5)', 'rgba(31, 63, 73, 0.5)'],
+                    borderColor:['rgba(76, 181, 270, 1)','rgba(179, 193, 0, 1)','rgba(31, 63, 73, 1)'],
+                    borderWidth: 1,
+                    borderSkipped: false
+
+                }
+                ]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: false 
+                    },
+                    datalabels: {
+                        anchor: 'end',
+                        align: 'right',
+                        formatter: Math.round,
+                        color: '#0f0f0f',
+                        font: {
+                            weight: 'bold',
+                            size: 14
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    },
+                    x:{
+                        max: 6000
+                    }
+                }
+            },
+            plugins: [ChartDataLabels]
+        });
+        //Onboarding-Offboarding
+        var ctx3 = document.getElementById('monthlyHiresExitsChart').getContext('2d');
+        var monthlyHiresExitsChart = new Chart(ctx3, {
+            type: 'bar',
+            data: {
+                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+                datasets: [
+                    {
+                        label: 'Onboarding',
+                        data: [750, 500, 400, 350, 800, 250, 350, 50, 75, 250, 150, 350], // Örnek veri
+                        backgroundColor: 'rgba(76, 181, 245, 0.5)',
+                        borderColor: 'rgba(76, 181, 245, 1)',
+                        borderWidth: 1,
+                    },
+                    {
+                        label: 'Offboarding',
+                        data: [100, 80, 50, 30, 150, 30, 35, 35, 40, 50, 75, 75], // Örnek veri
+                        backgroundColor: 'rgba(211, 45, 65, 0.5)',
+                        borderColor: 'rgba(211, 45, 65, 1)',
+                        borderWidth: 1,
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    datalabels: {
+                        anchor: 'end',
+                        align: 'top',
+                        formatter: Math.round,
+                        color: '#0f0f0f',
+                        font: {
+                            weight: 'bold',
+                            size: 14
+                        }
+                    }   
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 900
+                    },
+                },
+            },
+            plugins: [ChartDataLabels]
+        });
+        // CreateDeleteAccount
+        var ctx4 = document.getElementById('monthlyCreateDeleteAccountChart').getContext('2d');
+        var monthlyCreateDeleteAccountChart = new Chart(ctx4, {
+            type: 'bar',
+            data: {
+                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+                datasets: [
+                    {
+                        label: 'Create Account',
+                        data: [2150, 721, 667, 572, 2482, 1241, 572, 100, 150, 452, 352, 584], // Örnek veri
+                        backgroundColor: 'rgba(76, 181, 245, 0.5)',
+                        borderColor: 'rgba(76, 181, 245, 1)',
+                        borderWidth: 1,
+                    },
+                    {
+                        label: 'Delete Account',
+                        data: [252, 450, 591, 562, 750, 562, 585, 60, 80, 76, 100, 145], // Örnek veri
+                        backgroundColor: 'rgba(211, 45, 65, 0.5)',
+                        borderColor: 'rgba(211, 45, 65, 1)',
+                        borderWidth: 1,
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    datalabels: {
+                        anchor: 'end',
+                        align: 'top',
+                        formatter: Math.round,
+                        color: '#0f0f0f',
+                        font: {
+                            weight: 'bold',
+                            size: 14
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 3000
+                    },
+                },
+            },
+            plugins: [ChartDataLabels]
+        });
+        // Number of Account
+        var ctx5 = document.getElementById('totalAccount').getContext('2d');
+        var myChart = new Chart(ctx5, {
+            type: 'doughnut', 
+            data: {
+                labels: ['Active Directory', 'Oracle LDAP', 'Local Application1', 'Local Apllication2'], 
+                datasets: [{
+                    label: 'Number of Account',
+                    data: [120, 80, 150, 60], 
+                    backgroundColor: ['#B3C100', '#4CB5F5', '#1F3F49', '#D32D41'], 
+                    borderWidth: 1 
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    datalabels: {
+                        anchor: 'center',
+                        align: 'center',
+                        formatter: Math.round,
+                        color: '#fdfdfd',
+                        font: {
+                            weight: 'bold',
+                            size: 14
+                        }
+                    },
+                    legend: {
+                        display: true, 
+                        position: 'top' 
+                    },
+                    tooltip: {
+                        enabled: true, 
+                        callbacks: {
+                            label: function(tooltipItem) {
+                                return tooltipItem.label + ': ' + tooltipItem.raw;
+                            }
+                        }
+                    }
+                }
+            },
+            plugins: [ChartDataLabels]
+
+        });
+        //Active Directory Distribution Security Groups
+        var ctx6 = document.getElementById('activeDirectoryGroup').getContext('2d');
+        var userStatusChart = new Chart(ctx6, {
+            type: 'pie',
+            data: {
+                labels: ['Distribution Group', 'Security Group'],
+                datasets: [{
+                    label: 'Number of Group',
+                    data: [750, 300], 
+                    backgroundColor: ['#B3C100', '#4CB5F5'],
+          
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    datalabels: {
+                        formatter: (value, ctx) => {
+                            let sum = 0;
+                            let dataArr = ctx.chart.data.datasets[0].data;
+                            dataArr.map(data => {
+                                sum += data;
+                            });
+                            let percentage = (value * 100 / sum).toFixed(2) + "%";
+                            return percentage + "  (" + value + ")";
+                        },
+                        color: '#fdfdfd',
+                        font: {
+                            weight: 'bold',
+                            size: 14
+                        }
+                    }
+                }
+            },
+            plugins: [ChartDataLabels]
+        });
+
+        // assigned and revoked entitlements
+        var ctx7 = document.getElementById('monthlyEntitlementAddRemoveChart').getContext('2d');
+        var monthlyEntitlementAddRemoveChart = new Chart(ctx7, {
+            type: 'bar',
+            data: {
+                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+                datasets: [
+                    {
+                        label: 'Assigned Entitlements',
+                        data: [3500, 3210, 3850, 2435, 7525, 3650, 2300, 2350, 3580, 2450, 1100, 3785], // Örnek veri
+                        backgroundColor: 'rgba(76, 181, 245, 0.5)',
+                        borderColor: 'rgba(76, 181, 245, 1)',
+                        borderWidth: 1,
+                    },
+                    {
+                        label: 'Revoked Entitlements',
+                        data: [3000, 2410, 1650, 2850, 2645, 1985, 1100, 2000, 1219, 1180, 500, 600], // Örnek veri
+                        backgroundColor: 'rgba(211, 45, 65, 0.5)',
+                        borderColor: 'rgba(211, 45, 65, 1)',
+                        borderWidth: 1,
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    datalabels: {
+                        anchor: 'end',
+                        align: 'top',
+                        formatter: Math.round,
+                        color: '#0f0f0f',
+                        font: {
+                            weight: 'bold',
+                            size: 14
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 9000
+                    },
+                },
+            },
+            plugins: [ChartDataLabels]
+        });
+
+        var monthlyRecords = [540, 390, 444, 319, 307, 211, 353, 485, 185, 650, 258, 455]; 
+        var timePerRecord = 0.5; //  man-hours saved 
+        var monthlyTimeSaved = monthlyRecords.map(function (recordCount) {
+            return recordCount * timePerRecord;
+        });
+        var ctx8 = document.getElementById('monthlyAutoRecordSolution').getContext('2d');
+        var timeSavedChart = new Chart(ctx8, {
+            type: 'bar', 
+            data: {
+                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+                datasets: [
+                    {
+                        type: 'bar',
+                        label: 'Total Records',
+                        data: monthlyRecords,
+                        backgroundColor: 'rgba(106, 177, 135, 0.2)',
+                        borderColor: 'rgba(106, 177, 135, 1)',
+                        borderWidth: 1,
+                        borderRadius: 10,
+                        borderSkipped: false
+                    },
+                    {
+                        type: 'line',
+                        label: 'Total Hours Saved',
+                        data: monthlyTimeSaved,
+                        borderColor: 'rgba(211, 45, 65, 1)',
+                        borderWidth: 3,
+                        fill: false
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    datalabels: {
+                        display: (context) => context.dataset.type === 'bar',
+                        anchor: 'end',
+                        align: 'top',
+                        formatter: (value, ctx) => {
+                            return value + ' Record';
+                        },
+                        color: '#0f0f0f',
+                        font: {
+                            weight: 'bold',
+                            size: 14
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            },
+            plugins: [ChartDataLabels]
+        });
+        Chart.register({
+            id: 'monthlyAutoRecordSolution',
+            afterDatasetsDraw: function (chart, easing) {
+                var ctx = chart.ctx;
+                if (ctx.canvas.id == 'monthlyAutoRecordSolution') {
+                    chart.data.datasets.forEach(function (dataset, i) {
+                        var meta = chart.getDatasetMeta(i);
+                        if (!meta.hidden && dataset.type === 'line') {
+                            meta.data.forEach(function (element, index) {
+                                if (dataset.data[index] !== 0) {
+                                    ctx.fillStyle = '#0f0f0f';
+                                    var fontSize = 14;
+                                    var fontStyle = 'normal';
+                                    var fontFamily = 'Helvetica Neue';
+                                    ctx.font = Chart.helpers.fontString(fontSize, fontStyle, fontFamily);
+                                    var dataString = dataset.data[index]
+                                    ctx.textAlign = 'center';
+                                    ctx.textBaseline = 'bottom';
+                                    var padding = 5;
+                                    var position = element.tooltipPosition();
+                                    ctx.fillText(dataString + ' hour', position.x, position.y - (fontSize / 2) - padding);
+                                }
+                            });
+                        }
+                    });
+                }
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

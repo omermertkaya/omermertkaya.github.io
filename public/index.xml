@@ -57,5 +57,12 @@
       <guid>http://localhost:1313/ozgecmis/</guid>
       <description>İngilizce Özgeçmiş PDF dosyasını indirmek için buraya tıklayın.&#xA;Ömer Mert KAYA omermertkaya@hotmail.</description>
     </item>
+    <item>
+      <title>Posts Archive</title>
+      <link>http://localhost:1313/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archives/</guid>
+      <description>This page contains an archive of all posts.</description>
+    </item>
   </channel>
 </rss>
