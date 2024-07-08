@@ -25,7 +25,7 @@ disqusShortname = ""
 [params]
     math = true
     # Blog description at the top of the homepage. Supports markdown.
-    description = ""
+    description = "Ömer Mert Kaya'nın Kişisel Sayfası, IAM ve Security Engineer Blog yazıları"
 
     showReadMore = false
 
