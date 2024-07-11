@@ -1,5 +1,5 @@
 +++
-title = 'Authentication Authorization Kavramlari'
+title = 'Authentication Authorization Kavramları'
 date = 2024-07-11T22:30:46+03:00
 draft = false
 tags = ['authentication','authorization','kimlik ve erisim yonetimi']
