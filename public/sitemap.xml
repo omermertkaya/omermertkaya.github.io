@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/authentication/</loc>
+    <lastmod>2024-07-11T22:30:46+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/authentication-authorization-kavramlari/</loc>
+    <lastmod>2024-07-11T22:30:46+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/authorization/</loc>
+    <lastmod>2024-07-11T22:30:46+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kimlik-ve-erisim-yonetimi/</loc>
+    <lastmod>2024-07-11T22:30:46+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-07-11T22:30:46+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-07-11T22:30:46+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/iam-dashboard/</loc>
     <lastmod>2024-06-30T12:00:00+03:00</lastmod>
   </url><url>
@@ -15,12 +33,6 @@
     <lastmod>2024-06-30T12:00:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-dashboard/</loc>
-    <lastmod>2024-06-30T12:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-06-30T12:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-06-30T12:00:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/%C3%A7al%C4%B1%C5%9Fan-hesaplar%C4%B1-olu%C5%9Fturma/</loc>
@@ -58,9 +70,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/uaf/</loc>
     <lastmod>2024-03-30T22:17:41+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/authentication/</loc>
-    <lastmod>2024-03-30T16:57:45+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/clerk-authentication-nedir/</loc>
     <lastmod>2024-03-30T16:57:45+03:00</lastmod>

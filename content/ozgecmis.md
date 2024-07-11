@@ -29,7 +29,7 @@ title: "Özgeçmiş"
 
 - Bilgisayar Mühendisliği
 
-### Tuzluçayır Anadolu Lisesi | <location> Ankara </location> <time> Sep 2009 - 2013 </time>
+### Tuzluçayır Anadolu Lisesi | <location> Ankara </location> <time> 2009 - 2013 </time>
 
 - Fen Bilimleri
 
@@ -166,6 +166,3 @@ Tüm video kaynağı, web sayfasındaki bir zamanlayıcı ile kaydediliyor. Sayf
 - MOG İçerik İşleme Makinesi tarafından sağlanan API ile istekler gönderildi.
 
 
-
-
-<!-- Detail checks: 1. No period for each bullet; 2. Past tense for previous work; 3. Present tense for current work; 4. Spell check passed; 5. Grammarly check passed; 6. Sync with Linkedin; 7. Check paper format -->

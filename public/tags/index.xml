@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Ömer Mert Kaya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jun 2024 12:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jul 2024 22:30:46 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Authentication</title>
+      <link>http://localhost:1313/tags/authentication/</link>
+      <pubDate>Thu, 11 Jul 2024 22:30:46 +0300</pubDate>
+      <guid>http://localhost:1313/tags/authentication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Authorization</title>
+      <link>http://localhost:1313/tags/authorization/</link>
+      <pubDate>Thu, 11 Jul 2024 22:30:46 +0300</pubDate>
+      <guid>http://localhost:1313/tags/authorization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kimlik Ve Erisim Yonetimi</title>
+      <link>http://localhost:1313/tags/kimlik-ve-erisim-yonetimi/</link>
+      <pubDate>Thu, 11 Jul 2024 22:30:46 +0300</pubDate>
+      <guid>http://localhost:1313/tags/kimlik-ve-erisim-yonetimi/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Iam Dashboard</title>
       <link>http://localhost:1313/tags/iam-dashboard/</link>
@@ -97,13 +118,6 @@
       <link>http://localhost:1313/tags/uaf/</link>
       <pubDate>Sat, 30 Mar 2024 22:17:41 +0300</pubDate>
       <guid>http://localhost:1313/tags/uaf/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Authentication</title>
-      <link>http://localhost:1313/tags/authentication/</link>
-      <pubDate>Sat, 30 Mar 2024 16:57:45 +0300</pubDate>
-      <guid>http://localhost:1313/tags/authentication/</guid>
       <description></description>
     </item>
   </channel>
