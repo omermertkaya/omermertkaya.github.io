@@ -6,8 +6,43 @@
     <description>Recent content in Tags on Ömer Mert Kaya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jul 2024 22:30:46 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jul 2024 20:53:09 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Erişim Yönetimi</title>
+      <link>http://localhost:1313/tags/eri%C5%9Fim-y%C3%B6netimi/</link>
+      <pubDate>Sun, 14 Jul 2024 20:53:09 +0300</pubDate>
+      <guid>http://localhost:1313/tags/eri%C5%9Fim-y%C3%B6netimi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IAM</title>
+      <link>http://localhost:1313/tags/iam/</link>
+      <pubDate>Sun, 14 Jul 2024 20:53:09 +0300</pubDate>
+      <guid>http://localhost:1313/tags/iam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Identity Access Management</title>
+      <link>http://localhost:1313/tags/identity-access-management/</link>
+      <pubDate>Sun, 14 Jul 2024 20:53:09 +0300</pubDate>
+      <guid>http://localhost:1313/tags/identity-access-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Paydaş Katılımı</title>
+      <link>http://localhost:1313/tags/payda%C5%9F-kat%C4%B1l%C4%B1m%C4%B1/</link>
+      <pubDate>Sun, 14 Jul 2024 20:53:09 +0300</pubDate>
+      <guid>http://localhost:1313/tags/payda%C5%9F-kat%C4%B1l%C4%B1m%C4%B1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SOD Matrisi (Segregation of Duties)</title>
+      <link>http://localhost:1313/tags/sod-matrisi-segregation-of-duties/</link>
+      <pubDate>Sun, 14 Jul 2024 20:53:09 +0300</pubDate>
+      <guid>http://localhost:1313/tags/sod-matrisi-segregation-of-duties/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Authentication</title>
       <link>http://localhost:1313/tags/authentication/</link>
@@ -69,13 +104,6 @@
       <link>http://localhost:1313/tags/%C3%A7al%C4%B1%C5%9Fan-provizyonlama/</link>
       <pubDate>Mon, 17 Jun 2024 12:00:00 +0300</pubDate>
       <guid>http://localhost:1313/tags/%C3%A7al%C4%B1%C5%9Fan-provizyonlama/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Identity Access Management</title>
-      <link>http://localhost:1313/tags/identity-access-management/</link>
-      <pubDate>Mon, 17 Jun 2024 12:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/tags/identity-access-management/</guid>
       <description></description>
     </item>
     <item>

@@ -6,10 +6,17 @@
     <description>Recent content in Posts on Ömer Mert Kaya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jul 2024 22:30:46 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jul 2024 20:53:09 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Authentication Authorization Kavramlari</title>
+      <title>Kimlik ve Erişim Yönetiminin Şirketinizde Başarılı Olması İçin Paydaş Katılımının Önemi</title>
+      <link>http://localhost:1313/posts/iam-basarili-olmasi/</link>
+      <pubDate>Sun, 14 Jul 2024 20:53:09 +0300</pubDate>
+      <guid>http://localhost:1313/posts/iam-basarili-olmasi/</guid>
+      <description>Identity and Access Management&amp;rsquo;ın (Kimlik ve Erişim Yönetiminin) başarılı olması birçok etkene bağlıdır ve bunlardan en önemlilerinden biri de paydaş katılımının değeridir.</description>
+    </item>
+    <item>
+      <title>Authentication Authorization Kavramları</title>
       <link>http://localhost:1313/posts/authentication-authorization-kavramlari/</link>
       <pubDate>Thu, 11 Jul 2024 22:30:46 +0300</pubDate>
       <guid>http://localhost:1313/posts/authentication-authorization-kavramlari/</guid>

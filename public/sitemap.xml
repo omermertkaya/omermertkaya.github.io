@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/eri%C5%9Fim-y%C3%B6netimi/</loc>
+    <lastmod>2024-07-14T20:53:09+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/iam/</loc>
+    <lastmod>2024-07-14T20:53:09+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/identity-access-management/</loc>
+    <lastmod>2024-07-14T20:53:09+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/iam-basarili-olmasi/</loc>
+    <lastmod>2024-07-14T20:53:09+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-07-14T20:53:09+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/payda%C5%9F-kat%C4%B1l%C4%B1m%C4%B1/</loc>
+    <lastmod>2024-07-14T20:53:09+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sod-matrisi-segregation-of-duties/</loc>
+    <lastmod>2024-07-14T20:53:09+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-07-14T20:53:09+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/authentication/</loc>
     <lastmod>2024-07-11T22:30:46+03:00</lastmod>
   </url><url>
@@ -12,12 +36,6 @@
     <lastmod>2024-07-11T22:30:46+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/kimlik-ve-erisim-yonetimi/</loc>
-    <lastmod>2024-07-11T22:30:46+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-07-11T22:30:46+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-07-11T22:30:46+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/iam-dashboard/</loc>
@@ -39,9 +57,6 @@
     <lastmod>2024-06-17T12:00:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/%C3%A7al%C4%B1%C5%9Fan-provizyonlama/</loc>
-    <lastmod>2024-06-17T12:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/identity-access-management/</loc>
     <lastmod>2024-06-17T12:00:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/idm-kullanici-provizyonlama/</loc>

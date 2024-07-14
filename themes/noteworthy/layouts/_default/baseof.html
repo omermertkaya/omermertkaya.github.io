@@ -3,6 +3,11 @@
 <html lang="{{ $.Site.LanguageCode | default "en" }}">
     {{ partial "head.html" . }}
     <body>
+        {{- if .IsHome -}}
+        <meta name="description" content="{{ site.Params.Description }}" />
+        {{- else -}}
+        <meta name="description" content="{{ .Params.Description }}" />
+        {{- end }}
         {{ partial "nav.html" . }}
         <div id="content" class="content-container">
         {{ block "main" . }}
