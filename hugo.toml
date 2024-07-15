@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://omermertkaya.github.io/"
 languageCode = "en-us"
 title = "Ömer Mert Kaya"
 theme = "noteworthy"
@@ -40,6 +40,11 @@ disqusShortname = ""
 
     # Programming
     github = "https://github.com/omermertkaya"
+
+    # SEO settings
+
+    author = "Omer Mert KAYA"
+    keywords = "ömer mert kaya'nın kişisel bloğu, identity and access management, kimlik ve erişim yönetimi, security blog"
 
 # Menu links along the sidebar navigation.
 
