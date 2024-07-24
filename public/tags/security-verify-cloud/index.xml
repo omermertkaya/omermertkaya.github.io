@@ -6,12 +6,12 @@
     <description>Recent content in Security Verify Cloud on Ömer Mert Kaya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jul 2024 15:15:08 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2024 15:45:08 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/security-verify-cloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IBM Security Verify SAML Authentication</title>
       <link>http://localhost:1313/posts/ibm-security-verify-kullanimi-saml/</link>
-      <pubDate>Wed, 24 Jul 2024 15:15:08 +0300</pubDate>
+      <pubDate>Wed, 24 Jul 2024 15:45:08 +0300</pubDate>
       <guid>http://localhost:1313/posts/ibm-security-verify-kullanimi-saml/</guid>
       <description>Selamlar,&#xA;Bu yazımda, cloud tabanlı IBM Security Verify&amp;rsquo;in deneme sürümü ile SAML giriş yapma senaryosunu çalışacağız.</description>
     </item>
