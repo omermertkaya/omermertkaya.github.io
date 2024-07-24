@@ -6,8 +6,15 @@
     <description>Recent content on Ömer Mert Kaya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jul 2024 20:53:09 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2024 15:45:08 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IBM Security Verify SAML Authentication</title>
+      <link>http://localhost:1313/posts/ibm-security-verify-kullanimi-saml/</link>
+      <pubDate>Wed, 24 Jul 2024 15:45:08 +0300</pubDate>
+      <guid>http://localhost:1313/posts/ibm-security-verify-kullanimi-saml/</guid>
+      <description>Selamlar,&#xA;Bu yazımda, cloud tabanlı IBM Security Verify&amp;rsquo;in deneme sürümü ile SAML giriş yapma senaryosunu çalışacağız.</description>
+    </item>
     <item>
       <title>Kimlik ve Erişim Yönetiminin Şirketinizde Başarılı Olması İçin Paydaş Katılımının Önemi</title>
       <link>http://localhost:1313/posts/iam-basarili-olmasi/</link>

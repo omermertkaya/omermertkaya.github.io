@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Ömer Mert Kaya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jul 2024 20:53:09 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2024 13:31:04 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Authentication</title>
+      <link>http://localhost:1313/tags/authentication/</link>
+      <pubDate>Wed, 24 Jul 2024 13:31:04 +0300</pubDate>
+      <guid>http://localhost:1313/tags/authentication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ibm</title>
+      <link>http://localhost:1313/tags/ibm/</link>
+      <pubDate>Wed, 24 Jul 2024 13:31:04 +0300</pubDate>
+      <guid>http://localhost:1313/tags/ibm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security Verify</title>
+      <link>http://localhost:1313/tags/security-verify/</link>
+      <pubDate>Wed, 24 Jul 2024 13:31:04 +0300</pubDate>
+      <guid>http://localhost:1313/tags/security-verify/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Erişim Yönetimi</title>
       <link>http://localhost:1313/tags/eri%C5%9Fim-y%C3%B6netimi/</link>
@@ -41,13 +62,6 @@
       <link>http://localhost:1313/tags/sod-matrisi-segregation-of-duties/</link>
       <pubDate>Sun, 14 Jul 2024 20:53:09 +0300</pubDate>
       <guid>http://localhost:1313/tags/sod-matrisi-segregation-of-duties/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Authentication</title>
-      <link>http://localhost:1313/tags/authentication/</link>
-      <pubDate>Thu, 11 Jul 2024 22:30:46 +0300</pubDate>
-      <guid>http://localhost:1313/tags/authentication/</guid>
       <description></description>
     </item>
     <item>
