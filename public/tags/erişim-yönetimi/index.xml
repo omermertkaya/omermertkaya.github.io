@@ -6,8 +6,15 @@
     <description>Recent content in Erişim Yönetimi on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jul 2024 20:53:09 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 09 Aug 2024 15:00:00 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/eri%C5%9Fim-y%C3%B6netimi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kimlik ve Erişim Yönetiminde Erişim Gözden Geçirme Çalışmaları</title>
+      <link>http://localhost:1313/posts/rol-yetki-gozden-gecirme/</link>
+      <pubDate>Fri, 09 Aug 2024 15:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/rol-yetki-gozden-gecirme/</guid>
+      <description>Kimlik ve Erişim Yönetimi (IAM) sistemlerinde yetki/erişim gözden geçirme süreci, erişimlerin denetlenmesi amacıyla yürütülen çalışmaların genel tanımıdır.</description>
+    </item>
     <item>
       <title>Kimlik ve Erişim Yönetiminin Şirketinizde Başarılı Olması İçin Paydaş Katılımının Önemi</title>
       <link>http://localhost:1313/posts/iam-basarili-olmasi/</link>
