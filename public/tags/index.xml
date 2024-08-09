@@ -4,10 +4,80 @@
     <title>Tags on Ömer Mert Kaya</title>
     <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Ömer Mert Kaya</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jul 2024 15:45:08 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 05 Aug 2024 21:00:41 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BilgiGüvenliği</title>
+      <link>http://localhost:1313/tags/bilgig%C3%BCvenli%C4%9Fi/</link>
+      <pubDate>Mon, 05 Aug 2024 21:00:41 +0300</pubDate>
+      <guid>http://localhost:1313/tags/bilgig%C3%BCvenli%C4%9Fi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ErişimYönetimi</title>
+      <link>http://localhost:1313/tags/eri%C5%9Fimy%C3%B6netimi/</link>
+      <pubDate>Mon, 05 Aug 2024 21:00:41 +0300</pubDate>
+      <guid>http://localhost:1313/tags/eri%C5%9Fimy%C3%B6netimi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IAM</title>
+      <link>http://localhost:1313/tags/iam/</link>
+      <pubDate>Mon, 05 Aug 2024 21:00:41 +0300</pubDate>
+      <guid>http://localhost:1313/tags/iam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IdentityAndAccessManagement</title>
+      <link>http://localhost:1313/tags/identityandaccessmanagement/</link>
+      <pubDate>Mon, 05 Aug 2024 21:00:41 +0300</pubDate>
+      <guid>http://localhost:1313/tags/identityandaccessmanagement/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KimlikveErişimYönetimi</title>
+      <link>http://localhost:1313/tags/kimlikveeri%C5%9Fimy%C3%B6netimi/</link>
+      <pubDate>Mon, 05 Aug 2024 21:00:41 +0300</pubDate>
+      <guid>http://localhost:1313/tags/kimlikveeri%C5%9Fimy%C3%B6netimi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RoleMining</title>
+      <link>http://localhost:1313/tags/rolemining/</link>
+      <pubDate>Mon, 05 Aug 2024 21:00:41 +0300</pubDate>
+      <guid>http://localhost:1313/tags/rolemining/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RolMadenciliği</title>
+      <link>http://localhost:1313/tags/rolmadencili%C4%9Fi/</link>
+      <pubDate>Mon, 05 Aug 2024 21:00:41 +0300</pubDate>
+      <guid>http://localhost:1313/tags/rolmadencili%C4%9Fi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RolYönetimi</title>
+      <link>http://localhost:1313/tags/roly%C3%B6netimi/</link>
+      <pubDate>Mon, 05 Aug 2024 21:00:41 +0300</pubDate>
+      <guid>http://localhost:1313/tags/roly%C3%B6netimi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SiberGüvenlik</title>
+      <link>http://localhost:1313/tags/siberg%C3%BCvenlik/</link>
+      <pubDate>Mon, 05 Aug 2024 21:00:41 +0300</pubDate>
+      <guid>http://localhost:1313/tags/siberg%C3%BCvenlik/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>YetkiYönetimi</title>
+      <link>http://localhost:1313/tags/yetkiy%C3%B6netimi/</link>
+      <pubDate>Mon, 05 Aug 2024 21:00:41 +0300</pubDate>
+      <guid>http://localhost:1313/tags/yetkiy%C3%B6netimi/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Ibm</title>
       <link>http://localhost:1313/tags/ibm/</link>
@@ -41,13 +111,6 @@
       <link>http://localhost:1313/tags/eri%C5%9Fim-y%C3%B6netimi/</link>
       <pubDate>Sun, 14 Jul 2024 20:53:09 +0300</pubDate>
       <guid>http://localhost:1313/tags/eri%C5%9Fim-y%C3%B6netimi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>IAM</title>
-      <link>http://localhost:1313/tags/iam/</link>
-      <pubDate>Sun, 14 Jul 2024 20:53:09 +0300</pubDate>
-      <guid>http://localhost:1313/tags/iam/</guid>
       <description></description>
     </item>
     <item>
