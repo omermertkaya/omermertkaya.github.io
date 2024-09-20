@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gözden Geçirme Kampanyası Dashboard'u</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+
+        .container {
+
+            margin-top: 30px;
+
+        }
+
+        .card {
+
+            margin-bottom: 30px;
+
+        }
+
+        .icon {
+
+            font-size: 2rem;
+
+            color: #007bff;
+
+        }
+
+        .main-header {
+
+            margin-bottom: 10px;
+
+        }
+
+        .date-info {
+
+            margin-bottom: 30px;
+
+            font-size: 1.2rem;
+
+        }
+
+        .date-box {
+
+            background-color: #f8f9fa;
+
+            border: 1px solid #DFDFDF;
+
+            border-radius: 10px;
+
+            padding: 10px 20px;
+
+            display: inline-block;
+
+        }
+
+        .date-icon {
+
+            color: #007bff;
+
+            margin-right: 10px;
+
+        }
+
+        .chart-header {
+
+            text-align: center;
+
+            font-size: 1.5rem;
+
+            margin-bottom: 10px;
+
+        }
+
+        .completion-header {
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            font-size: 1.2rem;
+
+            margin-bottom: 15px;
+
+        }
+
+        .completion-icon {
+
+            margin-right: 10px;
+
+            color: green;
+
+        }
+</style>
+</head>
+<body>
+<div class="container">
+<!-- Ana Başlık -->
+<div class="main-header text-center">
+<h1>2024 Yılı Yetki ve Rol Gözden Geçirme Dönemi</h1>
+</div>
+ 
+        <!-- Başlangıç ve Bitiş Tarihi -->
+<div class="date-info text-center">
+<div class="date-box">
+<i class="fas fa-calendar-alt date-icon"></i>
+<strong>Başlangıç Tarihi:</strong> 01.05.2024 &nbsp;&nbsp; | &nbsp;&nbsp;
+<strong>Bitiş Tarihi:</strong> 30.05.2024
+</div>
+</div>
+ 
+        <div class="row">
+<!-- Toplam Gözden Geçirecek Kişi Sayısı -->
+<div class="col-md-6">
+<div class="card">
+<div class="card-header d-flex align-items-center">
+<i class="fas fa-user-tie icon"></i> <!-- Yönetici İkonu -->
+<h5 class="ml-3">Toplam Gözden Geçirecek Kişi Sayısı (Yönetici)</h5>
+</div>
+<div class="card-body">
+<h2 class="text-center">250</h2>
+</div>
+</div>
+</div>
+ 
+            <!-- Toplam Gözden Geçirilecek Çalışan Sayısı -->
+<div class="col-md-6">
+<div class="card">
+<div class="card-header d-flex align-items-center">
+<i class="fas fa-user-friends icon"></i> <!-- Çalışanlar İkonu -->
+<h5 class="ml-3">Toplam Gözden Geçirilecek Çalışan Sayısı</h5>
+</div>
+<div class="card-body">
+<h2 class="text-center">3000</h2>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="card">
+<div class="card-header d-flex align-items-center d-flex justify-content-center align-items-center">
+ 
+ 
+                        <i class="fas fa-handshake icon "></i> <!-- Yönetici İkonu -->
+<h5 class="ml-3 ">Sistemde En Az Bir Kez İşaretleme Yapan Yönetici Sayısı</h5>
+</div>
+<div class="card-body">
+<h2 class="text-center">50</h2>
+</div>
+</div>
+</div>
+</div>
+ 
+        <div class="row">
+<!-- Çalışan Gözden Geçirme Oranı Grafiği -->
+<div class="col-md-6">
+<div class="card">
+<div class="card-header chart-header">
+<strong>Gözden Geçirilen Çalışan Sayısı</strong>
+</div>
+<!-- Tamamlanma Oranı Başlığı -->
+<div class="completion-header">
+<i class="fas fa-percentage completion-icon"></i> <!-- Yüzde İkonu -->
+<span>Tamamlanma Oranı: %22.9</span>
+</div>
+<div class="card-body">
+<canvas id="employeeCompletionRate"></canvas>
+</div>
+</div>
+</div>
+ 
+            <!-- Rol ve Yetki Gözden Geçirme Oranı Grafiği -->
+<div class="col-md-6">
+<div class="card">
+<div class="card-header chart-header">
+<strong>Gözden Geçirilen Yetki ve Rol Sayısı</strong>
+</div>
+<!-- Tamamlanma Oranı Başlığı -->
+<div class="completion-header">
+<i class="fas fa-percentage completion-icon"></i> <!-- Yüzde İkonu -->
+<span>Tamamlanma Oranı: %34.2</span>
+</div>
+<div class="card-body">
+<canvas id="rolePermissionCompletionRate"></canvas>
+</div>
+</div>
+</div>
+</div>
+</div>
+ 
+    <div class="date-info text-center">
+<div class="date-box">
+<i class="fas fa-hourglass-half date-icon"></i>
+<strong>Raporlama Tarihi:</strong> 10.05.2024  
+</div>
+</div>
+ 
+    
+ 
+ 
+    <footer class="py-3 my-4">
+<ul class="nav justify-content-center border-bottom pb-3 mb-3">
+<li class="nav-item">Mert Kaya - Identity And Access Management Engineer - <a
+
+                    href="mailto:omermertkaya@hotmail.com.tr"
+
+                    class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">omermertkaya@hotmail.com.tr</a>
+</li>
+</ul>
+<p class="text-center text-muted">© 2024 <a href="/">omermertkaya.github.io</a> </p>
+</footer>
+ 
+ 
+    <script>
+
+        // Çalışan gözden geçirme oranı grafiği (doughnut)
+
+        const ctx1 = document.getElementById('employeeCompletionRate').getContext('2d');
+
+        new Chart(ctx1, {
+
+            type: 'doughnut',
+
+            data: {
+
+                labels: ['Tamamlanan', 'Tamamlanacak'],
+
+                datasets: [{
+
+                    data: [686, 3000 - 686], // Gözden geçirilen çalışan sayısı
+
+                    backgroundColor: ['rgba(54, 162, 235, 1)', 'rgba(201, 203, 207, 1)'],
+
+                    hoverOffset: 4
+
+                }]
+
+            },
+
+            options: {
+
+                plugins: {
+
+                    datalabels: {
+
+                        color: '#fdfdfd',
+
+                        font: {
+
+                            weight: 'bold',
+
+                            size: 16
+
+                        },
+
+                        formatter: (value, ctx) => {
+
+                            let sum = ctx.chart.data.datasets[0].data.reduce((a, b) => a + b, 0);
+
+                            let percentage = (value * 100 / sum).toFixed(1) + "%";
+
+                            return value + " (" + percentage + ")"; // Sayılar ve yüzde oranları
+
+                        }
+
+                    }
+
+                }
+
+            },
+
+            plugins: [ChartDataLabels]  // Data Labels eklentisini kullanarak sayıları ve oranları göster
+
+        });
+ 
+        // Rol ve yetki gözden geçirme oranı grafiği (doughnut)
+
+        const ctx2 = document.getElementById('rolePermissionCompletionRate').getContext('2d');
+
+        new Chart(ctx2, {
+
+            type: 'doughnut',
+
+            data: {
+
+                labels: ['Tamamlanan', 'Tamamlanacak'],
+
+                datasets: [{
+
+                    data: [10000, 29271 - 10000], // Gözden geçirilen yetki ve rol sayısı
+
+                    backgroundColor: ['rgba(255, 159, 64, 1)', 'rgba(201, 203, 207, 1)'],
+
+                    hoverOffset: 4
+
+                }]
+
+            },
+
+            options: {
+
+                plugins: {
+
+                    datalabels: {
+
+                        color: '#fdfdfd',
+
+                        font: {
+
+                            weight: 'bold',
+
+                            size: 16
+
+                        },
+
+                        formatter: (value, ctx) => {
+
+                            let sum = ctx.chart.data.datasets[0].data.reduce((a, b) => a + b, 0);
+
+                            let percentage = (value * 100 / sum).toFixed(1) + "%";
+
+                            return value + " (" + percentage + ")"; // Sayılar ve yüzde oranları
+
+                        }
+
+                    }
+
+                }
+
+            },
+
+            plugins: [ChartDataLabels]  // Data Labels eklentisini kullanarak sayıları ve oranları göster
+
+        });
+</script>
+</body>
+</html>
+ 

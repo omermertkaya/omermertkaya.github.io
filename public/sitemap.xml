@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/identity-access-management/</loc>
+    <lastmod>2024-09-20T23:25:18+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/idm-kullanici-provizyonlama/</loc>
+    <lastmod>2024-09-20T23:25:18+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</loc>
+    <lastmod>2024-09-20T23:25:18+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kullanici-yasam-dongusu/</loc>
+    <lastmod>2024-09-20T23:25:18+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/kullanici-yetki-gozden-gecirme-rapor/</loc>
+    <lastmod>2024-09-20T23:25:18+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-09-20T23:25:18+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-09-20T23:25:18+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/user-lifecycle-management/</loc>
+    <lastmod>2024-09-20T23:25:18+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/eri%C5%9Fim-kontrol%C3%BC/</loc>
     <lastmod>2024-08-09T15:00:00+03:00</lastmod>
   </url><url>
@@ -26,13 +50,7 @@
     <loc>http://localhost:1313/tags/kullan%C4%B1c%C4%B1-yetkilendirme/</loc>
     <lastmod>2024-08-09T15:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-08-09T15:00:00+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/rol-tabanl%C4%B1-eri%C5%9Fim/</loc>
-    <lastmod>2024-08-09T15:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-08-09T15:00:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/yetki-g%C3%B6zden-ge%C3%A7irme/</loc>
@@ -92,9 +110,6 @@
     <loc>http://localhost:1313/tags/security-verify-cloud/</loc>
     <lastmod>2024-07-24T15:45:08+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/identity-access-management/</loc>
-    <lastmod>2024-07-14T20:53:09+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/iam-basarili-olmasi/</loc>
     <lastmod>2024-07-14T20:53:09+03:00</lastmod>
   </url><url>
@@ -125,9 +140,6 @@
     <loc>http://localhost:1313/tags/identity-and-access-management/</loc>
     <lastmod>2024-06-30T12:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</loc>
-    <lastmod>2024-06-30T12:00:00+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-dashboard/</loc>
     <lastmod>2024-06-30T12:00:00+03:00</lastmod>
   </url><url>
@@ -135,9 +147,6 @@
     <lastmod>2024-06-17T12:00:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/%C3%A7al%C4%B1%C5%9Fan-provizyonlama/</loc>
-    <lastmod>2024-06-17T12:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/idm-kullanici-provizyonlama/</loc>
     <lastmod>2024-06-17T12:00:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/kullanici-provizyonlama/</loc>

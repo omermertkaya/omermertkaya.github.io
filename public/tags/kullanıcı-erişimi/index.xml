@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kullanıcı Erişimi on Ömer Mert Kaya</title>
+    <link>http://localhost:1313/tags/kullan%C4%B1c%C4%B1-eri%C5%9Fimi/</link>
+    <description>Recent content in Kullanıcı Erişimi on Ömer Mert Kaya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Sep 2024 23:25:18 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/kullan%C4%B1c%C4%B1-eri%C5%9Fimi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kullanıcı Yetki Gözden Geçirme Süreci Raporlama(Dashboard)</title>
+      <link>http://localhost:1313/posts/kullanici-yetki-gozden-gecirme-rapor/</link>
+      <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
+      <guid>http://localhost:1313/posts/kullanici-yetki-gozden-gecirme-rapor/</guid>
+      <description>Yetki gözden geçirme süreçleri, Kimlik ve Erişim Yönetimi (IAM) sistemlerinin güvenliği artıran en önemli bileşenlerinden biridir.</description>
+    </item>
+  </channel>
+</rss>
