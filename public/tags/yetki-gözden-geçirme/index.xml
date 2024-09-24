@@ -6,8 +6,15 @@
     <description>Recent content in Yetki Gözden Geçirme on Ömer Mert Kaya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Aug 2024 15:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 20 Sep 2024 23:25:18 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/yetki-g%C3%B6zden-ge%C3%A7irme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kullanıcı Yetki Gözden Geçirme Süreci Raporlama(Dashboard)</title>
+      <link>http://localhost:1313/posts/kullanici-yetki-gozden-gecirme-rapor/</link>
+      <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
+      <guid>http://localhost:1313/posts/kullanici-yetki-gozden-gecirme-rapor/</guid>
+      <description>Yetki gözden geçirme süreçleri, Kimlik ve Erişim Yönetimi (IAM) sistemlerinin güvenliği artıran en önemli bileşenlerinden biridir.</description>
+    </item>
     <item>
       <title>Kimlik ve Erişim Yönetiminde Yetki Gözden Geçirme Çalışmaları</title>
       <link>http://localhost:1313/posts/rol-yetki-gozden-gecirme/</link>

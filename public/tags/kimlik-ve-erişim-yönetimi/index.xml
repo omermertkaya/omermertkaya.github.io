@@ -6,14 +6,14 @@
     <description>Recent content in Kimlik Ve Erişim Yönetimi on Ömer Mert Kaya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Sep 2024 23:25:18 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 24 Sep 2024 21:31:21 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Kullanıcı Yetki Gözden Geçirme Süreci Raporlama(Dashboard)</title>
-      <link>http://localhost:1313/posts/kullanici-yetki-gozden-gecirme-rapor/</link>
-      <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
-      <guid>http://localhost:1313/posts/kullanici-yetki-gozden-gecirme-rapor/</guid>
-      <description>Yetki gözden geçirme süreçleri, Kimlik ve Erişim Yönetimi (IAM) sistemlerinin güvenliği artıran en önemli bileşenlerinden biridir.</description>
+      <title>Kimlik ve Erişim Yönetimi Tedbirleri: Cumhurbaşkanlığı Bilgi Güvenliği Rehberi Perspektifine Göz Atalım</title>
+      <link>http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-bilgi-ve-iletisim-guvenligi-rehberinden/</link>
+      <pubDate>Tue, 24 Sep 2024 21:31:21 +0300</pubDate>
+      <guid>http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-bilgi-ve-iletisim-guvenligi-rehberinden/</guid>
+      <description>Kimlik ve erişim yönetimi(IDM/IAM) artık standartlamış olan doğru kişilerin, doğru kaynaklara, doğru zamanda ve doğru nedenlerle erişebilmelerinin alt yapısını oluşturur.</description>
     </item>
     <item>
       <title>Kimlik ve Erişim Yönetimi(IAM) Dashboard Örneği - Metrikler</title>

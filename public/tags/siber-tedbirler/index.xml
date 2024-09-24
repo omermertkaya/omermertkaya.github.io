@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Identity and Access Management on Ömer Mert Kaya</title>
-    <link>http://localhost:1313/tags/identity-and-access-management/</link>
-    <description>Recent content in Identity and Access Management on Ömer Mert Kaya</description>
+    <title>Siber Tedbirler on Ömer Mert Kaya</title>
+    <link>http://localhost:1313/tags/siber-tedbirler/</link>
+    <description>Recent content in Siber Tedbirler on Ömer Mert Kaya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Sep 2024 21:31:21 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/identity-and-access-management/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/siber-tedbirler/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kimlik ve Erişim Yönetimi Tedbirleri: Cumhurbaşkanlığı Bilgi Güvenliği Rehberi Perspektifine Göz Atalım</title>
       <link>http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-bilgi-ve-iletisim-guvenligi-rehberinden/</link>
       <pubDate>Tue, 24 Sep 2024 21:31:21 +0300</pubDate>
       <guid>http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-bilgi-ve-iletisim-guvenligi-rehberinden/</guid>
       <description>Kimlik ve erişim yönetimi(IDM/IAM) artık standartlamış olan doğru kişilerin, doğru kaynaklara, doğru zamanda ve doğru nedenlerle erişebilmelerinin alt yapısını oluşturur.</description>
-    </item>
-    <item>
-      <title>Kimlik ve Erişim Yönetimi(IAM) Dashboard Örneği - Metrikler</title>
-      <link>http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-dashboard/</link>
-      <pubDate>Sun, 30 Jun 2024 12:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-dashboard/</guid>
-      <description>Kimlik ve Erişim Yönetimi (IAM) ile yaptığımız entegrasyonlarla birçok işlem ve süreci otomatikleştiriyoruz.</description>
     </item>
   </channel>
 </rss>

@@ -6,34 +6,104 @@
     <description>Recent content in Tags on Ömer Mert Kaya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Sep 2024 23:25:18 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 24 Sep 2024 21:31:21 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Identity Access Management</title>
-      <link>http://localhost:1313/tags/identity-access-management/</link>
-      <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
-      <guid>http://localhost:1313/tags/identity-access-management/</guid>
+      <title>Bilgi Ve Iletişim Güvenliği</title>
+      <link>http://localhost:1313/tags/bilgi-ve-ileti%C5%9Fim-g%C3%BCvenli%C4%9Fi/</link>
+      <pubDate>Tue, 24 Sep 2024 21:31:21 +0300</pubDate>
+      <guid>http://localhost:1313/tags/bilgi-ve-ileti%C5%9Fim-g%C3%BCvenli%C4%9Fi/</guid>
       <description></description>
     </item>
     <item>
-      <title>Idm Kullanici Provizyonlama</title>
-      <link>http://localhost:1313/tags/idm-kullanici-provizyonlama/</link>
-      <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
-      <guid>http://localhost:1313/tags/idm-kullanici-provizyonlama/</guid>
+      <title>Identity and Access Management</title>
+      <link>http://localhost:1313/tags/identity-and-access-management/</link>
+      <pubDate>Tue, 24 Sep 2024 21:31:21 +0300</pubDate>
+      <guid>http://localhost:1313/tags/identity-and-access-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Kimlik Ve Erişim Yönetimi</title>
       <link>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</link>
-      <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
+      <pubDate>Tue, 24 Sep 2024 21:31:21 +0300</pubDate>
       <guid>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</guid>
       <description></description>
     </item>
     <item>
-      <title>Kullanici Yasam Dongusu</title>
-      <link>http://localhost:1313/tags/kullanici-yasam-dongusu/</link>
+      <title>Siber Tedbirler</title>
+      <link>http://localhost:1313/tags/siber-tedbirler/</link>
+      <pubDate>Tue, 24 Sep 2024 21:31:21 +0300</pubDate>
+      <guid>http://localhost:1313/tags/siber-tedbirler/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Access Management</title>
+      <link>http://localhost:1313/tags/access-management/</link>
       <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
-      <guid>http://localhost:1313/tags/kullanici-yasam-dongusu/</guid>
+      <guid>http://localhost:1313/tags/access-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Güvenlik</title>
+      <link>http://localhost:1313/tags/g%C3%BCvenlik/</link>
+      <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
+      <guid>http://localhost:1313/tags/g%C3%BCvenlik/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IAM</title>
+      <link>http://localhost:1313/tags/iam/</link>
+      <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
+      <guid>http://localhost:1313/tags/iam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Identity Lifecycle</title>
+      <link>http://localhost:1313/tags/identity-lifecycle/</link>
+      <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
+      <guid>http://localhost:1313/tags/identity-lifecycle/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Individual Access Review</title>
+      <link>http://localhost:1313/tags/individual-access-review/</link>
+      <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
+      <guid>http://localhost:1313/tags/individual-access-review/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kimlik Doğrulama</title>
+      <link>http://localhost:1313/tags/kimlik-do%C4%9Frulama/</link>
+      <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
+      <guid>http://localhost:1313/tags/kimlik-do%C4%9Frulama/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kimlik Yönetimi</title>
+      <link>http://localhost:1313/tags/kimlik-y%C3%B6netimi/</link>
+      <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
+      <guid>http://localhost:1313/tags/kimlik-y%C3%B6netimi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kullanıcı Erişimi</title>
+      <link>http://localhost:1313/tags/kullan%C4%B1c%C4%B1-eri%C5%9Fimi/</link>
+      <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
+      <guid>http://localhost:1313/tags/kullan%C4%B1c%C4%B1-eri%C5%9Fimi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Role Management</title>
+      <link>http://localhost:1313/tags/role-management/</link>
+      <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
+      <guid>http://localhost:1313/tags/role-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/tags/security/</link>
+      <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
+      <guid>http://localhost:1313/tags/security/</guid>
       <description></description>
     </item>
     <item>
@@ -41,6 +111,34 @@
       <link>http://localhost:1313/tags/user-lifecycle-management/</link>
       <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
       <guid>http://localhost:1313/tags/user-lifecycle-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>User Permissions</title>
+      <link>http://localhost:1313/tags/user-permissions/</link>
+      <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
+      <guid>http://localhost:1313/tags/user-permissions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>User Review Process</title>
+      <link>http://localhost:1313/tags/user-review-process/</link>
+      <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
+      <guid>http://localhost:1313/tags/user-review-process/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yetki Gözden Geçirme</title>
+      <link>http://localhost:1313/tags/yetki-g%C3%B6zden-ge%C3%A7irme/</link>
+      <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
+      <guid>http://localhost:1313/tags/yetki-g%C3%B6zden-ge%C3%A7irme/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yetki Yönetimi</title>
+      <link>http://localhost:1313/tags/yetki-y%C3%B6netimi/</link>
+      <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
+      <guid>http://localhost:1313/tags/yetki-y%C3%B6netimi/</guid>
       <description></description>
     </item>
     <item>
@@ -100,24 +198,10 @@
       <description></description>
     </item>
     <item>
-      <title>Yetki Gözden Geçirme</title>
-      <link>http://localhost:1313/tags/yetki-g%C3%B6zden-ge%C3%A7irme/</link>
-      <pubDate>Fri, 09 Aug 2024 15:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/tags/yetki-g%C3%B6zden-ge%C3%A7irme/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Yetki Sertifikasyonu</title>
       <link>http://localhost:1313/tags/yetki-sertifikasyonu/</link>
       <pubDate>Fri, 09 Aug 2024 15:00:00 +0300</pubDate>
       <guid>http://localhost:1313/tags/yetki-sertifikasyonu/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Yetki Yönetimi</title>
-      <link>http://localhost:1313/tags/yetki-y%C3%B6netimi/</link>
-      <pubDate>Fri, 09 Aug 2024 15:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/tags/yetki-y%C3%B6netimi/</guid>
       <description></description>
     </item>
     <item>
@@ -132,13 +216,6 @@
       <link>http://localhost:1313/tags/eri%C5%9Fimy%C3%B6netimi/</link>
       <pubDate>Mon, 05 Aug 2024 21:00:41 +0300</pubDate>
       <guid>http://localhost:1313/tags/eri%C5%9Fimy%C3%B6netimi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>IAM</title>
-      <link>http://localhost:1313/tags/iam/</link>
-      <pubDate>Mon, 05 Aug 2024 21:00:41 +0300</pubDate>
-      <guid>http://localhost:1313/tags/iam/</guid>
       <description></description>
     </item>
     <item>
@@ -219,6 +296,13 @@
       <description></description>
     </item>
     <item>
+      <title>Identity Access Management</title>
+      <link>http://localhost:1313/tags/identity-access-management/</link>
+      <pubDate>Sun, 14 Jul 2024 20:53:09 +0300</pubDate>
+      <guid>http://localhost:1313/tags/identity-access-management/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Paydaş Katılımı</title>
       <link>http://localhost:1313/tags/payda%C5%9F-kat%C4%B1l%C4%B1m%C4%B1/</link>
       <pubDate>Sun, 14 Jul 2024 20:53:09 +0300</pubDate>
@@ -268,13 +352,6 @@
       <description></description>
     </item>
     <item>
-      <title>Identity and Access Management</title>
-      <link>http://localhost:1313/tags/identity-and-access-management/</link>
-      <pubDate>Sun, 30 Jun 2024 12:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/tags/identity-and-access-management/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Çalışan Hesapları Oluşturma</title>
       <link>http://localhost:1313/tags/%C3%A7al%C4%B1%C5%9Fan-hesaplar%C4%B1-olu%C5%9Fturma/</link>
       <pubDate>Mon, 17 Jun 2024 12:00:00 +0300</pubDate>
@@ -286,6 +363,13 @@
       <link>http://localhost:1313/tags/%C3%A7al%C4%B1%C5%9Fan-provizyonlama/</link>
       <pubDate>Mon, 17 Jun 2024 12:00:00 +0300</pubDate>
       <guid>http://localhost:1313/tags/%C3%A7al%C4%B1%C5%9Fan-provizyonlama/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Idm Kullanici Provizyonlama</title>
+      <link>http://localhost:1313/tags/idm-kullanici-provizyonlama/</link>
+      <pubDate>Mon, 17 Jun 2024 12:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tags/idm-kullanici-provizyonlama/</guid>
       <description></description>
     </item>
     <item>
