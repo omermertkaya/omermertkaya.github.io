@@ -40,7 +40,7 @@ title: "Özgeçmiş"
 ---
 
 
-### Identity And Access Management Uzmanı | AgeSA Hayat ve Emeklilik | 
+### Kimlik ve Erişim Yönetimi Kıdemli Uzmanı | AgeSA Hayat ve Emeklilik | 
 <time> 2022 - Devam Ediyor </time>
 
 - Kimlik ve Erişim Yönetimi (IAM) çözümlerinin tasarımı, geliştirilmesi ve uygulanmasında deneyimli
