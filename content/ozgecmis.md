@@ -40,7 +40,7 @@ title: "Özgeçmiş"
 ---
 
 
-### Kimlik ve Erişim Yönetimi Kıdemli Uzmanı | AgeSA Hayat ve Emeklilik | 
+### Kimlik ve Erişim Yönetimi Kıdemli Uzmanı | AgeSA Hayat ve Emeklilik
 <time> 2022 - Devam Ediyor </time>
 
 - Kimlik ve Erişim Yönetimi (IAM) çözümlerinin tasarımı, geliştirilmesi ve uygulanmasında deneyimli
@@ -59,7 +59,7 @@ title: "Özgeçmiş"
 
 
 
-### Yayın Sistem Mühendisi Uzman Yardımcısı | Türk Telekom | 
+### Yayın Sistem Mühendisi Uzman Yardımcısı | Türk Telekom
 <time> 2021 - 2022 </time>
 
 - Tivibu Active Directory ortamının yönetilmesi
@@ -70,7 +70,7 @@ title: "Özgeçmiş"
 - Haber düzenleme ve senaryo yazma sistemleri/yazılımlarını destekleme
 - Intranet temel network alt yapısının yönetilmesini sağlama
 
-### Bilgisayar Mühendisi Yedek Subay | Milli Savunma Bakanlığı Sivas | 
+### Bilgisayar Mühendisi Yedek Subay | Milli Savunma Bakanlığı Sivas
 <time> 2020 - 2021 </time>
 
 - KaraNet ve MSBNet ağlarının kullanımı ve yönetimi
@@ -82,19 +82,19 @@ title: "Özgeçmiş"
 - Fiziksel Authentication uygulamalarının kurulumu, düzenlenmesi ve yetkilendirilmesi
 
 
-### Satış Danışmanı | LC Waikiki | 
+### Satış Danışmanı | LC Waikiki
 <time> 2015 - 2020 </time>
 
 - Süleyman Demirel Üniversitesi'nde Bilgisayar Mühendisliği okurken, LC Waikiki'de yarı zamanlı olarak çalıştım.
 - Kasa uygulamalarının mantığı, POS cihazları bağlantıları, gün sonu işlemleri, ödeme iptali ve ödeme iade işlemleri gibi tüm süreçlerin mantığını tam olarak biliyorum.
 -  Bölüm hizmetlerinde marka temsilini ve müşteri ilişkilerinde başarıyı sağlarım. Genellikle kalabalık LC Waikiki mağazalarında gizli müşterilerden 100 puan aldım.
 
-### Stajyer | Data Kontrol Bilişim Teknolojileri | 
+### Stajyer | Data Kontrol Bilişim Teknolojileri
 <time> 05/2019 – 06/2019 </time>
 
 - 1 aylık staj dönemimde, CRM süreçlerinin MVC yöntemiyle nasıl geliştirildiğini öğrendim. Stajım sırasında notlar aldım, bunlar Üniversite tarafından kontrol edilip kabul edildi.
 
-### Stajyer | Ataseven Teknoloji | 
+### Stajyer | Ataseven Teknoloji
 <time> 04/2019 – 05/2019 </time>
 
 - 1 aylık staj dönemimde Unity 3D Motoru ile basit bir oyun programladım. Stajım sırasında notlar aldım, bunlar Üniversite tarafından kontrol edilip kabul edildi.
