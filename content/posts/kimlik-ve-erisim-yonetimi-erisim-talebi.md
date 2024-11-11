@@ -1,5 +1,5 @@
 +++
-title = 'Kimlik Ve Erişim Yonetimi - Erişim Talebi Yönetimi'
+title = 'Kimlik Ve Erişim Yönetimi - Erişim Talebi Yönetimi'
 date = 2024-11-09T12:28:23+03:00
 draft = false
 tags = ['kimlik ve erişim yönetimi','identity and access management','ErişimTalebiYönetimi','KullanıcıErişimİzinleri']
