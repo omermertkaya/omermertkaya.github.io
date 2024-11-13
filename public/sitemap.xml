@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/apache-directory-studio/</loc>
+    <lastmod>2024-11-13T20:55:50+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/birden-fazla-ldap-baglantisi-yonetme/</loc>
+    <lastmod>2024-11-13T20:55:50+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/iam/</loc>
+    <lastmod>2024-11-13T20:55:50+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/identity-access-management/</loc>
+    <lastmod>2024-11-13T20:55:50+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ldap/</loc>
+    <lastmod>2024-11-13T20:55:50+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-11-13T20:55:50+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/oracle-ldap/</loc>
+    <lastmod>2024-11-13T20:55:50+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-11-13T20:55:50+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/eri%C5%9Fimtalebiy%C3%B6netimi/</loc>
     <lastmod>2024-11-09T12:28:23+03:00</lastmod>
   </url><url>
@@ -17,12 +41,6 @@
     <loc>http://localhost:1313/tags/kullan%C4%B1c%C4%B1eri%C5%9Fimizinleri/</loc>
     <lastmod>2024-11-09T12:28:23+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-09T12:28:23+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-11-09T12:28:23+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/bilgi-ve-ileti%C5%9Fim-g%C3%BCvenli%C4%9Fi/</loc>
     <lastmod>2024-09-24T21:31:21+03:00</lastmod>
   </url><url>
@@ -36,9 +54,6 @@
     <lastmod>2024-09-20T23:25:18+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/g%C3%BCvenlik/</loc>
-    <lastmod>2024-09-20T23:25:18+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/iam/</loc>
     <lastmod>2024-09-20T23:25:18+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/identity-lifecycle/</loc>
@@ -154,9 +169,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/security-verify-cloud/</loc>
     <lastmod>2024-07-24T15:45:08+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/identity-access-management/</loc>
-    <lastmod>2024-07-14T20:53:09+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/iam-basarili-olmasi/</loc>
     <lastmod>2024-07-14T20:53:09+03:00</lastmod>

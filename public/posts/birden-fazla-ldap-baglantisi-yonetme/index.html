@@ -12,10 +12,10 @@
     <meta name="description" content="Ömer Mert Kaya&#39;nın Kişisel Sayfası, IAM ve Security Engineer Blog yazıları">
     <meta name="keywords" content="ömer mert kaya&#39;nın kişisel bloğu, identity and access management, kimlik ve erişim yönetimi, security blog">
     <meta name="author" content="Omer Mert KAYA">
-    <link rel="canonical" href="http://localhost:1313/tags/kullan%C4%B1c%C4%B1eri%C5%9Fimizinleri/">
+    <link rel="canonical" href="http://localhost:1313/posts/birden-fazla-ldap-baglantisi-yonetme/">
 
 
-    <title>KullanıcıErişimİzinleri | Ömer Mert Kaya</title>
+    <title>Birden Fazla Ldap Bağlantısını Tek Uygulamadan Yönetmek | Ömer Mert Kaya</title>
     
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -36,8 +36,6 @@
     
     
  
-    
-    <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/kullan%C4%B1c%C4%B1eri%C5%9Fimizinleri/index.xml" title="Ömer Mert Kaya" />
     </head>
 
     <body><meta name="description" content="" />
@@ -73,7 +71,7 @@
   
     <a class="color-link nav-link" href="/archives/">Arşiv</a>
   
-  <a class="color-link nav-link" href="http://localhost:1313/tags/kullan%C4%B1c%C4%B1eri%C5%9Fimizinleri/" target="_blank" rel="noopener" type="application/rss+xml">RSS</a>
+  <a class="color-link nav-link" href="http://localhost:1313/posts/birden-fazla-ldap-baglantisi-yonetme/" target="_blank" rel="noopener" type="application/rss+xml">RSS</a>
 </div>
 <footer class="footer">
 	<div class="social-icons">
@@ -169,25 +167,45 @@
         <div id="content" class="content-container">
         
 
-  <h1>Tagged "KullanıcıErişimİzinleri"</h1>
-  
-  
+<h1 class="post-title">Birden Fazla Ldap Bağlantısını Tek Uygulamadan Yönetmek</h1>
     
-    <article>
-            <h2>
-                <a href="http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-erisim-talebi/">
-                    Kimlik Ve Erişim Yönetimi - Erişim Talebi Yönetimi
-                </a>
-            </h2>
-            <div>
-                <p>Erişim talebi yönetimi, çalışanların veya sistemlerimize erişim yetkisine sahip iş ortaklarımızın, IAM ile yönettiğimiz uygulamalarda yetki talep etme sürecini ifade eder.</p>
-                
-            </div>
-            <div class="post-footer">
-            <time>November 9, 2024</time>
-            </div> 
-        </article>
+    <time>November 13, 2024</time>
     
+    <div>
+        <p>
+        <p>Kimlik ve Erişim Yönetimi(IAM) sistemlerinde birçok uç uygulama ile bağlantı halinde çalışıyoruz.
+Bunlardan en önemli olanlardan diyebileceğimiz Aktif Dizin(Acitve Directory) bir LDAP dizin yönetim sistemidir.
+Oracle LDAP yine aktif dizine benzer bir sistemdir ve kullanıcıları, grupları yönetebilirsiniz.</p>
+<p>Peki, aynı anda 4-5 LDAP bağlantısını yönetmeniz gerektiğinde bu bağlantıları nasıl kolaylıkla sağlayabilirsiniz? Birden fazla LDAP bağlantısını tek bir uygulamadan yönetmek, IAM yöneticilerinin günlük akışında oldukça işlevsel ve zaman kazandıran bir çözümdür.</p>
+<p>Bu ihtiyaç için en sık kullanılan araçlardan biri olan Apache Directory Studio, günlük işlemlerimde benim de sıklıkla kullandığım bir program.</p>
+<h3 id="apache-directory-studioya-hızlı-bakış">Apache Directory Studio&rsquo;ya Hızlı Bakış</h3>
+<p>Apache Directory Studio, birden fazla LDAP dizinini tek ekrandan yönetmek için kullanılan popüler bir uygulamadır. Örneğin Active Directory, Oracle LDAP, ve Open LDAP gibi sistemlere tek bir uygulama üzerinden bağlanarak sorgulama ve düzenleme işlemleri yapabilirsiniz.</p>
+<p><img src="/images/birden-fazla-ldap-baglantisi-yonetme/apachedirectory.png" alt="Apache Directory Studio"></p>
+<p>LDAP bağlantısı kurabilmek için, bağlantı yapacağınız LDAP dizinine ait bilgilere ihtiyacınız var. LDAP hostname, port, kullanıcı adı ve şifrenizle giriş yaparak bağlantı sağlayabilirsiniz. LDAP dizini içindeki yetkilendirmelere göre, kendi yetkiniz dahilinde işlemler gerçekleştirebilirsiniz. Örneğin, LDAP yönetiminden sorumlu değilseniz, yalnızca IAM yöneticisi olarak yetkilendirildiyseniz, LDAP dizininde yalnızca görüntüleme yapma yetkisine sahip olabilirsiniz. Bu şekilde IAM ve LDAP’ın sağlıklı çalışıp çalışmadığını kontrol edebilirsiniz.</p>
+<p>Peki, ne tür kontroller yapılır? Örneğin, bir kullanıcıyı LDAP dizininde bulunan bir gruba ekleme işlemi gerçekleştirdiğinizi düşünelim. IAM sisteminde, bir kullanıcıya bir yetki ekleme işlemi başarılı olarak görüntüleniyorsa ancak kesinliğini kontrol etme ihtiyacınız varsa — özellikle sistemi yeni entegre ettiyseniz veya işlemi doğrulamanız gerekiyorsa — Apache Directory Studio’da ilgili LDAP bağlantısını açarak IAM’den yetki eklediğiniz grupta kullanıcının gerçekten yer alıp almadığını anlık olarak sorgulayabilirsiniz. Bu sayede, LDAP dizininde gruba eklenme işleminin başarılı bir şekilde gerçekleşip gerçekleşmediğini kontrol edebilirsiniz.</p>
+
+        </p>
+    </div>
+    
+
+    
+
+    <div class="page-footer">
+        
+        <hr class="footer-divider">
+        
+            <a class="tag" href="/tags/iam">#IAM</a>
+        
+            <a class="tag" href="/tags/identity-access-management">#identity access management</a>
+        
+            <a class="tag" href="/tags/ldap">#LDAP</a>
+        
+            <a class="tag" href="/tags/apache-directory-studio">#Apache Directory Studio</a>
+        
+            <a class="tag" href="/tags/oracle-ldap">#Oracle LDAP</a>
+        
+      
+    </div>
 
 
         

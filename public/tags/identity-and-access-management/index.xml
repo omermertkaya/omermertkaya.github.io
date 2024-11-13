@@ -9,11 +9,11 @@
     <lastBuildDate>Sat, 09 Nov 2024 12:28:23 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/identity-and-access-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Kimlik Ve Erisim Yonetimi - Erisim Talebi</title>
+      <title>Kimlik Ve Erişim Yönetimi - Erişim Talebi Yönetimi</title>
       <link>http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-erisim-talebi/</link>
       <pubDate>Sat, 09 Nov 2024 12:28:23 +0300</pubDate>
       <guid>http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-erisim-talebi/</guid>
-      <description>Erişim talebi yönetimi, çalışanların veya sistemlerimize erişimi olan iş ortaklarımızın, IAM ile yönettiğimiz uygulamalarda yetki talep etme sürecinin bütünüdür.</description>
+      <description>Erişim talebi yönetimi, çalışanların veya sistemlerimize erişim yetkisine sahip iş ortaklarımızın, IAM ile yönettiğimiz uygulamalarda yetki talep etme sürecini ifade eder.</description>
     </item>
     <item>
       <title>Kimlik ve Erişim Yönetimi Tedbirleri: Cumhurbaşkanlığı Bilgi Güvenliği Rehberi Perspektifine Göz Atalım</title>

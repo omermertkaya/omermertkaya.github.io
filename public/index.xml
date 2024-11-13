@@ -6,10 +6,17 @@
     <description>Recent content on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Nov 2024 12:28:23 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 13 Nov 2024 20:55:50 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Kimlik Ve Erişim Yonetimi - Erişim Talebi Yönetimi</title>
+      <title>Birden Fazla Ldap Bağlantısını Tek Uygulamadan Yönetmek</title>
+      <link>http://localhost:1313/posts/birden-fazla-ldap-baglantisi-yonetme/</link>
+      <pubDate>Wed, 13 Nov 2024 20:55:50 +0300</pubDate>
+      <guid>http://localhost:1313/posts/birden-fazla-ldap-baglantisi-yonetme/</guid>
+      <description>Kimlik ve Erişim Yönetimi(IAM) sistemlerinde birçok uç uygulama ile bağlantı halinde çalışıyoruz.</description>
+    </item>
+    <item>
+      <title>Kimlik Ve Erişim Yönetimi - Erişim Talebi Yönetimi</title>
       <link>http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-erisim-talebi/</link>
       <pubDate>Sat, 09 Nov 2024 12:28:23 +0300</pubDate>
       <guid>http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-erisim-talebi/</guid>

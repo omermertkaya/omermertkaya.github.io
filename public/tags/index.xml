@@ -6,8 +6,43 @@
     <description>Recent content in Tags on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Nov 2024 12:28:23 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 13 Nov 2024 20:55:50 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache Directory Studio</title>
+      <link>http://localhost:1313/tags/apache-directory-studio/</link>
+      <pubDate>Wed, 13 Nov 2024 20:55:50 +0300</pubDate>
+      <guid>http://localhost:1313/tags/apache-directory-studio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IAM</title>
+      <link>http://localhost:1313/tags/iam/</link>
+      <pubDate>Wed, 13 Nov 2024 20:55:50 +0300</pubDate>
+      <guid>http://localhost:1313/tags/iam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Identity Access Management</title>
+      <link>http://localhost:1313/tags/identity-access-management/</link>
+      <pubDate>Wed, 13 Nov 2024 20:55:50 +0300</pubDate>
+      <guid>http://localhost:1313/tags/identity-access-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LDAP</title>
+      <link>http://localhost:1313/tags/ldap/</link>
+      <pubDate>Wed, 13 Nov 2024 20:55:50 +0300</pubDate>
+      <guid>http://localhost:1313/tags/ldap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oracle LDAP</title>
+      <link>http://localhost:1313/tags/oracle-ldap/</link>
+      <pubDate>Wed, 13 Nov 2024 20:55:50 +0300</pubDate>
+      <guid>http://localhost:1313/tags/oracle-ldap/</guid>
+      <description></description>
+    </item>
     <item>
       <title>ErişimTalebiYönetimi</title>
       <link>http://localhost:1313/tags/eri%C5%9Fimtalebiy%C3%B6netimi/</link>
@@ -62,13 +97,6 @@
       <link>http://localhost:1313/tags/g%C3%BCvenlik/</link>
       <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
       <guid>http://localhost:1313/tags/g%C3%BCvenlik/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>IAM</title>
-      <link>http://localhost:1313/tags/iam/</link>
-      <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
-      <guid>http://localhost:1313/tags/iam/</guid>
       <description></description>
     </item>
     <item>
@@ -307,13 +335,6 @@
       <link>http://localhost:1313/tags/security-verify-cloud/</link>
       <pubDate>Wed, 24 Jul 2024 15:45:08 +0300</pubDate>
       <guid>http://localhost:1313/tags/security-verify-cloud/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Identity Access Management</title>
-      <link>http://localhost:1313/tags/identity-access-management/</link>
-      <pubDate>Sun, 14 Jul 2024 20:53:09 +0300</pubDate>
-      <guid>http://localhost:1313/tags/identity-access-management/</guid>
       <description></description>
     </item>
     <item>
