@@ -6,8 +6,15 @@
     <description>Recent content in Yetki Gözden Geçirme on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Sep 2024 23:25:18 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 20 Nov 2024 13:46:49 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/yetki-g%C3%B6zden-ge%C3%A7irme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rol ve Yetki Sahiplerinin Gözden Geçirme Süreci</title>
+      <link>http://localhost:1313/posts/rol-yetki-sahibi-gozden-gecirme-sureci/</link>
+      <pubDate>Wed, 20 Nov 2024 13:46:49 +0300</pubDate>
+      <guid>http://localhost:1313/posts/rol-yetki-sahibi-gozden-gecirme-sureci/</guid>
+      <description>Kimlik ve Erişim Yönetimi (IAM) sistemlerinin en önemli bileşenlerinden biri, kullanıcı yetkilerinin düzenli olarak gözden geçirilmesidir.</description>
+    </item>
     <item>
       <title>Kullanıcı Yetki Gözden Geçirme Süreci Raporlama(Dashboard)</title>
       <link>http://localhost:1313/posts/kullanici-yetki-gozden-gecirme-rapor/</link>
