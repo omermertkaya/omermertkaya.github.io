@@ -25,6 +25,9 @@ Rol ve yetki sahipleri, gözden geçirme sürecinde aşağıdaki aksiyonları al
 - **Rollerdeki güncellemelerin bildirilmesi:**  
   Eğer bir rol içeriğinde değişiklik olmuşsa, bu değişiklikler Kimlik ve Erişim Yönetimi ekibine iletilir veya bir self servis ekranı üzerinden güncellemeler yapılır. Örneğin role ihtiyaç kalmamış ise tamamen silinmesi veya içeriğindeki yetkilerin güncellenmesi
 
+<img src="/images/rol-yetki-sahibi-gozden-gecirme-sureci/rol-yetki-gozden-gecirme.png" alt="Yetki_Gozden_gecirme" style="width:100%;">
+
+
 
 ## Self Servis ve İletişim Kanalları  
 Rol ve yetki sahiplerinin bu süreci kolaylıkla yönetebilmeleri için bir **self servis ekranı** kullanılır. Bu ekran üzerinden yetki veya rol değişiklik talepleri hızlı ve verimli bir şekilde iletilmesini sağlar. IAM ürünlerinin sunmuş olduğu yetki gözden geçirme kampanya ekranlarının özelliklerine göre yukarıdaki süreçler kurgulanabilir. Bazı süreçler desteklenmediği durumlarda servis masası uygulamalarından da süreç kurgusunda destek alınabilir.
