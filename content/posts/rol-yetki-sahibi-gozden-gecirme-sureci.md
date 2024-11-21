@@ -20,6 +20,10 @@ Yöneticiler tarafından onaylanmış olsa dahi, yetki sahibi kişinin sorumlulu
 
 ## Sürecin İşleyişi  
 Rol ve yetki sahipleri, gözden geçirme sürecinde aşağıdaki aksiyonları alabilir:  
+
+- **Rol veya yetkiden kullanıcı çıkarma veya kullanıcı onaylama**
+  İlk adım olarak sahibi olduğu rol ve yetkilerdeki kullanıcıları(çalışanları) gözden geçirir. Bu süreçte rol veya yetki sahibi olarak ilgili rolün veya yetkinin ne işe yaradığını şirkette en iyi değerlendirebeilcek kişi bu rol veya yetkinin sahibidir. Gözden geçirmesinin temel amacı bu değerlendirmeyi yaparak güvenlik sıkılaştırması sağlamaktır.
+
 - **Kullanılmayan yetkilerin tespiti ve kaldırılması:**  
   Eğer bir yetki artık kullanılmıyorsa, bu durum Kimlik ve Erişim Yönetimi ekibine bildirilir ve yetkinin silinmesi talep edilebilir veya bu süreci yapabileceği bir ekran sürecinden bildirim gerçekleştirebilir.  
 - **Rollerdeki güncellemelerin bildirilmesi:**  
