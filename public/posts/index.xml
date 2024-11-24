@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Nov 2024 21:30:49 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 22 Nov 2024 21:52:36 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Güçlü Şifre Saklama Politikaları</title>
+      <link>http://localhost:1313/posts/guclu-sifre-saklama-politikalari/</link>
+      <pubDate>Fri, 22 Nov 2024 21:52:36 +0300</pubDate>
+      <guid>http://localhost:1313/posts/guclu-sifre-saklama-politikalari/</guid>
+      <description>Şifreleri saldırganlardan korumanın birçok yöntemi var. Yazımızda bu yöntemlerden bahsedeceğiz.</description>
+    </item>
     <item>
       <title>Rol ve Yetki Sahiplerinin Gözden Geçirme Süreci</title>
       <link>http://localhost:1313/posts/rol-yetki-sahibi-gozden-gecirme-sureci/</link>
