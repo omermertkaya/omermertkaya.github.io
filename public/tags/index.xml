@@ -6,8 +6,78 @@
     <description>Recent content in Tags on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Nov 2024 21:30:49 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 24 Nov 2024 22:45:02 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aktif Dizin</title>
+      <link>http://localhost:1313/tags/aktif-dizin/</link>
+      <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
+      <guid>http://localhost:1313/tags/aktif-dizin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Authentication</title>
+      <link>http://localhost:1313/tags/authentication/</link>
+      <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
+      <guid>http://localhost:1313/tags/authentication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Authorization</title>
+      <link>http://localhost:1313/tags/authorization/</link>
+      <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
+      <guid>http://localhost:1313/tags/authorization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Domaindeki Cihazlara Mesaj</title>
+      <link>http://localhost:1313/tags/domaindeki-cihazlara-mesaj/</link>
+      <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
+      <guid>http://localhost:1313/tags/domaindeki-cihazlara-mesaj/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>It Güvenlik Bildirimleri</title>
+      <link>http://localhost:1313/tags/it-g%C3%BCvenlik-bildirimleri/</link>
+      <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
+      <guid>http://localhost:1313/tags/it-g%C3%BCvenlik-bildirimleri/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kimlik Ve Erişim Yönetimi</title>
+      <link>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</link>
+      <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
+      <guid>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kullanıcı Bilgilendirme</title>
+      <link>http://localhost:1313/tags/kullan%C4%B1c%C4%B1-bilgilendirme/</link>
+      <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
+      <guid>http://localhost:1313/tags/kullan%C4%B1c%C4%B1-bilgilendirme/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Powershell Mesaj Gönderme</title>
+      <link>http://localhost:1313/tags/powershell-mesaj-g%C3%B6nderme/</link>
+      <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
+      <guid>http://localhost:1313/tags/powershell-mesaj-g%C3%B6nderme/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Şifre Süresi Bildirimleri</title>
+      <link>http://localhost:1313/tags/%C5%9Fifre-s%C3%BCresi-bildirimleri/</link>
+      <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
+      <guid>http://localhost:1313/tags/%C5%9Fifre-s%C3%BCresi-bildirimleri/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows Mesaj Gönderimi</title>
+      <link>http://localhost:1313/tags/windows-mesaj-g%C3%B6nderimi/</link>
+      <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
+      <guid>http://localhost:1313/tags/windows-mesaj-g%C3%B6nderimi/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Erişim Kontrolü</title>
       <link>http://localhost:1313/tags/eri%C5%9Fim-kontrol%C3%BC/</link>
@@ -118,13 +188,6 @@
       <link>http://localhost:1313/tags/identity-and-access-management/</link>
       <pubDate>Sat, 09 Nov 2024 12:28:23 +0300</pubDate>
       <guid>http://localhost:1313/tags/identity-and-access-management/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kimlik Ve Erişim Yönetimi</title>
-      <link>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</link>
-      <pubDate>Sat, 09 Nov 2024 12:28:23 +0300</pubDate>
-      <guid>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</guid>
       <description></description>
     </item>
     <item>
@@ -384,20 +447,6 @@
       <link>http://localhost:1313/tags/sod-matrisi-segregation-of-duties/</link>
       <pubDate>Sun, 14 Jul 2024 20:53:09 +0300</pubDate>
       <guid>http://localhost:1313/tags/sod-matrisi-segregation-of-duties/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Authentication</title>
-      <link>http://localhost:1313/tags/authentication/</link>
-      <pubDate>Thu, 11 Jul 2024 22:30:46 +0300</pubDate>
-      <guid>http://localhost:1313/tags/authentication/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Authorization</title>
-      <link>http://localhost:1313/tags/authorization/</link>
-      <pubDate>Thu, 11 Jul 2024 22:30:46 +0300</pubDate>
-      <guid>http://localhost:1313/tags/authorization/</guid>
       <description></description>
     </item>
     <item>

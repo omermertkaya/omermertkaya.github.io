@@ -2,11 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/guclu-sifre-saklama-politikalari/</loc>
-    <lastmod>2024-11-22T21:52:36+03:00</lastmod>
+    <loc>http://localhost:1313/tags/aktif-dizin/</loc>
+    <lastmod>2024-11-24T22:45:02+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/aktif-dizinde-tum-cihazlara-mesaj-gonderme/</loc>
+    <lastmod>2024-11-24T22:45:02+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/authentication/</loc>
+    <lastmod>2024-11-24T22:45:02+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/authorization/</loc>
+    <lastmod>2024-11-24T22:45:02+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/domaindeki-cihazlara-mesaj/</loc>
+    <lastmod>2024-11-24T22:45:02+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/it-g%C3%BCvenlik-bildirimleri/</loc>
+    <lastmod>2024-11-24T22:45:02+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</loc>
+    <lastmod>2024-11-24T22:45:02+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kullan%C4%B1c%C4%B1-bilgilendirme/</loc>
+    <lastmod>2024-11-24T22:45:02+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-22T21:52:36+03:00</lastmod>
+    <lastmod>2024-11-24T22:45:02+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/powershell-mesaj-g%C3%B6nderme/</loc>
+    <lastmod>2024-11-24T22:45:02+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%C5%9Fifre-s%C3%BCresi-bildirimleri/</loc>
+    <lastmod>2024-11-24T22:45:02+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-11-24T22:45:02+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/windows-mesaj-g%C3%B6nderimi/</loc>
+    <lastmod>2024-11-24T22:45:02+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/guclu-sifre-saklama-politikalari/</loc>
+    <lastmod>2024-11-24T12:30:36+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/eri%C5%9Fim-kontrol%C3%BC/</loc>
     <lastmod>2024-11-21T21:30:49+03:00</lastmod>
@@ -30,9 +66,6 @@
     <lastmod>2024-11-21T21:30:49+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/siber-g%C3%BCvenlik/</loc>
-    <lastmod>2024-11-21T21:30:49+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-11-21T21:30:49+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/yetki-g%C3%B6zden-ge%C3%A7irme/</loc>
@@ -63,9 +96,6 @@
     <lastmod>2024-11-09T12:28:23+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/identity-and-access-management/</loc>
-    <lastmod>2024-11-09T12:28:23+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</loc>
     <lastmod>2024-11-09T12:28:23+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-erisim-talebi/</loc>
@@ -200,13 +230,7 @@
     <loc>http://localhost:1313/tags/sod-matrisi-segregation-of-duties/</loc>
     <lastmod>2024-07-14T20:53:09+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/authentication/</loc>
-    <lastmod>2024-07-11T22:30:46+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/authentication-authorization-kavramlari/</loc>
-    <lastmod>2024-07-11T22:30:46+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/authorization/</loc>
     <lastmod>2024-07-11T22:30:46+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/kimlik-ve-erisim-yonetimi/</loc>

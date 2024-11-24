@@ -6,12 +6,19 @@
     <description>Recent content in Posts on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Nov 2024 21:52:36 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 24 Nov 2024 22:45:02 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aktif Dizinde Tüm Cihazlara Mesaj Gönderme</title>
+      <link>http://localhost:1313/posts/aktif-dizinde-tum-cihazlara-mesaj-gonderme/</link>
+      <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
+      <guid>http://localhost:1313/posts/aktif-dizinde-tum-cihazlara-mesaj-gonderme/</guid>
+      <description>Şirketlerimizde genellikle kullanıcı cihazlarımızı merkezi olarak yönetmek için aktif dizin kullanıyoruz.</description>
+    </item>
     <item>
       <title>Güçlü Şifre Saklama Politikaları</title>
       <link>http://localhost:1313/posts/guclu-sifre-saklama-politikalari/</link>
-      <pubDate>Fri, 22 Nov 2024 21:52:36 +0300</pubDate>
+      <pubDate>Sun, 24 Nov 2024 12:30:36 +0300</pubDate>
       <guid>http://localhost:1313/posts/guclu-sifre-saklama-politikalari/</guid>
       <description>Şifreleri saldırganlardan korumanın birçok yöntemi var. Yazımızda bu yöntemlerden bahsedeceğiz.</description>
     </item>
