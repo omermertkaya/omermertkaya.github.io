@@ -65,20 +65,22 @@ Tüm cihazlara göndermek için ise aşağıdaki kodu test ederek kullanabiliriz
 
 ``` POWERSHELL
 
-$targetComputer = "DESKTOP-JGRD62J"
+# Active Directory'den tüm bilgisayarları al
+$computers = Get-ADComputer -Filter * | Select-Object -ExpandProperty Name
 
-# Mesajı gönder ve hata olup olmadığını kontrol et
-try {
-    Invoke-Command -ComputerName $targetComputer -ScriptBlock {
-        msg * "Bu bir test mesajıdır."
+# Mesaj gönderme işlemi
+foreach ($computer in $computers) {
+    try {
+        Invoke-Command -ComputerName $computer -ScriptBlock {
+            msg * "🌟 Merhaba! 🌟`nBu bir test mesajıdır. Sistem yöneticisiyle iletişime geçin."
+        }
+        Write-Host "Mesaj başarıyla gönderildi: $computer" -ForegroundColor Green
+    } catch {
+        # Hata varsa, detaylı bilgi yazdır
+        Write-Host "Hata oluştu: $computer" -ForegroundColor Red
+        Write-Host $_.Exception.Message -ForegroundColor Yellow
     }
-    Write-Host "Mesaj başarıyla gönderildi: $targetComputer"
-} catch {
-    # Hata varsa, detaylı bilgi yazdır
-    Write-Host "Hata oluştu: $targetComputer" -ForegroundColor Red
-    Write-Host $_.Exception.Message -ForegroundColor Yellow
 }
-
 
 ```
 
