@@ -210,18 +210,21 @@ Bunun için active directory users and computers aracını kullanabiliriz. Benim
 </span></span></code></pre></div><img src="/images/aktif-dizinde-tum-cihazlara-mesaj-gonderme/testmesaji.png" alt="test mesaji görüntüsü" style="width:100%;">
 <p>Tüm cihazlara göndermek için ise aşağıdaki kodu test ederek kullanabiliriz.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-POWERSHELL" data-lang="POWERSHELL"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>$targetComputer = <span style="color:#e6db74">&#34;DESKTOP-JGRD62J&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Active Directory&#39;den tüm bilgisayarları al</span>
+</span></span><span style="display:flex;"><span>$computers = Get-ADComputer -Filter * | Select-Object -ExpandProperty Name
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Mesajı gönder ve hata olup olmadığını kontrol et</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">try</span> {
-</span></span><span style="display:flex;"><span>    Invoke-Command -ComputerName $targetComputer -ScriptBlock {
-</span></span><span style="display:flex;"><span>        msg * <span style="color:#e6db74">&#34;Bu bir test mesajıdır.&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Mesaj gönderme işlemi</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">foreach</span> ($computer <span style="color:#66d9ef">in</span> $computers) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>        Invoke-Command -ComputerName $computer -ScriptBlock {
+</span></span><span style="display:flex;"><span>            msg * <span style="color:#e6db74">&#34;🌟 Merhaba! 🌟</span><span style="color:#ae81ff">`n</span><span style="color:#e6db74">Bu bir test mesajıdır. Sistem yöneticisiyle iletişime geçin.&#34;</span>
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        Write-Host <span style="color:#e6db74">&#34;Mesaj başarıyla gönderildi: </span>$computer<span style="color:#e6db74">&#34;</span> -ForegroundColor Green
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">catch</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Hata varsa, detaylı bilgi yazdır</span>
+</span></span><span style="display:flex;"><span>        Write-Host <span style="color:#e6db74">&#34;Hata oluştu: </span>$computer<span style="color:#e6db74">&#34;</span> -ForegroundColor Red
+</span></span><span style="display:flex;"><span>        Write-Host $_.Exception.Message -ForegroundColor Yellow
 </span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>    Write-Host <span style="color:#e6db74">&#34;Mesaj başarıyla gönderildi: </span>$targetComputer<span style="color:#e6db74">&#34;</span>
-</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">catch</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Hata varsa, detaylı bilgi yazdır</span>
-</span></span><span style="display:flex;"><span>    Write-Host <span style="color:#e6db74">&#34;Hata oluştu: </span>$targetComputer<span style="color:#e6db74">&#34;</span> -ForegroundColor Red
-</span></span><span style="display:flex;"><span>    Write-Host $_.Exception.Message -ForegroundColor Yellow
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><img src="/images/aktif-dizinde-tum-cihazlara-mesaj-gonderme/tumcihazlar.png" alt="tüm cihazlara gönderilen test mesaji" style="width:70%;">
 

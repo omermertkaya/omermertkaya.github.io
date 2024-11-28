@@ -2,13 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/access-management/</loc>
+    <lastmod>2024-11-28T15:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/active-directory/</loc>
+    <lastmod>2024-11-28T15:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/ldap-authentication-nedir/</loc>
+    <lastmod>2024-11-28T15:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ad-ds/</loc>
+    <lastmod>2024-11-28T15:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ad-lds/</loc>
+    <lastmod>2024-11-28T15:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/authentication/</loc>
+    <lastmod>2024-11-28T15:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/directory-services/</loc>
+    <lastmod>2024-11-28T15:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/enterprise-security/</loc>
+    <lastmod>2024-11-28T15:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/iam/</loc>
+    <lastmod>2024-11-28T15:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kimlik-do%C4%9Frulama/</loc>
+    <lastmod>2024-11-28T15:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kimlik-y%C3%B6netimi/</loc>
+    <lastmod>2024-11-28T15:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kullan%C4%B1c%C4%B1-eri%C5%9Fimi/</loc>
+    <lastmod>2024-11-28T15:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ldap/</loc>
+    <lastmod>2024-11-28T15:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ldap-authentication/</loc>
+    <lastmod>2024-11-28T15:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-11-28T15:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/security/</loc>
+    <lastmod>2024-11-28T15:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sso/</loc>
+    <lastmod>2024-11-28T15:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-11-28T15:00:00+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/aktif-dizin/</loc>
     <lastmod>2024-11-24T22:45:02+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/aktif-dizinde-tum-cihazlara-mesaj-gonderme/</loc>
-    <lastmod>2024-11-24T22:45:02+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/authentication/</loc>
     <lastmod>2024-11-24T22:45:02+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/authorization/</loc>
@@ -26,16 +77,10 @@
     <loc>http://localhost:1313/tags/kullan%C4%B1c%C4%B1-bilgilendirme/</loc>
     <lastmod>2024-11-24T22:45:02+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-24T22:45:02+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/powershell-mesaj-g%C3%B6nderme/</loc>
     <lastmod>2024-11-24T22:45:02+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/%C5%9Fifre-s%C3%BCresi-bildirimleri/</loc>
-    <lastmod>2024-11-24T22:45:02+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-11-24T22:45:02+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/windows-mesaj-g%C3%B6nderimi/</loc>
@@ -80,13 +125,7 @@
     <loc>http://localhost:1313/posts/birden-fazla-ldap-baglantisi-yonetme/</loc>
     <lastmod>2024-11-13T20:55:50+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/iam/</loc>
-    <lastmod>2024-11-13T20:55:50+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/identity-access-management/</loc>
-    <lastmod>2024-11-13T20:55:50+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ldap/</loc>
     <lastmod>2024-11-13T20:55:50+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/oracle-ldap/</loc>
@@ -113,9 +152,6 @@
     <loc>http://localhost:1313/tags/siber-tedbirler/</loc>
     <lastmod>2024-09-24T21:31:21+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/access-management/</loc>
-    <lastmod>2024-09-20T23:25:18+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/g%C3%BCvenlik/</loc>
     <lastmod>2024-09-20T23:25:18+03:00</lastmod>
   </url><url>
@@ -125,22 +161,10 @@
     <loc>http://localhost:1313/tags/individual-access-review/</loc>
     <lastmod>2024-09-20T23:25:18+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/kimlik-do%C4%9Frulama/</loc>
-    <lastmod>2024-09-20T23:25:18+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/kimlik-y%C3%B6netimi/</loc>
-    <lastmod>2024-09-20T23:25:18+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/kullan%C4%B1c%C4%B1-eri%C5%9Fimi/</loc>
-    <lastmod>2024-09-20T23:25:18+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/kullanici-yetki-gozden-gecirme-rapor/</loc>
     <lastmod>2024-09-20T23:25:18+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/role-management/</loc>
-    <lastmod>2024-09-20T23:25:18+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/security/</loc>
     <lastmod>2024-09-20T23:25:18+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/user-lifecycle-management/</loc>

@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="robots" content="index, follow">
+
+
+    <meta name="description" content="Ömer Mert Kaya&#39;nın Kişisel Sayfası, IAM ve Security Engineer Blog yazıları">
+    <meta name="keywords" content="ömer mert kaya&#39;nın kişisel bloğu, identity and access management, kimlik ve erişim yönetimi, security blog">
+    <meta name="author" content="Omer Mert KAYA">
+    <link rel="canonical" href="http://localhost:1313/posts/ldap-authentication-nedir/">
+
+
+    <title>Active Directory Ldap Authentication Nedir? LDAP ile Giriş Yapma Nasıl Yapılır? | Ömer Mert Kaya</title>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#FF3DB4">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    
+    
+    <link rel="stylesheet" href="http://localhost:1313/css/main.min.6303cac95c3a04d1a03d79c08dec788c81be8d2a799d988ca86401659afc7b4c.css"/>
+
+    
+    
+    
+
+    
+    
+ 
+    </head>
+
+    <body><meta name="description" content="" />
+        
+<nav>
+  <header>
+    <div class="site-title">
+        <a href="/"><img src="/images/profile_photo.png" height="150" alt="Omer Mert KAYA's photo"/>
+            <br>
+        <a href="/">Ömer Mert Kaya</a>
+    </div>  
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R77KDNEKTX"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-R77KDNEKTX');
+    </script>
+</header>
+
+  <div class="nav-menu">
+  
+    <a class="color-link nav-link" href="/">Anasayfa</a>
+  
+    <a class="color-link nav-link" href="/about/">Hakkında</a>
+  
+    <a class="color-link nav-link" href="/ozgecmis/">Özgeçmiş</a>
+  
+    <a class="color-link nav-link" href="/tags/">Etiketler</a>
+  
+    <a class="color-link nav-link" href="/archives/">Arşiv</a>
+  
+  <a class="color-link nav-link" href="http://localhost:1313/posts/ldap-authentication-nedir/" target="_blank" rel="noopener" type="application/rss+xml">RSS</a>
+</div>
+<footer class="footer">
+	<div class="social-icons">
+        
+    <a class="social-icon" href="mailto:omermertkaya@hotmail.com.tr" target="_blank" rel="noopener" title="Email">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M25.2794292,5.59128519 L14,16.8707144 L2.72057081,5.59128519 C3.06733103,5.30237414 3.51336915,5.12857603 4,5.12857603 L24,5.12857603 C24.4866308,5.12857603 24.932669,5.30237414 25.2794292,5.59128519 Z M25.9956978,6.99633695 C25.998551,7.04004843 26,7.08414302 26,7.12857603 L26,20.871424 C26,21.0798433 25.9681197,21.2808166 25.9089697,21.4697335 L18.7156355,14.2763993 L25.9956978,6.99633695 Z M24.9498374,22.6319215 C24.6672737,22.7846939 24.3437653,22.871424 24,22.871424 L4,22.871424 C3.5268522,22.871424 3.09207889,22.7071233 2.74962118,22.432463 L10.0950247,15.0870594 L13.9848068,18.9768415 L14.1878486,18.7737996 L14.2030419,18.7889929 L17.6549753,15.3370594 L24.9498374,22.6319215 Z M2.00810114,21.0526627 C2.00273908,20.9929669 2,20.9325153 2,20.871424 L2,7.12857603 C2,7.08414302 2.00144896,7.04004843 2.00430222,6.99633695 L9.03436454,14.0263993 L2.00810114,21.0526627 Z"></path>
+        </svg>
+    </a>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <a class="social-icon" href="https://linkedin.com/in/omermertkaya" target="_blank" rel="noopener" title="LinkedIn">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M2,3.654102 C2,2.69908141 2.79442509,1.92397846 3.77383592,1.92397846 L24.2261641,1.92397846 C25.2058917,1.92397846 26,2.69908141 26,3.654102 L26,24.3462148 C26,25.3015521 25.2058917,26.0760215 24.2261641,26.0760215 L3.77383592,26.0760215 C2.79442509,26.0760215 2,25.3015521 2,24.3465315 L2,3.65378524 L2,3.654102 Z M9.27526132,22.1415901 L9.27526132,11.2356668 L5.65030092,11.2356668 L5.65030092,22.1415901 L9.27557808,22.1415901 L9.27526132,22.1415901 Z M7.46341463,9.74691162 C8.72727273,9.74691162 9.51409566,8.90940767 9.51409566,7.86284447 C9.49033893,6.79252455 8.72727273,5.97846056 7.48748812,5.97846056 C6.24675325,5.97846056 5.43649034,6.79252455 5.43649034,7.86284447 C5.43649034,8.90940767 6.22299652,9.74691162 7.4396579,9.74691162 L7.46309788,9.74691162 L7.46341463,9.74691162 Z M11.2815965,22.1415901 L14.9062401,22.1415901 L14.9062401,16.0519481 C14.9062401,15.7263225 14.9299968,15.4000634 15.0256573,15.1675641 C15.2876148,14.5159962 15.8840672,13.8416218 16.8856509,13.8416218 C18.1970225,13.8416218 18.7218879,14.8416218 18.7218879,16.3078872 L18.7218879,22.1415901 L22.3465315,22.1415901 L22.3465315,15.8885017 C22.3465315,12.5388027 20.5584416,10.9800443 18.1735825,10.9800443 C16.2182452,10.9800443 15.3595185,12.072854 14.8824834,12.8172315 L14.9065569,12.8172315 L14.9065569,11.2359835 L11.2819132,11.2359835 C11.3291099,12.2591067 11.2815965,22.1419069 11.2815965,22.1419069 L11.2815965,22.1415901 Z"></path>
+        </svg>
+    </a>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+    <a class="social-icon" href="https://github.com/omermertkaya" target="_blank" rel="noopener" title="GitHub">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M13.9988029,1.32087331 C6.82105037,1.32087331 1,7.14112562 1,14.3212723 C1,20.0649109 4.72454649,24.9370678 9.89038951,26.6560892 C10.5408085,26.7757983 10.7778323,26.374374 10.7778323,26.0296121 C10.7778323,25.7215609 10.7666595,24.9035493 10.760275,23.8189856 C7.14426471,24.6042767 6.38131925,22.0760223 6.38131925,22.0760223 C5.78995672,20.5740732 4.93762853,20.1742451 4.93762853,20.1742451 C3.75729765,19.3682044 5.02701126,19.3841656 5.02701126,19.3841656 C6.33183953,19.4759425 7.01817121,20.7241085 7.01817121,20.7241085 C8.17775254,22.7104801 10.0611744,22.1366749 10.8017741,21.8038838 C10.919887,20.9643246 11.2558703,20.3913175 11.6269683,20.066507 C8.74038491,19.7385043 5.70536235,18.6228163 5.70536235,13.6413251 C5.70536235,12.2223743 6.21213051,11.0611968 7.04370914,10.1530044 C6.90963504,9.82420367 6.46351945,8.50181809 7.17139875,6.71256734 C7.17139875,6.71256734 8.26234691,6.36301702 10.7459099,8.04532771 C11.78259,7.75642995 12.8950858,7.61277914 14.000399,7.60719272 C15.1049142,7.61277914 16.2166119,7.75642995 17.2548881,8.04532771 C19.736855,6.36301702 20.8262071,6.71256734 20.8262071,6.71256734 C21.5356825,8.50181809 21.0895669,9.82420367 20.9562909,10.1530044 C21.7894656,11.0611968 22.2922435,12.2223743 22.2922435,13.6413251 C22.2922435,18.6355852 19.2524325,19.734514 16.3570705,20.0561322 C16.8231376,20.4575564 17.2389269,21.2508282 17.2389269,22.4638795 C17.2389269,24.2012564 17.2229657,25.603448 17.2229657,26.0296121 C17.2229657,26.3775663 17.4575954,26.7821827 18.116793,26.6552912 C23.2786458,24.9322794 27,20.0633148 27,14.3212723 C27,7.14112562 21.1789496,1.32087331 13.9988029,1.32087331"></path>
+        </svg>
+    </a>
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+</div>
+
+
+
+
+    <p><a href="https://github.com/kimcc/hugo-theme-noteworthy" target="_blank" rel="noopener">Noteworthy theme</a></p>
+    <p><a href="https://gohugo.io" target="_blank" rel="noopener">Built with Hugo</a></p>
+
+	<script src="http://localhost:1313/js/main.min.a7205ef73b078c8daed6fe1b0826e8ba229ffabbb69d299d9446cf41f2c7d8aa.js" integrity="sha256-pyBe9zsHjI2u1v4bCCbouiKf+ru2nSmdlEbPQfLH2Ko=" crossorigin="anonymous"></script>
+</footer>
+
+</nav>
+
+        <div id="content" class="content-container">
+        
+
+<h1 class="post-title">Active Directory Ldap Authentication Nedir? LDAP ile Giriş Yapma Nasıl Yapılır?</h1>
+    
+    <time>November 28, 2024</time>
+    
+    <div>
+        <p>
+        <p>Günümüzde uygulama güvenliği açısından giriş ekranları kritik bir öneme sahiptir. Eski uygulamalarda genellikle kullanıcı bilgileri ve şifreler, uygulamanın kendi veritabanında saklanırdı. Kullanıcılar uygulamaya giriş yaparken kayıt olduktan sonra belirledikleri kullanıcı adı ve şifreyi kullanırlardı. Ancak, bu yöntem günümüzde pek çok zorluk yaratmaktadır.</p>
+<h2 id="geleneksel-yöntemlerin-zorlukları">Geleneksel Yöntemlerin Zorlukları</h2>
+<ul>
+<li><strong>Hesap Yönetimi Karmaşası:</strong> Günümüzde birçok uygulamaya üye olmamız nedeniyle hangi hesap bilgilerini kullandığımızı hatırlamak zorlaşıyor.</li>
+<li><strong>Güvenlik Sorunları:</strong> Kullanıcıların aynı şifreyi birden fazla platformda kullanması, güvenlik açıklarına yol açıyor.</li>
+<li><strong>Merkezi Yönetim Eksikliği:</strong> Her bir uygulama için ayrı bir kullanıcı adı ve şifre belirlemek, kullanıcılar ve yöneticiler için yönetim zorluğu yaratıyor.</li>
+</ul>
+<h2 id="güncel-çözümler-ldap-ve-sso">Güncel Çözümler: LDAP ve SSO</h2>
+<p>Modern yazılımlar, kendi kullanıcı kimlik doğrulama sistemlerinin yanı sıra <strong>Google</strong>, <strong>Facebook</strong>, veya <strong>Microsoft</strong> hesaplarıyla oturum açma seçenekleri sunuyor. Bu yaklaşım, kullanıcıların tek bir hesapla birden fazla uygulamada oturum açmasını sağlıyor. Aynı şekilde, şirketlerde <strong>LDAP Authentication</strong> ve <strong>SSO (Single Sign-On)</strong> gibi çözümler tercih ediliyor. Bu yöntemler, hem kullanıcıların yönetimini kolaylaştırıyor hem de sürdürülebilir bir altyapı sağlıyor.</p>
+<hr>
+<h2 id="şirket-ortamlarında-ldap-ve-active-directory">Şirket Ortamlarında LDAP ve Active Directory</h2>
+<p>Çoğu şirket, çalışanlarının bilgisayar sistemlerini merkezi olarak yönetmek için <strong>Active Directory</strong> kullanır. Yeni bir çalışan işe başladığında, şirketteki bilgisayarına giriş yapması için bir Active Directory hesabı oluşturulur. Ancak, bu hesabın diğer uygulamalarda da kullanılabilmesi için LDAP protokolü veya SSO gibi teknolojiler devreye girer.</p>
+<p>Active Directory&rsquo;nin bir özelliği olan <strong>LDAP (Lightweight Directory Access Protocol)</strong>, dizin bilgilerine erişim sağlar ve bu bilgileri kimlik doğrulama için kullanır. Biz de <strong>Node.js</strong> ile LDAP üzerinden çalışan bir giriş uygulaması oluşturacağız.</p>
+<hr>
+<h2 id="örnek-senaryo-kullanıcı-girişi">Örnek Senaryo: Kullanıcı Girişi</h2>
+<p>Aşağıdaki Active Directory yapısını örnek olarak kullandık. Test için birkaç kullanıcı oluşturduk:</p>
+<ul>
+<li>Kullanıcı adları, benzersiz sicil numaralarından oluşur (örneğin: <strong>TT100</strong>, <strong>TT101</strong>).</li>
+<li>Kullanıcıların giriş bilgileri, domain adresi ile birleştirilir (örneğin: <strong><a href="mailto:TT100@mertidm.com">TT100@mertidm.com</a></strong>).</li>
+</ul>
+<p><strong>Kullanıcı Şeması:</strong></p>
+<img src="/images/ldap-authentication-nedir/aktif_dizin_semasi.png" alt="Aktif Dizin Şeması" style="width:100%;">
+<p>Kullanıcılarımız Aktif Dizinde aşağıdaki gibi görüntüleniyor.</p>
+<img src="/images/ldap-authentication-nedir/kullanci_semasi.png" alt="Kullanıcı Şeması Aktif Dizin " style="width:100%;">
+<p>Kullanıcı özelinde incelemek daha faydalı olabilir. Örneğin aşağıdaki kullanıcı için ekran görüntüsü faydalı olacaktır.</p>
+<ul>
+<li><strong>Kullanıcı Adı (sAMAccountName):</strong> TT100</li>
+<li><strong>Giriş Formatı:</strong> <a href="mailto:TT100@mertidm.com">TT100@mertidm.com</a></li>
+</ul>
+<h3 id="lab-ortamı-için-gereklilikler">Lab Ortamı İçin Gereklilikler</h3>
+<ul>
+<li>Windows Server&rsquo;a Active Directory kurulumu</li>
+<li>Nodejs kurulumu</li>
+</ul>
+<h3 id="nodejs-ile-active-directory-authentication-basit-uygulamasının-oluşturulması">Nodejs ile Active Directory Authentication Basit Uygulamasının Oluşturulması</h3>
+<p>Öncelikle masaüstüne authapp isimli klasör oluşturuyorum. Konsoldan bu dizine giderek ihtiyacım olan kütüphanelerin kurulumunu gerçekleştiriyorum.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cmd" data-lang="cmd"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>npm install express body-parser express-session activedirectory
+</span></span></code></pre></div><p>Bu aşamadan sonra index.js isimli bir dosya oluşturarak projemin kodlarını içine atıyorum.
+BaseDN&rsquo;deki Active Directory config bilginizi altında yer alan kullanıcı adı şifresini örnekteki gibi kendi Active Directory ortamınıza göre düzenleyebilirsiniz.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">express</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;express&#39;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">bodyParser</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;body-parser&#39;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">session</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;express-session&#39;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ActiveDirectory</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;activedirectory&#39;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Uygulama başlatılıyor
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">app</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">express</span>();
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">PORT</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3000</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Middleware
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">app</span>.<span style="color:#a6e22e">use</span>(<span style="color:#a6e22e">bodyParser</span>.<span style="color:#a6e22e">urlencoded</span>({ <span style="color:#a6e22e">extended</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">false</span> }));
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">app</span>.<span style="color:#a6e22e">use</span>(<span style="color:#a6e22e">session</span>({
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">secret</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;your-secret-key&#39;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">resave</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">false</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">saveUninitialized</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>}));
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Active Directory Konfigürasyonu
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">config</span> <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">url</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ldap://localhost&#39;</span>,  <span style="color:#75715e">// LDAP sunucusu
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#a6e22e">baseDN</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;dc=mertidm,dc=com&#39;</span>,  <span style="color:#75715e">// Base DN
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#a6e22e">username</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;CN=Administrator,CN=Users,DC=mertidm,DC=com&#39;</span>,  <span style="color:#75715e">// Admin kullanıcı adı
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#a6e22e">password</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Mert123!&#39;</span>  <span style="color:#75715e">// Admin şifresi
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Active Directory Client oluşturuluyor
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ad</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">ActiveDirectory</span>(<span style="color:#a6e22e">config</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Giriş Sayfası
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">app</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;/&#39;</span>, (<span style="color:#a6e22e">req</span>, <span style="color:#a6e22e">res</span>) =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">req</span>.<span style="color:#a6e22e">session</span>.<span style="color:#a6e22e">user</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">res</span>.<span style="color:#a6e22e">send</span>(<span style="color:#e6db74">`
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      &lt;!DOCTYPE html&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      &lt;html lang=&#34;tr&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      &lt;head&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &lt;meta charset=&#34;UTF-8&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &lt;title&gt;Hoşgeldiniz&lt;/title&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &lt;link href=&#34;https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css&#34; rel=&#34;stylesheet&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      &lt;/head&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      &lt;body&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &lt;div class=&#34;container text-center mt-5&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          &lt;h1 class=&#34;display-4&#34;&gt;Hoşgeldiniz, </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">req</span>.<span style="color:#a6e22e">session</span>.<span style="color:#a6e22e">user</span><span style="color:#e6db74">}</span><span style="color:#e6db74">!&lt;/h1&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          &lt;div class=&#34;card mt-4&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            &lt;div class=&#34;card-body&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">              &lt;h4&gt;Hesabınızla ilgili bazı işlemleri buradan yapabilirsiniz:&lt;/h4&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">              &lt;div class=&#34;list-group mt-3&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                &lt;a href=&#34;#&#34; class=&#34;list-group-item list-group-item-action&#34;&gt;Hesap Ayarları&lt;/a&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                &lt;a href=&#34;#&#34; class=&#34;list-group-item list-group-item-action&#34;&gt;Mesajlar&lt;/a&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                &lt;a href=&#34;#&#34; class=&#34;list-group-item list-group-item-action&#34;&gt;Bildirimler&lt;/a&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">              &lt;/div&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">              &lt;a href=&#34;/logout&#34; class=&#34;btn btn-danger mt-4&#34;&gt;Çıkış Yap&lt;/a&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            &lt;/div&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          &lt;/div&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &lt;/div&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &lt;script src=&#34;https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js&#34;&gt;&lt;/script&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      &lt;/body&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      &lt;/html&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    `</span>);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Giriş sayfası
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#a6e22e">res</span>.<span style="color:#a6e22e">send</span>(<span style="color:#e6db74">`
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &lt;!DOCTYPE html&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &lt;html lang=&#34;tr&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &lt;head&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      &lt;meta charset=&#34;UTF-8&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      &lt;title&gt;Giriş Yap&lt;/title&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      &lt;link href=&#34;https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css&#34; rel=&#34;stylesheet&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &lt;/head&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &lt;body&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      &lt;div class=&#34;container&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &lt;div class=&#34;row justify-content-center align-items-center min-vh-100&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          &lt;div class=&#34;col-12 col-md-6 col-lg-4&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            &lt;div class=&#34;card shadow-lg&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">              &lt;div class=&#34;card-body&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                &lt;h3 class=&#34;card-title text-center mb-4&#34;&gt;Giriş Yap&lt;/h3&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                &lt;form method=&#34;POST&#34; action=&#34;/login&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                  &lt;div class=&#34;mb-3&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                    &lt;label for=&#34;username&#34; class=&#34;form-label&#34;&gt;Kullanıcı Adı&lt;/label&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                    &lt;input type=&#34;text&#34; id=&#34;username&#34; name=&#34;username&#34; class=&#34;form-control&#34; placeholder=&#34;Kullanıcı Adı&#34; required&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                  &lt;/div&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                  &lt;div class=&#34;mb-3&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                    &lt;label for=&#34;password&#34; class=&#34;form-label&#34;&gt;Şifre&lt;/label&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                    &lt;input type=&#34;password&#34; id=&#34;password&#34; name=&#34;password&#34; class=&#34;form-control&#34; placeholder=&#34;Şifre&#34; required&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                  &lt;/div&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                  &lt;button type=&#34;submit&#34; class=&#34;btn btn-primary w-100&#34;&gt;Giriş Yap&lt;/button&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                &lt;/form&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                &lt;div class=&#34;mt-3 text-center&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                  &lt;a href=&#34;#&#34; class=&#34;text-muted&#34;&gt;Şifremi unuttum?&lt;/a&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                &lt;/div&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">              &lt;/div&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            &lt;/div&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          &lt;/div&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &lt;/div&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      &lt;/div&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      &lt;script src=&#34;https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js&#34;&gt;&lt;/script&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &lt;/body&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &lt;/html&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  `</span>);
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Giriş İşlemi
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">app</span>.<span style="color:#a6e22e">post</span>(<span style="color:#e6db74">&#39;/login&#39;</span>, (<span style="color:#a6e22e">req</span>, <span style="color:#a6e22e">res</span>) =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> { <span style="color:#a6e22e">username</span>, <span style="color:#a6e22e">password</span> } <span style="color:#f92672">=</span> <span style="color:#a6e22e">req</span>.<span style="color:#a6e22e">body</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Active Directory&#39;ye kimlik doğrulama işlemi yapılacak
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#a6e22e">ad</span>.<span style="color:#a6e22e">authenticate</span>(<span style="color:#a6e22e">username</span>, <span style="color:#a6e22e">password</span>, (<span style="color:#a6e22e">err</span>, <span style="color:#a6e22e">auth</span>) =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">err</span>) {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;Hata:&#39;</span>, <span style="color:#a6e22e">err</span>);
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">res</span>.<span style="color:#a6e22e">send</span>(<span style="color:#e6db74">`
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &lt;div class=&#34;container text-center mt-5&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          &lt;h1&gt;Giriş Başarısız. Kullanıcı adı veya şifre yanlış.&lt;/h1&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          &lt;a href=&#34;/&#34; class=&#34;btn btn-primary&#34;&gt;Tekrar Dene&lt;/a&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &lt;/div&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      `</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">auth</span>) {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">req</span>.<span style="color:#a6e22e">session</span>.<span style="color:#a6e22e">user</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">username</span>;  <span style="color:#75715e">// Kullanıcıyı session&#39;a kaydediyoruz
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      <span style="color:#a6e22e">res</span>.<span style="color:#a6e22e">redirect</span>(<span style="color:#e6db74">&#39;/&#39;</span>);
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">res</span>.<span style="color:#a6e22e">send</span>(<span style="color:#e6db74">`
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &lt;div class=&#34;container text-center mt-5&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          &lt;h1&gt;Giriş Başarısız. Kullanıcı adı veya şifre yanlış.&lt;/h1&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          &lt;a href=&#34;/&#34; class=&#34;btn btn-primary&#34;&gt;Tekrar Dene&lt;/a&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &lt;/div&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      `</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  });
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Çıkış İşlemi
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">app</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;/logout&#39;</span>, (<span style="color:#a6e22e">req</span>, <span style="color:#a6e22e">res</span>) =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">req</span>.<span style="color:#a6e22e">session</span>.<span style="color:#a6e22e">destroy</span>();  <span style="color:#75715e">// Session&#39;ı yok ediyoruz
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#a6e22e">res</span>.<span style="color:#a6e22e">redirect</span>(<span style="color:#e6db74">&#39;/&#39;</span>);
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Sunucuyu Başlat
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">app</span>.<span style="color:#a6e22e">listen</span>(<span style="color:#a6e22e">PORT</span>, () =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">`Server is running on http://localhost:</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">PORT</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>);
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div><p>Consol&rsquo;dan çalıştırarak uygulamamızı test edelim.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cmd" data-lang="cmd"><span style="display:flex;"><span>node index.js
+</span></span></code></pre></div><p>komutunu uygulamanın bulunduğu dizinde consola yazarak uygulamayı çalıştırıyorum.</p>
+<img src="/images/ldap-authentication-nedir/uygulama.png" alt="Aktif Dizin Şeması" style="width:100%;">
+<p>Yazının başında bahsetmiş olduğum &ldquo;<a href="mailto:TT100@mertidm.com">TT100@mertidm.com</a>&rdquo; kullanıcı adı ve şifresi ile giriş yapmayı deniyorum.</p>
+<img src="/images/ldap-authentication-nedir/girisyapma1.png" alt="Aktif Dizin Şeması">
+<p>Giriş işleminde sonrasında kullanıcıyı basit bir tasarım ile karşılan ekrana geçiş yapıyor.</p>
+<img src="/images/ldap-authentication-nedir/giris_basarili.png" alt="Aktif Dizin Şeması" style="width:100%;">
+<p>Temel olarak Active Directory LDAP protokolü sayesinde kullanıcı bilgilerimizi Active Directory üzerinden doğrulayarak Authentication giriş yapma işlemini gerçekleştirmiş olduk.
+Nodejs yerine farklı yazılım geliştirme dillerinde de Active Directory authentication yönetimi ile geliştirme yaparak uygulamalarımıza dahil edebilriz.</p>
+<p>Bu yöntemin kullanılmasındaki en büyük avantajlardan birisi kullanıcının tek bir sicil numarası yani kullanıcı adı ve şifre ile hem bilgisayar oturumunu açması hem de diğer uygulamalara giriş yapabiliyor olmasıdır.</p>
+
+        </p>
+    </div>
+    
+
+    
+
+    <div class="page-footer">
+        
+        <hr class="footer-divider">
+        
+            <a class="tag" href="/tags/iam">#IAM</a>
+        
+            <a class="tag" href="/tags/kimlik-y%C3%B6netimi">#kimlik yönetimi</a>
+        
+            <a class="tag" href="/tags/access-management">#access management</a>
+        
+            <a class="tag" href="/tags/security">#security</a>
+        
+            <a class="tag" href="/tags/kullan%C4%B1c%C4%B1-eri%C5%9Fimi">#kullanıcı erişimi</a>
+        
+            <a class="tag" href="/tags/kimlik-do%C4%9Frulama">#kimlik doğrulama</a>
+        
+            <a class="tag" href="/tags/ldap">#LDAP</a>
+        
+            <a class="tag" href="/tags/active-directory">#Active Directory</a>
+        
+            <a class="tag" href="/tags/authentication">#authentication</a>
+        
+            <a class="tag" href="/tags/sso">#SSO</a>
+        
+            <a class="tag" href="/tags/ldap-authentication">#LDAP Authentication</a>
+        
+            <a class="tag" href="/tags/directory-services">#directory services</a>
+        
+            <a class="tag" href="/tags/ad-ds">#AD DS</a>
+        
+            <a class="tag" href="/tags/ad-lds">#AD LDS</a>
+        
+            <a class="tag" href="/tags/enterprise-security">#enterprise security</a>
+        
+      
+    </div>
+
+
+        
+
+<link rel="stylesheet" type="text/css" href="/css/katex.min.css" crossorigin="anonymous">
+<script type="text/javascript" src="/js/katex.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/js/auto-render.min.js"onload="renderMathInElement(document.body);" crossorigin="anonymous"></script>
+
+        </div>
+        <footer class="footer-mobile">
+	<div class="social-icons">
+        
+    <a class="social-icon" href="mailto:omermertkaya@hotmail.com.tr" target="_blank" rel="noopener" title="Email">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M25.2794292,5.59128519 L14,16.8707144 L2.72057081,5.59128519 C3.06733103,5.30237414 3.51336915,5.12857603 4,5.12857603 L24,5.12857603 C24.4866308,5.12857603 24.932669,5.30237414 25.2794292,5.59128519 Z M25.9956978,6.99633695 C25.998551,7.04004843 26,7.08414302 26,7.12857603 L26,20.871424 C26,21.0798433 25.9681197,21.2808166 25.9089697,21.4697335 L18.7156355,14.2763993 L25.9956978,6.99633695 Z M24.9498374,22.6319215 C24.6672737,22.7846939 24.3437653,22.871424 24,22.871424 L4,22.871424 C3.5268522,22.871424 3.09207889,22.7071233 2.74962118,22.432463 L10.0950247,15.0870594 L13.9848068,18.9768415 L14.1878486,18.7737996 L14.2030419,18.7889929 L17.6549753,15.3370594 L24.9498374,22.6319215 Z M2.00810114,21.0526627 C2.00273908,20.9929669 2,20.9325153 2,20.871424 L2,7.12857603 C2,7.08414302 2.00144896,7.04004843 2.00430222,6.99633695 L9.03436454,14.0263993 L2.00810114,21.0526627 Z"></path>
+        </svg>
+    </a>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <a class="social-icon" href="https://linkedin.com/in/omermertkaya" target="_blank" rel="noopener" title="LinkedIn">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M2,3.654102 C2,2.69908141 2.79442509,1.92397846 3.77383592,1.92397846 L24.2261641,1.92397846 C25.2058917,1.92397846 26,2.69908141 26,3.654102 L26,24.3462148 C26,25.3015521 25.2058917,26.0760215 24.2261641,26.0760215 L3.77383592,26.0760215 C2.79442509,26.0760215 2,25.3015521 2,24.3465315 L2,3.65378524 L2,3.654102 Z M9.27526132,22.1415901 L9.27526132,11.2356668 L5.65030092,11.2356668 L5.65030092,22.1415901 L9.27557808,22.1415901 L9.27526132,22.1415901 Z M7.46341463,9.74691162 C8.72727273,9.74691162 9.51409566,8.90940767 9.51409566,7.86284447 C9.49033893,6.79252455 8.72727273,5.97846056 7.48748812,5.97846056 C6.24675325,5.97846056 5.43649034,6.79252455 5.43649034,7.86284447 C5.43649034,8.90940767 6.22299652,9.74691162 7.4396579,9.74691162 L7.46309788,9.74691162 L7.46341463,9.74691162 Z M11.2815965,22.1415901 L14.9062401,22.1415901 L14.9062401,16.0519481 C14.9062401,15.7263225 14.9299968,15.4000634 15.0256573,15.1675641 C15.2876148,14.5159962 15.8840672,13.8416218 16.8856509,13.8416218 C18.1970225,13.8416218 18.7218879,14.8416218 18.7218879,16.3078872 L18.7218879,22.1415901 L22.3465315,22.1415901 L22.3465315,15.8885017 C22.3465315,12.5388027 20.5584416,10.9800443 18.1735825,10.9800443 C16.2182452,10.9800443 15.3595185,12.072854 14.8824834,12.8172315 L14.9065569,12.8172315 L14.9065569,11.2359835 L11.2819132,11.2359835 C11.3291099,12.2591067 11.2815965,22.1419069 11.2815965,22.1419069 L11.2815965,22.1415901 Z"></path>
+        </svg>
+    </a>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+    <a class="social-icon" href="https://github.com/omermertkaya" target="_blank" rel="noopener" title="GitHub">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M13.9988029,1.32087331 C6.82105037,1.32087331 1,7.14112562 1,14.3212723 C1,20.0649109 4.72454649,24.9370678 9.89038951,26.6560892 C10.5408085,26.7757983 10.7778323,26.374374 10.7778323,26.0296121 C10.7778323,25.7215609 10.7666595,24.9035493 10.760275,23.8189856 C7.14426471,24.6042767 6.38131925,22.0760223 6.38131925,22.0760223 C5.78995672,20.5740732 4.93762853,20.1742451 4.93762853,20.1742451 C3.75729765,19.3682044 5.02701126,19.3841656 5.02701126,19.3841656 C6.33183953,19.4759425 7.01817121,20.7241085 7.01817121,20.7241085 C8.17775254,22.7104801 10.0611744,22.1366749 10.8017741,21.8038838 C10.919887,20.9643246 11.2558703,20.3913175 11.6269683,20.066507 C8.74038491,19.7385043 5.70536235,18.6228163 5.70536235,13.6413251 C5.70536235,12.2223743 6.21213051,11.0611968 7.04370914,10.1530044 C6.90963504,9.82420367 6.46351945,8.50181809 7.17139875,6.71256734 C7.17139875,6.71256734 8.26234691,6.36301702 10.7459099,8.04532771 C11.78259,7.75642995 12.8950858,7.61277914 14.000399,7.60719272 C15.1049142,7.61277914 16.2166119,7.75642995 17.2548881,8.04532771 C19.736855,6.36301702 20.8262071,6.71256734 20.8262071,6.71256734 C21.5356825,8.50181809 21.0895669,9.82420367 20.9562909,10.1530044 C21.7894656,11.0611968 22.2922435,12.2223743 22.2922435,13.6413251 C22.2922435,18.6355852 19.2524325,19.734514 16.3570705,20.0561322 C16.8231376,20.4575564 17.2389269,21.2508282 17.2389269,22.4638795 C17.2389269,24.2012564 17.2229657,25.603448 17.2229657,26.0296121 C17.2229657,26.3775663 17.4575954,26.7821827 18.116793,26.6552912 C23.2786458,24.9322794 27,20.0633148 27,14.3212723 C27,7.14112562 21.1789496,1.32087331 13.9988029,1.32087331"></path>
+        </svg>
+    </a>
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+</div>
+
+
+
+
+	<div class="footer-mobile-links">
+        <p><a href="https://github.com/kimcc/hugo-theme-noteworthy" target="_blank" rel="noopener">Noteworthy theme</a></p>
+		<span class="divider-bar">|</span>
+        <p><a href="https://gohugo.io" target="_blank" rel="noopener">Built with Hugo</a></p>
+	</div>
+
+	<script src="http://localhost:1313/js/main.min.a7205ef73b078c8daed6fe1b0826e8ba229ffabbb69d299d9446cf41f2c7d8aa.js" integrity="sha256-pyBe9zsHjI2u1v4bCCbouiKf+ru2nSmdlEbPQfLH2Ko=" crossorigin="anonymous"></script>
+</footer>
+
+    </body>
+</html>
