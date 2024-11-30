@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Merkezi Kimlik Yönetimi on Ömer Mert Kaya</title>
+    <link>http://localhost:1313/tags/merkezi-kimlik-y%C3%B6netimi/</link>
+    <description>Recent content in Merkezi Kimlik Yönetimi on Ömer Mert Kaya</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Nov 2024 20:41:05 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/merkezi-kimlik-y%C3%B6netimi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Active Directory Ldap Authorization Nedir? LDAP ile Web Uygulamasında Yetkilendirme Nasıl Yapılır?</title>
+      <link>http://localhost:1313/posts/ldap-authorization/</link>
+      <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
+      <guid>http://localhost:1313/posts/ldap-authorization/</guid>
+      <description>Ülkemizde ve dünyada birçok kuruluş, kullanıcı doğrulama ve yetkilendirme işlemleri için Active Directory (AD) gibi merkezi kimlik yönetimi sistemlerini kullanıyor.</description>
+    </item>
+  </channel>
+</rss>
