@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en-us">
-    <head>
-	<meta name="generator" content="Hugo 0.131.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,10 +12,10 @@
     <meta name="description" content="Ömer Mert Kaya&#39;nın Kişisel Sayfası, IAM ve Security Engineer Blog yazıları">
     <meta name="keywords" content="ömer mert kaya&#39;nın kişisel bloğu, identity and access management, kimlik ve erişim yönetimi, security blog">
     <meta name="author" content="Omer Mert KAYA">
-    <link rel="canonical" href="http://localhost:1313/">
+    <link rel="canonical" href="http://localhost:1313/posts/ldap-authorization/">
 
 
-    <title>Ömer Mert Kaya</title>
+    <title>Active Directory Ldap Authorization Nedir? LDAP ile Web Uygulamasında Yetkilendirme Nasıl Yapılır? | Ömer Mert Kaya</title>
     
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -37,11 +36,9 @@
     
     
  
-    
-    <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="Ömer Mert Kaya" />
     </head>
 
-    <body><meta name="description" content="Ömer Mert Kaya&#39;nın Kişisel Sayfası, IAM ve Security Engineer Blog yazıları" />
+    <body><meta name="description" content="" />
         
 <nav>
   <header>
@@ -74,7 +71,7 @@
   
     <a class="color-link nav-link" href="/archives/">Arşiv</a>
   
-  <a class="color-link nav-link" href="http://localhost:1313/" target="_blank" rel="noopener" type="application/rss+xml">RSS</a>
+  <a class="color-link nav-link" href="http://localhost:1313/posts/ldap-authorization/" target="_blank" rel="noopener" type="application/rss+xml">RSS</a>
 </div>
 <footer class="footer">
 	<div class="social-icons">
@@ -169,213 +166,61 @@
 
         <div id="content" class="content-container">
         
-<div class = "article-content">
-        
-        <div class="description">
-            <p>Ömer Mert Kaya&rsquo;nın Kişisel Sayfası, IAM ve Security Engineer Blog yazıları</p>
-        </div>
-        
-        
-        
-        
-        <article>
-            <h2>
-                <a href="http://localhost:1313/posts/kullanici-yetki-gozden-gecirme-rapor/">
-                    Kullanıcı Yetki Gözden Geçirme Süreci Raporlama(Dashboard)
-                </a>
-            </h2>
-            <div>
-                <p>Yetki gözden geçirme süreçleri, Kimlik ve Erişim Yönetimi (IAM) sistemlerinin güvenliği artıran en önemli bileşenlerinden biridir.</p>
-                
-            </div>
-            <div class="post-footer">
-            <time>September 20, 2024</time>
 
-            
-            
-                
-                    <a class="tag" href="/tags/iam">#IAM</a>
-                
-                    <a class="tag" href="/tags/kimlik-y%C3%B6netimi">#kimlik yönetimi</a>
-                
-                    <a class="tag" href="/tags/access-management">#access management</a>
-                
-                    <a class="tag" href="/tags/yetki-g%C3%B6zden-ge%C3%A7irme">#yetki gözden geçirme</a>
-                
-                    <a class="tag" href="/tags/role-management">#role management</a>
-                
-                    <a class="tag" href="/tags/user-permissions">#user permissions</a>
-                
-                    <a class="tag" href="/tags/identity-lifecycle">#identity lifecycle</a>
-                
-                    <a class="tag" href="/tags/g%C3%BCvenlik">#güvenlik</a>
-                
-                    <a class="tag" href="/tags/security">#security</a>
-                
-                    <a class="tag" href="/tags/kullan%C4%B1c%C4%B1-eri%C5%9Fimi">#kullanıcı erişimi</a>
-                
-                    <a class="tag" href="/tags/yetki-y%C3%B6netimi">#yetki yönetimi</a>
-                
-                    <a class="tag" href="/tags/user-review-process">#user review process</a>
-                
-                    <a class="tag" href="/tags/individual-access-review">#individual access review</a>
-                
-                    <a class="tag" href="/tags/user-lifecycle-management">#user lifecycle management</a>
-                
-                    <a class="tag" href="/tags/kimlik-do%C4%9Frulama">#kimlik doğrulama</a>
-                
-            
-            </div> 
-           
-        </article>
-        
-        <article>
-            <h2>
-                <a href="http://localhost:1313/posts/rol-yetki-gozden-gecirme/">
-                    Kimlik ve Erişim Yönetiminde Yetki Gözden Geçirme Çalışmaları
-                </a>
-            </h2>
-            <div>
-                <p>Kimlik ve Erişim Yönetimi (IAM) sistemlerinde yetki/erişim gözden geçirme süreci, erişimlerin denetlenmesi amacıyla yürütülen çalışmaların genel tanımıdır.</p>
-                
-            </div>
-            <div class="post-footer">
-            <time>August 9, 2024</time>
+<h1 class="post-title">Active Directory Ldap Authorization Nedir? LDAP ile Web Uygulamasında Yetkilendirme Nasıl Yapılır?</h1>
+    
+    <time>November 30, 2024</time>
+    
+    <div>
+        <p>
+        <p>Ülkemizde ve dünyada birçok kuruluş, kullanıcı doğrulama ve yetkilendirme işlemleri için Active Directory (AD) gibi merkezi kimlik yönetimi sistemlerini kullanıyor. Bu sistemler, organizasyon içinde kullanıcıların ve grupların yönetimini kolaylaştırıyor. LDAP (Lightweight Directory Access Protocol) ise Active Directory gibi dizin hizmetlerine erişim sağlamak için kullanılan bir protokoldür. Bu protokol sayesinde Active Directory&rsquo;deki nesnelerle iletişime geçebiliyoruz. Bizim üzerinde duracağımız kullanıcılar ve güvenlik gruplarını LDAP protokolü ile Nodejs ile yaptığımız web uygulamamızda kullanacağız.</p>
+<h3 id="active-directory-ldap-authorization-nedir">Active Directory LDAP Authorization Nedir?</h3>
+<ul>
+<li>Kullanıcı, kimlik doğrulama işleminden geçer ve Active Directory giriş yapmış olur.</li>
+<li>LDAP sorguları ile kullanıcının Active Directory&rsquo;deki grup üyelikleri ve rol bilgileri alınır.</li>
+<li>Bu bilgiler, kullanıcının belirli kaynaklara erişimini veya işlemleri gerçekleştirme yetkisini belirlemek için kullanılır.</li>
+</ul>
+<h3 id="kendi-web-uygulamamızı-ve-active-directory-labmızı-oluşturulam">Kendi Web Uygulamamızı ve Active Directory Labmızı Oluşturulam</h3>
+<p>Active Directory&rsquo;de TestAPP isimli bir organizasyon unit oluşturuyoruz.
+Sonrasında TestAPP_Ekle, TestAPP_Guncelleme, TestAPP_Yazdirma, TestAPP_Silme güvenlik gruplarını oluşturuyoruz.</p>
+<img src="/images/ldap-authorization/testAPP.png" alt="Aktif Dizin Şeması" style="width:100%;">
+<p>Github&rsquo;dan hazırlamış olduğum proje dosyasını bilgisayarımıza indirelim. <a href="https://github.com/omermertkaya/active-directory-auth">Projeyi indir</a></p>
+<p>Proje dizinine giderek consolda aşağıdaki kodu çalıştırarak tüm gereklilikleri yüklüyoruz.</p>
+<pre tabindex="0"><code class="language-CLI" data-lang="CLI">
+npm install
+</code></pre><p>Sonrasında bazı düzenlemeler yapmamız gerekiyor.</p>
+<p>routes/auth.js dizininde düzenleme yapıyoruz. Burada benim Active Directory&rsquo;de oluşturduğum dizin adım mertidm.com olarak görüntüleniyor.
+baseDN, username ve password&rsquo;u kendimize göre düzenliyoruz.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Javascript" data-lang="Javascript"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">config</span> <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">url</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ldap://localhost&#39;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">baseDN</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;dc=mertidm,dc=com&#39;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">username</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;CN=Administrator,CN=Users,DC=mertidm,DC=com&#39;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">password</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Mert123!&#39;</span>
+</span></span><span style="display:flex;"><span>};
+</span></span></code></pre></div><p>Düzenleme işleminden sonra uygulamamızı çalıştıralım.</p>
+<pre tabindex="0"><code class="language-CLI" data-lang="CLI">
+node index
+</code></pre><p>Yazarak uygulammızı çalıştırıyoruz.</p>
+<img src="/images/ldap-authorization/uygulamaCalistirma.png" alt="Uygulama Calistirma" style="width:100%;">
+<p>Active directory&rsquo;de oluşturmuş olduğumuz kullanıcımız ile giriş işlemi gerçekleştiiyoruz.</p>
+<img src="/images/ldap-authorization/girisyapma.png" alt="Uygulamaya giris yapma" style="width:75%;">
+<p>Giriş işlemi sonrasında kullanıcımızın yetkilerine göre uygulamada yapabileceğimiz işlemler ekranda görüntüleniyor.</p>
+<img src="/images/ldap-authorization/webyetkili.png" alt="Web Yetkili" style="width:75%;">
+<p>Active Directory&rsquo;deki yetkilerimize göre uygulama içerisinde işlemler gerçekleştirebiliriz.</p>
+<h3 id="tüm-süreci-video-olarak-aşağıdan-izleyebilirsiniz">Tüm süreci video olarak aşağıdan izleyebilirsiniz.</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z-lM5L3jVqk" title="Active Directory Altyapısı ile Web Uygulamasında Yetkilendirme" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-            
-            
-                
-                    <a class="tag" href="/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi-iam">#Kimlik ve Erişim Yönetimi (IAM)</a>
-                
-                    <a class="tag" href="/tags/yetki-g%C3%B6zden-ge%C3%A7irme">#Yetki Gözden Geçirme</a>
-                
-                    <a class="tag" href="/tags/eri%C5%9Fim-y%C3%B6netimi">#Erişim Yönetimi</a>
-                
-                    <a class="tag" href="/tags/idm-toolu">#IDM Toolu</a>
-                
-                    <a class="tag" href="/tags/kullan%C4%B1c%C4%B1-yetkilendirme">#Kullanıcı Yetkilendirme</a>
-                
-                    <a class="tag" href="/tags/yetki-sertifikasyonu">#Yetki Sertifikasyonu</a>
-                
-                    <a class="tag" href="/tags/eri%C5%9Fim-kontrol%C3%BC">#Erişim Kontrolü</a>
-                
-                    <a class="tag" href="/tags/g%C3%BCvenlik-y%C3%B6netimi">#Güvenlik Yönetimi</a>
-                
-                    <a class="tag" href="/tags/yetki-y%C3%B6netimi">#Yetki Yönetimi</a>
-                
-                    <a class="tag" href="/tags/rol-tabanl%C4%B1-eri%C5%9Fim">#Rol Tabanlı Erişim</a>
-                
-                    <a class="tag" href="/tags/i%C5%9F-s%C3%BCre%C3%A7leri-ve-g%C3%BCvenlik">#İş Süreçleri ve Güvenlik</a>
-                
-            
-            </div> 
-           
-        </article>
-        
-        <article>
-            <h2>
-                <a href="http://localhost:1313/posts/role-mining-nedir/">
-                    Rol Madenciliği (Role Mining): IAM Sistemlerinde Etkin Rol Yapılarının Oluşturulması
-                </a>
-            </h2>
-            <div>
-                <p>Rol Madenciliği, Identity and Access Management (IAM) sistemlerinde yer alan bir süreçtir.</p>
-                
-            </div>
-            <div class="post-footer">
-            <time>August 5, 2024</time>
+        </p>
+    </div>
+    
 
-            
-            
-                
-                    <a class="tag" href="/tags/rolmadencili%C4%9Fi">#RolMadenciliği</a>
-                
-                    <a class="tag" href="/tags/rolemining">#RoleMining</a>
-                
-                    <a class="tag" href="/tags/iam">#IAM</a>
-                
-                    <a class="tag" href="/tags/kimlikveeri%C5%9Fimy%C3%B6netimi">#KimlikveErişimYönetimi</a>
-                
-                    <a class="tag" href="/tags/identityandaccessmanagement">#IdentityAndAccessManagement</a>
-                
-                    <a class="tag" href="/tags/siberg%C3%BCvenlik">#SiberGüvenlik</a>
-                
-                    <a class="tag" href="/tags/bilgig%C3%BCvenli%C4%9Fi">#BilgiGüvenliği</a>
-                
-                    <a class="tag" href="/tags/eri%C5%9Fimy%C3%B6netimi">#ErişimYönetimi</a>
-                
-                    <a class="tag" href="/tags/roly%C3%B6netimi">#RolYönetimi</a>
-                
-                    <a class="tag" href="/tags/yetkiy%C3%B6netimi">#YetkiYönetimi</a>
-                
-            
-            </div> 
-           
-        </article>
-        
-        <article>
-            <h2>
-                <a href="http://localhost:1313/posts/ibm-security-verify-kullanimi-saml/">
-                    IBM Security Verify SAML Authentication
-                </a>
-            </h2>
-            <div>
-                <p>Selamlar,
-Bu yazımda, cloud tabanlı IBM Security Verify&rsquo;in deneme sürümü ile SAML giriş yapma senaryosunu çalışacağız.</p>
-                
-            </div>
-            <div class="post-footer">
-            <time>July 24, 2024</time>
+    
 
-            
-            
-                
-                    <a class="tag" href="/tags/ibm">#ibm</a>
-                
-                    <a class="tag" href="/tags/security-verify-cloud">#security verify cloud</a>
-                
-                    <a class="tag" href="/tags/saml">#saml</a>
-                
-                    <a class="tag" href="/tags/ibm-security-verify-sso">#ibm security verify sso</a>
-                
-            
-            </div> 
-           
-        </article>
+    <div class="page-footer">
         
     </div>
-        
-        <div class="paginator">
-        
-        
-        <p>Page 3 of 5</p>
-        <div class="paginator-group">
-            
-            <a class="color-link" href="/page/2/">
-                    <svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
-                        <g class="color-arrow" fill="#ababab" fill-rule="nonzero">
-                            <polygon id="Path" points="1.75929935 4.50000282 5.3292523 7.62371165 4.6707477 8.37628835 0.240700645 4.49999718 4.67081049 0.623709205 5.32930951 1.37629079"></polygon>
-                            <polygon id="Path" points="13 4 13 5 1 5 1 4"></polygon>
-                        </g>
-                </svg>
-                Newer
-            </a>
-            
-            
-                <a class="color-link older" href="/page/4/">
-                    Older
-                    <svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
-                            <g class="color-arrow" fill="#ababab" fill-rule="nonzero">
-                                <polygon points="7.6707477 1.37628835 8.3292523 0.623711653 12.7592994 4.50000282 8.32918951 8.37629079 7.67069049 7.62370921 11.2407006 4.49999718"></polygon>
-                                <polygon id="Path" points="0 5 0 4 12 4 12 5"></polygon>
-                            </g>
-                    </svg>
-                        
-                </a>
-            
-        </div>
-        
-    </div>
+
 
         
 
