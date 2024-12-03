@@ -118,3 +118,4 @@ Bu sayede, kimlik doğrulama işlemleri hızlı ve güvenli bir şekilde Auth0 i
 
 Ayrıca, sistemler için merkezi bir kimlik ve erişim yönetimi çözümü olarak Auth0'un kullanılması, loglama ve denetleme gibi fonksiyonların daha etkin ve hızlı bir şekilde yapılmasını sağlar. Bu da sistem güvenliği ve izlenebilirlik açısından önemli avantajlar sunar.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nQBz0lBbQwM" title="Auth0 Nedir? Active Directory ile Auth0 Bağlantısı ve Web Uygulamasında Giriş Yapma" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
