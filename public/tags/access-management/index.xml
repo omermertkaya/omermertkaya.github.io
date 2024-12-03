@@ -6,8 +6,15 @@
     <description>Recent content in Access Management on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Nov 2024 15:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 30 Nov 2024 20:41:05 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/access-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Active Directory Ldap Authorization Nedir? LDAP ile Web Uygulamasında Yetkilendirme Nasıl Yapılır?</title>
+      <link>http://localhost:1313/posts/ldap-authorization/</link>
+      <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
+      <guid>http://localhost:1313/posts/ldap-authorization/</guid>
+      <description>Ülkemizde ve dünyada birçok kuruluş, kullanıcı doğrulama ve yetkilendirme işlemleri için Active Directory (AD) gibi merkezi kimlik yönetimi sistemlerini kullanıyor.</description>
+    </item>
     <item>
       <title>Active Directory Ldap Authentication Nedir? LDAP ile Giriş Yapma Nasıl Yapılır?</title>
       <link>http://localhost:1313/posts/ldap-authentication-nedir/</link>

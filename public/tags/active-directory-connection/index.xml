@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Active Directory Connection on Ömer Mert Kaya</title>
+    <link>http://localhost:1313/tags/active-directory-connection/</link>
+    <description>Recent content in Active Directory Connection on Ömer Mert Kaya</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Dec 2024 20:53:07 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/active-directory-connection/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Auth0 Nedir? Active Directory ile Auth0 Bağlantısı ve Web Uygulamasında Giriş Yapma</title>
+      <link>http://localhost:1313/posts/auth0-nedir-active-directory-ile-baglanti/</link>
+      <pubDate>Tue, 03 Dec 2024 20:53:07 +0300</pubDate>
+      <guid>http://localhost:1313/posts/auth0-nedir-active-directory-ile-baglanti/</guid>
+      <description>Auth0 Nedir? Okta firmasının Auth0 uygulaması, Kimlik Ve Erişim Yönetimi çözümleri sunan platformudur.</description>
+    </item>
+  </channel>
+</rss>
