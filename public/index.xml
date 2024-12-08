@@ -6,8 +6,15 @@
     <description>Recent content on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Dec 2024 20:53:07 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2024 22:41:01 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aktif Dizin Domainde RDP 3389 Portu Yasaklama</title>
+      <link>http://localhost:1313/posts/rdp-3389-yasaklama/</link>
+      <pubDate>Sat, 07 Dec 2024 22:41:01 +0300</pubDate>
+      <guid>http://localhost:1313/posts/rdp-3389-yasaklama/</guid>
+      <description>Günümüzde orta ve büyük ölçekleri firmaların birçoğu aktif dizin ile kullanıcılarını ve bilgisayarlarını merkezi olarak yönetiyor.</description>
+    </item>
     <item>
       <title>Auth0 Nedir? Active Directory ile Auth0 Bağlantısı ve Web Uygulamasında Giriş Yapma</title>
       <link>http://localhost:1313/posts/auth0-nedir-active-directory-ile-baglanti/</link>

@@ -12,10 +12,10 @@
     <meta name="description" content="Ömer Mert Kaya&#39;nın Kişisel Sayfası, IAM ve Security Engineer Blog yazıları">
     <meta name="keywords" content="ömer mert kaya&#39;nın kişisel bloğu, identity and access management, kimlik ve erişim yönetimi, security blog">
     <meta name="author" content="Omer Mert KAYA">
-    <link rel="canonical" href="http://localhost:1313/tags/security/">
+    <link rel="canonical" href="http://localhost:1313/posts/rdp-3389-yasaklama/">
 
 
-    <title>Security | Ömer Mert Kaya</title>
+    <title>Aktif Dizin Domainde RDP 3389 Portu Yasaklama | Ömer Mert Kaya</title>
     
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -36,8 +36,6 @@
     
     
  
-    
-    <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/security/index.xml" title="Ömer Mert Kaya" />
     </head>
 
     <body><meta name="description" content="" />
@@ -73,7 +71,7 @@
   
     <a class="color-link nav-link" href="/archives/">Arşiv</a>
   
-  <a class="color-link nav-link" href="http://localhost:1313/tags/security/" target="_blank" rel="noopener" type="application/rss+xml">RSS</a>
+  <a class="color-link nav-link" href="http://localhost:1313/posts/rdp-3389-yasaklama/" target="_blank" rel="noopener" type="application/rss+xml">RSS</a>
 </div>
 <footer class="footer">
 	<div class="social-icons">
@@ -169,76 +167,88 @@
         <div id="content" class="content-container">
         
 
-  <h1>Tagged "security"</h1>
-  
-  
+<h1 class="post-title">Aktif Dizin Domainde RDP 3389 Portu Yasaklama</h1>
     
-    <article>
-            <h2>
-                <a href="http://localhost:1313/posts/rdp-3389-yasaklama/">
-                    Rdp 3389 Yasaklama
-                </a>
-            </h2>
-            <div>
-                <p>Günümüzde orta ve büyük ölçekleri firmaların birçoğu aktif dizin ile kullanıcılarını ve bilgisayarlarını merkezi olarak yönetiyor.</p>
-                
-            </div>
-            <div class="post-footer">
-            <time>December 7, 2024</time>
-            </div> 
-        </article>
+    <time>December 7, 2024</time>
     
-  
+    <div>
+        <p>
+        <p>Günümüzde orta ve büyük ölçekleri firmaların birçoğu aktif dizin ile kullanıcılarını ve bilgisayarlarını merkezi olarak yönetiyor. Bunun yanı sıra özellikle kullanıcı bilgisayarlarımızda birçok güvenlik önemlini barındırıyoruz.</p>
+<p>Bu güvenlik önemlerlerinden en önemlilerinden birisi de <strong>Remote Desktop Protocol(RDP)</strong>, 3389 portu olarakta adlandırabilriiz.
+Burada önemli olan TCP&rsquo;de artık bir standart haline gelmiş 3389 portunu yasaklamanın yanı sıra RDP bağlantılarını farklı yöntemlerle de engeliyor olmak olduğunu unutmayalım.</p>
+<p>Bu yazı ve videoda sadece kısa bir gösterim ile domaindeki cihazımızın 3389 portuna bağlantı kurmasını engellediğimiz senarya üzerinden ilerliyor olacağız.</p>
+<p>Öncelikle Active Directory yönetim konsoluna sahip olduğumuz bir cihazda Administrator olarak oturum açıyoruz.</p>
+<h3 id="grup-ilkesi-yönetim-konsolunu-açıyoruz">Grup İlkesi Yönetim Konsolunu Açıyoruz</h3>
+<ul>
+<li>Başlat menüsüne girerek ve Group Policy Management (GPMC) bölümünü açıyoruz.</li>
+<li>RDP port bağlantılarını engellemek için ana dizinde &ldquo;Create a GPO in this domain, and Link it here&rdquo; seçerek ilerliyoruz.</li>
+<li>GPO’ya anlamlı bir ad verebiliriz (ör. &ldquo;Restrict Outbound RDP to Internal IPs&rdquo;).</li>
+</ul>
+<h3 id="güvenlik-duvarı-kuralı-oluşturuyoruz">Güvenlik Duvarı Kuralı Oluşturuyoruz</h3>
+<h4 id="gpoyu-düzenliyoruz">GPO’yu Düzenliyoruz</h4>
+<ul>
+<li>Oluşturduğumuz GPO’ya sağ tıklayarak ve Edit seçeneğini seçiyoruz.</li>
+<li>Computer Configuration &gt; Windows Settings &gt; Security Settings &gt; Windows Firewall with Advanced Security &gt; Outbound Rules yolunu izliyoruz.</li>
+<li>Sağ tıklayarak ve New Rule seçeneğini seçiyoruz.</li>
+</ul>
+<h4 id="kural-türünü-seçiyoruz">Kural Türünü Seçiyoruz</h4>
+<ul>
+<li>Port seçeneğini seçerek ve Next butonuna tıklıyoruz.</li>
+<li>TCP protokolünü seçerek ve Specific local ports kutusuna 3389 yazıyoruz.</li>
+<li>Next butonuna tıklıyoruz.</li>
+</ul>
+<h4 id="bağlantıyı-kısıtlama">Bağlantıyı Kısıtlama</h4>
+<ul>
+<li>Block the connection seçeneğini seçerek ve Next butonuna tıklıyoruz.</li>
+</ul>
+<h4 id="istisnaları-tanmlarız">İstisnaları Tanmlarız</h4>
+<ul>
+<li>Profil ayarlarında Domain, Private ve Public seçeneklerinin tümünü seçiyoruz.</li>
+<li>Next butonuna tıklayın.</li>
+</ul>
+<h4 id="kuralı-isimlendirme">Kuralı İsimlendirme</h4>
+<ul>
+<li>Kural için bir isim belirliyoruz.</li>
+<li>Finish butonuna basarak işlemi tamamlyıoruz.</li>
+</ul>
+<img src="/images/rdp-3389-yasaklama\ActiveDirectory.PNG" alt="Aktif Dizin Şeması" style="width:100%;">
+<h3 id="gpoyu-hedef-bilgisayarlara-uygulama-işlemi">GPO’yu Hedef Bilgisayarlara Uygulama İşlemi</h3>
+<p>Aktif dizindeki örnek bir cihazda oturum açarak aşağıdaki komutu cmd ekranına yazıyorum.
+Bu sayede tüm güncellemeleri test cihazıma alıyorum.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gpupdate /force
+</span></span></code></pre></div><img src="/images/rdp-3389-yasaklama\baglanti goruntusu.PNG" alt="Aktif Dizin Şeması" style="width:100%;">
+<p>Sonuç olarak domaindeki cihazlarımızda 3389 portundan gidecek olan bağlantıları engellemiş oluyoruz.
+Bunu sadece yazının bahsettiğim gibi güvenlik önemlerinin en basit halkasından bir tanesi olarak düşünebiliriz.</p>
+<p>Ayrıca aşağıdaki video da konuyu geniş çerçevede değerlendirmeye çalıştım.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w1pEQW69IX4" title="RDP 3389 Portunu Kapatmak Neden Önemlidir?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </p>
+    </div>
     
-    <article>
-            <h2>
-                <a href="http://localhost:1313/posts/ldap-authorization/">
-                    Active Directory Ldap Authorization Nedir? LDAP ile Web Uygulamasında Yetkilendirme Nasıl Yapılır?
-                </a>
-            </h2>
-            <div>
-                <p>Ülkemizde ve dünyada birçok kuruluş, kullanıcı doğrulama ve yetkilendirme işlemleri için Active Directory (AD) gibi merkezi kimlik yönetimi sistemlerini kullanıyor.</p>
-                
-            </div>
-            <div class="post-footer">
-            <time>November 30, 2024</time>
-            </div> 
-        </article>
+
     
-  
-    
-    <article>
-            <h2>
-                <a href="http://localhost:1313/posts/ldap-authentication-nedir/">
-                    Active Directory Ldap Authentication Nedir? LDAP ile Giriş Yapma Nasıl Yapılır?
-                </a>
-            </h2>
-            <div>
-                <p>Günümüzde uygulama güvenliği açısından giriş ekranları kritik bir öneme sahiptir. Eski uygulamalarda genellikle kullanıcı bilgileri ve şifreler, uygulamanın kendi veritabanında saklanırdı.</p>
-                
-            </div>
-            <div class="post-footer">
-            <time>November 28, 2024</time>
-            </div> 
-        </article>
-    
-  
-    
-    <article>
-            <h2>
-                <a href="http://localhost:1313/posts/kullanici-yetki-gozden-gecirme-rapor/">
-                    Kullanıcı Yetki Gözden Geçirme Süreci Raporlama(Dashboard)
-                </a>
-            </h2>
-            <div>
-                <p>Yetki gözden geçirme süreçleri, Kimlik ve Erişim Yönetimi (IAM) sistemlerinin güvenliği artıran en önemli bileşenlerinden biridir.</p>
-                
-            </div>
-            <div class="post-footer">
-            <time>September 20, 2024</time>
-            </div> 
-        </article>
-    
+
+    <div class="page-footer">
+        
+        <hr class="footer-divider">
+        
+            <a class="tag" href="/tags/active-directory">#Active Directory</a>
+        
+            <a class="tag" href="/tags/rdp">#RDP</a>
+        
+            <a class="tag" href="/tags/windows-firewall">#Windows FireWall</a>
+        
+            <a class="tag" href="/tags/security">#security</a>
+        
+            <a class="tag" href="/tags/enterprise-security">#enterprise security</a>
+        
+            <a class="tag" href="/tags/rdp">#rdp</a>
+        
+            <a class="tag" href="/tags/remote-destop-protocol">#remote destop protocol</a>
+        
+            <a class="tag" href="/tags/3389">#3389</a>
+        
+      
+    </div>
 
 
         

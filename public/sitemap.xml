@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/active-directory/</loc>
+    <lastmod>2024-12-07T22:41:01+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/enterprise-security/</loc>
+    <lastmod>2024-12-07T22:41:01+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-12-07T22:41:01+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rdp/</loc>
+    <lastmod>2024-12-07T22:41:01+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/rdp-3389-yasaklama/</loc>
+    <lastmod>2024-12-07T22:41:01+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/security/</loc>
+    <lastmod>2024-12-07T22:41:01+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-12-07T22:41:01+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/windows-firewall/</loc>
+    <lastmod>2024-12-07T22:41:01+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/active-directory-connection/</loc>
     <lastmod>2024-12-03T20:53:07+03:00</lastmod>
   </url><url>
@@ -20,16 +44,7 @@
     <loc>http://localhost:1313/tags/kimlik-ve-erisim-yonetimi/</loc>
     <lastmod>2024-12-03T20:53:07+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-12-03T20:53:07+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-12-03T20:53:07+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/access-management/</loc>
-    <lastmod>2024-11-30T20:41:05+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/active-directory/</loc>
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/ldap-authorization/</loc>
@@ -42,9 +57,6 @@
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/directory-services/</loc>
-    <lastmod>2024-11-30T20:41:05+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/enterprise-security/</loc>
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/iam/</loc>
@@ -72,9 +84,6 @@
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/node.js-ldap/</loc>
-    <lastmod>2024-11-30T20:41:05+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/security/</loc>
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/sso/</loc>

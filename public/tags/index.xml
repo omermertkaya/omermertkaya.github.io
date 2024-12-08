@@ -6,8 +6,43 @@
     <description>Recent content in Tags on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Dec 2024 20:53:07 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2024 22:41:01 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Active Directory</title>
+      <link>http://localhost:1313/tags/active-directory/</link>
+      <pubDate>Sat, 07 Dec 2024 22:41:01 +0300</pubDate>
+      <guid>http://localhost:1313/tags/active-directory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Enterprise Security</title>
+      <link>http://localhost:1313/tags/enterprise-security/</link>
+      <pubDate>Sat, 07 Dec 2024 22:41:01 +0300</pubDate>
+      <guid>http://localhost:1313/tags/enterprise-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RDP</title>
+      <link>http://localhost:1313/tags/rdp/</link>
+      <pubDate>Sat, 07 Dec 2024 22:41:01 +0300</pubDate>
+      <guid>http://localhost:1313/tags/rdp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/tags/security/</link>
+      <pubDate>Sat, 07 Dec 2024 22:41:01 +0300</pubDate>
+      <guid>http://localhost:1313/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows FireWall</title>
+      <link>http://localhost:1313/tags/windows-firewall/</link>
+      <pubDate>Sat, 07 Dec 2024 22:41:01 +0300</pubDate>
+      <guid>http://localhost:1313/tags/windows-firewall/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Active Directory Connection</title>
       <link>http://localhost:1313/tags/active-directory-connection/</link>
@@ -51,13 +86,6 @@
       <description></description>
     </item>
     <item>
-      <title>Active Directory</title>
-      <link>http://localhost:1313/tags/active-directory/</link>
-      <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
-      <guid>http://localhost:1313/tags/active-directory/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>AD DS</title>
       <link>http://localhost:1313/tags/ad-ds/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
@@ -76,13 +104,6 @@
       <link>http://localhost:1313/tags/directory-services/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
       <guid>http://localhost:1313/tags/directory-services/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Enterprise Security</title>
-      <link>http://localhost:1313/tags/enterprise-security/</link>
-      <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
-      <guid>http://localhost:1313/tags/enterprise-security/</guid>
       <description></description>
     </item>
     <item>
@@ -146,13 +167,6 @@
       <link>http://localhost:1313/tags/node.js-ldap/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
       <guid>http://localhost:1313/tags/node.js-ldap/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Security</title>
-      <link>http://localhost:1313/tags/security/</link>
-      <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
-      <guid>http://localhost:1313/tags/security/</guid>
       <description></description>
     </item>
     <item>
