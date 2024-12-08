@@ -56,6 +56,3 @@ gpupdate /force
 Sonuç olarak domaindeki cihazlarımızda 3389 portundan gidecek olan bağlantıları engellemiş oluyoruz.
 Bunu sadece yazının bahsettiğim gibi güvenlik önemlerinin en basit halkasından bir tanesi olarak düşünebiliriz.
 
-Ayrıca aşağıdaki video da konuyu geniş çerçevede değerlendirmeye çalıştım.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w1pEQW69IX4" title="RDP 3389 Portunu Kapatmak Neden Önemlidir?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
