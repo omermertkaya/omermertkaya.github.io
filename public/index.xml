@@ -6,8 +6,15 @@
     <description>Recent content on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Dec 2024 22:41:01 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2024 00:31:03 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kimlik Ve Erişim Yonetiminde Sanal Asistanlar</title>
+      <link>http://localhost:1313/posts/kimlik-ve-erisim-yonetiminde-sanal-asistanlar/</link>
+      <pubDate>Tue, 10 Dec 2024 00:31:03 +0300</pubDate>
+      <guid>http://localhost:1313/posts/kimlik-ve-erisim-yonetiminde-sanal-asistanlar/</guid>
+      <description>Kimlik ve Erişim Yönetimi (IAM) sistemlerinde, özellikle helpdesk tarafında çalışanlarımızdan sıklıkla sorular alıyoruz.</description>
+    </item>
     <item>
       <title>Aktif Dizin Domainde RDP 3389 Portu Yasaklama</title>
       <link>http://localhost:1313/posts/rdp-3389-yasaklama/</link>
