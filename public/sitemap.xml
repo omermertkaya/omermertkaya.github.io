@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/iam-gelece%C4%9Fi/</loc>
+    <lastmod>2024-12-11T23:58:14+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/identity-and-access-management/</loc>
+    <lastmod>2024-12-11T23:58:14+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</loc>
+    <lastmod>2024-12-11T23:58:14+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/kimlik-ve-erisim-yonetiminde-gelecek/</loc>
+    <lastmod>2024-12-11T23:58:14+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-12-11T23:58:14+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/siber-g%C3%BCvenlik/</loc>
+    <lastmod>2024-12-11T23:58:14+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-12-11T23:58:14+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/zero-trust-s%C4%B1f%C4%B1r-g%C3%BCven/</loc>
+    <lastmod>2024-12-11T23:58:14+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/access-control/</loc>
     <lastmod>2024-12-10T00:31:03+03:00</lastmod>
   </url><url>
@@ -14,19 +38,13 @@
     <loc>http://localhost:1313/tags/identity-management/</loc>
     <lastmod>2024-12-10T00:31:03+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/kimlik-ve-eririm-yonetiminde-sanal-asistanlar/</loc>
+    <loc>http://localhost:1313/posts/kimlik-ve-erisim-yonetiminde-sanal-asistanlar/</loc>
     <lastmod>2024-12-10T00:31:03+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/microsoft-365-agents/</loc>
     <lastmod>2024-12-10T00:31:03+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-12-10T00:31:03+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/security-automation/</loc>
-    <lastmod>2024-12-10T00:31:03+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-12-10T00:31:03+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/3389/</loc>
@@ -140,9 +158,6 @@
     <loc>http://localhost:1313/tags/it-g%C3%BCvenlik-bildirimleri/</loc>
     <lastmod>2024-11-24T22:45:02+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</loc>
-    <lastmod>2024-11-24T22:45:02+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/kullan%C4%B1c%C4%B1-bilgilendirme/</loc>
     <lastmod>2024-11-24T22:45:02+03:00</lastmod>
   </url><url>
@@ -179,9 +194,6 @@
     <loc>http://localhost:1313/tags/self-servis/</loc>
     <lastmod>2024-11-21T21:30:49+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/siber-g%C3%BCvenlik/</loc>
-    <lastmod>2024-11-21T21:30:49+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/yetki-g%C3%B6zden-ge%C3%A7irme/</loc>
     <lastmod>2024-11-21T21:30:49+03:00</lastmod>
   </url><url>
@@ -198,9 +210,6 @@
     <lastmod>2024-11-13T20:55:50+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/eri%C5%9Fimtalebiy%C3%B6netimi/</loc>
-    <lastmod>2024-11-09T12:28:23+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/identity-and-access-management/</loc>
     <lastmod>2024-11-09T12:28:23+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-erisim-talebi/</loc>

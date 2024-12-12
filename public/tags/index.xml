@@ -6,8 +6,43 @@
     <description>Recent content in Tags on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Dec 2024 00:31:03 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 11 Dec 2024 23:58:14 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IAM Geleceği</title>
+      <link>http://localhost:1313/tags/iam-gelece%C4%9Fi/</link>
+      <pubDate>Wed, 11 Dec 2024 23:58:14 +0300</pubDate>
+      <guid>http://localhost:1313/tags/iam-gelece%C4%9Fi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Identity and Access Management</title>
+      <link>http://localhost:1313/tags/identity-and-access-management/</link>
+      <pubDate>Wed, 11 Dec 2024 23:58:14 +0300</pubDate>
+      <guid>http://localhost:1313/tags/identity-and-access-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kimlik Ve Erişim Yönetimi</title>
+      <link>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</link>
+      <pubDate>Wed, 11 Dec 2024 23:58:14 +0300</pubDate>
+      <guid>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Siber Güvenlik</title>
+      <link>http://localhost:1313/tags/siber-g%C3%BCvenlik/</link>
+      <pubDate>Wed, 11 Dec 2024 23:58:14 +0300</pubDate>
+      <guid>http://localhost:1313/tags/siber-g%C3%BCvenlik/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zero Trust Sıfır Güven</title>
+      <link>http://localhost:1313/tags/zero-trust-s%C4%B1f%C4%B1r-g%C3%BCven/</link>
+      <pubDate>Wed, 11 Dec 2024 23:58:14 +0300</pubDate>
+      <guid>http://localhost:1313/tags/zero-trust-s%C4%B1f%C4%B1r-g%C3%BCven/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Access Control</title>
       <link>http://localhost:1313/tags/access-control/</link>
@@ -275,13 +310,6 @@
       <description></description>
     </item>
     <item>
-      <title>Kimlik Ve Erişim Yönetimi</title>
-      <link>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</link>
-      <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
-      <guid>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Kullanıcı Bilgilendirme</title>
       <link>http://localhost:1313/tags/kullan%C4%B1c%C4%B1-bilgilendirme/</link>
       <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
@@ -352,13 +380,6 @@
       <description></description>
     </item>
     <item>
-      <title>Siber Güvenlik</title>
-      <link>http://localhost:1313/tags/siber-g%C3%BCvenlik/</link>
-      <pubDate>Thu, 21 Nov 2024 21:30:49 +0300</pubDate>
-      <guid>http://localhost:1313/tags/siber-g%C3%BCvenlik/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Yetki Gözden Geçirme</title>
       <link>http://localhost:1313/tags/yetki-g%C3%B6zden-ge%C3%A7irme/</link>
       <pubDate>Thu, 21 Nov 2024 21:30:49 +0300</pubDate>
@@ -391,13 +412,6 @@
       <link>http://localhost:1313/tags/eri%C5%9Fimtalebiy%C3%B6netimi/</link>
       <pubDate>Sat, 09 Nov 2024 12:28:23 +0300</pubDate>
       <guid>http://localhost:1313/tags/eri%C5%9Fimtalebiy%C3%B6netimi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Identity and Access Management</title>
-      <link>http://localhost:1313/tags/identity-and-access-management/</link>
-      <pubDate>Sat, 09 Nov 2024 12:28:23 +0300</pubDate>
-      <guid>http://localhost:1313/tags/identity-and-access-management/</guid>
       <description></description>
     </item>
     <item>

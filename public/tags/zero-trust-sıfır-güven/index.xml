@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Siber Güvenlik on Ömer Mert Kaya</title>
-    <link>http://localhost:1313/tags/siber-g%C3%BCvenlik/</link>
-    <description>Recent content in Siber Güvenlik on Ömer Mert Kaya</description>
+    <title>Zero Trust Sıfır Güven on Ömer Mert Kaya</title>
+    <link>http://localhost:1313/tags/zero-trust-s%C4%B1f%C4%B1r-g%C3%BCven/</link>
+    <description>Recent content in Zero Trust Sıfır Güven on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Dec 2024 23:58:14 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/siber-g%C3%BCvenlik/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/zero-trust-s%C4%B1f%C4%B1r-g%C3%BCven/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kimlik Ve Erişim Yönetiminde Dünyada Önümüzdeki Dönemlerde Neler Olacak?</title>
       <link>http://localhost:1313/posts/kimlik-ve-erisim-yonetiminde-gelecek/</link>
       <pubDate>Wed, 11 Dec 2024 23:58:14 +0300</pubDate>
       <guid>http://localhost:1313/posts/kimlik-ve-erisim-yonetiminde-gelecek/</guid>
       <description>IAM&amp;rsquo;in Geleceği: Dijital Güvenliğin Yeni Paradigması Teknolojinin hızla evrilen dünyasında, Kimlik ve Erişim Yönetimi (IAM) stratejileri dünyada radikal bir dönüşüm geçiriyor.</description>
-    </item>
-    <item>
-      <title>Rol ve Yetki Sahiplerinin Gözden Geçirme Süreci</title>
-      <link>http://localhost:1313/posts/rol-yetki-sahibi-gozden-gecirme-sureci/</link>
-      <pubDate>Thu, 21 Nov 2024 21:30:49 +0300</pubDate>
-      <guid>http://localhost:1313/posts/rol-yetki-sahibi-gozden-gecirme-sureci/</guid>
-      <description>Kimlik ve Erişim Yönetimi (IAM) sistemlerinin en önemli bileşenlerinden biri, kullanıcı yetkilerinin düzenli olarak gözden geçirilmesidir.</description>
     </item>
   </channel>
 </rss>
