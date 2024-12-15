@@ -2,25 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/abstraction-soyutlama/</loc>
+    <lastmod>2024-12-15T14:49:06+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/dijital-g%C3%BCvenlik/</loc>
+    <lastmod>2024-12-15T14:49:06+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/eri%C5%9Fim-y%C3%B6netimi/</loc>
+    <lastmod>2024-12-15T14:49:06+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</loc>
+    <lastmod>2024-12-15T14:49:06+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/abstraction-kavramini-inceleyelim/</loc>
+    <lastmod>2024-12-15T14:49:06+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kimlik-y%C3%B6netimi/</loc>
+    <lastmod>2024-12-15T14:49:06+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-12-15T14:49:06+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rol-tabanl%C4%B1-eri%C5%9Fim-kontrol%C3%BC-rbac/</loc>
+    <lastmod>2024-12-15T14:49:06+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-12-15T14:49:06+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/iam-gelece%C4%9Fi/</loc>
     <lastmod>2024-12-11T23:58:14+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/identity-and-access-management/</loc>
     <lastmod>2024-12-11T23:58:14+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</loc>
-    <lastmod>2024-12-11T23:58:14+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/kimlik-ve-erisim-yonetiminde-gelecek/</loc>
     <lastmod>2024-12-11T23:58:14+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-12-11T23:58:14+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/siber-g%C3%BCvenlik/</loc>
-    <lastmod>2024-12-11T23:58:14+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-12-11T23:58:14+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/zero-trust-s%C4%B1f%C4%B1r-g%C3%BCven/</loc>
@@ -110,9 +128,6 @@
     <loc>http://localhost:1313/tags/kimlik-do%C4%9Frulama/</loc>
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/kimlik-y%C3%B6netimi/</loc>
-    <lastmod>2024-11-30T20:41:05+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/kullan%C4%B1c%C4%B1-eri%C5%9Fimi/</loc>
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
@@ -174,9 +189,6 @@
     <lastmod>2024-11-24T12:30:36+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/eri%C5%9Fim-kontrol%C3%BC/</loc>
-    <lastmod>2024-11-21T21:30:49+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/eri%C5%9Fim-y%C3%B6netimi/</loc>
     <lastmod>2024-11-21T21:30:49+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/g%C3%BCvenlik-s%C4%B1k%C4%B1la%C5%9Ft%C4%B1rmas%C4%B1/</loc>

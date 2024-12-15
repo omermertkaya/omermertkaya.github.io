@@ -6,8 +6,50 @@
     <description>Recent content in Tags on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Dec 2024 23:58:14 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 15 Dec 2024 14:49:06 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Abstraction Soyutlama</title>
+      <link>http://localhost:1313/tags/abstraction-soyutlama/</link>
+      <pubDate>Sun, 15 Dec 2024 14:49:06 +0300</pubDate>
+      <guid>http://localhost:1313/tags/abstraction-soyutlama/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dijital Güvenlik</title>
+      <link>http://localhost:1313/tags/dijital-g%C3%BCvenlik/</link>
+      <pubDate>Sun, 15 Dec 2024 14:49:06 +0300</pubDate>
+      <guid>http://localhost:1313/tags/dijital-g%C3%BCvenlik/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Erişim Yönetimi</title>
+      <link>http://localhost:1313/tags/eri%C5%9Fim-y%C3%B6netimi/</link>
+      <pubDate>Sun, 15 Dec 2024 14:49:06 +0300</pubDate>
+      <guid>http://localhost:1313/tags/eri%C5%9Fim-y%C3%B6netimi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kimlik Ve Erişim Yönetimi</title>
+      <link>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</link>
+      <pubDate>Sun, 15 Dec 2024 14:49:06 +0300</pubDate>
+      <guid>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kimlik Yönetimi</title>
+      <link>http://localhost:1313/tags/kimlik-y%C3%B6netimi/</link>
+      <pubDate>Sun, 15 Dec 2024 14:49:06 +0300</pubDate>
+      <guid>http://localhost:1313/tags/kimlik-y%C3%B6netimi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rol Tabanlı Erişim Kontrolü RBAC</title>
+      <link>http://localhost:1313/tags/rol-tabanl%C4%B1-eri%C5%9Fim-kontrol%C3%BC-rbac/</link>
+      <pubDate>Sun, 15 Dec 2024 14:49:06 +0300</pubDate>
+      <guid>http://localhost:1313/tags/rol-tabanl%C4%B1-eri%C5%9Fim-kontrol%C3%BC-rbac/</guid>
+      <description></description>
+    </item>
     <item>
       <title>IAM Geleceği</title>
       <link>http://localhost:1313/tags/iam-gelece%C4%9Fi/</link>
@@ -20,13 +62,6 @@
       <link>http://localhost:1313/tags/identity-and-access-management/</link>
       <pubDate>Wed, 11 Dec 2024 23:58:14 +0300</pubDate>
       <guid>http://localhost:1313/tags/identity-and-access-management/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kimlik Ve Erişim Yönetimi</title>
-      <link>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</link>
-      <pubDate>Wed, 11 Dec 2024 23:58:14 +0300</pubDate>
-      <guid>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</guid>
       <description></description>
     </item>
     <item>
@@ -212,13 +247,6 @@
       <description></description>
     </item>
     <item>
-      <title>Kimlik Yönetimi</title>
-      <link>http://localhost:1313/tags/kimlik-y%C3%B6netimi/</link>
-      <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
-      <guid>http://localhost:1313/tags/kimlik-y%C3%B6netimi/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Kullanıcı Erişimi</title>
       <link>http://localhost:1313/tags/kullan%C4%B1c%C4%B1-eri%C5%9Fimi/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
@@ -342,13 +370,6 @@
       <link>http://localhost:1313/tags/eri%C5%9Fim-kontrol%C3%BC/</link>
       <pubDate>Thu, 21 Nov 2024 21:30:49 +0300</pubDate>
       <guid>http://localhost:1313/tags/eri%C5%9Fim-kontrol%C3%BC/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Erişim Yönetimi</title>
-      <link>http://localhost:1313/tags/eri%C5%9Fim-y%C3%B6netimi/</link>
-      <pubDate>Thu, 21 Nov 2024 21:30:49 +0300</pubDate>
-      <guid>http://localhost:1313/tags/eri%C5%9Fim-y%C3%B6netimi/</guid>
       <description></description>
     </item>
     <item>
