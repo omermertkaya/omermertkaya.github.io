@@ -10,6 +10,7 @@ $gray-light: #ABABAB;
 $gray-medium: #898989;
 $gray-dark: #5F5F5F;
 $highlight: #FFEC5C;
+$menu-blue: #4a6b8a;
 
 // FONTS
 $serif: "Noto Serif","Segoe UI","Helvetica Neue",Helvetica,Roboto,FreeSans,serif;
@@ -266,6 +267,12 @@ nav {
         font-size: 1.5em;
         text-decoration: none;
         margin-top: 0.75em;
+        color: $menu-blue;
+        transition: color 0.2s ease;
+
+        &:hover {
+            color: darken($menu-blue, 15%);
+        }
     }
 }
 
@@ -278,6 +285,13 @@ nav {
 
 .nav-link {
     margin-bottom: 0.5em;
+    color: $menu-blue;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    
+    &:hover {
+        color: darken($menu-blue, 15%);
+    }
 }
 
 .description {
@@ -506,3 +520,41 @@ footer {
 // BREAKPOINTS
 @import "partials/_breakpoints";
 @import "custom";
+
+// Nav-menu sınıfı içindeki tüm linkler için
+.nav-menu {
+    .nav-link, 
+    a {
+        color: $menu-blue;
+        text-decoration: none;
+        transition: color 0.2s ease;
+        
+        &:hover {
+            color: darken($menu-blue, 15%);
+        }
+    }
+}
+
+// Site başlığı için
+.site-title {
+    a {
+        color: $menu-blue;
+        transition: color 0.2s ease;
+        
+        &:hover {
+            color: darken($menu-blue, 15%);
+        }
+    }
+}
+
+// Ana menü linkleri için
+.main-menu,
+nav .nav-menu {
+    a {
+        color: $menu-blue !important;
+        
+        &:hover {
+            color: darken($menu-blue, 15%) !important;
+        }
+    }
+}
