@@ -43,6 +43,9 @@ disqusShortname = ""
 
     # Youtube
     youtube = "https://www.youtube.com/@mekod3763"
+    
+    # Medium hesabınızın bağlantısını ekleyin.
+    medium = "https://medium.com/@omermertkaya"  # Buraya Medium kullanıcı adınızı ekleyin.
 
     # SEO settings
 

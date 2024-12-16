@@ -1,7 +1,7 @@
 body {
-  color: #222;
-  font-family: sans-serif;
-  line-height: 1.5;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
   margin: 1rem;
   max-width: 768px;
 }
@@ -17,6 +17,14 @@ footer {
 }
 
 a {
-  color: #00e;
+  color: #007bff;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+article p {
+  margin-bottom: 1.5em;
 }
