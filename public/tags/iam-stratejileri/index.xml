@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IAM Stratejileri on Ömer Mert Kaya</title>
+    <link>http://localhost:1313/tags/iam-stratejileri/</link>
+    <description>Recent content in IAM Stratejileri on Ömer Mert Kaya</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Dec 2024 20:33:05 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/iam-stratejileri/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Access Certification</title>
+      <link>http://localhost:1313/posts/access-certification/</link>
+      <pubDate>Mon, 16 Dec 2024 20:33:05 +0300</pubDate>
+      <guid>http://localhost:1313/posts/access-certification/</guid>
+      <description>Kimlik ve Erişim Yönetimi (IAM), organizasyonlarda bilgi teknolojisi altyapısının ve hassas verilerin güvenliğini sağlamak için kritik bir role sahiptir.</description>
+    </item>
+  </channel>
+</rss>
