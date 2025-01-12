@@ -5,13 +5,28 @@
     <loc>http://localhost:1313/tags/aaa-nedir/</loc>
     <lastmod>2025-01-02T18:57:49+03:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/accounting/</loc>
+    <lastmod>2025-01-02T18:57:49+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/aaa-nedir/</loc>
+    <lastmod>2025-01-02T18:57:49+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/authorization/</loc>
     <lastmod>2025-01-02T18:57:49+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/dijital-g%C3%BCvenlik/</loc>
     <lastmod>2025-01-02T18:57:49+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/eri%C5%9Fim-y%C3%B6netimi/</loc>
+    <lastmod>2025-01-02T18:57:49+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/iam-kavramlar%C4%B1/</loc>
+    <lastmod>2025-01-02T18:57:49+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/idm-kavramlar%C4%B1/</loc>
+    <lastmod>2025-01-02T18:57:49+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kimlik-do%C4%9Frulama/</loc>
     <lastmod>2025-01-02T18:57:49+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</loc>
@@ -23,7 +38,7 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-01-02T18:57:49+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/rol-tabanl%C4%B1-eri%C5%9Fim-kontrol%C3%BC-rbac/</loc>
+    <loc>http://localhost:1313/tags/siber-g%C3%BCvenlik/</loc>
     <lastmod>2025-01-02T18:57:49+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
@@ -44,6 +59,9 @@
     <loc>http://localhost:1313/tags/iam-stratejileri/</loc>
     <lastmod>2024-12-16T20:33:05+03:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/rol-tabanl%C4%B1-eri%C5%9Fim-kontrol%C3%BC-rbac/</loc>
+    <lastmod>2024-12-16T20:33:05+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/zero-trust-g%C3%BCvenlik-modeli/</loc>
     <lastmod>2024-12-16T20:33:05+03:00</lastmod>
   </url><url>
@@ -57,9 +75,6 @@
     <lastmod>2024-12-11T23:58:14+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/kimlik-ve-erisim-yonetiminde-gelecek/</loc>
-    <lastmod>2024-12-11T23:58:14+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/siber-g%C3%BCvenlik/</loc>
     <lastmod>2024-12-11T23:58:14+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/zero-trust-s%C4%B1f%C4%B1r-g%C3%BCven/</loc>
@@ -122,9 +137,6 @@
     <loc>http://localhost:1313/tags/authentication/</loc>
     <lastmod>2024-12-03T20:53:07+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/authorization/</loc>
-    <lastmod>2024-12-03T20:53:07+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/kimlik-ve-erisim-yonetimi/</loc>
     <lastmod>2024-12-03T20:53:07+03:00</lastmod>
   </url><url>
@@ -144,9 +156,6 @@
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/iam/</loc>
-    <lastmod>2024-11-30T20:41:05+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/kimlik-do%C4%9Frulama/</loc>
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/kullan%C4%B1c%C4%B1-eri%C5%9Fimi/</loc>

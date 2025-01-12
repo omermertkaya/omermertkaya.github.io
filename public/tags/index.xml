@@ -16,6 +16,20 @@
       <description></description>
     </item>
     <item>
+      <title>Accounting</title>
+      <link>http://localhost:1313/tags/accounting/</link>
+      <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
+      <guid>http://localhost:1313/tags/accounting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Authorization</title>
+      <link>http://localhost:1313/tags/authorization/</link>
+      <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
+      <guid>http://localhost:1313/tags/authorization/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Dijital Güvenlik</title>
       <link>http://localhost:1313/tags/dijital-g%C3%BCvenlik/</link>
       <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
@@ -27,6 +41,27 @@
       <link>http://localhost:1313/tags/eri%C5%9Fim-y%C3%B6netimi/</link>
       <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
       <guid>http://localhost:1313/tags/eri%C5%9Fim-y%C3%B6netimi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IAM Kavramları</title>
+      <link>http://localhost:1313/tags/iam-kavramlar%C4%B1/</link>
+      <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
+      <guid>http://localhost:1313/tags/iam-kavramlar%C4%B1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IDM Kavramları</title>
+      <link>http://localhost:1313/tags/idm-kavramlar%C4%B1/</link>
+      <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
+      <guid>http://localhost:1313/tags/idm-kavramlar%C4%B1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kimlik Doğrulama</title>
+      <link>http://localhost:1313/tags/kimlik-do%C4%9Frulama/</link>
+      <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
+      <guid>http://localhost:1313/tags/kimlik-do%C4%9Frulama/</guid>
       <description></description>
     </item>
     <item>
@@ -44,10 +79,10 @@
       <description></description>
     </item>
     <item>
-      <title>Rol Tabanlı Erişim Kontrolü RBAC</title>
-      <link>http://localhost:1313/tags/rol-tabanl%C4%B1-eri%C5%9Fim-kontrol%C3%BC-rbac/</link>
+      <title>Siber Güvenlik</title>
+      <link>http://localhost:1313/tags/siber-g%C3%BCvenlik/</link>
       <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
-      <guid>http://localhost:1313/tags/rol-tabanl%C4%B1-eri%C5%9Fim-kontrol%C3%BC-rbac/</guid>
+      <guid>http://localhost:1313/tags/siber-g%C3%BCvenlik/</guid>
       <description></description>
     </item>
     <item>
@@ -79,6 +114,13 @@
       <description></description>
     </item>
     <item>
+      <title>Rol Tabanlı Erişim Kontrolü RBAC</title>
+      <link>http://localhost:1313/tags/rol-tabanl%C4%B1-eri%C5%9Fim-kontrol%C3%BC-rbac/</link>
+      <pubDate>Mon, 16 Dec 2024 20:33:05 +0300</pubDate>
+      <guid>http://localhost:1313/tags/rol-tabanl%C4%B1-eri%C5%9Fim-kontrol%C3%BC-rbac/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Zero-Trust Güvenlik Modeli</title>
       <link>http://localhost:1313/tags/zero-trust-g%C3%BCvenlik-modeli/</link>
       <pubDate>Mon, 16 Dec 2024 20:33:05 +0300</pubDate>
@@ -97,13 +139,6 @@
       <link>http://localhost:1313/tags/identity-and-access-management/</link>
       <pubDate>Wed, 11 Dec 2024 23:58:14 +0300</pubDate>
       <guid>http://localhost:1313/tags/identity-and-access-management/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Siber Güvenlik</title>
-      <link>http://localhost:1313/tags/siber-g%C3%BCvenlik/</link>
-      <pubDate>Wed, 11 Dec 2024 23:58:14 +0300</pubDate>
-      <guid>http://localhost:1313/tags/siber-g%C3%BCvenlik/</guid>
       <description></description>
     </item>
     <item>
@@ -226,13 +261,6 @@
       <description></description>
     </item>
     <item>
-      <title>Authorization</title>
-      <link>http://localhost:1313/tags/authorization/</link>
-      <pubDate>Tue, 03 Dec 2024 20:53:07 +0300</pubDate>
-      <guid>http://localhost:1313/tags/authorization/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Kimlik Ve Erisim Yonetimi</title>
       <link>http://localhost:1313/tags/kimlik-ve-erisim-yonetimi/</link>
       <pubDate>Tue, 03 Dec 2024 20:53:07 +0300</pubDate>
@@ -272,13 +300,6 @@
       <link>http://localhost:1313/tags/iam/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
       <guid>http://localhost:1313/tags/iam/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kimlik Doğrulama</title>
-      <link>http://localhost:1313/tags/kimlik-do%C4%9Frulama/</link>
-      <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
-      <guid>http://localhost:1313/tags/kimlik-do%C4%9Frulama/</guid>
       <description></description>
     </item>
     <item>

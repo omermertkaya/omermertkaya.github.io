@@ -6,8 +6,15 @@
     <description>Recent content in Kimlik Doğrulama on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Nov 2024 20:41:05 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2025 18:57:49 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/kimlik-do%C4%9Frulama/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Authentication, Authorization, Accounting (AAA) Nedir?</title>
+      <link>http://localhost:1313/posts/aaa-nedir/</link>
+      <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
+      <guid>http://localhost:1313/posts/aaa-nedir/</guid>
+      <description>Siber güvenlikte sorunların tespitinde ve yapılandırılmasında birçok kavram kullanıyoruz. Bunlardan belki en çok bilinen ve temel olanlardan biri CIA&amp;rsquo;dir.</description>
+    </item>
     <item>
       <title>Active Directory Ldap Authorization Nedir? LDAP ile Web Uygulamasında Yetkilendirme Nasıl Yapılır?</title>
       <link>http://localhost:1313/posts/ldap-authorization/</link>

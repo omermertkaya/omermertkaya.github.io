@@ -25,7 +25,7 @@ disqusShortname = ""
 [params]
     math = true
     # Blog description at the top of the homepage. Supports markdown.
-    description = "Ömer Mert Kaya'nın Kişisel Sayfası, IAM ve Security Engineer Blog yazıları"
+    description = "Ömer Mert Kaya'nın Kişisel Sayfası, Identıty and Access Management ve Security Engineer Blog yazıları"
 
     showReadMore = false
 
@@ -50,7 +50,7 @@ disqusShortname = ""
     # SEO settings
 
     author = "Omer Mert KAYA"
-    keywords = "ömer mert kaya'nın kişisel bloğu, identity and access management, kimlik ve erişim yönetimi, security blog"
+    keywords = "ömer mert kaya'nın kişisel bloğu, identity and access management, kimlik ve erişim yönetimi, security blog, security engineer"
 
 # Menu links along the sidebar navigation.
 
