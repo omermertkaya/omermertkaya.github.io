@@ -13,14 +13,14 @@
       <link>http://localhost:1313/posts/ldap-authorization/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
       <guid>http://localhost:1313/posts/ldap-authorization/</guid>
-      <description>Ülkemizde ve dünyada birçok kuruluş, kullanıcı doğrulama ve yetkilendirme işlemleri için Active Directory (AD) gibi merkezi kimlik yönetimi sistemlerini kullanıyor.</description>
+      <description>&lt;p&gt;Ülkemizde ve dünyada birçok kuruluş, kullanıcı doğrulama ve yetkilendirme işlemleri için Active Directory (AD) gibi merkezi kimlik yönetimi sistemlerini kullanıyor. Bu sistemler, organizasyon içinde kullanıcıların ve grupların yönetimini kolaylaştırıyor. LDAP (Lightweight Directory Access Protocol) ise Active Directory gibi dizin hizmetlerine erişim sağlamak için kullanılan bir protokoldür. Bu protokol sayesinde Active Directory&amp;rsquo;deki nesnelerle iletişime geçebiliyoruz. Bizim üzerinde duracağımız kullanıcılar ve güvenlik gruplarını LDAP protokolü ile Nodejs ile yaptığımız web uygulamamızda kullanacağız.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Active Directory Ldap Authentication Nedir? LDAP ile Giriş Yapma Nasıl Yapılır?</title>
       <link>http://localhost:1313/posts/ldap-authentication-nedir/</link>
       <pubDate>Thu, 28 Nov 2024 15:00:00 +0300</pubDate>
       <guid>http://localhost:1313/posts/ldap-authentication-nedir/</guid>
-      <description>Günümüzde uygulama güvenliği açısından giriş ekranları kritik bir öneme sahiptir. Eski uygulamalarda genellikle kullanıcı bilgileri ve şifreler, uygulamanın kendi veritabanında saklanırdı.</description>
+      <description>&lt;p&gt;Günümüzde uygulama güvenliği açısından giriş ekranları kritik bir öneme sahiptir. Eski uygulamalarda genellikle kullanıcı bilgileri ve şifreler, uygulamanın kendi veritabanında saklanırdı. Kullanıcılar uygulamaya giriş yaparken kayıt olduktan sonra belirledikleri kullanıcı adı ve şifreyi kullanırlardı. Ancak, bu yöntem günümüzde pek çok zorluk yaratmaktadır.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

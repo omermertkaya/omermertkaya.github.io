@@ -13,42 +13,42 @@
       <link>http://localhost:1313/posts/aaa-nedir/</link>
       <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
       <guid>http://localhost:1313/posts/aaa-nedir/</guid>
-      <description>Siber güvenlikte sorunların tespitinde ve yapılandırılmasında birçok kavram kullanıyoruz. Bunlardan belki en çok bilinen ve temel olanlardan biri CIA&amp;rsquo;dir.</description>
+      <description>&lt;p&gt;Siber güvenlikte sorunların tespitinde ve yapılandırılmasında birçok kavram kullanıyoruz. Bunlardan belki en çok bilinen ve temel olanlardan biri CIA&amp;rsquo;dir.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Access Certification Nedir?</title>
       <link>http://localhost:1313/posts/access-certification/</link>
       <pubDate>Mon, 16 Dec 2024 20:33:05 +0300</pubDate>
       <guid>http://localhost:1313/posts/access-certification/</guid>
-      <description>Kimlik ve Erişim Yönetimi (IAM), organizasyonlarda bilgi teknolojisi altyapısının ve hassas verilerin güvenliğini sağlamak için kritik bir role sahiptir.</description>
+      <description>&lt;p&gt;Kimlik ve Erişim Yönetimi (IAM), organizasyonlarda bilgi teknolojisi altyapısının ve hassas verilerin güvenliğini sağlamak için kritik bir role sahiptir. IAM&amp;rsquo;in önemli bir bileşeni olan Access Certification (Erişim Sertifikasyonu), kullanıcıların sahip oldukları yetki ve rollerin düzenli olarak kontrol edilmesi sürecini ifade eder. Bu yazıda, Access Certification&amp;rsquo;ın ne olduğunu, şirketinizde nasıl uygulayabileceğinizi inceleyeceğz.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kimlik ve Erişim Yönetiminde Abstraction Kavramını İnceleyelim</title>
       <link>http://localhost:1313/posts/abstraction-kavramini-inceleyelim/</link>
       <pubDate>Sun, 15 Dec 2024 14:49:06 +0300</pubDate>
       <guid>http://localhost:1313/posts/abstraction-kavramini-inceleyelim/</guid>
-      <description>Kimlik ve Erişim Yönetiminde kavramlar serisinde Abstraction (Soyutlama) kavramını hep birlikte inceleyelim.</description>
+      <description>&lt;p&gt;Kimlik ve Erişim Yönetiminde kavramlar serisinde &lt;strong&gt;Abstraction (Soyutlama)&lt;/strong&gt; kavramını hep birlikte inceleyelim.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rol ve Yetki Sahiplerinin Gözden Geçirme Süreci</title>
       <link>http://localhost:1313/posts/rol-yetki-sahibi-gozden-gecirme-sureci/</link>
       <pubDate>Thu, 21 Nov 2024 21:30:49 +0300</pubDate>
       <guid>http://localhost:1313/posts/rol-yetki-sahibi-gozden-gecirme-sureci/</guid>
-      <description>Kimlik ve Erişim Yönetimi (IAM) sistemlerinin en önemli bileşenlerinden biri, kullanıcı yetkilerinin düzenli olarak gözden geçirilmesidir.</description>
+      <description>&lt;p&gt;Kimlik ve Erişim Yönetimi (IAM) sistemlerinin en önemli bileşenlerinden biri, kullanıcı yetkilerinin düzenli olarak gözden geçirilmesidir. Bu süreç, organizasyonun güvenlik ve işlevsellik standartlarını sürdürebilmesi açısından kritik öneme sahiptir. Yıllık olarak gerçekleştirilebilecek bu süreci iki temel adımda ele alabiliriz:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kimlik ve Erişim Yönetiminde Yetki Gözden Geçirme Çalışmaları</title>
       <link>http://localhost:1313/posts/rol-yetki-gozden-gecirme/</link>
       <pubDate>Fri, 09 Aug 2024 15:00:00 +0300</pubDate>
       <guid>http://localhost:1313/posts/rol-yetki-gozden-gecirme/</guid>
-      <description>Kimlik ve Erişim Yönetimi (IAM) sistemlerinde yetki/erişim gözden geçirme süreci, erişimlerin denetlenmesi amacıyla yürütülen çalışmaların genel tanımıdır.</description>
+      <description>&lt;p&gt;Kimlik ve Erişim Yönetimi (IAM) sistemlerinde yetki/erişim gözden geçirme süreci, erişimlerin denetlenmesi amacıyla yürütülen çalışmaların genel tanımıdır. IAM ürünlerinde, genellikle erişim kontrolü çalışmalarını gerçekleştirmek için bir altyapı sunulur. Bu altyapı içinde en sık gerçekleştirilen gözden geçirme çalışması, kullanıcı yetki gözden geçirme çalışmasıdır.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kimlik ve Erişim Yönetiminin Şirketinizde Başarılı Olması İçin Paydaş Katılımının Önemi</title>
       <link>http://localhost:1313/posts/iam-basarili-olmasi/</link>
       <pubDate>Sun, 14 Jul 2024 20:53:09 +0300</pubDate>
       <guid>http://localhost:1313/posts/iam-basarili-olmasi/</guid>
-      <description>Identity and Access Management&amp;rsquo;ın (Kimlik ve Erişim Yönetiminin) başarılı olması birçok etkene bağlıdır ve bunlardan en önemlilerinden biri de paydaş katılımının değeridir.</description>
+      <description>&lt;p&gt;Identity and Access Management&amp;rsquo;ın (Kimlik ve Erişim Yönetiminin) başarılı olması birçok etkene bağlıdır ve bunlardan en önemlilerinden biri de paydaş katılımının değeridir. Örneğin, şirketinize çok uyumlu bir IAM ürünü aldınız ve IAM ekibi olarak ürünün teknik yönetimi tarafında çok başarılı işler yapıyorsunuz.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

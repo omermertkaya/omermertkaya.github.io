@@ -13,42 +13,42 @@
       <link>http://localhost:1313/posts/aaa-nedir/</link>
       <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
       <guid>http://localhost:1313/posts/aaa-nedir/</guid>
-      <description>Siber güvenlikte sorunların tespitinde ve yapılandırılmasında birçok kavram kullanıyoruz. Bunlardan belki en çok bilinen ve temel olanlardan biri CIA&amp;rsquo;dir.</description>
+      <description>&lt;p&gt;Siber güvenlikte sorunların tespitinde ve yapılandırılmasında birçok kavram kullanıyoruz. Bunlardan belki en çok bilinen ve temel olanlardan biri CIA&amp;rsquo;dir.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Access Certification Nedir?</title>
       <link>http://localhost:1313/posts/access-certification/</link>
       <pubDate>Mon, 16 Dec 2024 20:33:05 +0300</pubDate>
       <guid>http://localhost:1313/posts/access-certification/</guid>
-      <description>Kimlik ve Erişim Yönetimi (IAM), organizasyonlarda bilgi teknolojisi altyapısının ve hassas verilerin güvenliğini sağlamak için kritik bir role sahiptir.</description>
+      <description>&lt;p&gt;Kimlik ve Erişim Yönetimi (IAM), organizasyonlarda bilgi teknolojisi altyapısının ve hassas verilerin güvenliğini sağlamak için kritik bir role sahiptir. IAM&amp;rsquo;in önemli bir bileşeni olan Access Certification (Erişim Sertifikasyonu), kullanıcıların sahip oldukları yetki ve rollerin düzenli olarak kontrol edilmesi sürecini ifade eder. Bu yazıda, Access Certification&amp;rsquo;ın ne olduğunu, şirketinizde nasıl uygulayabileceğinizi inceleyeceğz.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kimlik ve Erişim Yönetiminde Abstraction Kavramını İnceleyelim</title>
       <link>http://localhost:1313/posts/abstraction-kavramini-inceleyelim/</link>
       <pubDate>Sun, 15 Dec 2024 14:49:06 +0300</pubDate>
       <guid>http://localhost:1313/posts/abstraction-kavramini-inceleyelim/</guid>
-      <description>Kimlik ve Erişim Yönetiminde kavramlar serisinde Abstraction (Soyutlama) kavramını hep birlikte inceleyelim.</description>
+      <description>&lt;p&gt;Kimlik ve Erişim Yönetiminde kavramlar serisinde &lt;strong&gt;Abstraction (Soyutlama)&lt;/strong&gt; kavramını hep birlikte inceleyelim.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Active Directory Ldap Authorization Nedir? LDAP ile Web Uygulamasında Yetkilendirme Nasıl Yapılır?</title>
       <link>http://localhost:1313/posts/ldap-authorization/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
       <guid>http://localhost:1313/posts/ldap-authorization/</guid>
-      <description>Ülkemizde ve dünyada birçok kuruluş, kullanıcı doğrulama ve yetkilendirme işlemleri için Active Directory (AD) gibi merkezi kimlik yönetimi sistemlerini kullanıyor.</description>
+      <description>&lt;p&gt;Ülkemizde ve dünyada birçok kuruluş, kullanıcı doğrulama ve yetkilendirme işlemleri için Active Directory (AD) gibi merkezi kimlik yönetimi sistemlerini kullanıyor. Bu sistemler, organizasyon içinde kullanıcıların ve grupların yönetimini kolaylaştırıyor. LDAP (Lightweight Directory Access Protocol) ise Active Directory gibi dizin hizmetlerine erişim sağlamak için kullanılan bir protokoldür. Bu protokol sayesinde Active Directory&amp;rsquo;deki nesnelerle iletişime geçebiliyoruz. Bizim üzerinde duracağımız kullanıcılar ve güvenlik gruplarını LDAP protokolü ile Nodejs ile yaptığımız web uygulamamızda kullanacağız.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Active Directory Ldap Authentication Nedir? LDAP ile Giriş Yapma Nasıl Yapılır?</title>
       <link>http://localhost:1313/posts/ldap-authentication-nedir/</link>
       <pubDate>Thu, 28 Nov 2024 15:00:00 +0300</pubDate>
       <guid>http://localhost:1313/posts/ldap-authentication-nedir/</guid>
-      <description>Günümüzde uygulama güvenliği açısından giriş ekranları kritik bir öneme sahiptir. Eski uygulamalarda genellikle kullanıcı bilgileri ve şifreler, uygulamanın kendi veritabanında saklanırdı.</description>
+      <description>&lt;p&gt;Günümüzde uygulama güvenliği açısından giriş ekranları kritik bir öneme sahiptir. Eski uygulamalarda genellikle kullanıcı bilgileri ve şifreler, uygulamanın kendi veritabanında saklanırdı. Kullanıcılar uygulamaya giriş yaparken kayıt olduktan sonra belirledikleri kullanıcı adı ve şifreyi kullanırlardı. Ancak, bu yöntem günümüzde pek çok zorluk yaratmaktadır.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kullanıcı Yetki Gözden Geçirme Süreci Raporlama(Dashboard)</title>
       <link>http://localhost:1313/posts/kullanici-yetki-gozden-gecirme-rapor/</link>
       <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
       <guid>http://localhost:1313/posts/kullanici-yetki-gozden-gecirme-rapor/</guid>
-      <description>Yetki gözden geçirme süreçleri, Kimlik ve Erişim Yönetimi (IAM) sistemlerinin güvenliği artıran en önemli bileşenlerinden biridir.</description>
+      <description>&lt;p&gt;Yetki gözden geçirme süreçleri, Kimlik ve Erişim Yönetimi (IAM) sistemlerinin güvenliği artıran en önemli bileşenlerinden biridir. Yıllık yetki ve rol gözden geçirme sürecinde, çalışanların erişim hakları ve rolleri yöneticiler tarafından değerlendirilir. Bu süreç, sadece onay mekanizmalarının dışında, güvenliği daha da sıkılaştırmak adına ek bir kontrol sağlar.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

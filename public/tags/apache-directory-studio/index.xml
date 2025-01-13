@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/birden-fazla-ldap-baglantisi-yonetme/</link>
       <pubDate>Wed, 13 Nov 2024 20:55:50 +0300</pubDate>
       <guid>http://localhost:1313/posts/birden-fazla-ldap-baglantisi-yonetme/</guid>
-      <description>Kimlik ve Erişim Yönetimi(IAM) sistemlerinde birçok uç uygulama ile bağlantı halinde çalışıyoruz.</description>
+      <description>&lt;p&gt;Kimlik ve Erişim Yönetimi(IAM) sistemlerinde birçok uç uygulama ile bağlantı halinde çalışıyoruz.&#xA;Bunlardan en önemli olanlardan diyebileceğimiz Aktif Dizin(Acitve Directory) bir LDAP dizin yönetim sistemidir.&#xA;Oracle LDAP yine aktif dizine benzer bir sistemdir ve kullanıcıları, grupları yönetebilirsiniz.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

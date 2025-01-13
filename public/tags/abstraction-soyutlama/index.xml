@@ -13,14 +13,14 @@
       <link>http://localhost:1313/posts/access-certification/</link>
       <pubDate>Mon, 16 Dec 2024 20:33:05 +0300</pubDate>
       <guid>http://localhost:1313/posts/access-certification/</guid>
-      <description>Kimlik ve Erişim Yönetimi (IAM), organizasyonlarda bilgi teknolojisi altyapısının ve hassas verilerin güvenliğini sağlamak için kritik bir role sahiptir.</description>
+      <description>&lt;p&gt;Kimlik ve Erişim Yönetimi (IAM), organizasyonlarda bilgi teknolojisi altyapısının ve hassas verilerin güvenliğini sağlamak için kritik bir role sahiptir. IAM&amp;rsquo;in önemli bir bileşeni olan Access Certification (Erişim Sertifikasyonu), kullanıcıların sahip oldukları yetki ve rollerin düzenli olarak kontrol edilmesi sürecini ifade eder. Bu yazıda, Access Certification&amp;rsquo;ın ne olduğunu, şirketinizde nasıl uygulayabileceğinizi inceleyeceğz.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kimlik ve Erişim Yönetiminde Abstraction Kavramını İnceleyelim</title>
       <link>http://localhost:1313/posts/abstraction-kavramini-inceleyelim/</link>
       <pubDate>Sun, 15 Dec 2024 14:49:06 +0300</pubDate>
       <guid>http://localhost:1313/posts/abstraction-kavramini-inceleyelim/</guid>
-      <description>Kimlik ve Erişim Yönetiminde kavramlar serisinde Abstraction (Soyutlama) kavramını hep birlikte inceleyelim.</description>
+      <description>&lt;p&gt;Kimlik ve Erişim Yönetiminde kavramlar serisinde &lt;strong&gt;Abstraction (Soyutlama)&lt;/strong&gt; kavramını hep birlikte inceleyelim.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

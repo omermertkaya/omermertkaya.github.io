@@ -2,6 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/bug-bounty/</loc>
+    <lastmod>2025-01-13T10:00:41+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/bug-bounty-kulturu/</loc>
+    <lastmod>2025-01-13T10:00:41+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cybersecurity/</loc>
+    <lastmod>2025-01-13T10:00:41+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/employee-engagement/</loc>
+    <lastmod>2025-01-13T10:00:41+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ethical-hacking/</loc>
+    <lastmod>2025-01-13T10:00:41+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/information-security/</loc>
+    <lastmod>2025-01-13T10:00:41+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/internal-security/</loc>
+    <lastmod>2025-01-13T10:00:41+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-01-13T10:00:41+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/penetration-testing/</loc>
+    <lastmod>2025-01-13T10:00:41+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/proactive-security/</loc>
+    <lastmod>2025-01-13T10:00:41+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/risk-management/</loc>
+    <lastmod>2025-01-13T10:00:41+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/security-awareness/</loc>
+    <lastmod>2025-01-13T10:00:41+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/security-best-practices/</loc>
+    <lastmod>2025-01-13T10:00:41+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/security-culture/</loc>
+    <lastmod>2025-01-13T10:00:41+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-01-13T10:00:41+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/threat-detection/</loc>
+    <lastmod>2025-01-13T10:00:41+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/vulnerability-management/</loc>
+    <lastmod>2025-01-13T10:00:41+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/aaa-nedir/</loc>
     <lastmod>2025-01-02T18:57:49+03:00</lastmod>
   </url><url>
@@ -35,13 +86,7 @@
     <loc>http://localhost:1313/tags/kimlik-y%C3%B6netimi/</loc>
     <lastmod>2025-01-02T18:57:49+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-01-02T18:57:49+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/siber-g%C3%BCvenlik/</loc>
-    <lastmod>2025-01-02T18:57:49+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-01-02T18:57:49+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/abstraction-soyutlama/</loc>

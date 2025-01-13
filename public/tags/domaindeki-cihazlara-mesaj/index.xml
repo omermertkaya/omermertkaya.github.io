@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/aktif-dizinde-tum-cihazlara-mesaj-gonderme/</link>
       <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
       <guid>http://localhost:1313/posts/aktif-dizinde-tum-cihazlara-mesaj-gonderme/</guid>
-      <description>Şirketlerimizde genellikle kullanıcı cihazlarımızı merkezi olarak yönetmek için aktif dizin kullanıyoruz.</description>
+      <description>&lt;p&gt;Şirketlerimizde genellikle kullanıcı cihazlarımızı merkezi olarak yönetmek için aktif dizin kullanıyoruz. Aktif dizin, merkezi olarak cihazları, kullanıcıları ve güvenlik politikalarını yönetmenin yanı sıra birçok özelliği de içeriğinde barındırıyor. Basit bir örnek ile aktif dizinde domainde bulunan windows makinelerimize nasıl mesaj gönderebileiceğimizi aktarmak istedim.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

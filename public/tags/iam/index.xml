@@ -13,42 +13,42 @@
       <link>http://localhost:1313/posts/ldap-authorization/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
       <guid>http://localhost:1313/posts/ldap-authorization/</guid>
-      <description>Ülkemizde ve dünyada birçok kuruluş, kullanıcı doğrulama ve yetkilendirme işlemleri için Active Directory (AD) gibi merkezi kimlik yönetimi sistemlerini kullanıyor.</description>
+      <description>&lt;p&gt;Ülkemizde ve dünyada birçok kuruluş, kullanıcı doğrulama ve yetkilendirme işlemleri için Active Directory (AD) gibi merkezi kimlik yönetimi sistemlerini kullanıyor. Bu sistemler, organizasyon içinde kullanıcıların ve grupların yönetimini kolaylaştırıyor. LDAP (Lightweight Directory Access Protocol) ise Active Directory gibi dizin hizmetlerine erişim sağlamak için kullanılan bir protokoldür. Bu protokol sayesinde Active Directory&amp;rsquo;deki nesnelerle iletişime geçebiliyoruz. Bizim üzerinde duracağımız kullanıcılar ve güvenlik gruplarını LDAP protokolü ile Nodejs ile yaptığımız web uygulamamızda kullanacağız.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Active Directory Ldap Authentication Nedir? LDAP ile Giriş Yapma Nasıl Yapılır?</title>
       <link>http://localhost:1313/posts/ldap-authentication-nedir/</link>
       <pubDate>Thu, 28 Nov 2024 15:00:00 +0300</pubDate>
       <guid>http://localhost:1313/posts/ldap-authentication-nedir/</guid>
-      <description>Günümüzde uygulama güvenliği açısından giriş ekranları kritik bir öneme sahiptir. Eski uygulamalarda genellikle kullanıcı bilgileri ve şifreler, uygulamanın kendi veritabanında saklanırdı.</description>
+      <description>&lt;p&gt;Günümüzde uygulama güvenliği açısından giriş ekranları kritik bir öneme sahiptir. Eski uygulamalarda genellikle kullanıcı bilgileri ve şifreler, uygulamanın kendi veritabanında saklanırdı. Kullanıcılar uygulamaya giriş yaparken kayıt olduktan sonra belirledikleri kullanıcı adı ve şifreyi kullanırlardı. Ancak, bu yöntem günümüzde pek çok zorluk yaratmaktadır.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Birden Fazla Ldap Bağlantısını Tek Uygulamadan Yönetmek</title>
       <link>http://localhost:1313/posts/birden-fazla-ldap-baglantisi-yonetme/</link>
       <pubDate>Wed, 13 Nov 2024 20:55:50 +0300</pubDate>
       <guid>http://localhost:1313/posts/birden-fazla-ldap-baglantisi-yonetme/</guid>
-      <description>Kimlik ve Erişim Yönetimi(IAM) sistemlerinde birçok uç uygulama ile bağlantı halinde çalışıyoruz.</description>
+      <description>&lt;p&gt;Kimlik ve Erişim Yönetimi(IAM) sistemlerinde birçok uç uygulama ile bağlantı halinde çalışıyoruz.&#xA;Bunlardan en önemli olanlardan diyebileceğimiz Aktif Dizin(Acitve Directory) bir LDAP dizin yönetim sistemidir.&#xA;Oracle LDAP yine aktif dizine benzer bir sistemdir ve kullanıcıları, grupları yönetebilirsiniz.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kullanıcı Yetki Gözden Geçirme Süreci Raporlama(Dashboard)</title>
       <link>http://localhost:1313/posts/kullanici-yetki-gozden-gecirme-rapor/</link>
       <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
       <guid>http://localhost:1313/posts/kullanici-yetki-gozden-gecirme-rapor/</guid>
-      <description>Yetki gözden geçirme süreçleri, Kimlik ve Erişim Yönetimi (IAM) sistemlerinin güvenliği artıran en önemli bileşenlerinden biridir.</description>
+      <description>&lt;p&gt;Yetki gözden geçirme süreçleri, Kimlik ve Erişim Yönetimi (IAM) sistemlerinin güvenliği artıran en önemli bileşenlerinden biridir. Yıllık yetki ve rol gözden geçirme sürecinde, çalışanların erişim hakları ve rolleri yöneticiler tarafından değerlendirilir. Bu süreç, sadece onay mekanizmalarının dışında, güvenliği daha da sıkılaştırmak adına ek bir kontrol sağlar.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rol Madenciliği (Role Mining): IAM Sistemlerinde Etkin Rol Yapılarının Oluşturulması</title>
       <link>http://localhost:1313/posts/role-mining-nedir/</link>
       <pubDate>Mon, 05 Aug 2024 21:00:41 +0300</pubDate>
       <guid>http://localhost:1313/posts/role-mining-nedir/</guid>
-      <description>Rol Madenciliği, Identity and Access Management (IAM) sistemlerinde yer alan bir süreçtir.</description>
+      <description>&lt;p&gt;Rol Madenciliği, Identity and Access Management (IAM) sistemlerinde yer alan bir süreçtir. Bu süreç, mevcut yetki matrisini kullanarak çalışanların alabileceği rollerin analiz edilmesini içerir. IAM ürünlerinde genellikle özel bir modül olarak sunulan Rol Madenciliği&amp;rsquo;nin temel hedefi, mantıklı ve etkili rol yapıları oluşturmaktır. Bu sayede karmaşık olan rol yönetimi yapısı daha anlaşılır, yönetilebilir ve güvenli hale gelir.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kimlik ve Erişim Yönetiminin Şirketinizde Başarılı Olması İçin Paydaş Katılımının Önemi</title>
       <link>http://localhost:1313/posts/iam-basarili-olmasi/</link>
       <pubDate>Sun, 14 Jul 2024 20:53:09 +0300</pubDate>
       <guid>http://localhost:1313/posts/iam-basarili-olmasi/</guid>
-      <description>Identity and Access Management&amp;rsquo;ın (Kimlik ve Erişim Yönetiminin) başarılı olması birçok etkene bağlıdır ve bunlardan en önemlilerinden biri de paydaş katılımının değeridir.</description>
+      <description>&lt;p&gt;Identity and Access Management&amp;rsquo;ın (Kimlik ve Erişim Yönetiminin) başarılı olması birçok etkene bağlıdır ve bunlardan en önemlilerinden biri de paydaş katılımının değeridir. Örneğin, şirketinize çok uyumlu bir IAM ürünü aldınız ve IAM ekibi olarak ürünün teknik yönetimi tarafında çok başarılı işler yapıyorsunuz.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

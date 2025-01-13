@@ -10,7 +10,7 @@
 
 
     <meta name="description" content="Ömer Mert Kaya&#39;nın Kişisel Sayfası, Identıty and Access Management ve Security Engineer Blog yazıları">
-    <meta name="keywords" content="ömer mert kaya&#39;nın kişisel bloğu, identity and access management, kimlik ve erişim yönetimi, security blog">
+    <meta name="keywords" content="ömer mert kaya&#39;nın kişisel bloğu, identity and access management, kimlik ve erişim yönetimi, security blog, security engineer">
     <meta name="author" content="Omer Mert KAYA">
     <link rel="canonical" href="http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-bilgi-ve-iletisim-guvenligi-rehberinden/">
 
@@ -200,281 +200,281 @@ bizlere &ldquo;Kimlik Doğrulama ve Erişim Yönetimi&rdquo; alanında yol göst
 <p>Ayrıca, bu denetim başlıkları sadece birer kontrol aracı olarak değil, aynı zamanda daha katma değerli bir &ldquo;Kimlik ve Erişim Yönetimi&rdquo; süreci oluşturmak için de yıllık olarak IAM ekibinin kendisine sorması gereken önemli soru setlerini oluşturur. Bu tarz bir gözden geçirme ile hangi başlıklarda ne tür iyileştirmeler yapıldığını belirlemek mümkün olacaktır.</p>
 <h2 id="tedbirler">Tedbirler</h2>
 <table>
-<thead>
-<tr>
-<th><strong>Tedbir No</strong></th>
-<th><strong>Tedbir Seviyesi</strong></th>
-<th><strong>Tedbir Adı</strong></th>
-<th><strong>Tedbir Tanımı</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>3.1.12.1</td>
-<td>1</td>
-<td>Erişim Kontrol Politikasının Oluşturulması ve Uygulanması</td>
-<td>Erişim kontrol politikaları oluşturulmalı, uygulanmalı ve periyodik olarak güncelliği kontrol edilmelidir. Kullanıcı hesap işlemleri ve erişim talepleri süreçlerle takip edilmeli ve kayıt altına alınmalıdır.</td>
-</tr>
-<tr>
-<td>3.1.12.2</td>
-<td>1</td>
-<td>Kullanıcı Hesaplarının Yönetimi</td>
-<td>Her kullanıcı için benzersiz bir hesap tanımlanmalı, parolalar güvenlik standartlarına uygun olmalıdır.</td>
-</tr>
-<tr>
-<td>3.1.12.3</td>
-<td>1</td>
-<td>Başarısız Oturum Açma Denemelerinin Yönetimi</td>
-<td>Oturum açma saldırılarını engellemek için uygun güvenlik önlemleri (istek sınırlandırma, IP bloklama, CAPTCHA vb.) alınmalı ve başarısız denemeler kayıt altına alınmalıdır.</td>
-</tr>
-<tr>
-<td>3.1.12.4</td>
-<td>1</td>
-<td>Varsayılan Kullanıcıların ve Parolaların Değiştirilmesi</td>
-<td>Varsayılan kullanıcı adı ve parolalar kullanılmamalıdır. Test ortamlarındaki varsayılan kullanıcılar ve parolalar canlıya alınmadan önce silinmeli veya değiştirilmelidir.</td>
-</tr>
-<tr>
-<td>3.1.12.5</td>
-<td>1</td>
-<td>Yönetici Hesaplarının Kullanımı</td>
-<td>Sistem yöneticilerinin yüksek haklar gerektiren işlemleri için ayrı hesapları olmalı ve bu hesaplarla yapılan işlemler denetim kayıtlarıyla izlenmelidir.</td>
-</tr>
-<tr>
-<td>3.1.12.6</td>
-<td>1</td>
-<td>İşlem Yapılmayan Oturumların Sonlandırılması</td>
-<td>İşlem yapılmayan oturumlar belirli bir süre sonra sonlandırılmalıdır.</td>
-</tr>
-<tr>
-<td>3.1.12.7</td>
-<td>1</td>
-<td>Kimlik Doğrulama</td>
-<td>Kurum kaynaklarına erişimlerde kimlik doğrulama mekanizmaları kullanılmalıdır.</td>
-</tr>
-<tr>
-<td>3.1.12.8</td>
-<td>1</td>
-<td>Kullanıcı Yetkilerinin Güncellenmesi</td>
-<td>Sistem yöneticilerinin ve kullanıcıların yetkileri düzenli gözden geçirilmeli, görev değişikliklerinde yetkiler güncellenmeli ve gereksiz yetkiler iptal edilmelidir.</td>
-</tr>
-<tr>
-<td>3.1.12.9</td>
-<td>1</td>
-<td>Kurum Dışı Paydaşların Uzaktan Erişimi</td>
-<td>Kurum dışı paydaşların uzaktan erişimi kurum personelinin onayı olmadan yapılmamalı ve çok faktörlü kimlik doğrulama, erişim iz kayıtları gibi güvenlik önlemleri alınmalıdır.</td>
-</tr>
-<tr>
-<td>3.1.12.10</td>
-<td>2</td>
-<td>Kullanılmayan Hesapların Devre Dışı Bırakılması</td>
-<td>Kullanılmayan veya ilişkilendirilemeyen tüm hesaplar belirli bir süre kullanılmadığında otomatik olarak devre dışı bırakılmalıdır.</td>
-</tr>
-<tr>
-<td>3.1.12.11</td>
-<td>2</td>
-<td>Yönetici Hesaplarının İşletimi</td>
-<td>Tüm yönetici hesapları otomatik araçlarla yönetilmeli ve çok faktörlü kimlik doğrulama kullanılmalıdır. Yönetici giriş denemeleri kayıt altına alınmalıdır.</td>
-</tr>
-<tr>
-<td>3.1.12.12</td>
-<td>2</td>
-<td>Betik Dillerinin Kullanımına Yönelik Erişimin Sınırlandırılması</td>
-<td>Betik dosyası oluşturma araçlarına (PowerShell, Python vb.) erişim, yalnızca iş amaçları doğrultusunda yetkili hesaplarla sınırlandırılmalıdır.</td>
-</tr>
-<tr>
-<td>3.1.12.13</td>
-<td>2</td>
-<td>Kimlik Yönetim ve Doğrulama Sistemlerinin Envanterinin Tutulması</td>
-<td>Kurumun tüm kimlik doğrulama sistemlerinin ve entegre uygulamalarının envanteri tutulmalıdır.</td>
-</tr>
-<tr>
-<td>3.1.12.14</td>
-<td>2</td>
-<td>Merkezi Kimlik Doğrulama</td>
-<td>Kimlik doğrulama merkezi olarak yapılmalı, merkezi sistemin olmadığı durumlarda risk analizi doğrultusunda telafi edici önlemler alınmalıdır.</td>
-</tr>
-<tr>
-<td>3.1.12.15</td>
-<td>2</td>
-<td>Çok Faktörlü Kimlik Doğrulama Yapılması</td>
-<td>Kurum ağına dışarıdan yapılan erişimlerde çok faktörlü kimlik doğrulaması kullanılmalıdır.</td>
-</tr>
-<tr>
-<td>3.1.12.16</td>
-<td>2</td>
-<td>Kimlik Doğrulama Bilgilerinin Güvenli Olarak Saklanması</td>
-<td>Tüm kimlik doğrulama bilgileri güçlü kriptografik algoritmalar kullanılarak saklanmalı ve şifreli kanallar üzerinden iletilmelidir.</td>
-</tr>
-<tr>
-<td>3.1.12.17</td>
-<td>2</td>
-<td>Servis Hesaplarının Yönetimi</td>
-<td>Servis hesapları en az yetki prensibiyle oluşturulmalı ve düzenli olarak gözden geçirilmelidir. Kullanıcı hesapları servis hesabı olarak kullanılmamalıdır.</td>
-</tr>
-<tr>
-<td>3.1.12.18</td>
-<td>3</td>
-<td>Hesap Giriş Davranışlarında Değişikliklerin Saptanması</td>
-<td>Kullanıcı davranışları güvenlik ihlal durumlarına karşı izlenmeli ve alarm mekanizmaları devreye alınmalıdır.</td>
-</tr>
-<tr>
-<td>3.1.12.19</td>
-<td>3</td>
-<td>Oturum Kayıtlarının Tutulması</td>
-<td>Gizlilik dereceli verilerin işlendiği sistemlerde oturumlar kayıt altına alınmalı ve doğrulaması yapılmalıdır.</td>
-</tr>
-<tr>
-<td>3.1.12.20</td>
-<td>3</td>
-<td>Sistem Yöneticisi Görevlerinin Güvenliği</td>
-<td>Sistem yöneticileri yalnızca yönetimsel haklar gerektiren işleri yapmalı, bu yetkiler yılda en az bir kez gözden geçirilmelidir.</td>
-</tr>
-<tr>
-<td>3.1.12.21</td>
-<td>3</td>
-<td>Veri ve Parola Güvenliğinin Sağlanması</td>
-<td>Veri ve parola güvenliği için otomatik parola yönetim aracı (password vault) kullanılmalıdır.</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th><strong>Tedbir No</strong></th>
+          <th><strong>Tedbir Seviyesi</strong></th>
+          <th><strong>Tedbir Adı</strong></th>
+          <th><strong>Tedbir Tanımı</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>3.1.12.1</td>
+          <td>1</td>
+          <td>Erişim Kontrol Politikasının Oluşturulması ve Uygulanması</td>
+          <td>Erişim kontrol politikaları oluşturulmalı, uygulanmalı ve periyodik olarak güncelliği kontrol edilmelidir. Kullanıcı hesap işlemleri ve erişim talepleri süreçlerle takip edilmeli ve kayıt altına alınmalıdır.</td>
+      </tr>
+      <tr>
+          <td>3.1.12.2</td>
+          <td>1</td>
+          <td>Kullanıcı Hesaplarının Yönetimi</td>
+          <td>Her kullanıcı için benzersiz bir hesap tanımlanmalı, parolalar güvenlik standartlarına uygun olmalıdır.</td>
+      </tr>
+      <tr>
+          <td>3.1.12.3</td>
+          <td>1</td>
+          <td>Başarısız Oturum Açma Denemelerinin Yönetimi</td>
+          <td>Oturum açma saldırılarını engellemek için uygun güvenlik önlemleri (istek sınırlandırma, IP bloklama, CAPTCHA vb.) alınmalı ve başarısız denemeler kayıt altına alınmalıdır.</td>
+      </tr>
+      <tr>
+          <td>3.1.12.4</td>
+          <td>1</td>
+          <td>Varsayılan Kullanıcıların ve Parolaların Değiştirilmesi</td>
+          <td>Varsayılan kullanıcı adı ve parolalar kullanılmamalıdır. Test ortamlarındaki varsayılan kullanıcılar ve parolalar canlıya alınmadan önce silinmeli veya değiştirilmelidir.</td>
+      </tr>
+      <tr>
+          <td>3.1.12.5</td>
+          <td>1</td>
+          <td>Yönetici Hesaplarının Kullanımı</td>
+          <td>Sistem yöneticilerinin yüksek haklar gerektiren işlemleri için ayrı hesapları olmalı ve bu hesaplarla yapılan işlemler denetim kayıtlarıyla izlenmelidir.</td>
+      </tr>
+      <tr>
+          <td>3.1.12.6</td>
+          <td>1</td>
+          <td>İşlem Yapılmayan Oturumların Sonlandırılması</td>
+          <td>İşlem yapılmayan oturumlar belirli bir süre sonra sonlandırılmalıdır.</td>
+      </tr>
+      <tr>
+          <td>3.1.12.7</td>
+          <td>1</td>
+          <td>Kimlik Doğrulama</td>
+          <td>Kurum kaynaklarına erişimlerde kimlik doğrulama mekanizmaları kullanılmalıdır.</td>
+      </tr>
+      <tr>
+          <td>3.1.12.8</td>
+          <td>1</td>
+          <td>Kullanıcı Yetkilerinin Güncellenmesi</td>
+          <td>Sistem yöneticilerinin ve kullanıcıların yetkileri düzenli gözden geçirilmeli, görev değişikliklerinde yetkiler güncellenmeli ve gereksiz yetkiler iptal edilmelidir.</td>
+      </tr>
+      <tr>
+          <td>3.1.12.9</td>
+          <td>1</td>
+          <td>Kurum Dışı Paydaşların Uzaktan Erişimi</td>
+          <td>Kurum dışı paydaşların uzaktan erişimi kurum personelinin onayı olmadan yapılmamalı ve çok faktörlü kimlik doğrulama, erişim iz kayıtları gibi güvenlik önlemleri alınmalıdır.</td>
+      </tr>
+      <tr>
+          <td>3.1.12.10</td>
+          <td>2</td>
+          <td>Kullanılmayan Hesapların Devre Dışı Bırakılması</td>
+          <td>Kullanılmayan veya ilişkilendirilemeyen tüm hesaplar belirli bir süre kullanılmadığında otomatik olarak devre dışı bırakılmalıdır.</td>
+      </tr>
+      <tr>
+          <td>3.1.12.11</td>
+          <td>2</td>
+          <td>Yönetici Hesaplarının İşletimi</td>
+          <td>Tüm yönetici hesapları otomatik araçlarla yönetilmeli ve çok faktörlü kimlik doğrulama kullanılmalıdır. Yönetici giriş denemeleri kayıt altına alınmalıdır.</td>
+      </tr>
+      <tr>
+          <td>3.1.12.12</td>
+          <td>2</td>
+          <td>Betik Dillerinin Kullanımına Yönelik Erişimin Sınırlandırılması</td>
+          <td>Betik dosyası oluşturma araçlarına (PowerShell, Python vb.) erişim, yalnızca iş amaçları doğrultusunda yetkili hesaplarla sınırlandırılmalıdır.</td>
+      </tr>
+      <tr>
+          <td>3.1.12.13</td>
+          <td>2</td>
+          <td>Kimlik Yönetim ve Doğrulama Sistemlerinin Envanterinin Tutulması</td>
+          <td>Kurumun tüm kimlik doğrulama sistemlerinin ve entegre uygulamalarının envanteri tutulmalıdır.</td>
+      </tr>
+      <tr>
+          <td>3.1.12.14</td>
+          <td>2</td>
+          <td>Merkezi Kimlik Doğrulama</td>
+          <td>Kimlik doğrulama merkezi olarak yapılmalı, merkezi sistemin olmadığı durumlarda risk analizi doğrultusunda telafi edici önlemler alınmalıdır.</td>
+      </tr>
+      <tr>
+          <td>3.1.12.15</td>
+          <td>2</td>
+          <td>Çok Faktörlü Kimlik Doğrulama Yapılması</td>
+          <td>Kurum ağına dışarıdan yapılan erişimlerde çok faktörlü kimlik doğrulaması kullanılmalıdır.</td>
+      </tr>
+      <tr>
+          <td>3.1.12.16</td>
+          <td>2</td>
+          <td>Kimlik Doğrulama Bilgilerinin Güvenli Olarak Saklanması</td>
+          <td>Tüm kimlik doğrulama bilgileri güçlü kriptografik algoritmalar kullanılarak saklanmalı ve şifreli kanallar üzerinden iletilmelidir.</td>
+      </tr>
+      <tr>
+          <td>3.1.12.17</td>
+          <td>2</td>
+          <td>Servis Hesaplarının Yönetimi</td>
+          <td>Servis hesapları en az yetki prensibiyle oluşturulmalı ve düzenli olarak gözden geçirilmelidir. Kullanıcı hesapları servis hesabı olarak kullanılmamalıdır.</td>
+      </tr>
+      <tr>
+          <td>3.1.12.18</td>
+          <td>3</td>
+          <td>Hesap Giriş Davranışlarında Değişikliklerin Saptanması</td>
+          <td>Kullanıcı davranışları güvenlik ihlal durumlarına karşı izlenmeli ve alarm mekanizmaları devreye alınmalıdır.</td>
+      </tr>
+      <tr>
+          <td>3.1.12.19</td>
+          <td>3</td>
+          <td>Oturum Kayıtlarının Tutulması</td>
+          <td>Gizlilik dereceli verilerin işlendiği sistemlerde oturumlar kayıt altına alınmalı ve doğrulaması yapılmalıdır.</td>
+      </tr>
+      <tr>
+          <td>3.1.12.20</td>
+          <td>3</td>
+          <td>Sistem Yöneticisi Görevlerinin Güvenliği</td>
+          <td>Sistem yöneticileri yalnızca yönetimsel haklar gerektiren işleri yapmalı, bu yetkiler yılda en az bir kez gözden geçirilmelidir.</td>
+      </tr>
+      <tr>
+          <td>3.1.12.21</td>
+          <td>3</td>
+          <td>Veri ve Parola Güvenliğinin Sağlanması</td>
+          <td>Veri ve parola güvenliği için otomatik parola yönetim aracı (password vault) kullanılmalıdır.</td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="denetimler">Denetimler</h2>
 <table>
-<thead>
-<tr>
-<th><strong>Tedbir No</strong></th>
-<th><strong>Tedbir Adı</strong></th>
-<th><strong>Denetim Yöntem Önerileri</strong></th>
-<th><strong>Denetim Soru Önerileri</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>3.1.12.1</td>
-<td>Erişim Kontrol Politikasının Oluşturulması ve Uygulanması</td>
-<td>Mülakat, Gözden Geçirme</td>
-<td>Erişim kontrol politikaları oluşturulmakta mıdır? Politika kapsamında kullanıcı hesap işlemleri ve erişim taleplerinin yönetilmesine ilişkin nasıl bir süreç tanımlanmaktadır?</td>
-</tr>
-<tr>
-<td>3.1.12.2</td>
-<td>Kullanıcı Hesaplarının Yönetimi</td>
-<td>Mülakat, Güvenlik Denetimi</td>
-<td>Kullanıcı hesaplarının yönetimine ilişkin hangi bilgi güvenliği kontrolleri uygulanmaktadır?</td>
-</tr>
-<tr>
-<td>3.1.12.3</td>
-<td>Başarısız Oturum Açma Denemelerinin Yönetimi</td>
-<td>Mülakat, Sızma Testi</td>
-<td>Oturum açma mekanizmasına yapılacak saldırıları engellemek amacıyla hangi güvenlik önlemleri alınmaktadır? Başarısız oturum açma denemeleri kayıt altına alınmakta mıdır?</td>
-</tr>
-<tr>
-<td>3.1.12.4</td>
-<td>Varsayılan Kullanıcıların ve Parolaların Değiştirilmesi</td>
-<td>Mülakat, Sızma Testi</td>
-<td>Kurum bilgi sistemlerinde yer alan varlıkların varsayılan parolaları değiştirilmekte midir? Test çalışmalarında varsayılan parolalar değiştirilmekte midir? Kullanılmayan varsayılan hesaplar silinmekte midir?</td>
-</tr>
-<tr>
-<td>3.1.12.5</td>
-<td>Yönetici Hesaplarının Kullanımı</td>
-<td>Mülakat, Sızma Testi</td>
-<td>Kurumda sistem yöneticileri, yönetimsel işlemler için ayrı bir hesap kullanmakta mıdır? Yöneticiler hedef cihazlara nasıl erişim sağlamaktadırlar?</td>
-</tr>
-<tr>
-<td>3.1.12.6</td>
-<td>İşlem Yapılmayan Oturumların Sonlandırılması</td>
-<td>Mülakat, Sızma Testi</td>
-<td>İşlem yapılmayan oturumlar belirli bir süre sonra sonlandırılmakta mıdır?</td>
-</tr>
-<tr>
-<td>3.1.12.7</td>
-<td>Kimlik Doğrulama</td>
-<td>Mülakat, Sızma Testi</td>
-<td>Kurum kaynaklarına erişimlerde hangi kimlik doğrulama mekanizmaları kullanılmaktadır?</td>
-</tr>
-<tr>
-<td>3.1.12.8</td>
-<td>Kullanıcı Yetkilerinin Güncellenmesi</td>
-<td>Mülakat, Gözden Geçirme</td>
-<td>Sistem yöneticilerinin ve kullanıcılarının hakları düzenli aralıklarla gözden geçirilmekte midir? Kimlik doğrulama sistemi tarafından düzenlenen tüm hesapların envanteri tutulmakta mıdır? Görevi sona eren hesaplar devre dışı bırakılmakta mıdır? Bu işlem için otomatik bir süreç oluşturulmuş mudur? Devre dışı bırakılan hesaplara yapılan erişim denemeleri izlenip, kayıt altına alınmakta mıdır?</td>
-</tr>
-<tr>
-<td>3.1.12.9</td>
-<td>Kurum Dışı Paydaşların Uzaktan Erişimi</td>
-<td>Mülakat, Güvenlik Denetimi</td>
-<td>Kurum dışı paydaşların kurum sistemlerine uzaktan erişimi kapsamında hangi güvenlik kontrolleri uygulanmaktadır?</td>
-</tr>
-<tr>
-<td>3.1.12.10</td>
-<td>Kullanılmayan Hesapların Devre Dışı Bırakılması</td>
-<td>Mülakat, Güvenlik Denetimi</td>
-<td>Bir iş süreci veya kurum çalışanı ile ilişkilendirilemeyen tüm hesaplar devre dışı bırakılmakta mıdır?</td>
-</tr>
-<tr>
-<td>3.1.12.11</td>
-<td>Yönetici Hesaplarının İşletimi</td>
-<td>Mülakat</td>
-<td>Kurumda yönetim hesaplarının envanteri tutulmakta mıdır? Bu işlem otomatik araçlarla mı yapılmaktadır? Yönetici hesap erişimleri nasıl yapılmaktadır?</td>
-</tr>
-<tr>
-<td>3.1.12.12</td>
-<td>Betik Dillerinin Kullanımına Yönelik Erişimin Sınırlandırılması</td>
-<td>Mülakat, Güvenlik Denetimi</td>
-<td>Kurum bilgisayarlarında betik çalıştırma yetkisi hangi kullanıcılara verilmektedir?</td>
-</tr>
-<tr>
-<td>3.1.12.13</td>
-<td>Kimlik Yönetim ve Doğrulama Sistemlerinin Envanterinin Tutulması</td>
-<td>Mülakat, Gözden Geçirme</td>
-<td>Yerel veya uzak servis sağlayıcılarında bulunanlar da dahil olmak üzere, kurumun tüm kimlik sağlayıcılarının envanteri tutulmakta mıdır?</td>
-</tr>
-<tr>
-<td>3.1.12.14</td>
-<td>Merkezi Kimlik Doğrulama</td>
-<td>Mülakat, Güvenlik Denetimi, Sızma Testi</td>
-<td>Kurum mümkün olan tüm durumlarda kimlik denetimini merkezi olarak yapmakta mıdır?</td>
-</tr>
-<tr>
-<td>3.1.12.15</td>
-<td>Çok Faktörlü Kimlik Doğrulama Yapılması</td>
-<td>Mülakat, Güvenlik Denetimi</td>
-<td>Kurum tarafından yapılan kimlik denetimlerinde çok faktörlü kimlik doğrulama mekanizmasının uygulanmadığı yerler var mıdır?</td>
-</tr>
-<tr>
-<td>3.1.12.16</td>
-<td>Kimlik Doğrulama Bilgilerinin Güvenli Olarak Saklanması</td>
-<td>Mülakat, Güvenlik Denetimi</td>
-<td>Kimlik doğrulama bilgilerinin saklanmasına yönelik hangi güvenlik önlemleri alınmaktadır? Kurumun tüm kimlik doğrulama bilgileri şifreli kanallar üzerinden iletilmekte midir? Alınan önlemler yetkili kurumlarca test edilmiş midir?</td>
-</tr>
-<tr>
-<td>3.1.12.17</td>
-<td>Servis Hesaplarının Yönetimi</td>
-<td>Mülakat, Güvenlik Denetimi</td>
-<td>Servis hesapları erişim yetkileri nasıl tanımlanmaktadır? Servis hesaplarına yönelik gözden geçirme süreci nasıl işletilmektedir? Kullanıcı veya yetkili hesaplar servis hesabı olarak kullanılmakta mıdır?</td>
-</tr>
-<tr>
-<td>3.1.12.18</td>
-<td>Hesap Giriş Davranışlarında Değişikliklerin Saptanması</td>
-<td>Mülakat</td>
-<td>Kullanıcı hesap giriş davranışları düzenli olarak izlenmekte midir? Kullanıcı rolü ve yetki seviyesi değişiklikleri gibi durumlarda alarm oluşturulmakta mıdır?</td>
-</tr>
-<tr>
-<td>3.1.12.19</td>
-<td>Oturum Kayıtlarının Tutulması</td>
-<td>Mülakat, Güvenlik Denetimi</td>
-<td>Gizlilik dereceli verilerin saklandığı/işlendiği sistemler üzerinde açılan oturumlar sırasında gerçekleştirilen faaliyetler kayıt altına alınmakta mıdır? Alınan kayıtların doğrulaması nasıl yapılmaktadır?</td>
-</tr>
-<tr>
-<td>3.1.12.20</td>
-<td>Sistem Yöneticisi Görevlerinin Güvenliği</td>
-<td>Mülakat, Güvenlik Denetimi</td>
-<td>Tüm yönetimsel görevler yönetim dışı faaliyetler için kullanılmayan belirli bilgisayarlar üzerinden mi yapılmaktadır? Yetkilendirmeler periyodik olarak gözden geçirilmekte midir?</td>
-</tr>
-<tr>
-<td>3.1.12.21</td>
-<td>Veri ve Parola Güvenliğinin Sağlanması</td>
-<td>Mülakat, Sızma Testi</td>
-<td>Veri ve parolaların güvenliği için otomatik parola yönetim aracı (password vault) kullanılmakta mıdır?</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th><strong>Tedbir No</strong></th>
+          <th><strong>Tedbir Adı</strong></th>
+          <th><strong>Denetim Yöntem Önerileri</strong></th>
+          <th><strong>Denetim Soru Önerileri</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>3.1.12.1</td>
+          <td>Erişim Kontrol Politikasının Oluşturulması ve Uygulanması</td>
+          <td>Mülakat, Gözden Geçirme</td>
+          <td>Erişim kontrol politikaları oluşturulmakta mıdır? Politika kapsamında kullanıcı hesap işlemleri ve erişim taleplerinin yönetilmesine ilişkin nasıl bir süreç tanımlanmaktadır?</td>
+      </tr>
+      <tr>
+          <td>3.1.12.2</td>
+          <td>Kullanıcı Hesaplarının Yönetimi</td>
+          <td>Mülakat, Güvenlik Denetimi</td>
+          <td>Kullanıcı hesaplarının yönetimine ilişkin hangi bilgi güvenliği kontrolleri uygulanmaktadır?</td>
+      </tr>
+      <tr>
+          <td>3.1.12.3</td>
+          <td>Başarısız Oturum Açma Denemelerinin Yönetimi</td>
+          <td>Mülakat, Sızma Testi</td>
+          <td>Oturum açma mekanizmasına yapılacak saldırıları engellemek amacıyla hangi güvenlik önlemleri alınmaktadır? Başarısız oturum açma denemeleri kayıt altına alınmakta mıdır?</td>
+      </tr>
+      <tr>
+          <td>3.1.12.4</td>
+          <td>Varsayılan Kullanıcıların ve Parolaların Değiştirilmesi</td>
+          <td>Mülakat, Sızma Testi</td>
+          <td>Kurum bilgi sistemlerinde yer alan varlıkların varsayılan parolaları değiştirilmekte midir? Test çalışmalarında varsayılan parolalar değiştirilmekte midir? Kullanılmayan varsayılan hesaplar silinmekte midir?</td>
+      </tr>
+      <tr>
+          <td>3.1.12.5</td>
+          <td>Yönetici Hesaplarının Kullanımı</td>
+          <td>Mülakat, Sızma Testi</td>
+          <td>Kurumda sistem yöneticileri, yönetimsel işlemler için ayrı bir hesap kullanmakta mıdır? Yöneticiler hedef cihazlara nasıl erişim sağlamaktadırlar?</td>
+      </tr>
+      <tr>
+          <td>3.1.12.6</td>
+          <td>İşlem Yapılmayan Oturumların Sonlandırılması</td>
+          <td>Mülakat, Sızma Testi</td>
+          <td>İşlem yapılmayan oturumlar belirli bir süre sonra sonlandırılmakta mıdır?</td>
+      </tr>
+      <tr>
+          <td>3.1.12.7</td>
+          <td>Kimlik Doğrulama</td>
+          <td>Mülakat, Sızma Testi</td>
+          <td>Kurum kaynaklarına erişimlerde hangi kimlik doğrulama mekanizmaları kullanılmaktadır?</td>
+      </tr>
+      <tr>
+          <td>3.1.12.8</td>
+          <td>Kullanıcı Yetkilerinin Güncellenmesi</td>
+          <td>Mülakat, Gözden Geçirme</td>
+          <td>Sistem yöneticilerinin ve kullanıcılarının hakları düzenli aralıklarla gözden geçirilmekte midir? Kimlik doğrulama sistemi tarafından düzenlenen tüm hesapların envanteri tutulmakta mıdır? Görevi sona eren hesaplar devre dışı bırakılmakta mıdır? Bu işlem için otomatik bir süreç oluşturulmuş mudur? Devre dışı bırakılan hesaplara yapılan erişim denemeleri izlenip, kayıt altına alınmakta mıdır?</td>
+      </tr>
+      <tr>
+          <td>3.1.12.9</td>
+          <td>Kurum Dışı Paydaşların Uzaktan Erişimi</td>
+          <td>Mülakat, Güvenlik Denetimi</td>
+          <td>Kurum dışı paydaşların kurum sistemlerine uzaktan erişimi kapsamında hangi güvenlik kontrolleri uygulanmaktadır?</td>
+      </tr>
+      <tr>
+          <td>3.1.12.10</td>
+          <td>Kullanılmayan Hesapların Devre Dışı Bırakılması</td>
+          <td>Mülakat, Güvenlik Denetimi</td>
+          <td>Bir iş süreci veya kurum çalışanı ile ilişkilendirilemeyen tüm hesaplar devre dışı bırakılmakta mıdır?</td>
+      </tr>
+      <tr>
+          <td>3.1.12.11</td>
+          <td>Yönetici Hesaplarının İşletimi</td>
+          <td>Mülakat</td>
+          <td>Kurumda yönetim hesaplarının envanteri tutulmakta mıdır? Bu işlem otomatik araçlarla mı yapılmaktadır? Yönetici hesap erişimleri nasıl yapılmaktadır?</td>
+      </tr>
+      <tr>
+          <td>3.1.12.12</td>
+          <td>Betik Dillerinin Kullanımına Yönelik Erişimin Sınırlandırılması</td>
+          <td>Mülakat, Güvenlik Denetimi</td>
+          <td>Kurum bilgisayarlarında betik çalıştırma yetkisi hangi kullanıcılara verilmektedir?</td>
+      </tr>
+      <tr>
+          <td>3.1.12.13</td>
+          <td>Kimlik Yönetim ve Doğrulama Sistemlerinin Envanterinin Tutulması</td>
+          <td>Mülakat, Gözden Geçirme</td>
+          <td>Yerel veya uzak servis sağlayıcılarında bulunanlar da dahil olmak üzere, kurumun tüm kimlik sağlayıcılarının envanteri tutulmakta mıdır?</td>
+      </tr>
+      <tr>
+          <td>3.1.12.14</td>
+          <td>Merkezi Kimlik Doğrulama</td>
+          <td>Mülakat, Güvenlik Denetimi, Sızma Testi</td>
+          <td>Kurum mümkün olan tüm durumlarda kimlik denetimini merkezi olarak yapmakta mıdır?</td>
+      </tr>
+      <tr>
+          <td>3.1.12.15</td>
+          <td>Çok Faktörlü Kimlik Doğrulama Yapılması</td>
+          <td>Mülakat, Güvenlik Denetimi</td>
+          <td>Kurum tarafından yapılan kimlik denetimlerinde çok faktörlü kimlik doğrulama mekanizmasının uygulanmadığı yerler var mıdır?</td>
+      </tr>
+      <tr>
+          <td>3.1.12.16</td>
+          <td>Kimlik Doğrulama Bilgilerinin Güvenli Olarak Saklanması</td>
+          <td>Mülakat, Güvenlik Denetimi</td>
+          <td>Kimlik doğrulama bilgilerinin saklanmasına yönelik hangi güvenlik önlemleri alınmaktadır? Kurumun tüm kimlik doğrulama bilgileri şifreli kanallar üzerinden iletilmekte midir? Alınan önlemler yetkili kurumlarca test edilmiş midir?</td>
+      </tr>
+      <tr>
+          <td>3.1.12.17</td>
+          <td>Servis Hesaplarının Yönetimi</td>
+          <td>Mülakat, Güvenlik Denetimi</td>
+          <td>Servis hesapları erişim yetkileri nasıl tanımlanmaktadır? Servis hesaplarına yönelik gözden geçirme süreci nasıl işletilmektedir? Kullanıcı veya yetkili hesaplar servis hesabı olarak kullanılmakta mıdır?</td>
+      </tr>
+      <tr>
+          <td>3.1.12.18</td>
+          <td>Hesap Giriş Davranışlarında Değişikliklerin Saptanması</td>
+          <td>Mülakat</td>
+          <td>Kullanıcı hesap giriş davranışları düzenli olarak izlenmekte midir? Kullanıcı rolü ve yetki seviyesi değişiklikleri gibi durumlarda alarm oluşturulmakta mıdır?</td>
+      </tr>
+      <tr>
+          <td>3.1.12.19</td>
+          <td>Oturum Kayıtlarının Tutulması</td>
+          <td>Mülakat, Güvenlik Denetimi</td>
+          <td>Gizlilik dereceli verilerin saklandığı/işlendiği sistemler üzerinde açılan oturumlar sırasında gerçekleştirilen faaliyetler kayıt altına alınmakta mıdır? Alınan kayıtların doğrulaması nasıl yapılmaktadır?</td>
+      </tr>
+      <tr>
+          <td>3.1.12.20</td>
+          <td>Sistem Yöneticisi Görevlerinin Güvenliği</td>
+          <td>Mülakat, Güvenlik Denetimi</td>
+          <td>Tüm yönetimsel görevler yönetim dışı faaliyetler için kullanılmayan belirli bilgisayarlar üzerinden mi yapılmaktadır? Yetkilendirmeler periyodik olarak gözden geçirilmekte midir?</td>
+      </tr>
+      <tr>
+          <td>3.1.12.21</td>
+          <td>Veri ve Parola Güvenliğinin Sağlanması</td>
+          <td>Mülakat, Sızma Testi</td>
+          <td>Veri ve parolaların güvenliği için otomatik parola yönetim aracı (password vault) kullanılmakta mıdır?</td>
+      </tr>
+  </tbody>
 </table>
 <br>
 <img src="/images/kimlik-ve-erisim-yonetimi-bilgi-ve-iletisim-guvenligi-rehberinden/bgrehbermavi1.png" alt="AltText">
@@ -483,77 +483,77 @@ bizlere &ldquo;Kimlik Doğrulama ve Erişim Yönetimi&rdquo; alanında yol göst
 Bu bölümde özellikle rehberinde en az yetki prensibini uygulamaya atıf yapması, bu kurgunun ne kadar değerli olduğunu göstermektedir.</p>
 <h3 id="tedbirler-1">Tedbirler</h3>
 <table>
-<thead>
-<tr>
-<th>Tedbir No.</th>
-<th>Tedbir Seviyesi</th>
-<th>Tedbir Adı</th>
-<th>Tedbir Tanımı</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>3.2.3.1</td>
-<td>1</td>
-<td>Yetki Denetimi</td>
-<td>Kullanıcıların uygulamaya erişimlerini tanımlayan yetki matrisi oluşturulmalı ve belirli aralıklarla güncellenmelidir. Kullanıcı sadece yetkilendirildiği uygulama bileşenlerine ve kaynaklara erişebilmeli ve bunları kullanabilmelidir. Uygulamaya yapılan her istek için yetki denetimi kontrolü uygulanmalıdır.</td>
-</tr>
-<tr>
-<td>3.2.3.2</td>
-<td>1</td>
-<td>Kritik Veriye ve Kaynaklara Erişimlerin Kayıt Altına Alınması</td>
-<td>Uygulama, yönettiği veriye ve kaynaklara erişimleri kayıt altına alabilmek için denetim kayıtları üretebilmelidir. Bk. Tedbir No: 3.1.8.1</td>
-</tr>
-<tr>
-<td>3.2.3.3</td>
-<td>1</td>
-<td>En Az Yetki Prensibinin Uygulanması</td>
-<td>Kullanıcılara verilecek yetkiler, yürütülen görevler ve ihtiyaçlar doğrultusunda belirlenmelidir. En az yetki prensibine göre kullanıcının gerçekleştirebileceği ilgili işlemler için gereken asgari yetkilerin haricinde bir ayrıcalık tanımlanmamalıdır.</td>
-</tr>
-<tr>
-<td>3.2.3.4</td>
-<td>3</td>
-<td>İçerik Duyarlı ve Gelişmiş Erişim Denetimi</td>
-<td>Uygulama içerik duyarlı (zaman, konum, IP adresi gibi öznitelikler) erişim denetimi yapabilmelidir. Uygulama; fonksiyonlara, kaynaklara, veriye erişim sürelerini, kullanım oranlarını veya kullanım sıklığını sınırlandırabilmelidir.</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Tedbir No.</th>
+          <th>Tedbir Seviyesi</th>
+          <th>Tedbir Adı</th>
+          <th>Tedbir Tanımı</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>3.2.3.1</td>
+          <td>1</td>
+          <td>Yetki Denetimi</td>
+          <td>Kullanıcıların uygulamaya erişimlerini tanımlayan yetki matrisi oluşturulmalı ve belirli aralıklarla güncellenmelidir. Kullanıcı sadece yetkilendirildiği uygulama bileşenlerine ve kaynaklara erişebilmeli ve bunları kullanabilmelidir. Uygulamaya yapılan her istek için yetki denetimi kontrolü uygulanmalıdır.</td>
+      </tr>
+      <tr>
+          <td>3.2.3.2</td>
+          <td>1</td>
+          <td>Kritik Veriye ve Kaynaklara Erişimlerin Kayıt Altına Alınması</td>
+          <td>Uygulama, yönettiği veriye ve kaynaklara erişimleri kayıt altına alabilmek için denetim kayıtları üretebilmelidir. Bk. Tedbir No: 3.1.8.1</td>
+      </tr>
+      <tr>
+          <td>3.2.3.3</td>
+          <td>1</td>
+          <td>En Az Yetki Prensibinin Uygulanması</td>
+          <td>Kullanıcılara verilecek yetkiler, yürütülen görevler ve ihtiyaçlar doğrultusunda belirlenmelidir. En az yetki prensibine göre kullanıcının gerçekleştirebileceği ilgili işlemler için gereken asgari yetkilerin haricinde bir ayrıcalık tanımlanmamalıdır.</td>
+      </tr>
+      <tr>
+          <td>3.2.3.4</td>
+          <td>3</td>
+          <td>İçerik Duyarlı ve Gelişmiş Erişim Denetimi</td>
+          <td>Uygulama içerik duyarlı (zaman, konum, IP adresi gibi öznitelikler) erişim denetimi yapabilmelidir. Uygulama; fonksiyonlara, kaynaklara, veriye erişim sürelerini, kullanım oranlarını veya kullanım sıklığını sınırlandırabilmelidir.</td>
+      </tr>
+  </tbody>
 </table>
 <h3 id="denetim-maddeleri">Denetim Maddeleri</h3>
 <table>
-<thead>
-<tr>
-<th>Tedbir No.</th>
-<th>Tedbir Adı</th>
-<th>Denetim Yöntem Önerileri</th>
-<th>Denetim Soru Önerileri</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>3.2.3.1</td>
-<td>Yetki Denetimi</td>
-<td>Mülakat, Gözden Geçirme, Sızma Testi</td>
-<td>Uygulamalara erişimi tanımlayan yetki matrisi oluşturulmuş ve belirli aralıklara güncellenmekte midir? <br> Uygulamada kullanıcının yalnızca ilgili olduğu uygulama bileşenlerine ve kaynaklara erişebilmesini sağlayacak bir yetkilendirme mekanizması tanımlanmış mı? <br> Uygulamada kullanıcıların diğer kullanıcılara ait kritik bilgilere erişmesini engellemek için nasıl bir yetkilendirme mekanizması tanımlanmıştır? <br> Uygulamaya gelen her istek için yetki denetimi kontrolü yapılmakta mıdır?</td>
-</tr>
-<tr>
-<td>3.2.3.2</td>
-<td>Kritik Veriye ve Kaynaklara Erişimlerin Kayıt Altına Alınması</td>
-<td>Mülakat, Gözden Geçirme, Sızma Testi</td>
-<td>Veri akışı ve kaynaklara erişim için iz ve denetim kayıtları oluşturuluyor mu? Kayıtlar hangi bilgileri içeriyor? <br> Kayıtlar kullanıcı arayüzünden sorgulanabiliyor mu? <br> Kayıtlar silinebiliyor veya değiştirilebiliyor mu? <br> Kayıtlar ne kadar süre ile saklanıyor?</td>
-</tr>
-<tr>
-<td>3.2.3.3</td>
-<td>En Az Yetki Prensibinin Uygulanması</td>
-<td>Mülakat, Güvenlik Denetimi</td>
-<td>Kullanıcılara verilen yetkiler, yürütülen görevler ve ihtiyaçlar doğrultusunda mı belirlenmektedir?</td>
-</tr>
-<tr>
-<td>3.2.3.4</td>
-<td>İçerik Duyarlı ve Gelişmiş Erişim Denetimi</td>
-<td>Mülakat, Güvenlik Denetimi, Sızma Testi</td>
-<td>Uygulamada yetkilendirmeler zaman, konum, kullanılan ağ, IP adresi gibi özelliklere göre sınırlandırılabiliyor mu? <br> Uygulama yetkilendirme ile erişimleri erişim süresi, kullanım sıklığı gibi parametrelere göre sınırlandırabiliyor mu? <br> Uygulama erişim denetleme mekanizmasında içeriğe duyarlı kontroller ve yetkilendirmeler tanımlanabiliyor mu?</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Tedbir No.</th>
+          <th>Tedbir Adı</th>
+          <th>Denetim Yöntem Önerileri</th>
+          <th>Denetim Soru Önerileri</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>3.2.3.1</td>
+          <td>Yetki Denetimi</td>
+          <td>Mülakat, Gözden Geçirme, Sızma Testi</td>
+          <td>Uygulamalara erişimi tanımlayan yetki matrisi oluşturulmuş ve belirli aralıklara güncellenmekte midir? <br> Uygulamada kullanıcının yalnızca ilgili olduğu uygulama bileşenlerine ve kaynaklara erişebilmesini sağlayacak bir yetkilendirme mekanizması tanımlanmış mı? <br> Uygulamada kullanıcıların diğer kullanıcılara ait kritik bilgilere erişmesini engellemek için nasıl bir yetkilendirme mekanizması tanımlanmıştır? <br> Uygulamaya gelen her istek için yetki denetimi kontrolü yapılmakta mıdır?</td>
+      </tr>
+      <tr>
+          <td>3.2.3.2</td>
+          <td>Kritik Veriye ve Kaynaklara Erişimlerin Kayıt Altına Alınması</td>
+          <td>Mülakat, Gözden Geçirme, Sızma Testi</td>
+          <td>Veri akışı ve kaynaklara erişim için iz ve denetim kayıtları oluşturuluyor mu? Kayıtlar hangi bilgileri içeriyor? <br> Kayıtlar kullanıcı arayüzünden sorgulanabiliyor mu? <br> Kayıtlar silinebiliyor veya değiştirilebiliyor mu? <br> Kayıtlar ne kadar süre ile saklanıyor?</td>
+      </tr>
+      <tr>
+          <td>3.2.3.3</td>
+          <td>En Az Yetki Prensibinin Uygulanması</td>
+          <td>Mülakat, Güvenlik Denetimi</td>
+          <td>Kullanıcılara verilen yetkiler, yürütülen görevler ve ihtiyaçlar doğrultusunda mı belirlenmektedir?</td>
+      </tr>
+      <tr>
+          <td>3.2.3.4</td>
+          <td>İçerik Duyarlı ve Gelişmiş Erişim Denetimi</td>
+          <td>Mülakat, Güvenlik Denetimi, Sızma Testi</td>
+          <td>Uygulamada yetkilendirmeler zaman, konum, kullanılan ağ, IP adresi gibi özelliklere göre sınırlandırılabiliyor mu? <br> Uygulama yetkilendirme ile erişimleri erişim süresi, kullanım sıklığı gibi parametrelere göre sınırlandırabiliyor mu? <br> Uygulama erişim denetleme mekanizmasında içeriğe duyarlı kontroller ve yetkilendirmeler tanımlanabiliyor mu?</td>
+      </tr>
+  </tbody>
 </table>
 
         </p>

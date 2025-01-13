@@ -13,28 +13,28 @@
       <link>http://localhost:1313/posts/kimlik-ve-erisim-yonetiminde-gelecek/</link>
       <pubDate>Wed, 11 Dec 2024 23:58:14 +0300</pubDate>
       <guid>http://localhost:1313/posts/kimlik-ve-erisim-yonetiminde-gelecek/</guid>
-      <description>IAM&amp;rsquo;in Geleceği: Dijital Güvenliğin Yeni Paradigması Teknolojinin hızla evrilen dünyasında, Kimlik ve Erişim Yönetimi (IAM) stratejileri dünyada radikal bir dönüşüm geçiriyor.</description>
+      <description>&lt;h2 id=&#34;iamin-geleceği-dijital-güvenliğin-yeni-paradigması&#34;&gt;IAM&amp;rsquo;in Geleceği: Dijital Güvenliğin Yeni Paradigması&lt;/h2&gt;&#xA;&lt;p&gt;Teknolojinin hızla evrilen dünyasında, Kimlik ve Erişim Yönetimi (IAM) stratejileri dünyada radikal bir dönüşüm geçiriyor. Geleneksel yaklaşımlardan, daha dinamik ve güvenli bir modele doğru keskin bir geçiş yaşanıyor.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kimlik Ve Erişim Yönetimi - Erişim Talebi Yönetimi</title>
       <link>http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-erisim-talebi/</link>
       <pubDate>Sat, 09 Nov 2024 12:28:23 +0300</pubDate>
       <guid>http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-erisim-talebi/</guid>
-      <description>Erişim talebi yönetimi, çalışanların veya sistemlerimize erişim yetkisine sahip iş ortaklarımızın, IAM ile yönettiğimiz uygulamalarda yetki talep etme sürecini ifade eder.</description>
+      <description>&lt;p&gt;Erişim talebi yönetimi, çalışanların veya sistemlerimize erişim yetkisine sahip iş ortaklarımızın, IAM ile yönettiğimiz uygulamalarda yetki talep etme sürecini ifade eder. Bu süreci, IAM ürünlerinin sunduğu self servis ekranlar üzerinden yönetebiliriz. Böylece, kullanıcılar ihtiyaç duydukları yetkileri doğrudan sistem üzerinden talep edebilirler. Alternatif olarak, şirketlerde Servis Manager (SM) gibi talep yönetim sistemleri kullanılır; bu sistemlerin IAM ile entegre edilmesi sayesinde talepler merkezî olarak yönetilebilir.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kimlik ve Erişim Yönetimi Tedbirleri: Cumhurbaşkanlığı Bilgi Güvenliği Rehberi Perspektifine Göz Atalım</title>
       <link>http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-bilgi-ve-iletisim-guvenligi-rehberinden/</link>
       <pubDate>Tue, 24 Sep 2024 21:31:21 +0300</pubDate>
       <guid>http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-bilgi-ve-iletisim-guvenligi-rehberinden/</guid>
-      <description>Kimlik ve erişim yönetimi(IDM/IAM) artık standartlamış olan doğru kişilerin, doğru kaynaklara, doğru zamanda ve doğru nedenlerle erişebilmelerinin alt yapısını oluşturur.</description>
+      <description>&lt;p&gt;Kimlik ve erişim yönetimi(IDM/IAM) artık standartlamış olan doğru kişilerin, doğru kaynaklara, doğru zamanda ve doğru nedenlerle erişebilmelerinin alt yapısını oluşturur.&#xA;Cumhurbaşkanlığı Dijital Dönüşüm Ofisi öncülüğünde yayınlamış olan &lt;a href=&#34;https://cbddo.gov.tr/SharedFolderServer/Genel/File/bg_rehber.pdf&#34;&gt;&amp;ldquo;Bilgi ve İletişim Güvenliği Rehberi&amp;rdquo;&lt;/a&gt;&#xA;bizlere &amp;ldquo;Kimlik Doğrulama ve Erişim Yönetimi&amp;rdquo; alanında yol gösterici bir kaynak niteliği taşımaktadır. Bu rehberi detaylı bir şekilde incelemek, Bilgi ve İletişim Güvenliği&amp;rsquo;nin genel hatlarını daha iyi anlamamıza olanak tanır. Her bir başlık farklı uzmanlık alanlarını temsil etse de, bu alanlar hakkında genel bir bilgi sahibi olmak birçok noktada değer katacaktır.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kimlik ve Erişim Yönetimi(IAM) Dashboard Örneği - Metrikler</title>
       <link>http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-dashboard/</link>
       <pubDate>Sun, 30 Jun 2024 12:00:00 +0300</pubDate>
       <guid>http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-dashboard/</guid>
-      <description>Kimlik ve Erişim Yönetimi (IAM) ile yaptığımız entegrasyonlarla birçok işlem ve süreci otomatikleştiriyoruz.</description>
+      <description>&lt;p&gt;Kimlik ve Erişim Yönetimi (IAM) ile yaptığımız entegrasyonlarla birçok işlem ve süreci otomatikleştiriyoruz. Peki, otomatikleştirdiğimiz bu süreçlerin metriklerini ve yaptığımız işin kalitesini doğru gösterebiliyor muyuz?&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -13,42 +13,42 @@
       <link>http://localhost:1313/posts/auth0-nedir-active-directory-ile-baglanti/</link>
       <pubDate>Tue, 03 Dec 2024 20:53:07 +0300</pubDate>
       <guid>http://localhost:1313/posts/auth0-nedir-active-directory-ile-baglanti/</guid>
-      <description>Auth0 Nedir? Okta firmasının Auth0 uygulaması, Kimlik Ve Erişim Yönetimi çözümleri sunan platformudur.</description>
+      <description>&lt;h2 id=&#34;auth0-nedir&#34;&gt;Auth0 Nedir?&lt;/h2&gt;&#xA;&lt;p&gt;Okta firmasının Auth0 uygulaması, &lt;strong&gt;Kimlik Ve Erişim Yönetimi&lt;/strong&gt; çözümleri sunan platformudur.&#xA;Auth0, kimlik doğrulama, kullanıcı yönetimi ve güvenli erişim gibi yöntemler sunar. Auth0 özellikle kurumsalların yanı sıra geliştiriciler için hızlı entegrasyon sunarak kimlik yönetimi ihtiyaçlarını karşılayan hızlı, kolay ve güvenli çözümler sunar.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Active Directory Ldap Authorization Nedir? LDAP ile Web Uygulamasında Yetkilendirme Nasıl Yapılır?</title>
       <link>http://localhost:1313/posts/ldap-authorization/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
       <guid>http://localhost:1313/posts/ldap-authorization/</guid>
-      <description>Ülkemizde ve dünyada birçok kuruluş, kullanıcı doğrulama ve yetkilendirme işlemleri için Active Directory (AD) gibi merkezi kimlik yönetimi sistemlerini kullanıyor.</description>
+      <description>&lt;p&gt;Ülkemizde ve dünyada birçok kuruluş, kullanıcı doğrulama ve yetkilendirme işlemleri için Active Directory (AD) gibi merkezi kimlik yönetimi sistemlerini kullanıyor. Bu sistemler, organizasyon içinde kullanıcıların ve grupların yönetimini kolaylaştırıyor. LDAP (Lightweight Directory Access Protocol) ise Active Directory gibi dizin hizmetlerine erişim sağlamak için kullanılan bir protokoldür. Bu protokol sayesinde Active Directory&amp;rsquo;deki nesnelerle iletişime geçebiliyoruz. Bizim üzerinde duracağımız kullanıcılar ve güvenlik gruplarını LDAP protokolü ile Nodejs ile yaptığımız web uygulamamızda kullanacağız.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Active Directory Ldap Authentication Nedir? LDAP ile Giriş Yapma Nasıl Yapılır?</title>
       <link>http://localhost:1313/posts/ldap-authentication-nedir/</link>
       <pubDate>Thu, 28 Nov 2024 15:00:00 +0300</pubDate>
       <guid>http://localhost:1313/posts/ldap-authentication-nedir/</guid>
-      <description>Günümüzde uygulama güvenliği açısından giriş ekranları kritik bir öneme sahiptir. Eski uygulamalarda genellikle kullanıcı bilgileri ve şifreler, uygulamanın kendi veritabanında saklanırdı.</description>
+      <description>&lt;p&gt;Günümüzde uygulama güvenliği açısından giriş ekranları kritik bir öneme sahiptir. Eski uygulamalarda genellikle kullanıcı bilgileri ve şifreler, uygulamanın kendi veritabanında saklanırdı. Kullanıcılar uygulamaya giriş yaparken kayıt olduktan sonra belirledikleri kullanıcı adı ve şifreyi kullanırlardı. Ancak, bu yöntem günümüzde pek çok zorluk yaratmaktadır.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Aktif Dizindeki Tüm Cihazlara Mesaj Gönderme</title>
       <link>http://localhost:1313/posts/aktif-dizinde-tum-cihazlara-mesaj-gonderme/</link>
       <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
       <guid>http://localhost:1313/posts/aktif-dizinde-tum-cihazlara-mesaj-gonderme/</guid>
-      <description>Şirketlerimizde genellikle kullanıcı cihazlarımızı merkezi olarak yönetmek için aktif dizin kullanıyoruz.</description>
+      <description>&lt;p&gt;Şirketlerimizde genellikle kullanıcı cihazlarımızı merkezi olarak yönetmek için aktif dizin kullanıyoruz. Aktif dizin, merkezi olarak cihazları, kullanıcıları ve güvenlik politikalarını yönetmenin yanı sıra birçok özelliği de içeriğinde barındırıyor. Basit bir örnek ile aktif dizinde domainde bulunan windows makinelerimize nasıl mesaj gönderebileiceğimizi aktarmak istedim.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Authentication Authorization Kavramları</title>
       <link>http://localhost:1313/posts/authentication-authorization-kavramlari/</link>
       <pubDate>Thu, 11 Jul 2024 22:30:46 +0300</pubDate>
       <guid>http://localhost:1313/posts/authentication-authorization-kavramlari/</guid>
-      <description>Authentication ve Authorization, birbirinden farklı iki önemli kavramdır.&#xA;Authentication (AuthN) - Kimlik Doğrulama Authentication, &amp;ldquo;Kimsin Sen?</description>
+      <description>&lt;p&gt;Authentication ve Authorization, birbirinden farklı iki önemli kavramdır.&lt;/p&gt;&#xA;&lt;h2 id=&#34;authentication-authn---kimlik-doğrulama&#34;&gt;Authentication (AuthN) - Kimlik Doğrulama&lt;/h2&gt;&#xA;&lt;p&gt;Authentication, &amp;ldquo;Kimsin Sen?&amp;rdquo; sorusunu yanıtlar.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Clerk Authentication Nedir?</title>
       <link>http://localhost:1313/posts/clerk-authentication-nedir/</link>
       <pubDate>Sat, 30 Mar 2024 16:57:45 +0300</pubDate>
       <guid>http://localhost:1313/posts/clerk-authentication-nedir/</guid>
-      <description>Clerk Authencation Servisi ile kimlik doğrulama hizmetlerini çok hızlı yönetebiliriz. Clerk kullanarak web ve mobil cihazlara uyumlu giriş yapma yöntemi sağlayabiliriz.</description>
+      <description>&lt;p&gt;Clerk Authencation Servisi ile kimlik doğrulama hizmetlerini çok hızlı yönetebiliriz. Clerk kullanarak web ve mobil cihazlara uyumlu giriş yapma yöntemi sağlayabiliriz.&#xA;Giriş yapmak için normalde kurmamız gereken efordan bu servisi kullanarak kurtulabiliriz.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

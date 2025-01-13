@@ -13,14 +13,14 @@
       <link>http://localhost:1313/posts/auth0-nedir-active-directory-ile-baglanti/</link>
       <pubDate>Tue, 03 Dec 2024 20:53:07 +0300</pubDate>
       <guid>http://localhost:1313/posts/auth0-nedir-active-directory-ile-baglanti/</guid>
-      <description>Auth0 Nedir? Okta firmasının Auth0 uygulaması, Kimlik Ve Erişim Yönetimi çözümleri sunan platformudur.</description>
+      <description>&lt;h2 id=&#34;auth0-nedir&#34;&gt;Auth0 Nedir?&lt;/h2&gt;&#xA;&lt;p&gt;Okta firmasının Auth0 uygulaması, &lt;strong&gt;Kimlik Ve Erişim Yönetimi&lt;/strong&gt; çözümleri sunan platformudur.&#xA;Auth0, kimlik doğrulama, kullanıcı yönetimi ve güvenli erişim gibi yöntemler sunar. Auth0 özellikle kurumsalların yanı sıra geliştiriciler için hızlı entegrasyon sunarak kimlik yönetimi ihtiyaçlarını karşılayan hızlı, kolay ve güvenli çözümler sunar.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Authentication Authorization Kavramları</title>
       <link>http://localhost:1313/posts/authentication-authorization-kavramlari/</link>
       <pubDate>Thu, 11 Jul 2024 22:30:46 +0300</pubDate>
       <guid>http://localhost:1313/posts/authentication-authorization-kavramlari/</guid>
-      <description>Authentication ve Authorization, birbirinden farklı iki önemli kavramdır.&#xA;Authentication (AuthN) - Kimlik Doğrulama Authentication, &amp;ldquo;Kimsin Sen?</description>
+      <description>&lt;p&gt;Authentication ve Authorization, birbirinden farklı iki önemli kavramdır.&lt;/p&gt;&#xA;&lt;h2 id=&#34;authentication-authn---kimlik-doğrulama&#34;&gt;Authentication (AuthN) - Kimlik Doğrulama&lt;/h2&gt;&#xA;&lt;p&gt;Authentication, &amp;ldquo;Kimsin Sen?&amp;rdquo; sorusunu yanıtlar.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

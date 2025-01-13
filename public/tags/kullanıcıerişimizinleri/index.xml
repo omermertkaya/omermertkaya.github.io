@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-erisim-talebi/</link>
       <pubDate>Sat, 09 Nov 2024 12:28:23 +0300</pubDate>
       <guid>http://localhost:1313/posts/kimlik-ve-erisim-yonetimi-erisim-talebi/</guid>
-      <description>Erişim talebi yönetimi, çalışanların veya sistemlerimize erişim yetkisine sahip iş ortaklarımızın, IAM ile yönettiğimiz uygulamalarda yetki talep etme sürecini ifade eder.</description>
+      <description>&lt;p&gt;Erişim talebi yönetimi, çalışanların veya sistemlerimize erişim yetkisine sahip iş ortaklarımızın, IAM ile yönettiğimiz uygulamalarda yetki talep etme sürecini ifade eder. Bu süreci, IAM ürünlerinin sunduğu self servis ekranlar üzerinden yönetebiliriz. Böylece, kullanıcılar ihtiyaç duydukları yetkileri doğrudan sistem üzerinden talep edebilirler. Alternatif olarak, şirketlerde Servis Manager (SM) gibi talep yönetim sistemleri kullanılır; bu sistemlerin IAM ile entegre edilmesi sayesinde talepler merkezî olarak yönetilebilir.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
