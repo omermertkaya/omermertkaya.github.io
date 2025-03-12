@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/email-harvesting/</link>
       <pubDate>Wed, 12 Mar 2025 10:41:21 +0300</pubDate>
       <guid>http://localhost:1313/posts/email-harvesting/</guid>
-      <description>&lt;h2 id=&#34;email-harvesting-nedir&#34;&gt;Email Harvesting Nedir?&lt;/h2&gt;&#xA;&lt;p&gt;Email Harvesting adımı aslında keşif(reconnaissance) adımında red team üyelerinin kullandığı bir yöntem diyebiliriz.&#xA;Şirketimizde veya kişisel güvenlik önemlerinde eposta adreslerimizin internette forumlarda, web sitelerinde, dökümanlarda vb. yerlerde geçiyor ise bunlar kötü niyetli kişiler tarafından ele geçirilip kötü niyetli olarak kullanılabilir.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Email harvesting, siber güvenlikte &lt;strong&gt;keşif (reconnaissance)&lt;/strong&gt; aşamasında &lt;strong&gt;Red Team&lt;/strong&gt; üyelerinin sıkça kullandığı bir tekniktir. Şirket içi veya kişisel güvenlik önlemlerinde, e-posta adreslerimizin forumlarda, web sitelerinde, dokümanlarda vb. ortamlarda bulunması, kötü niyetli kişilerin bu adresleri toplayarak siber saldırılar gerçekleştirmesine yol açabilir.&lt;/p&gt;</description>
     </item>
     <item>
       <title>IAM &amp; IAG &amp; IGA &amp; IDM Kavramları ve Farkları</title>

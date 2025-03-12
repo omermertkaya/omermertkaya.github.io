@@ -2,7 +2,7 @@
 title = 'Email Harvesting: Siber Güvenlik Perspektifinden İnceleme ve Python ile Bir Örnek'
 date = 2025-03-12T10:41:21+03:00
 draft = false
-tags: ['Bug Bounty', 'Cybersecurity', 'Email Security', 'Red Team', 'Phishing']
+tags = ['Bug Bounty', 'Cybersecurity', 'Email Security', 'Red Team', 'Phishing']
 +++
 
 Email harvesting, siber güvenlikte **keşif (reconnaissance)** aşamasında **Red Team** üyelerinin sıkça kullandığı bir tekniktir. Şirket içi veya kişisel güvenlik önlemlerinde, e-posta adreslerimizin forumlarda, web sitelerinde, dokümanlarda vb. ortamlarda bulunması, kötü niyetli kişilerin bu adresleri toplayarak siber saldırılar gerçekleştirmesine yol açabilir.  

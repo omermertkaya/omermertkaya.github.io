@@ -2,10 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/bug-bounty/</loc>
+    <lastmod>2025-03-12T10:41:21+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cybersecurity/</loc>
+    <lastmod>2025-03-12T10:41:21+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/email-harvesting/</loc>
     <lastmod>2025-03-12T10:41:21+03:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/email-security/</loc>
+    <lastmod>2025-03-12T10:41:21+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-03-12T10:41:21+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/phishing/</loc>
+    <lastmod>2025-03-12T10:41:21+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/red-team/</loc>
+    <lastmod>2025-03-12T10:41:21+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-03-12T10:41:21+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/iag/</loc>
@@ -26,16 +44,7 @@
     <loc>http://localhost:1313/tags/kavramlar%C4%B1/</loc>
     <lastmod>2025-02-16T22:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-02-16T22:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/bug-bounty/</loc>
-    <lastmod>2025-01-13T10:00:41+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/bug-bounty-kulturu/</loc>
-    <lastmod>2025-01-13T10:00:41+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/cybersecurity/</loc>
     <lastmod>2025-01-13T10:00:41+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/employee-engagement/</loc>

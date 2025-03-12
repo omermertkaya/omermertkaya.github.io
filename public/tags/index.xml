@@ -6,8 +6,43 @@
     <description>Recent content in Tags on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Feb 2025 22:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 12 Mar 2025 10:41:21 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bug Bounty</title>
+      <link>http://localhost:1313/tags/bug-bounty/</link>
+      <pubDate>Wed, 12 Mar 2025 10:41:21 +0300</pubDate>
+      <guid>http://localhost:1313/tags/bug-bounty/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cybersecurity</title>
+      <link>http://localhost:1313/tags/cybersecurity/</link>
+      <pubDate>Wed, 12 Mar 2025 10:41:21 +0300</pubDate>
+      <guid>http://localhost:1313/tags/cybersecurity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Email Security</title>
+      <link>http://localhost:1313/tags/email-security/</link>
+      <pubDate>Wed, 12 Mar 2025 10:41:21 +0300</pubDate>
+      <guid>http://localhost:1313/tags/email-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phishing</title>
+      <link>http://localhost:1313/tags/phishing/</link>
+      <pubDate>Wed, 12 Mar 2025 10:41:21 +0300</pubDate>
+      <guid>http://localhost:1313/tags/phishing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Red Team</title>
+      <link>http://localhost:1313/tags/red-team/</link>
+      <pubDate>Wed, 12 Mar 2025 10:41:21 +0300</pubDate>
+      <guid>http://localhost:1313/tags/red-team/</guid>
+      <description></description>
+    </item>
     <item>
       <title>IAG</title>
       <link>http://localhost:1313/tags/iag/</link>
@@ -41,20 +76,6 @@
       <link>http://localhost:1313/tags/kavramlar%C4%B1/</link>
       <pubDate>Sun, 16 Feb 2025 22:00:00 +0300</pubDate>
       <guid>http://localhost:1313/tags/kavramlar%C4%B1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bug Bounty</title>
-      <link>http://localhost:1313/tags/bug-bounty/</link>
-      <pubDate>Mon, 13 Jan 2025 10:00:41 +0300</pubDate>
-      <guid>http://localhost:1313/tags/bug-bounty/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cybersecurity</title>
-      <link>http://localhost:1313/tags/cybersecurity/</link>
-      <pubDate>Mon, 13 Jan 2025 10:00:41 +0300</pubDate>
-      <guid>http://localhost:1313/tags/cybersecurity/</guid>
       <description></description>
     </item>
     <item>
