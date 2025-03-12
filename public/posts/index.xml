@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Feb 2025 22:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 12 Mar 2025 10:41:21 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Email Harvesting: Siber Güvenlik Perspektifinden İnceleme ve Python ile Bir Örnek</title>
+      <link>http://localhost:1313/posts/email-harvesting/</link>
+      <pubDate>Wed, 12 Mar 2025 10:41:21 +0300</pubDate>
+      <guid>http://localhost:1313/posts/email-harvesting/</guid>
+      <description>&lt;h2 id=&#34;email-harvesting-nedir&#34;&gt;Email Harvesting Nedir?&lt;/h2&gt;&#xA;&lt;p&gt;Email Harvesting adımı aslında keşif(reconnaissance) adımında red team üyelerinin kullandığı bir yöntem diyebiliriz.&#xA;Şirketimizde veya kişisel güvenlik önemlerinde eposta adreslerimizin internette forumlarda, web sitelerinde, dökümanlarda vb. yerlerde geçiyor ise bunlar kötü niyetli kişiler tarafından ele geçirilip kötü niyetli olarak kullanılabilir.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>IAM &amp; IAG &amp; IGA &amp; IDM Kavramları ve Farkları</title>
       <link>http://localhost:1313/posts/iam-iag-iga-idm-farklari/</link>
