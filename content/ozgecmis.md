@@ -40,8 +40,14 @@ title: "Özgeçmiş"
 ---
 
 
+### Kimlik ve Erişim Yönetimi Mühendisi | Monofor
+<time> 2026 - Devam Ediyor</time>
+
+- Kimlik ve Erişim Yönetimi (IAM) çözümlerinin tasarımı, geliştirilmesi ve uygulanmasında deneyimli
+
+
 ### Kimlik ve Erişim Yönetimi Kıdemli Uzmanı | AgeSA Hayat ve Emeklilik
-<time> 2022 - Devam Ediyor </time>
+<time> 2022 - 2026 Uzman Yardımcısı → Uzman → Kıdemli Uzman</time>
 
 - Kimlik ve Erişim Yönetimi (IAM) çözümlerinin tasarımı, geliştirilmesi ve uygulanmasında deneyimli
 - İnsan Kaynakları teknoloji sistemleriyle çalışmada yetenekli
