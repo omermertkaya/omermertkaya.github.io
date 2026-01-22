@@ -5,7 +5,7 @@ title: "Özgeçmiş"
 ---
 
 
-İngilizce Özgeçmiş PDF dosyasını indirmek için [buraya tıklayın](/pdf/omermertkaya_2024.pdf).
+İngilizce Özgeçmiş PDF dosyasını indirmek için [buraya tıklayın](/pdf/omermertkaya2026.pdf).
 
 
 ## <span style="color:#c27062">Ömer Mert KAYA</span>
@@ -47,7 +47,7 @@ title: "Özgeçmiş"
 
 
 ### Kimlik ve Erişim Yönetimi Kıdemli Uzmanı | AgeSA Hayat ve Emeklilik
-<time> 2022 - 2026 Uzman Yardımcısı → Uzman → Kıdemli Uzman</time>
+<time> 2022 - 2026 | Uzman Yardımcısı → Uzman → Kıdemli Uzman</time>
 
 - Kimlik ve Erişim Yönetimi (IAM) çözümlerinin tasarımı, geliştirilmesi ve uygulanmasında deneyimli
 - İnsan Kaynakları teknoloji sistemleriyle çalışmada yetenekli
