@@ -13,7 +13,7 @@ googleAnalytics = ""
 disqusShortname = ""
 
 [taxonomies]
-  tag = "tags"
+  tag = "Identity And Access Management, IAM, IGA, IDM, Kimlik ve Erişim Yönetimi, Kimlik ve Erişim Yönetimi Mühendisi"
 
 [author]
     name = "Omer Mert KAYA"
@@ -25,7 +25,7 @@ disqusShortname = ""
 [params]
     math = true
     # Blog description at the top of the homepage. Supports markdown.
-    description = "Ömer Mert Kaya'nın Kişisel Sayfası, IAM ve Cyber Security Blog yazıları"
+    description = "Ömer Mert Kaya'nın Kişisel Sayfası, Identity And Access Management Engineer"
 
     showReadMore = false
 
