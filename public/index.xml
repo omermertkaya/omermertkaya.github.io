@@ -6,8 +6,15 @@
     <description>Recent content on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Mar 2025 10:41:21 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 20:00:34 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Saml Authentication Nedir?</title>
+      <link>http://localhost:1313/posts/saml-authentication-nedir/</link>
+      <pubDate>Mon, 16 Mar 2026 20:00:34 +0300</pubDate>
+      <guid>http://localhost:1313/posts/saml-authentication-nedir/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;SAML (Security Assertion Markup Language)&lt;/strong&gt;, sistemler arasında kimlik doğrulama bilgilerinin güvenli bir şekilde aktarılmasını sağlayan bir protokoldür.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Email Harvesting: Siber Güvenlik Perspektifinden İnceleme ve Python ile Bir Örnek</title>
       <link>http://localhost:1313/posts/email-harvesting/</link>
@@ -223,7 +230,7 @@
       <link>http://localhost:1313/ozgecmis/</link>
       <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ozgecmis/</guid>
-      <description>&lt;p&gt;İngilizce Özgeçmiş PDF dosyasını indirmek için &lt;a href=&#34;http://localhost:1313/pdf/omermertkaya_2024.pdf&#34;&gt;buraya tıklayın&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;span-stylecolorc27062ömer-mert-kayaspan&#34;&gt;&lt;span style=&#34;color:#c27062&#34;&gt;Ömer Mert KAYA&lt;/span&gt;&lt;/h2&gt;&#xA;&lt;table border=&#34;0&#34;&gt;&#xD;&#xA; &lt;tr&gt;&#xD;&#xA;    &lt;td&gt; omermertkaya@hotmail.com.tr &lt;/td&gt;&#xD;&#xA;    &lt;td&gt;Ankara, Türkiye&lt;/td&gt;&#xD;&#xA;    &lt;td&gt;Evli&lt;/td&gt;&#xD;&#xA;    &lt;td&gt;01.03.1995&lt;/td&gt;&#xD;&#xA; &lt;/tr&gt;&#xD;&#xA;&lt;/table&gt; &#xD;&#xA;&lt;h2 id=&#34;span-stylecolorc27062eğitimspan&#34;&gt;&lt;span style=&#34;color:#c27062&#34;&gt;Eğitim&lt;/span&gt;&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;süleyman-demirel-üniversitesi--location-isparta-location-time-2014---2019-time&#34;&gt;Süleyman Demirel Üniversitesi | &lt;location&gt; Isparta &lt;/location&gt; &lt;time&gt; 2014 - 2019 &lt;/time&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Bilgisayar Mühendisliği&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;tuzluçayır-anadolu-lisesi--location-ankara-location-time-2009---2013-time&#34;&gt;Tuzluçayır Anadolu Lisesi | &lt;location&gt; Ankara &lt;/location&gt; &lt;time&gt; 2009 - 2013 &lt;/time&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fen Bilimleri&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;span-stylecolorc27062deneyimspan&#34;&gt;&lt;span style=&#34;color:#c27062&#34;&gt;Deneyim&lt;/span&gt;&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;kimlik-ve-erişim-yönetimi-kıdemli-uzmanı--agesa-hayat-ve-emeklilik&#34;&gt;Kimlik ve Erişim Yönetimi Kıdemli Uzmanı | AgeSA Hayat ve Emeklilik&lt;/h3&gt;&#xA;&lt;p&gt;&lt;time&gt; 2022 - Devam Ediyor &lt;/time&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;İngilizce Özgeçmiş PDF dosyasını indirmek için &lt;a href=&#34;http://localhost:1313/pdf/omermertkaya2026.pdf&#34;&gt;buraya tıklayın&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ömer-mert-kaya&#34;&gt;&lt;span style=&#34;color:#c27062&#34;&gt;Ömer Mert KAYA&lt;/span&gt;&lt;/h2&gt;&#xA;&lt;table border=&#34;0&#34;&gt;&#xA; &lt;tr&gt;&#xA;    &lt;td&gt; omermertkaya@hotmail.com.tr &lt;/td&gt;&#xA;    &lt;td&gt;Ankara, Türkiye&lt;/td&gt;&#xA;    &lt;td&gt;Evli&lt;/td&gt;&#xA;    &lt;td&gt;01.03.1995&lt;/td&gt;&#xA; &lt;/tr&gt;&#xA;&lt;/table&gt; &#xA;&lt;h2 id=&#34;eğitim&#34;&gt;&lt;span style=&#34;color:#c27062&#34;&gt;Eğitim&lt;/span&gt;&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;süleyman-demirel-üniversitesi---isparta---2014---2019&#34;&gt;Süleyman Demirel Üniversitesi | &lt;location&gt; Isparta &lt;/location&gt; &lt;time&gt; 2014 - 2019 &lt;/time&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Bilgisayar Mühendisliği&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;tuzluçayır-anadolu-lisesi---ankara---2009---2013&#34;&gt;Tuzluçayır Anadolu Lisesi | &lt;location&gt; Ankara &lt;/location&gt; &lt;time&gt; 2009 - 2013 &lt;/time&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fen Bilimleri&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;deneyim&#34;&gt;&lt;span style=&#34;color:#c27062&#34;&gt;Deneyim&lt;/span&gt;&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;kimlik-ve-erişim-yönetimi-mühendisi--monofor&#34;&gt;Kimlik ve Erişim Yönetimi Mühendisi | Monofor&lt;/h3&gt;&#xA;&lt;p&gt;&lt;time&gt; 2026 - Devam Ediyor&lt;/time&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Posts Archive</title>

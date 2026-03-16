@@ -27,7 +27,7 @@
     
     
     
-    <link rel="stylesheet" href="http://localhost:1313/css/main.min.9fd9433a8ce428863f72d7c69b492a619911a02acb7dd399987e3bf4cf2ab98a.css"/>
+    <link rel="stylesheet" href="http://localhost:1313/css/main.min.0a2a963d81e98622b3f9f42e84b53321a89f3bd92b6b572d5f063e1a47fa2e8a.css"/>
 
     
     
@@ -213,7 +213,7 @@
 <p>Aktif dizin server cihazımdan domain kontrolüne almış olduğum bilgisayarın adını buluyorum.
 Bunun için active directory users and computers aracını kullanabiliriz. Benim örneğinde tek cihaza göndereceğim için spesifik bir hedef bilgisayar adı belirleyerek mesaj gönderim işlemini gerçekleştiriyorum. Domaindeki aktif tüm bilgisayarda göndermek için olan kod adımını bir sonraki kodda yer veriyor olacağım.</p>
 <p>Bu kodla bilgisayar adını bulduğum windows 10 pro cihazıma bir test mesajı gönderiyorum.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-POWERSHELL" data-lang="POWERSHELL"><span style="display:flex;"><span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-POWERSHELL" data-lang="POWERSHELL"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>$targetComputer = <span style="color:#e6db74">&#34;DESKTOP-JGRD62J&#34;</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Mesajı gönder ve hata olup olmadığını kontrol et</span>
@@ -229,7 +229,7 @@ Bunun için active directory users and computers aracını kullanabiliriz. Benim
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><img src="/images/aktif-dizinde-tum-cihazlara-mesaj-gonderme/testmesaji.png" alt="test mesaji görüntüsü" style="width:100%;">
 <p>Tüm cihazlara göndermek için ise aşağıdaki kodu test ederek kullanabiliriz.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-POWERSHELL" data-lang="POWERSHELL"><span style="display:flex;"><span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-POWERSHELL" data-lang="POWERSHELL"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Active Directory&#39;den tüm bilgisayarları al</span>
 </span></span><span style="display:flex;"><span>$computers = Get-ADComputer -Filter * | Select-Object -ExpandProperty Name
 </span></span><span style="display:flex;"><span>
