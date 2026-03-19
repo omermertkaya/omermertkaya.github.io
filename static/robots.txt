@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://omermertkaya.github.io/sitemap.xml
+
+# Googlebot spesifik ek kurallar (opsiyonel)
+User-agent: Googlebot
+Allow: /
+
+# Bingbot spesifik ek kurallar (opsiyonel)
+User-agent: Bingbot
+Allow: /
+
+# Ekstra: diğer arama motorları
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
