@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/posts/ibm-security-verify-kullanimi-saml/</guid>
       <description>&lt;p&gt;Selamlar,&lt;/p&gt;&#xA;&lt;p&gt;Bu yazımda, cloud tabanlı IBM Security Verify&amp;rsquo;in deneme sürümü ile SAML giriş yapma senaryosunu çalışacağız.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>IBM Security Verify Kullanımı</title>
+      <link>http://localhost:1313/posts/ibm-security-verify-kullanimi/</link>
+      <pubDate>Tue, 02 Apr 2024 20:11:04 +0300</pubDate>
+      <guid>http://localhost:1313/posts/ibm-security-verify-kullanimi/</guid>
+      <description>&lt;p&gt;Selamlar,&lt;/p&gt;&#xA;&lt;p&gt;Bu yazımda cloud tabanlı IBM Security Verify&amp;rsquo;in deneme sürümü ile postman api kullanarak giriş yapma senaryosunu çalışacağız.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

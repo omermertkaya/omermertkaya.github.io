@@ -12,6 +12,7 @@ googleAnalytics = ""
 # Add your Disqus shortname here.
 disqusShortname = ""
 
+
 [taxonomies]
   tag = "Identity And Access Management, IAM, IGA, IDM, Kimlik ve Erişim Yönetimi, Kimlik ve Erişim Yönetimi Mühendisi"
 

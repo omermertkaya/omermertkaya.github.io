@@ -6,8 +6,15 @@
     <description>Recent content in Authentication on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Dec 2024 20:53:07 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 20:00:34 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/authentication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Saml Authentication Nedir?</title>
+      <link>http://localhost:1313/posts/saml-authentication-nedir/</link>
+      <pubDate>Mon, 16 Mar 2026 20:00:34 +0300</pubDate>
+      <guid>http://localhost:1313/posts/saml-authentication-nedir/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;SAML (Security Assertion Markup Language)&lt;/strong&gt;, sistemler arasında kimlik doğrulama bilgilerinin güvenli bir şekilde aktarılmasını sağlayan bir protokoldür.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Auth0 Nedir? Active Directory ile Auth0 Bağlantısı ve Web Uygulamasında Giriş Yapma</title>
       <link>http://localhost:1313/posts/auth0-nedir-active-directory-ile-baglanti/</link>
@@ -42,6 +49,13 @@
       <pubDate>Thu, 11 Jul 2024 22:30:46 +0300</pubDate>
       <guid>http://localhost:1313/posts/authentication-authorization-kavramlari/</guid>
       <description>&lt;p&gt;Authentication ve Authorization, birbirinden farklı iki önemli kavramdır.&lt;/p&gt;&#xA;&lt;h2 id=&#34;authentication-authn---kimlik-doğrulama&#34;&gt;Authentication (AuthN) - Kimlik Doğrulama&lt;/h2&gt;&#xA;&lt;p&gt;Authentication, &amp;ldquo;Kimsin Sen?&amp;rdquo; sorusunu yanıtlar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>IBM Security Verify Kullanımı</title>
+      <link>http://localhost:1313/posts/ibm-security-verify-kullanimi/</link>
+      <pubDate>Tue, 02 Apr 2024 20:11:04 +0300</pubDate>
+      <guid>http://localhost:1313/posts/ibm-security-verify-kullanimi/</guid>
+      <description>&lt;p&gt;Selamlar,&lt;/p&gt;&#xA;&lt;p&gt;Bu yazımda cloud tabanlı IBM Security Verify&amp;rsquo;in deneme sürümü ile postman api kullanarak giriş yapma senaryosunu çalışacağız.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Clerk Authentication Nedir?</title>
