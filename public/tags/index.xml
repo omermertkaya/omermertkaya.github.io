@@ -72,7 +72,7 @@
       <description></description>
     </item>
     <item>
-      <title>Saml</title>
+      <title>SAML</title>
       <link>http://localhost:1313/tags/saml/</link>
       <pubDate>Mon, 16 Mar 2026 20:00:34 +0300</pubDate>
       <guid>http://localhost:1313/tags/saml/</guid>
@@ -457,7 +457,7 @@
       <description></description>
     </item>
     <item>
-      <title>RDP</title>
+      <title>Rdp</title>
       <link>http://localhost:1313/tags/rdp/</link>
       <pubDate>Sat, 07 Dec 2024 22:41:01 +0300</pubDate>
       <guid>http://localhost:1313/tags/rdp/</guid>
@@ -947,24 +947,10 @@
       <description></description>
     </item>
     <item>
-      <title>Kullanici Yasam Dongusu</title>
-      <link>http://localhost:1313/tags/kullanici-yasam-dongusu/</link>
-      <pubDate>Mon, 17 Jun 2024 12:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/tags/kullanici-yasam-dongusu/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Entitlement</title>
       <link>http://localhost:1313/tags/entitlement/</link>
       <pubDate>Tue, 04 Jun 2024 21:45:54 +0300</pubDate>
       <guid>http://localhost:1313/tags/entitlement/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Security Verify</title>
-      <link>http://localhost:1313/tags/security-verify/</link>
-      <pubDate>Tue, 02 Apr 2024 20:11:04 +0300</pubDate>
-      <guid>http://localhost:1313/tags/security-verify/</guid>
       <description></description>
     </item>
     <item>

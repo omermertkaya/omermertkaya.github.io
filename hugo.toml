@@ -14,7 +14,8 @@ disqusShortname = ""
 
 
 [taxonomies]
-  tag = "Identity And Access Management, IAM, IGA, IDM, Kimlik ve Erişim Yönetimi, Kimlik ve Erişim Yönetimi Mühendisi"
+  category = "categories"
+  tag = "tags"
 
 [author]
     name = "Omer Mert KAYA"
