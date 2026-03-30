@@ -12,10 +12,10 @@
     <meta name="description" content="Ömer Mert Kaya&#39;nın Kişisel Sayfası, Identity And Access Management Engineer">
     <meta name="keywords" content="ömer mert kaya&#39;nın kişisel bloğu, identity and access management, kimlik ve erişim yönetimi, security blog, security engineer">
     <meta name="author" content="Omer Mert KAYA">
-    <link rel="canonical" href="http://localhost:1313/tags/saml/">
+    <link rel="canonical" href="http://localhost:1313/posts/hypervisor/">
 
 
-    <title>Saml | Ömer Mert Kaya</title>
+    <title>Hypervisor Tip1 ve Tip2 | Ömer Mert Kaya</title>
     
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -36,8 +36,6 @@
     
     
  
-    
-    <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/saml/index.xml" title="Ömer Mert Kaya" />
     </head>
 
     <body><meta name="description" content="" />
@@ -189,43 +187,86 @@
         <div id="content" class="content-container">
         
 
-  <h1>Tagged "SAML"</h1>
-  
-  
+<h1 class="post-title">Hypervisor Tip1 ve Tip2</h1>
     
-    <article>
-            <h2>
-                <a href="http://localhost:1313/posts/saml-authentication-nedir/">
-                    Saml Authentication Nedir?
-                </a>
-            </h2>
-            <div>
-                <p><p><strong>SAML (Security Assertion Markup Language)</strong>, sistemler arasında kimlik doğrulama bilgilerinin güvenli bir şekilde aktarılmasını sağlayan bir protokoldür.</p></p>
-                
-            </div>
-            <div class="post-footer">
-            <time>March 16, 2026</time>
-            </div> 
-        </article>
+    <time>March 30, 2026</time>
     
-  
+    <div>
+        <p>
+        <p>Bilgisayar sistemleriyle çalışırken çoğu zaman birden fazla ortamı yönetmek zorunda kalıyoruz. Bu noktada sanallaştırma araçları hayatımızı ciddi anlamda kolaylaştırıyor.</p>
+<p>Birçoğumuz VMware veya Oracle VM VirtualBox gibi araçları aktif olarak kendi bilgisayarlarımızı kuruyoruz. Bunları ubuntu, debian veya Kali linux gibi sistemeleri deneyimlemek için birçoğumuz kullanıyor. Ancak bu araçların aslında belirli bir sınıflandırmaya tabi olduğunu çoğu zaman gözden kaçırabiliyoruz.</p>
+<p>Toplantılarda ya da teknik dokümanlarda geçen “Type 1”, “Type 2”, “Bare-Metal” gibi kavramlar ilk bakışta karmaşık gelebiliyor. Aslında bu terimler farklı anlamlar taşıyor.</p>
+<hr>
+<h2 id="tip-1-bare-metal-hypervisor">Tip 1 (Bare-Metal Hypervisor)</h2>
+<p>“Bare-Metal” terimi ilk duyulduğunda oldukça teknik ve karmaşık gelebilir. Ancak mantığı oldukça basittir.</p>
+<p>Günlük kullanımda genellikle şu senaryoyu uygularız:</p>
+<ul>
+<li>Bilgisayarımızda bir işletim sistemi (örneğin Windows) çalışır</li>
+<li>Üzerine bir sanallaştırma aracı kurarız</li>
+<li>Sanal makinelerimizi bu araç üzerinden çalıştırırız</li>
+</ul>
+<p>Ancak kurumsal dünyada işler biraz farklı ilerler.</p>
+<p><strong>Tip 1 (Bare-Metal) Hypervisor</strong>, işletim sistemi katmanı olmadan <strong>doğrudan donanım üzerinde çalışan</strong> sanallaştırma yapısını ifade eder.</p>
+<h3 id="özellikleri">Özellikleri</h3>
+<ul>
+<li>Doğrudan fiziksel donanım üzerinde çalışır</li>
+<li>Daha yüksek performans sunar</li>
+<li>Güvenlik açısından daha güçlüdür</li>
+<li>Veri merkezleri ve kurumsal ortamlarda yaygın olarak kullanılır</li>
+</ul>
+<h3 id="örnekler">Örnekler</h3>
+<ul>
+<li>VMware ESXi</li>
+<li>Microsoft Hyper-V</li>
+<li>KVM</li>
+<li>Xen</li>
+</ul>
+<hr>
+<img src="/images/hypervisor/hypervisor.jpg" alt="Hypervisor nedir" style="width:100%;">
+<h2 id="tip-2-hosted-hypervisor">Tip 2 (Hosted Hypervisor)</h2>
+<p>“Hosted Hypervisor” ise adından da anlaşılacağı gibi bir <strong>host işletim sistemi üzerinde çalışan</strong> sanallaştırma modelidir.</p>
+<p>Buradaki “host” kavramı genellikle:</p>
+<ul>
+<li>Kendi bilgisayarımız</li>
+<li>Ya da sanallaştırma yazılımının çalıştığı ana işletim sistemi</li>
+</ul>
+<p>olarak düşünülebilir.</p>
+<p>Örneğin:</p>
+<ul>
+<li>Bilgisayarımızda Windows 10 çalışır</li>
+<li>Üzerine bir sanallaştırma uygulaması kurarız</li>
+<li>Sanal makineleri bu uygulama üzerinden yönetiriz</li>
+</ul>
+<p>Bu yapı, özellikle geliştiriciler ve bireysel kullanıcılar için oldukça pratiktir.</p>
+<h3 id="özellikleri-1">Özellikleri</h3>
+<ul>
+<li>İşletim sistemi üzerine kurulur</li>
+<li>Kurulumu ve kullanımı kolaydır</li>
+<li>Geliştirme ve test ortamları için idealdir</li>
+<li>Performans, Tip 1’e göre biraz daha düşüktür</li>
+</ul>
+<h3 id="örnekler-1">Örnekler</h3>
+<ul>
+<li>Oracle VM VirtualBox</li>
+<li>VMware Workstation</li>
+<li>Parallels Desktop</li>
+</ul>
+<hr>
+<h2 id="kısa-özet">Kısa Özet</h2>
+<ul>
+<li><strong>Tip 1 (Bare-Metal):</strong> Donanım üzerinde çalışır → Daha performanslı ve kurumsal</li>
+<li><strong>Tip 2 (Hosted):</strong> İşletim sistemi üzerinde çalışır → Daha pratik ve bireysel kullanım için uygun</li>
+</ul>
+
+        </p>
+    </div>
     
-    <article>
-            <h2>
-                <a href="http://localhost:1313/posts/ibm-security-verify-kullanimi-saml/">
-                    IBM Security Verify SAML Authentication
-                </a>
-            </h2>
-            <div>
-                <p><p>Selamlar,</p>
-<p>Bu yazımda, cloud tabanlı IBM Security Verify&rsquo;in deneme sürümü ile SAML giriş yapma senaryosunu çalışacağız.</p></p>
-                
-            </div>
-            <div class="post-footer">
-            <time>July 24, 2024</time>
-            </div> 
-        </article>
+
     
+
+    <div class="page-footer">
+        
+    </div>
 
 
         

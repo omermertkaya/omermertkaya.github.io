@@ -5,6 +5,8 @@ draft = false
 tags = ['authentication', 'authorization', 'kimlik ve erişim yönetimi', 'aktif dizin', 'powershell mesaj gönderme', 'domaindeki cihazlara mesaj', 'windows mesaj gönderimi', 'şifre süresi bildirimleri', 'kullanıcı bilgilendirme', 'it güvenlik bildirimleri']
 +++
 
+tags = ['sanallaştırma', 'virtualization', 'hypervisor', 'type 1 hypervisor', 'type 2 hypervisor', 'bare metal', 'hosted hypervisor', 'vmware', 'virtualbox', 'kvm', 'xen', 'hyper-v', 'sanal makineler', 'it altyapı', 'sistem yönetimi', 'devops', 'linux deneyimi']
+
 
 Şirketlerimizde genellikle kullanıcı cihazlarımızı merkezi olarak yönetmek için aktif dizin kullanıyoruz. Aktif dizin, merkezi olarak cihazları, kullanıcıları ve güvenlik politikalarını yönetmenin yanı sıra birçok özelliği de içeriğinde barındırıyor. Basit bir örnek ile aktif dizinde domainde bulunan windows makinelerimize nasıl mesaj gönderebileiceğimizi aktarmak istedim.
 
