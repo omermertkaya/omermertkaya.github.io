@@ -5,7 +5,7 @@ title: "Özgeçmiş"
 ---
 
 
-İngilizce Özgeçmiş PDF dosyasını indirmek için [buraya tıklayın](/pdf/omermertkaya2026.pdf).
+İngilizce Özgeçmiş PDF dosyasını indirmek için [buraya tıklayın](/pdf/omermertkaya_2026.pdf).
 
 
 ## <span style="color:#c27062">Ömer Mert KAYA</span>
