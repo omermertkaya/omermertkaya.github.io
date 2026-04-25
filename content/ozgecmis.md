@@ -43,8 +43,16 @@ title: "Özgeçmiş"
 ### Kimlik ve Erişim Yönetimi Mühendisi | Monofor
 <time> 2026 - Devam Ediyor</time>
 
-- Kimlik ve Erişim Yönetimi (IAM) çözümlerinin tasarımı, geliştirilmesi ve uygulanmasında deneyimli
-
+- Türkiye’de bankacılık, havacılık ve telekomünikasyon sektörlerinde faaliyet gösteren önde gelen (ilk 5) kuruluşlar için IAM danışmanlığı ve implementasyon desteği sağladı  
+- IAM, IDM, PAM ve IGA (Kimlik Yönetişimi ve Analitiği) çözümlerinin tasarımı ve uygulanması konusunda deneyimli  
+- Karmaşık organizasyon yapılarında Kullanıcı Yaşam Döngüsü Yönetimi (Joiner-Mover-Leaver süreçleri) konusunda yetkin  
+- Active Directory, Azure AD, LDAP ve dizin servisleri üzerinde uygulamalı deneyim sahibi  
+- Linux işletim sistemi, Docker ve OpenShift üzerinde uygulamalı deneyim sahibi  
+- İK sistemleri entegrasyonu ve kimlik veri akışları konusunda bilgi sahibi  
+- API entegrasyonları, Web Servisleri ve Postman gibi araçlar konusunda deneyimli  
+- PowerShell scripting, otomasyon ve zamanlanmış görev yönetimi konusunda yetkin  
+- Web uygulama geliştirme ve test süreçlerinde deneyim sahibi  
+- SQL kullanarak veri analizi ve raporlama yapabilen  
 
 ### Kimlik ve Erişim Yönetimi Kıdemli Uzmanı | AgeSA Hayat ve Emeklilik
 <time> 2022 - 2026 | Uzman Yardımcısı → Uzman → Kıdemli Uzman</time>
