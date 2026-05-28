@@ -22,7 +22,7 @@ Bu sayfa, Active Directory kullanıcı niteliklerinin (attributes) eksiksiz bir 
   - [Exchange / E-posta](#exchange--e-posta)
   - [Password / Security (Parola / Güvenlik)](#password--security-parola--güvenlik)
   - [Extension Attributes (Uzantı Nitelikleri)](#extension-attributes-uzantı-nitelikleri)
-- [ADUC ile Kullanıcı Niteliklerini Görüntüleme](#aduc-ile-kullanıcı-niteliklerini-görüntüleme)
+
 
 ---
 
