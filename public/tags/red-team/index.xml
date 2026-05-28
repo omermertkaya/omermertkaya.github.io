@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Red Team on Ömer Mert Kaya</title>
-    <link>http://localhost:56251/tags/red-team/</link>
+    <link>http://localhost:57152/tags/red-team/</link>
     <description>Recent content in Red Team on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 12 Mar 2025 10:41:21 +0300</lastBuildDate>
-    <atom:link href="http://localhost:56251/tags/red-team/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57152/tags/red-team/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Email Harvesting: Siber Güvenlik Perspektifinden İnceleme ve Python ile Bir Örnek</title>
-      <link>http://localhost:56251/posts/email-harvesting/</link>
+      <link>http://localhost:57152/posts/email-harvesting/</link>
       <pubDate>Wed, 12 Mar 2025 10:41:21 +0300</pubDate>
-      <guid>http://localhost:56251/posts/email-harvesting/</guid>
+      <guid>http://localhost:57152/posts/email-harvesting/</guid>
       <description>&lt;p&gt;Email harvesting, siber güvenlikte &lt;strong&gt;keşif (reconnaissance)&lt;/strong&gt; aşamasında &lt;strong&gt;Red Team&lt;/strong&gt; üyelerinin sıkça kullandığı bir tekniktir. Şirket içi veya kişisel güvenlik önlemlerinde, e-posta adreslerimizin forumlarda, web sitelerinde, dokümanlarda vb. ortamlarda bulunması, kötü niyetli kişilerin bu adresleri toplayarak siber saldırılar gerçekleştirmesine yol açabilir.&lt;/p&gt;</description>
     </item>
   </channel>

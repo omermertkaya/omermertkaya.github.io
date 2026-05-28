@@ -2,533 +2,533 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:56251/posts/active-directory-attribute-list/</loc>
-    <lastmod>2026-05-27T16:36:30+03:00</lastmod>
+    <loc>http://localhost:57152/posts/active-directory-attribute-list/</loc>
+    <lastmod>2026-05-28T11:00:30+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/</loc>
-    <lastmod>2026-05-27T16:36:30+03:00</lastmod>
+    <loc>http://localhost:57152/</loc>
+    <lastmod>2026-05-28T11:00:30+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/hypervisor/</loc>
+    <loc>http://localhost:57152/posts/hypervisor/</loc>
     <lastmod>2026-03-30T18:00:13+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/accessmanagement/</loc>
+    <loc>http://localhost:57152/tags/accessmanagement/</loc>
     <lastmod>2026-03-16T20:00:34+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/authentication/</loc>
+    <loc>http://localhost:57152/tags/authentication/</loc>
     <lastmod>2026-03-16T20:00:34+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/bilgig%C3%BCvenli%C4%9Fi/</loc>
+    <loc>http://localhost:57152/tags/bilgig%C3%BCvenli%C4%9Fi/</loc>
     <lastmod>2026-03-16T20:00:34+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/federatedidentity/</loc>
+    <loc>http://localhost:57152/tags/federatedidentity/</loc>
     <lastmod>2026-03-16T20:00:34+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/iam/</loc>
+    <loc>http://localhost:57152/tags/iam/</loc>
     <lastmod>2026-03-16T20:00:34+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/identityandaccessmanagement/</loc>
+    <loc>http://localhost:57152/tags/identityandaccessmanagement/</loc>
     <lastmod>2026-03-16T20:00:34+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/identityfederation/</loc>
+    <loc>http://localhost:57152/tags/identityfederation/</loc>
     <lastmod>2026-03-16T20:00:34+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/kimlikdo%C4%9Frulama/</loc>
+    <loc>http://localhost:57152/tags/kimlikdo%C4%9Frulama/</loc>
     <lastmod>2026-03-16T20:00:34+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/kimlikveeri%C5%9Fimy%C3%B6netimi/</loc>
+    <loc>http://localhost:57152/tags/kimlikveeri%C5%9Fimy%C3%B6netimi/</loc>
     <lastmod>2026-03-16T20:00:34+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/saml/</loc>
+    <loc>http://localhost:57152/tags/saml/</loc>
     <lastmod>2026-03-16T20:00:34+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/saml-authentication-nedir/</loc>
+    <loc>http://localhost:57152/posts/saml-authentication-nedir/</loc>
     <lastmod>2026-03-16T20:00:34+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/samlauthentication/</loc>
+    <loc>http://localhost:57152/tags/samlauthentication/</loc>
     <lastmod>2026-03-16T20:00:34+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/siberg%C3%BCvenlik/</loc>
+    <loc>http://localhost:57152/tags/siberg%C3%BCvenlik/</loc>
     <lastmod>2026-03-16T20:00:34+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/singlesignon/</loc>
+    <loc>http://localhost:57152/tags/singlesignon/</loc>
     <lastmod>2026-03-16T20:00:34+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/sso/</loc>
+    <loc>http://localhost:57152/tags/sso/</loc>
     <lastmod>2026-03-16T20:00:34+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/</loc>
+    <loc>http://localhost:57152/tags/</loc>
     <lastmod>2026-03-16T20:00:34+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/bug-bounty/</loc>
+    <loc>http://localhost:57152/tags/bug-bounty/</loc>
     <lastmod>2025-03-12T10:41:21+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/cybersecurity/</loc>
+    <loc>http://localhost:57152/tags/cybersecurity/</loc>
     <lastmod>2025-03-12T10:41:21+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/email-harvesting/</loc>
+    <loc>http://localhost:57152/posts/email-harvesting/</loc>
     <lastmod>2025-03-12T10:41:21+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/email-security/</loc>
+    <loc>http://localhost:57152/tags/email-security/</loc>
     <lastmod>2025-03-12T10:41:21+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/phishing/</loc>
+    <loc>http://localhost:57152/tags/phishing/</loc>
     <lastmod>2025-03-12T10:41:21+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/red-team/</loc>
+    <loc>http://localhost:57152/tags/red-team/</loc>
     <lastmod>2025-03-12T10:41:21+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/iag/</loc>
+    <loc>http://localhost:57152/tags/iag/</loc>
     <lastmod>2025-02-16T22:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/iam-iag-iga-idm-farklari/</loc>
+    <loc>http://localhost:57152/posts/iam-iag-iga-idm-farklari/</loc>
     <lastmod>2025-02-16T22:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/idm/</loc>
+    <loc>http://localhost:57152/tags/idm/</loc>
     <lastmod>2025-02-16T22:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/iga/</loc>
+    <loc>http://localhost:57152/tags/iga/</loc>
     <lastmod>2025-02-16T22:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/kavramlar%C4%B1/</loc>
+    <loc>http://localhost:57152/tags/kavramlar%C4%B1/</loc>
     <lastmod>2025-02-16T22:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/bug-bounty-kulturu/</loc>
+    <loc>http://localhost:57152/posts/bug-bounty-kulturu/</loc>
     <lastmod>2025-01-13T10:00:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/employee-engagement/</loc>
+    <loc>http://localhost:57152/tags/employee-engagement/</loc>
     <lastmod>2025-01-13T10:00:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/ethical-hacking/</loc>
+    <loc>http://localhost:57152/tags/ethical-hacking/</loc>
     <lastmod>2025-01-13T10:00:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/information-security/</loc>
+    <loc>http://localhost:57152/tags/information-security/</loc>
     <lastmod>2025-01-13T10:00:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/internal-security/</loc>
+    <loc>http://localhost:57152/tags/internal-security/</loc>
     <lastmod>2025-01-13T10:00:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/penetration-testing/</loc>
+    <loc>http://localhost:57152/tags/penetration-testing/</loc>
     <lastmod>2025-01-13T10:00:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/proactive-security/</loc>
+    <loc>http://localhost:57152/tags/proactive-security/</loc>
     <lastmod>2025-01-13T10:00:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/risk-management/</loc>
+    <loc>http://localhost:57152/tags/risk-management/</loc>
     <lastmod>2025-01-13T10:00:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/security-awareness/</loc>
+    <loc>http://localhost:57152/tags/security-awareness/</loc>
     <lastmod>2025-01-13T10:00:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/security-best-practices/</loc>
+    <loc>http://localhost:57152/tags/security-best-practices/</loc>
     <lastmod>2025-01-13T10:00:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/security-culture/</loc>
+    <loc>http://localhost:57152/tags/security-culture/</loc>
     <lastmod>2025-01-13T10:00:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/threat-detection/</loc>
+    <loc>http://localhost:57152/tags/threat-detection/</loc>
     <lastmod>2025-01-13T10:00:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/vulnerability-management/</loc>
+    <loc>http://localhost:57152/tags/vulnerability-management/</loc>
     <lastmod>2025-01-13T10:00:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/aaa-nedir/</loc>
+    <loc>http://localhost:57152/tags/aaa-nedir/</loc>
     <lastmod>2025-01-02T18:57:49+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/accounting/</loc>
+    <loc>http://localhost:57152/tags/accounting/</loc>
     <lastmod>2025-01-02T18:57:49+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/aaa-nedir/</loc>
+    <loc>http://localhost:57152/posts/aaa-nedir/</loc>
     <lastmod>2025-01-02T18:57:49+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/authorization/</loc>
+    <loc>http://localhost:57152/tags/authorization/</loc>
     <lastmod>2025-01-02T18:57:49+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/dijital-g%C3%BCvenlik/</loc>
+    <loc>http://localhost:57152/tags/dijital-g%C3%BCvenlik/</loc>
     <lastmod>2025-01-02T18:57:49+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/eri%C5%9Fim-y%C3%B6netimi/</loc>
+    <loc>http://localhost:57152/tags/eri%C5%9Fim-y%C3%B6netimi/</loc>
     <lastmod>2025-01-02T18:57:49+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/iam-kavramlar%C4%B1/</loc>
+    <loc>http://localhost:57152/tags/iam-kavramlar%C4%B1/</loc>
     <lastmod>2025-01-02T18:57:49+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/idm-kavramlar%C4%B1/</loc>
+    <loc>http://localhost:57152/tags/idm-kavramlar%C4%B1/</loc>
     <lastmod>2025-01-02T18:57:49+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/kimlik-do%C4%9Frulama/</loc>
+    <loc>http://localhost:57152/tags/kimlik-do%C4%9Frulama/</loc>
     <lastmod>2025-01-02T18:57:49+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</loc>
+    <loc>http://localhost:57152/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</loc>
     <lastmod>2025-01-02T18:57:49+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/kimlik-y%C3%B6netimi/</loc>
+    <loc>http://localhost:57152/tags/kimlik-y%C3%B6netimi/</loc>
     <lastmod>2025-01-02T18:57:49+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/siber-g%C3%BCvenlik/</loc>
+    <loc>http://localhost:57152/tags/siber-g%C3%BCvenlik/</loc>
     <lastmod>2025-01-02T18:57:49+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/abstraction-soyutlama/</loc>
+    <loc>http://localhost:57152/tags/abstraction-soyutlama/</loc>
     <lastmod>2024-12-16T20:33:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/access-certification/</loc>
+    <loc>http://localhost:57152/posts/access-certification/</loc>
     <lastmod>2024-12-16T20:33:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/entitlement-management/</loc>
+    <loc>http://localhost:57152/tags/entitlement-management/</loc>
     <lastmod>2024-12-16T20:33:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/eri%C5%9Fim-g%C3%B6zden-ge%C3%A7irme/</loc>
+    <loc>http://localhost:57152/tags/eri%C5%9Fim-g%C3%B6zden-ge%C3%A7irme/</loc>
     <lastmod>2024-12-16T20:33:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/iam-stratejileri/</loc>
+    <loc>http://localhost:57152/tags/iam-stratejileri/</loc>
     <lastmod>2024-12-16T20:33:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/rol-tabanl%C4%B1-eri%C5%9Fim-kontrol%C3%BC-rbac/</loc>
+    <loc>http://localhost:57152/tags/rol-tabanl%C4%B1-eri%C5%9Fim-kontrol%C3%BC-rbac/</loc>
     <lastmod>2024-12-16T20:33:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/zero-trust-g%C3%BCvenlik-modeli/</loc>
+    <loc>http://localhost:57152/tags/zero-trust-g%C3%BCvenlik-modeli/</loc>
     <lastmod>2024-12-16T20:33:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/abstraction-kavramini-inceleyelim/</loc>
+    <loc>http://localhost:57152/posts/abstraction-kavramini-inceleyelim/</loc>
     <lastmod>2024-12-15T14:49:06+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/iam-gelece%C4%9Fi/</loc>
+    <loc>http://localhost:57152/tags/iam-gelece%C4%9Fi/</loc>
     <lastmod>2024-12-11T23:58:14+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/identity-and-access-management/</loc>
+    <loc>http://localhost:57152/tags/identity-and-access-management/</loc>
     <lastmod>2024-12-11T23:58:14+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/kimlik-ve-erisim-yonetiminde-gelecek/</loc>
+    <loc>http://localhost:57152/posts/kimlik-ve-erisim-yonetiminde-gelecek/</loc>
     <lastmod>2024-12-11T23:58:14+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/zero-trust-s%C4%B1f%C4%B1r-g%C3%BCven/</loc>
+    <loc>http://localhost:57152/tags/zero-trust-s%C4%B1f%C4%B1r-g%C3%BCven/</loc>
     <lastmod>2024-12-11T23:58:14+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/access-control/</loc>
+    <loc>http://localhost:57152/tags/access-control/</loc>
     <lastmod>2024-12-10T00:31:03+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/employee-self-service/</loc>
+    <loc>http://localhost:57152/tags/employee-self-service/</loc>
     <lastmod>2024-12-10T00:31:03+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/iam-solutions/</loc>
+    <loc>http://localhost:57152/tags/iam-solutions/</loc>
     <lastmod>2024-12-10T00:31:03+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/identity-management/</loc>
+    <loc>http://localhost:57152/tags/identity-management/</loc>
     <lastmod>2024-12-10T00:31:03+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/kimlik-ve-erisim-yonetiminde-sanal-asistanlar/</loc>
+    <loc>http://localhost:57152/posts/kimlik-ve-erisim-yonetiminde-sanal-asistanlar/</loc>
     <lastmod>2024-12-10T00:31:03+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/microsoft-365-agents/</loc>
+    <loc>http://localhost:57152/tags/microsoft-365-agents/</loc>
     <lastmod>2024-12-10T00:31:03+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/security-automation/</loc>
+    <loc>http://localhost:57152/tags/security-automation/</loc>
     <lastmod>2024-12-10T00:31:03+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/3389/</loc>
+    <loc>http://localhost:57152/tags/3389/</loc>
     <lastmod>2024-12-07T22:41:01+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/active-directory/</loc>
+    <loc>http://localhost:57152/tags/active-directory/</loc>
     <lastmod>2024-12-07T22:41:01+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/rdp-3389-yasaklama/</loc>
+    <loc>http://localhost:57152/posts/rdp-3389-yasaklama/</loc>
     <lastmod>2024-12-07T22:41:01+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/enterprise-security/</loc>
+    <loc>http://localhost:57152/tags/enterprise-security/</loc>
     <lastmod>2024-12-07T22:41:01+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/rdp/</loc>
+    <loc>http://localhost:57152/tags/rdp/</loc>
     <lastmod>2024-12-07T22:41:01+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/remote-destop-protocol/</loc>
+    <loc>http://localhost:57152/tags/remote-destop-protocol/</loc>
     <lastmod>2024-12-07T22:41:01+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/security/</loc>
+    <loc>http://localhost:57152/tags/security/</loc>
     <lastmod>2024-12-07T22:41:01+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/windows-firewall/</loc>
+    <loc>http://localhost:57152/tags/windows-firewall/</loc>
     <lastmod>2024-12-07T22:41:01+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/active-directory-connection/</loc>
+    <loc>http://localhost:57152/tags/active-directory-connection/</loc>
     <lastmod>2024-12-03T20:53:07+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/auth0/</loc>
+    <loc>http://localhost:57152/tags/auth0/</loc>
     <lastmod>2024-12-03T20:53:07+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/auth0-nedir-active-directory-ile-baglanti/</loc>
+    <loc>http://localhost:57152/posts/auth0-nedir-active-directory-ile-baglanti/</loc>
     <lastmod>2024-12-03T20:53:07+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/kimlik-ve-erisim-yonetimi/</loc>
+    <loc>http://localhost:57152/tags/kimlik-ve-erisim-yonetimi/</loc>
     <lastmod>2024-12-03T20:53:07+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/access-management/</loc>
+    <loc>http://localhost:57152/tags/access-management/</loc>
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/ldap-authorization/</loc>
+    <loc>http://localhost:57152/posts/ldap-authorization/</loc>
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/ad-ds/</loc>
+    <loc>http://localhost:57152/tags/ad-ds/</loc>
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/ad-lds/</loc>
+    <loc>http://localhost:57152/tags/ad-lds/</loc>
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/directory-services/</loc>
+    <loc>http://localhost:57152/tags/directory-services/</loc>
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/kullan%C4%B1c%C4%B1-eri%C5%9Fimi/</loc>
+    <loc>http://localhost:57152/tags/kullan%C4%B1c%C4%B1-eri%C5%9Fimi/</loc>
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/ldap/</loc>
+    <loc>http://localhost:57152/tags/ldap/</loc>
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/ldap-authentication/</loc>
+    <loc>http://localhost:57152/tags/ldap-authentication/</loc>
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/ldap-authorization/</loc>
+    <loc>http://localhost:57152/tags/ldap-authorization/</loc>
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/merkezi-kimlik-y%C3%B6netimi/</loc>
+    <loc>http://localhost:57152/tags/merkezi-kimlik-y%C3%B6netimi/</loc>
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/node.js-ldap/</loc>
+    <loc>http://localhost:57152/tags/node.js-ldap/</loc>
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/web-g%C3%BCvenli%C4%9Fi/</loc>
+    <loc>http://localhost:57152/tags/web-g%C3%BCvenli%C4%9Fi/</loc>
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/web-uygulamas%C4%B1/</loc>
+    <loc>http://localhost:57152/tags/web-uygulamas%C4%B1/</loc>
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/yetkilendirme/</loc>
+    <loc>http://localhost:57152/tags/yetkilendirme/</loc>
     <lastmod>2024-11-30T20:41:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/ldap-authentication-nedir/</loc>
+    <loc>http://localhost:57152/posts/ldap-authentication-nedir/</loc>
     <lastmod>2024-11-28T15:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/aktif-dizin/</loc>
+    <loc>http://localhost:57152/tags/aktif-dizin/</loc>
     <lastmod>2024-11-24T22:45:02+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/aktif-dizinde-tum-cihazlara-mesaj-gonderme/</loc>
+    <loc>http://localhost:57152/posts/aktif-dizinde-tum-cihazlara-mesaj-gonderme/</loc>
     <lastmod>2024-11-24T22:45:02+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/domaindeki-cihazlara-mesaj/</loc>
+    <loc>http://localhost:57152/tags/domaindeki-cihazlara-mesaj/</loc>
     <lastmod>2024-11-24T22:45:02+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/it-g%C3%BCvenlik-bildirimleri/</loc>
+    <loc>http://localhost:57152/tags/it-g%C3%BCvenlik-bildirimleri/</loc>
     <lastmod>2024-11-24T22:45:02+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/kullan%C4%B1c%C4%B1-bilgilendirme/</loc>
+    <loc>http://localhost:57152/tags/kullan%C4%B1c%C4%B1-bilgilendirme/</loc>
     <lastmod>2024-11-24T22:45:02+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/powershell-mesaj-g%C3%B6nderme/</loc>
+    <loc>http://localhost:57152/tags/powershell-mesaj-g%C3%B6nderme/</loc>
     <lastmod>2024-11-24T22:45:02+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/%C5%9Fifre-s%C3%BCresi-bildirimleri/</loc>
+    <loc>http://localhost:57152/tags/%C5%9Fifre-s%C3%BCresi-bildirimleri/</loc>
     <lastmod>2024-11-24T22:45:02+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/windows-mesaj-g%C3%B6nderimi/</loc>
+    <loc>http://localhost:57152/tags/windows-mesaj-g%C3%B6nderimi/</loc>
     <lastmod>2024-11-24T22:45:02+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/guclu-sifre-saklama-politikalari/</loc>
+    <loc>http://localhost:57152/posts/guclu-sifre-saklama-politikalari/</loc>
     <lastmod>2024-11-24T12:30:36+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/eri%C5%9Fim-kontrol%C3%BC/</loc>
+    <loc>http://localhost:57152/tags/eri%C5%9Fim-kontrol%C3%BC/</loc>
     <lastmod>2024-11-21T21:30:49+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/g%C3%BCvenlik-s%C4%B1k%C4%B1la%C5%9Ft%C4%B1rmas%C4%B1/</loc>
+    <loc>http://localhost:57152/tags/g%C3%BCvenlik-s%C4%B1k%C4%B1la%C5%9Ft%C4%B1rmas%C4%B1/</loc>
     <lastmod>2024-11-21T21:30:49+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi-iam/</loc>
+    <loc>http://localhost:57152/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi-iam/</loc>
     <lastmod>2024-11-21T21:30:49+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/rol-yetki-sahibi-gozden-gecirme-sureci/</loc>
+    <loc>http://localhost:57152/posts/rol-yetki-sahibi-gozden-gecirme-sureci/</loc>
     <lastmod>2024-11-21T21:30:49+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/rol-ve-yetki-y%C3%B6netimi/</loc>
+    <loc>http://localhost:57152/tags/rol-ve-yetki-y%C3%B6netimi/</loc>
     <lastmod>2024-11-21T21:30:49+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/self-servis/</loc>
+    <loc>http://localhost:57152/tags/self-servis/</loc>
     <lastmod>2024-11-21T21:30:49+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/yetki-g%C3%B6zden-ge%C3%A7irme/</loc>
+    <loc>http://localhost:57152/tags/yetki-g%C3%B6zden-ge%C3%A7irme/</loc>
     <lastmod>2024-11-21T21:30:49+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/apache-directory-studio/</loc>
+    <loc>http://localhost:57152/tags/apache-directory-studio/</loc>
     <lastmod>2024-11-13T20:55:50+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/birden-fazla-ldap-baglantisi-yonetme/</loc>
+    <loc>http://localhost:57152/posts/birden-fazla-ldap-baglantisi-yonetme/</loc>
     <lastmod>2024-11-13T20:55:50+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/identity-access-management/</loc>
+    <loc>http://localhost:57152/tags/identity-access-management/</loc>
     <lastmod>2024-11-13T20:55:50+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/oracle-ldap/</loc>
+    <loc>http://localhost:57152/tags/oracle-ldap/</loc>
     <lastmod>2024-11-13T20:55:50+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/eri%C5%9Fimtalebiy%C3%B6netimi/</loc>
+    <loc>http://localhost:57152/tags/eri%C5%9Fimtalebiy%C3%B6netimi/</loc>
     <lastmod>2024-11-09T12:28:23+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/kimlik-ve-erisim-yonetimi-erisim-talebi/</loc>
+    <loc>http://localhost:57152/posts/kimlik-ve-erisim-yonetimi-erisim-talebi/</loc>
     <lastmod>2024-11-09T12:28:23+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/kullan%C4%B1c%C4%B1eri%C5%9Fimizinleri/</loc>
+    <loc>http://localhost:57152/tags/kullan%C4%B1c%C4%B1eri%C5%9Fimizinleri/</loc>
     <lastmod>2024-11-09T12:28:23+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/bilgi-ve-ileti%C5%9Fim-g%C3%BCvenli%C4%9Fi/</loc>
+    <loc>http://localhost:57152/tags/bilgi-ve-ileti%C5%9Fim-g%C3%BCvenli%C4%9Fi/</loc>
     <lastmod>2024-09-24T21:31:21+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/kimlik-ve-erisim-yonetimi-bilgi-ve-iletisim-guvenligi-rehberinden/</loc>
+    <loc>http://localhost:57152/posts/kimlik-ve-erisim-yonetimi-bilgi-ve-iletisim-guvenligi-rehberinden/</loc>
     <lastmod>2024-09-24T21:31:21+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/siber-tedbirler/</loc>
+    <loc>http://localhost:57152/tags/siber-tedbirler/</loc>
     <lastmod>2024-09-24T21:31:21+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/g%C3%BCvenlik/</loc>
+    <loc>http://localhost:57152/tags/g%C3%BCvenlik/</loc>
     <lastmod>2024-09-20T23:25:18+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/identity-lifecycle/</loc>
+    <loc>http://localhost:57152/tags/identity-lifecycle/</loc>
     <lastmod>2024-09-20T23:25:18+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/individual-access-review/</loc>
+    <loc>http://localhost:57152/tags/individual-access-review/</loc>
     <lastmod>2024-09-20T23:25:18+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/kullanici-yetki-gozden-gecirme-rapor/</loc>
+    <loc>http://localhost:57152/posts/kullanici-yetki-gozden-gecirme-rapor/</loc>
     <lastmod>2024-09-20T23:25:18+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/role-management/</loc>
+    <loc>http://localhost:57152/tags/role-management/</loc>
     <lastmod>2024-09-20T23:25:18+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/user-lifecycle-management/</loc>
+    <loc>http://localhost:57152/tags/user-lifecycle-management/</loc>
     <lastmod>2024-09-20T23:25:18+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/user-permissions/</loc>
+    <loc>http://localhost:57152/tags/user-permissions/</loc>
     <lastmod>2024-09-20T23:25:18+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/user-review-process/</loc>
+    <loc>http://localhost:57152/tags/user-review-process/</loc>
     <lastmod>2024-09-20T23:25:18+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/yetki-y%C3%B6netimi/</loc>
+    <loc>http://localhost:57152/tags/yetki-y%C3%B6netimi/</loc>
     <lastmod>2024-09-20T23:25:18+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/g%C3%BCvenlik-y%C3%B6netimi/</loc>
+    <loc>http://localhost:57152/tags/g%C3%BCvenlik-y%C3%B6netimi/</loc>
     <lastmod>2024-08-09T15:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/idm-toolu/</loc>
+    <loc>http://localhost:57152/tags/idm-toolu/</loc>
     <lastmod>2024-08-09T15:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/i%C5%9F-s%C3%BCre%C3%A7leri-ve-g%C3%BCvenlik/</loc>
+    <loc>http://localhost:57152/tags/i%C5%9F-s%C3%BCre%C3%A7leri-ve-g%C3%BCvenlik/</loc>
     <lastmod>2024-08-09T15:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/rol-yetki-gozden-gecirme/</loc>
+    <loc>http://localhost:57152/posts/rol-yetki-gozden-gecirme/</loc>
     <lastmod>2024-08-09T15:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/kullan%C4%B1c%C4%B1-yetkilendirme/</loc>
+    <loc>http://localhost:57152/tags/kullan%C4%B1c%C4%B1-yetkilendirme/</loc>
     <lastmod>2024-08-09T15:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/rol-tabanl%C4%B1-eri%C5%9Fim/</loc>
+    <loc>http://localhost:57152/tags/rol-tabanl%C4%B1-eri%C5%9Fim/</loc>
     <lastmod>2024-08-09T15:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/yetki-sertifikasyonu/</loc>
+    <loc>http://localhost:57152/tags/yetki-sertifikasyonu/</loc>
     <lastmod>2024-08-09T15:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/eri%C5%9Fimy%C3%B6netimi/</loc>
+    <loc>http://localhost:57152/tags/eri%C5%9Fimy%C3%B6netimi/</loc>
     <lastmod>2024-08-05T21:00:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/role-mining-nedir/</loc>
+    <loc>http://localhost:57152/posts/role-mining-nedir/</loc>
     <lastmod>2024-08-05T21:00:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/rolemining/</loc>
+    <loc>http://localhost:57152/tags/rolemining/</loc>
     <lastmod>2024-08-05T21:00:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/rolmadencili%C4%9Fi/</loc>
+    <loc>http://localhost:57152/tags/rolmadencili%C4%9Fi/</loc>
     <lastmod>2024-08-05T21:00:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/roly%C3%B6netimi/</loc>
+    <loc>http://localhost:57152/tags/roly%C3%B6netimi/</loc>
     <lastmod>2024-08-05T21:00:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/yetkiy%C3%B6netimi/</loc>
+    <loc>http://localhost:57152/tags/yetkiy%C3%B6netimi/</loc>
     <lastmod>2024-08-05T21:00:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/ibm/</loc>
+    <loc>http://localhost:57152/tags/ibm/</loc>
     <lastmod>2024-07-24T15:45:08+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/ibm-security-verify-kullanimi-saml/</loc>
+    <loc>http://localhost:57152/posts/ibm-security-verify-kullanimi-saml/</loc>
     <lastmod>2024-07-24T15:45:08+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/ibm-security-verify-sso/</loc>
+    <loc>http://localhost:57152/tags/ibm-security-verify-sso/</loc>
     <lastmod>2024-07-24T15:45:08+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/security-verify-cloud/</loc>
+    <loc>http://localhost:57152/tags/security-verify-cloud/</loc>
     <lastmod>2024-07-24T15:45:08+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/iam-basarili-olmasi/</loc>
+    <loc>http://localhost:57152/posts/iam-basarili-olmasi/</loc>
     <lastmod>2024-07-14T20:53:09+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/payda%C5%9F-kat%C4%B1l%C4%B1m%C4%B1/</loc>
+    <loc>http://localhost:57152/tags/payda%C5%9F-kat%C4%B1l%C4%B1m%C4%B1/</loc>
     <lastmod>2024-07-14T20:53:09+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/sod-matrisi-segregation-of-duties/</loc>
+    <loc>http://localhost:57152/tags/sod-matrisi-segregation-of-duties/</loc>
     <lastmod>2024-07-14T20:53:09+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/authentication-authorization-kavramlari/</loc>
+    <loc>http://localhost:57152/posts/authentication-authorization-kavramlari/</loc>
     <lastmod>2024-07-11T22:30:46+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/iam-dashboard/</loc>
+    <loc>http://localhost:57152/tags/iam-dashboard/</loc>
     <lastmod>2024-06-30T12:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/iam-metrics/</loc>
+    <loc>http://localhost:57152/tags/iam-metrics/</loc>
     <lastmod>2024-06-30T12:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/kimlik-ve-erisim-yonetimi-dashboard/</loc>
+    <loc>http://localhost:57152/posts/kimlik-ve-erisim-yonetimi-dashboard/</loc>
     <lastmod>2024-06-30T12:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/%C3%A7al%C4%B1%C5%9Fan-hesaplar%C4%B1-olu%C5%9Fturma/</loc>
+    <loc>http://localhost:57152/tags/%C3%A7al%C4%B1%C5%9Fan-hesaplar%C4%B1-olu%C5%9Fturma/</loc>
     <lastmod>2024-06-17T12:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/%C3%A7al%C4%B1%C5%9Fan-provizyonlama/</loc>
+    <loc>http://localhost:57152/tags/%C3%A7al%C4%B1%C5%9Fan-provizyonlama/</loc>
     <lastmod>2024-06-17T12:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/idm-kullanici-provizyonlama/</loc>
+    <loc>http://localhost:57152/tags/idm-kullanici-provizyonlama/</loc>
     <lastmod>2024-06-17T12:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/kullanici-provizyonlama/</loc>
+    <loc>http://localhost:57152/tags/kullanici-provizyonlama/</loc>
     <lastmod>2024-06-17T12:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/kullanici-provizyonlama-nedir/</loc>
+    <loc>http://localhost:57152/posts/kullanici-provizyonlama-nedir/</loc>
     <lastmod>2024-06-17T12:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/entitlement/</loc>
+    <loc>http://localhost:57152/tags/entitlement/</loc>
     <lastmod>2024-06-04T21:45:54+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/entitlement-nedir/</loc>
+    <loc>http://localhost:57152/posts/entitlement-nedir/</loc>
     <lastmod>2024-06-04T21:45:54+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/2fa/</loc>
+    <loc>http://localhost:57152/tags/2fa/</loc>
     <lastmod>2024-03-30T22:17:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/fido/</loc>
+    <loc>http://localhost:57152/tags/fido/</loc>
     <lastmod>2024-03-30T22:17:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/%C5%9Fifrelerin-%C3%B6tesinde-fido-%C3%A7%C3%B6z%C3%BCm%C3%BC/</loc>
+    <loc>http://localhost:57152/posts/%C5%9Fifrelerin-%C3%B6tesinde-fido-%C3%A7%C3%B6z%C3%BCm%C3%BC/</loc>
     <lastmod>2024-03-30T22:17:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/tags/uaf/</loc>
+    <loc>http://localhost:57152/tags/uaf/</loc>
     <lastmod>2024-03-30T22:17:41+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/clerk-authentication-nedir/</loc>
+    <loc>http://localhost:57152/posts/clerk-authentication-nedir/</loc>
     <lastmod>2024-03-30T16:57:45+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/about/</loc>
+    <loc>http://localhost:57152/about/</loc>
     <lastmod>2023-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/ozgecmis/</loc>
+    <loc>http://localhost:57152/ozgecmis/</loc>
     <lastmod>2023-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/posts/</loc>
+    <loc>http://localhost:57152/posts/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:56251/categories/</loc>
+    <loc>http://localhost:57152/categories/</loc>
   </url><url>
-    <loc>http://localhost:56251/archives/</loc>
+    <loc>http://localhost:57152/archives/</loc>
   </url>
 </urlset>

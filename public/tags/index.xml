@@ -2,976 +2,976 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ömer Mert Kaya</title>
-    <link>http://localhost:56251/tags/</link>
+    <link>http://localhost:57152/tags/</link>
     <description>Recent content in Tags on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Mar 2026 20:00:34 +0300</lastBuildDate>
-    <atom:link href="http://localhost:56251/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57152/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AccessManagement</title>
-      <link>http://localhost:56251/tags/accessmanagement/</link>
+      <link>http://localhost:57152/tags/accessmanagement/</link>
       <pubDate>Mon, 16 Mar 2026 20:00:34 +0300</pubDate>
-      <guid>http://localhost:56251/tags/accessmanagement/</guid>
+      <guid>http://localhost:57152/tags/accessmanagement/</guid>
       <description></description>
     </item>
     <item>
       <title>Authentication</title>
-      <link>http://localhost:56251/tags/authentication/</link>
+      <link>http://localhost:57152/tags/authentication/</link>
       <pubDate>Mon, 16 Mar 2026 20:00:34 +0300</pubDate>
-      <guid>http://localhost:56251/tags/authentication/</guid>
+      <guid>http://localhost:57152/tags/authentication/</guid>
       <description></description>
     </item>
     <item>
       <title>BilgiGüvenliği</title>
-      <link>http://localhost:56251/tags/bilgig%C3%BCvenli%C4%9Fi/</link>
+      <link>http://localhost:57152/tags/bilgig%C3%BCvenli%C4%9Fi/</link>
       <pubDate>Mon, 16 Mar 2026 20:00:34 +0300</pubDate>
-      <guid>http://localhost:56251/tags/bilgig%C3%BCvenli%C4%9Fi/</guid>
+      <guid>http://localhost:57152/tags/bilgig%C3%BCvenli%C4%9Fi/</guid>
       <description></description>
     </item>
     <item>
       <title>FederatedIdentity</title>
-      <link>http://localhost:56251/tags/federatedidentity/</link>
+      <link>http://localhost:57152/tags/federatedidentity/</link>
       <pubDate>Mon, 16 Mar 2026 20:00:34 +0300</pubDate>
-      <guid>http://localhost:56251/tags/federatedidentity/</guid>
+      <guid>http://localhost:57152/tags/federatedidentity/</guid>
       <description></description>
     </item>
     <item>
       <title>IAM</title>
-      <link>http://localhost:56251/tags/iam/</link>
+      <link>http://localhost:57152/tags/iam/</link>
       <pubDate>Mon, 16 Mar 2026 20:00:34 +0300</pubDate>
-      <guid>http://localhost:56251/tags/iam/</guid>
+      <guid>http://localhost:57152/tags/iam/</guid>
       <description></description>
     </item>
     <item>
       <title>IdentityAndAccessManagement</title>
-      <link>http://localhost:56251/tags/identityandaccessmanagement/</link>
+      <link>http://localhost:57152/tags/identityandaccessmanagement/</link>
       <pubDate>Mon, 16 Mar 2026 20:00:34 +0300</pubDate>
-      <guid>http://localhost:56251/tags/identityandaccessmanagement/</guid>
+      <guid>http://localhost:57152/tags/identityandaccessmanagement/</guid>
       <description></description>
     </item>
     <item>
       <title>IdentityFederation</title>
-      <link>http://localhost:56251/tags/identityfederation/</link>
+      <link>http://localhost:57152/tags/identityfederation/</link>
       <pubDate>Mon, 16 Mar 2026 20:00:34 +0300</pubDate>
-      <guid>http://localhost:56251/tags/identityfederation/</guid>
+      <guid>http://localhost:57152/tags/identityfederation/</guid>
       <description></description>
     </item>
     <item>
       <title>KimlikDoğrulama</title>
-      <link>http://localhost:56251/tags/kimlikdo%C4%9Frulama/</link>
+      <link>http://localhost:57152/tags/kimlikdo%C4%9Frulama/</link>
       <pubDate>Mon, 16 Mar 2026 20:00:34 +0300</pubDate>
-      <guid>http://localhost:56251/tags/kimlikdo%C4%9Frulama/</guid>
+      <guid>http://localhost:57152/tags/kimlikdo%C4%9Frulama/</guid>
       <description></description>
     </item>
     <item>
       <title>KimlikveErişimYönetimi</title>
-      <link>http://localhost:56251/tags/kimlikveeri%C5%9Fimy%C3%B6netimi/</link>
+      <link>http://localhost:57152/tags/kimlikveeri%C5%9Fimy%C3%B6netimi/</link>
       <pubDate>Mon, 16 Mar 2026 20:00:34 +0300</pubDate>
-      <guid>http://localhost:56251/tags/kimlikveeri%C5%9Fimy%C3%B6netimi/</guid>
+      <guid>http://localhost:57152/tags/kimlikveeri%C5%9Fimy%C3%B6netimi/</guid>
       <description></description>
     </item>
     <item>
-      <title>Saml</title>
-      <link>http://localhost:56251/tags/saml/</link>
+      <title>SAML</title>
+      <link>http://localhost:57152/tags/saml/</link>
       <pubDate>Mon, 16 Mar 2026 20:00:34 +0300</pubDate>
-      <guid>http://localhost:56251/tags/saml/</guid>
+      <guid>http://localhost:57152/tags/saml/</guid>
       <description></description>
     </item>
     <item>
       <title>SAMLAuthentication</title>
-      <link>http://localhost:56251/tags/samlauthentication/</link>
+      <link>http://localhost:57152/tags/samlauthentication/</link>
       <pubDate>Mon, 16 Mar 2026 20:00:34 +0300</pubDate>
-      <guid>http://localhost:56251/tags/samlauthentication/</guid>
+      <guid>http://localhost:57152/tags/samlauthentication/</guid>
       <description></description>
     </item>
     <item>
       <title>SiberGüvenlik</title>
-      <link>http://localhost:56251/tags/siberg%C3%BCvenlik/</link>
+      <link>http://localhost:57152/tags/siberg%C3%BCvenlik/</link>
       <pubDate>Mon, 16 Mar 2026 20:00:34 +0300</pubDate>
-      <guid>http://localhost:56251/tags/siberg%C3%BCvenlik/</guid>
+      <guid>http://localhost:57152/tags/siberg%C3%BCvenlik/</guid>
       <description></description>
     </item>
     <item>
       <title>SingleSignOn</title>
-      <link>http://localhost:56251/tags/singlesignon/</link>
+      <link>http://localhost:57152/tags/singlesignon/</link>
       <pubDate>Mon, 16 Mar 2026 20:00:34 +0300</pubDate>
-      <guid>http://localhost:56251/tags/singlesignon/</guid>
+      <guid>http://localhost:57152/tags/singlesignon/</guid>
       <description></description>
     </item>
     <item>
       <title>SSO</title>
-      <link>http://localhost:56251/tags/sso/</link>
+      <link>http://localhost:57152/tags/sso/</link>
       <pubDate>Mon, 16 Mar 2026 20:00:34 +0300</pubDate>
-      <guid>http://localhost:56251/tags/sso/</guid>
+      <guid>http://localhost:57152/tags/sso/</guid>
       <description></description>
     </item>
     <item>
       <title>Bug Bounty</title>
-      <link>http://localhost:56251/tags/bug-bounty/</link>
+      <link>http://localhost:57152/tags/bug-bounty/</link>
       <pubDate>Wed, 12 Mar 2025 10:41:21 +0300</pubDate>
-      <guid>http://localhost:56251/tags/bug-bounty/</guid>
+      <guid>http://localhost:57152/tags/bug-bounty/</guid>
       <description></description>
     </item>
     <item>
       <title>Cybersecurity</title>
-      <link>http://localhost:56251/tags/cybersecurity/</link>
+      <link>http://localhost:57152/tags/cybersecurity/</link>
       <pubDate>Wed, 12 Mar 2025 10:41:21 +0300</pubDate>
-      <guid>http://localhost:56251/tags/cybersecurity/</guid>
+      <guid>http://localhost:57152/tags/cybersecurity/</guid>
       <description></description>
     </item>
     <item>
       <title>Email Security</title>
-      <link>http://localhost:56251/tags/email-security/</link>
+      <link>http://localhost:57152/tags/email-security/</link>
       <pubDate>Wed, 12 Mar 2025 10:41:21 +0300</pubDate>
-      <guid>http://localhost:56251/tags/email-security/</guid>
+      <guid>http://localhost:57152/tags/email-security/</guid>
       <description></description>
     </item>
     <item>
       <title>Phishing</title>
-      <link>http://localhost:56251/tags/phishing/</link>
+      <link>http://localhost:57152/tags/phishing/</link>
       <pubDate>Wed, 12 Mar 2025 10:41:21 +0300</pubDate>
-      <guid>http://localhost:56251/tags/phishing/</guid>
+      <guid>http://localhost:57152/tags/phishing/</guid>
       <description></description>
     </item>
     <item>
       <title>Red Team</title>
-      <link>http://localhost:56251/tags/red-team/</link>
+      <link>http://localhost:57152/tags/red-team/</link>
       <pubDate>Wed, 12 Mar 2025 10:41:21 +0300</pubDate>
-      <guid>http://localhost:56251/tags/red-team/</guid>
+      <guid>http://localhost:57152/tags/red-team/</guid>
       <description></description>
     </item>
     <item>
       <title>IAG</title>
-      <link>http://localhost:56251/tags/iag/</link>
+      <link>http://localhost:57152/tags/iag/</link>
       <pubDate>Sun, 16 Feb 2025 22:00:00 +0300</pubDate>
-      <guid>http://localhost:56251/tags/iag/</guid>
+      <guid>http://localhost:57152/tags/iag/</guid>
       <description></description>
     </item>
     <item>
       <title>IDM</title>
-      <link>http://localhost:56251/tags/idm/</link>
+      <link>http://localhost:57152/tags/idm/</link>
       <pubDate>Sun, 16 Feb 2025 22:00:00 +0300</pubDate>
-      <guid>http://localhost:56251/tags/idm/</guid>
+      <guid>http://localhost:57152/tags/idm/</guid>
       <description></description>
     </item>
     <item>
       <title>IGA</title>
-      <link>http://localhost:56251/tags/iga/</link>
+      <link>http://localhost:57152/tags/iga/</link>
       <pubDate>Sun, 16 Feb 2025 22:00:00 +0300</pubDate>
-      <guid>http://localhost:56251/tags/iga/</guid>
+      <guid>http://localhost:57152/tags/iga/</guid>
       <description></description>
     </item>
     <item>
       <title>Kavramları</title>
-      <link>http://localhost:56251/tags/kavramlar%C4%B1/</link>
+      <link>http://localhost:57152/tags/kavramlar%C4%B1/</link>
       <pubDate>Sun, 16 Feb 2025 22:00:00 +0300</pubDate>
-      <guid>http://localhost:56251/tags/kavramlar%C4%B1/</guid>
+      <guid>http://localhost:57152/tags/kavramlar%C4%B1/</guid>
       <description></description>
     </item>
     <item>
       <title>Employee Engagement</title>
-      <link>http://localhost:56251/tags/employee-engagement/</link>
+      <link>http://localhost:57152/tags/employee-engagement/</link>
       <pubDate>Mon, 13 Jan 2025 10:00:41 +0300</pubDate>
-      <guid>http://localhost:56251/tags/employee-engagement/</guid>
+      <guid>http://localhost:57152/tags/employee-engagement/</guid>
       <description></description>
     </item>
     <item>
       <title>Ethical Hacking</title>
-      <link>http://localhost:56251/tags/ethical-hacking/</link>
+      <link>http://localhost:57152/tags/ethical-hacking/</link>
       <pubDate>Mon, 13 Jan 2025 10:00:41 +0300</pubDate>
-      <guid>http://localhost:56251/tags/ethical-hacking/</guid>
+      <guid>http://localhost:57152/tags/ethical-hacking/</guid>
       <description></description>
     </item>
     <item>
       <title>Information Security</title>
-      <link>http://localhost:56251/tags/information-security/</link>
+      <link>http://localhost:57152/tags/information-security/</link>
       <pubDate>Mon, 13 Jan 2025 10:00:41 +0300</pubDate>
-      <guid>http://localhost:56251/tags/information-security/</guid>
+      <guid>http://localhost:57152/tags/information-security/</guid>
       <description></description>
     </item>
     <item>
       <title>Internal Security</title>
-      <link>http://localhost:56251/tags/internal-security/</link>
+      <link>http://localhost:57152/tags/internal-security/</link>
       <pubDate>Mon, 13 Jan 2025 10:00:41 +0300</pubDate>
-      <guid>http://localhost:56251/tags/internal-security/</guid>
+      <guid>http://localhost:57152/tags/internal-security/</guid>
       <description></description>
     </item>
     <item>
       <title>Penetration Testing</title>
-      <link>http://localhost:56251/tags/penetration-testing/</link>
+      <link>http://localhost:57152/tags/penetration-testing/</link>
       <pubDate>Mon, 13 Jan 2025 10:00:41 +0300</pubDate>
-      <guid>http://localhost:56251/tags/penetration-testing/</guid>
+      <guid>http://localhost:57152/tags/penetration-testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Proactive Security</title>
-      <link>http://localhost:56251/tags/proactive-security/</link>
+      <link>http://localhost:57152/tags/proactive-security/</link>
       <pubDate>Mon, 13 Jan 2025 10:00:41 +0300</pubDate>
-      <guid>http://localhost:56251/tags/proactive-security/</guid>
+      <guid>http://localhost:57152/tags/proactive-security/</guid>
       <description></description>
     </item>
     <item>
       <title>Risk Management</title>
-      <link>http://localhost:56251/tags/risk-management/</link>
+      <link>http://localhost:57152/tags/risk-management/</link>
       <pubDate>Mon, 13 Jan 2025 10:00:41 +0300</pubDate>
-      <guid>http://localhost:56251/tags/risk-management/</guid>
+      <guid>http://localhost:57152/tags/risk-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Security Awareness</title>
-      <link>http://localhost:56251/tags/security-awareness/</link>
+      <link>http://localhost:57152/tags/security-awareness/</link>
       <pubDate>Mon, 13 Jan 2025 10:00:41 +0300</pubDate>
-      <guid>http://localhost:56251/tags/security-awareness/</guid>
+      <guid>http://localhost:57152/tags/security-awareness/</guid>
       <description></description>
     </item>
     <item>
       <title>Security Best Practices</title>
-      <link>http://localhost:56251/tags/security-best-practices/</link>
+      <link>http://localhost:57152/tags/security-best-practices/</link>
       <pubDate>Mon, 13 Jan 2025 10:00:41 +0300</pubDate>
-      <guid>http://localhost:56251/tags/security-best-practices/</guid>
+      <guid>http://localhost:57152/tags/security-best-practices/</guid>
       <description></description>
     </item>
     <item>
       <title>Security Culture</title>
-      <link>http://localhost:56251/tags/security-culture/</link>
+      <link>http://localhost:57152/tags/security-culture/</link>
       <pubDate>Mon, 13 Jan 2025 10:00:41 +0300</pubDate>
-      <guid>http://localhost:56251/tags/security-culture/</guid>
+      <guid>http://localhost:57152/tags/security-culture/</guid>
       <description></description>
     </item>
     <item>
       <title>Threat Detection</title>
-      <link>http://localhost:56251/tags/threat-detection/</link>
+      <link>http://localhost:57152/tags/threat-detection/</link>
       <pubDate>Mon, 13 Jan 2025 10:00:41 +0300</pubDate>
-      <guid>http://localhost:56251/tags/threat-detection/</guid>
+      <guid>http://localhost:57152/tags/threat-detection/</guid>
       <description></description>
     </item>
     <item>
       <title>Vulnerability Management</title>
-      <link>http://localhost:56251/tags/vulnerability-management/</link>
+      <link>http://localhost:57152/tags/vulnerability-management/</link>
       <pubDate>Mon, 13 Jan 2025 10:00:41 +0300</pubDate>
-      <guid>http://localhost:56251/tags/vulnerability-management/</guid>
+      <guid>http://localhost:57152/tags/vulnerability-management/</guid>
       <description></description>
     </item>
     <item>
       <title>AAA Nedir</title>
-      <link>http://localhost:56251/tags/aaa-nedir/</link>
+      <link>http://localhost:57152/tags/aaa-nedir/</link>
       <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
-      <guid>http://localhost:56251/tags/aaa-nedir/</guid>
+      <guid>http://localhost:57152/tags/aaa-nedir/</guid>
       <description></description>
     </item>
     <item>
       <title>Accounting</title>
-      <link>http://localhost:56251/tags/accounting/</link>
+      <link>http://localhost:57152/tags/accounting/</link>
       <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
-      <guid>http://localhost:56251/tags/accounting/</guid>
+      <guid>http://localhost:57152/tags/accounting/</guid>
       <description></description>
     </item>
     <item>
       <title>Authorization</title>
-      <link>http://localhost:56251/tags/authorization/</link>
+      <link>http://localhost:57152/tags/authorization/</link>
       <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
-      <guid>http://localhost:56251/tags/authorization/</guid>
+      <guid>http://localhost:57152/tags/authorization/</guid>
       <description></description>
     </item>
     <item>
       <title>Dijital Güvenlik</title>
-      <link>http://localhost:56251/tags/dijital-g%C3%BCvenlik/</link>
+      <link>http://localhost:57152/tags/dijital-g%C3%BCvenlik/</link>
       <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
-      <guid>http://localhost:56251/tags/dijital-g%C3%BCvenlik/</guid>
+      <guid>http://localhost:57152/tags/dijital-g%C3%BCvenlik/</guid>
       <description></description>
     </item>
     <item>
       <title>Erişim Yönetimi</title>
-      <link>http://localhost:56251/tags/eri%C5%9Fim-y%C3%B6netimi/</link>
+      <link>http://localhost:57152/tags/eri%C5%9Fim-y%C3%B6netimi/</link>
       <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
-      <guid>http://localhost:56251/tags/eri%C5%9Fim-y%C3%B6netimi/</guid>
+      <guid>http://localhost:57152/tags/eri%C5%9Fim-y%C3%B6netimi/</guid>
       <description></description>
     </item>
     <item>
       <title>IAM Kavramları</title>
-      <link>http://localhost:56251/tags/iam-kavramlar%C4%B1/</link>
+      <link>http://localhost:57152/tags/iam-kavramlar%C4%B1/</link>
       <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
-      <guid>http://localhost:56251/tags/iam-kavramlar%C4%B1/</guid>
+      <guid>http://localhost:57152/tags/iam-kavramlar%C4%B1/</guid>
       <description></description>
     </item>
     <item>
       <title>IDM Kavramları</title>
-      <link>http://localhost:56251/tags/idm-kavramlar%C4%B1/</link>
+      <link>http://localhost:57152/tags/idm-kavramlar%C4%B1/</link>
       <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
-      <guid>http://localhost:56251/tags/idm-kavramlar%C4%B1/</guid>
+      <guid>http://localhost:57152/tags/idm-kavramlar%C4%B1/</guid>
       <description></description>
     </item>
     <item>
       <title>Kimlik Doğrulama</title>
-      <link>http://localhost:56251/tags/kimlik-do%C4%9Frulama/</link>
+      <link>http://localhost:57152/tags/kimlik-do%C4%9Frulama/</link>
       <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
-      <guid>http://localhost:56251/tags/kimlik-do%C4%9Frulama/</guid>
+      <guid>http://localhost:57152/tags/kimlik-do%C4%9Frulama/</guid>
       <description></description>
     </item>
     <item>
       <title>Kimlik Ve Erişim Yönetimi</title>
-      <link>http://localhost:56251/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</link>
+      <link>http://localhost:57152/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</link>
       <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
-      <guid>http://localhost:56251/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</guid>
+      <guid>http://localhost:57152/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi/</guid>
       <description></description>
     </item>
     <item>
       <title>Kimlik Yönetimi</title>
-      <link>http://localhost:56251/tags/kimlik-y%C3%B6netimi/</link>
+      <link>http://localhost:57152/tags/kimlik-y%C3%B6netimi/</link>
       <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
-      <guid>http://localhost:56251/tags/kimlik-y%C3%B6netimi/</guid>
+      <guid>http://localhost:57152/tags/kimlik-y%C3%B6netimi/</guid>
       <description></description>
     </item>
     <item>
       <title>Siber Güvenlik</title>
-      <link>http://localhost:56251/tags/siber-g%C3%BCvenlik/</link>
+      <link>http://localhost:57152/tags/siber-g%C3%BCvenlik/</link>
       <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
-      <guid>http://localhost:56251/tags/siber-g%C3%BCvenlik/</guid>
+      <guid>http://localhost:57152/tags/siber-g%C3%BCvenlik/</guid>
       <description></description>
     </item>
     <item>
       <title>Abstraction Soyutlama</title>
-      <link>http://localhost:56251/tags/abstraction-soyutlama/</link>
+      <link>http://localhost:57152/tags/abstraction-soyutlama/</link>
       <pubDate>Mon, 16 Dec 2024 20:33:05 +0300</pubDate>
-      <guid>http://localhost:56251/tags/abstraction-soyutlama/</guid>
+      <guid>http://localhost:57152/tags/abstraction-soyutlama/</guid>
       <description></description>
     </item>
     <item>
       <title>Entitlement Management</title>
-      <link>http://localhost:56251/tags/entitlement-management/</link>
+      <link>http://localhost:57152/tags/entitlement-management/</link>
       <pubDate>Mon, 16 Dec 2024 20:33:05 +0300</pubDate>
-      <guid>http://localhost:56251/tags/entitlement-management/</guid>
+      <guid>http://localhost:57152/tags/entitlement-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Erişim Gözden Geçirme</title>
-      <link>http://localhost:56251/tags/eri%C5%9Fim-g%C3%B6zden-ge%C3%A7irme/</link>
+      <link>http://localhost:57152/tags/eri%C5%9Fim-g%C3%B6zden-ge%C3%A7irme/</link>
       <pubDate>Mon, 16 Dec 2024 20:33:05 +0300</pubDate>
-      <guid>http://localhost:56251/tags/eri%C5%9Fim-g%C3%B6zden-ge%C3%A7irme/</guid>
+      <guid>http://localhost:57152/tags/eri%C5%9Fim-g%C3%B6zden-ge%C3%A7irme/</guid>
       <description></description>
     </item>
     <item>
       <title>IAM Stratejileri</title>
-      <link>http://localhost:56251/tags/iam-stratejileri/</link>
+      <link>http://localhost:57152/tags/iam-stratejileri/</link>
       <pubDate>Mon, 16 Dec 2024 20:33:05 +0300</pubDate>
-      <guid>http://localhost:56251/tags/iam-stratejileri/</guid>
+      <guid>http://localhost:57152/tags/iam-stratejileri/</guid>
       <description></description>
     </item>
     <item>
       <title>Rol Tabanlı Erişim Kontrolü RBAC</title>
-      <link>http://localhost:56251/tags/rol-tabanl%C4%B1-eri%C5%9Fim-kontrol%C3%BC-rbac/</link>
+      <link>http://localhost:57152/tags/rol-tabanl%C4%B1-eri%C5%9Fim-kontrol%C3%BC-rbac/</link>
       <pubDate>Mon, 16 Dec 2024 20:33:05 +0300</pubDate>
-      <guid>http://localhost:56251/tags/rol-tabanl%C4%B1-eri%C5%9Fim-kontrol%C3%BC-rbac/</guid>
+      <guid>http://localhost:57152/tags/rol-tabanl%C4%B1-eri%C5%9Fim-kontrol%C3%BC-rbac/</guid>
       <description></description>
     </item>
     <item>
       <title>Zero-Trust Güvenlik Modeli</title>
-      <link>http://localhost:56251/tags/zero-trust-g%C3%BCvenlik-modeli/</link>
+      <link>http://localhost:57152/tags/zero-trust-g%C3%BCvenlik-modeli/</link>
       <pubDate>Mon, 16 Dec 2024 20:33:05 +0300</pubDate>
-      <guid>http://localhost:56251/tags/zero-trust-g%C3%BCvenlik-modeli/</guid>
+      <guid>http://localhost:57152/tags/zero-trust-g%C3%BCvenlik-modeli/</guid>
       <description></description>
     </item>
     <item>
       <title>IAM Geleceği</title>
-      <link>http://localhost:56251/tags/iam-gelece%C4%9Fi/</link>
+      <link>http://localhost:57152/tags/iam-gelece%C4%9Fi/</link>
       <pubDate>Wed, 11 Dec 2024 23:58:14 +0300</pubDate>
-      <guid>http://localhost:56251/tags/iam-gelece%C4%9Fi/</guid>
+      <guid>http://localhost:57152/tags/iam-gelece%C4%9Fi/</guid>
       <description></description>
     </item>
     <item>
       <title>Identity and Access Management</title>
-      <link>http://localhost:56251/tags/identity-and-access-management/</link>
+      <link>http://localhost:57152/tags/identity-and-access-management/</link>
       <pubDate>Wed, 11 Dec 2024 23:58:14 +0300</pubDate>
-      <guid>http://localhost:56251/tags/identity-and-access-management/</guid>
+      <guid>http://localhost:57152/tags/identity-and-access-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Zero Trust Sıfır Güven</title>
-      <link>http://localhost:56251/tags/zero-trust-s%C4%B1f%C4%B1r-g%C3%BCven/</link>
+      <link>http://localhost:57152/tags/zero-trust-s%C4%B1f%C4%B1r-g%C3%BCven/</link>
       <pubDate>Wed, 11 Dec 2024 23:58:14 +0300</pubDate>
-      <guid>http://localhost:56251/tags/zero-trust-s%C4%B1f%C4%B1r-g%C3%BCven/</guid>
+      <guid>http://localhost:57152/tags/zero-trust-s%C4%B1f%C4%B1r-g%C3%BCven/</guid>
       <description></description>
     </item>
     <item>
       <title>Access Control</title>
-      <link>http://localhost:56251/tags/access-control/</link>
+      <link>http://localhost:57152/tags/access-control/</link>
       <pubDate>Tue, 10 Dec 2024 00:31:03 +0300</pubDate>
-      <guid>http://localhost:56251/tags/access-control/</guid>
+      <guid>http://localhost:57152/tags/access-control/</guid>
       <description></description>
     </item>
     <item>
       <title>Employee Self-Service</title>
-      <link>http://localhost:56251/tags/employee-self-service/</link>
+      <link>http://localhost:57152/tags/employee-self-service/</link>
       <pubDate>Tue, 10 Dec 2024 00:31:03 +0300</pubDate>
-      <guid>http://localhost:56251/tags/employee-self-service/</guid>
+      <guid>http://localhost:57152/tags/employee-self-service/</guid>
       <description></description>
     </item>
     <item>
       <title>IAM Solutions</title>
-      <link>http://localhost:56251/tags/iam-solutions/</link>
+      <link>http://localhost:57152/tags/iam-solutions/</link>
       <pubDate>Tue, 10 Dec 2024 00:31:03 +0300</pubDate>
-      <guid>http://localhost:56251/tags/iam-solutions/</guid>
+      <guid>http://localhost:57152/tags/iam-solutions/</guid>
       <description></description>
     </item>
     <item>
       <title>Identity Management</title>
-      <link>http://localhost:56251/tags/identity-management/</link>
+      <link>http://localhost:57152/tags/identity-management/</link>
       <pubDate>Tue, 10 Dec 2024 00:31:03 +0300</pubDate>
-      <guid>http://localhost:56251/tags/identity-management/</guid>
+      <guid>http://localhost:57152/tags/identity-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Microsoft 365 Agents</title>
-      <link>http://localhost:56251/tags/microsoft-365-agents/</link>
+      <link>http://localhost:57152/tags/microsoft-365-agents/</link>
       <pubDate>Tue, 10 Dec 2024 00:31:03 +0300</pubDate>
-      <guid>http://localhost:56251/tags/microsoft-365-agents/</guid>
+      <guid>http://localhost:57152/tags/microsoft-365-agents/</guid>
       <description></description>
     </item>
     <item>
       <title>Security Automation</title>
-      <link>http://localhost:56251/tags/security-automation/</link>
+      <link>http://localhost:57152/tags/security-automation/</link>
       <pubDate>Tue, 10 Dec 2024 00:31:03 +0300</pubDate>
-      <guid>http://localhost:56251/tags/security-automation/</guid>
+      <guid>http://localhost:57152/tags/security-automation/</guid>
       <description></description>
     </item>
     <item>
       <title>3389</title>
-      <link>http://localhost:56251/tags/3389/</link>
+      <link>http://localhost:57152/tags/3389/</link>
       <pubDate>Sat, 07 Dec 2024 22:41:01 +0300</pubDate>
-      <guid>http://localhost:56251/tags/3389/</guid>
+      <guid>http://localhost:57152/tags/3389/</guid>
       <description></description>
     </item>
     <item>
       <title>Active Directory</title>
-      <link>http://localhost:56251/tags/active-directory/</link>
+      <link>http://localhost:57152/tags/active-directory/</link>
       <pubDate>Sat, 07 Dec 2024 22:41:01 +0300</pubDate>
-      <guid>http://localhost:56251/tags/active-directory/</guid>
+      <guid>http://localhost:57152/tags/active-directory/</guid>
       <description></description>
     </item>
     <item>
       <title>Enterprise Security</title>
-      <link>http://localhost:56251/tags/enterprise-security/</link>
+      <link>http://localhost:57152/tags/enterprise-security/</link>
       <pubDate>Sat, 07 Dec 2024 22:41:01 +0300</pubDate>
-      <guid>http://localhost:56251/tags/enterprise-security/</guid>
+      <guid>http://localhost:57152/tags/enterprise-security/</guid>
       <description></description>
     </item>
     <item>
       <title>Rdp</title>
-      <link>http://localhost:56251/tags/rdp/</link>
+      <link>http://localhost:57152/tags/rdp/</link>
       <pubDate>Sat, 07 Dec 2024 22:41:01 +0300</pubDate>
-      <guid>http://localhost:56251/tags/rdp/</guid>
+      <guid>http://localhost:57152/tags/rdp/</guid>
       <description></description>
     </item>
     <item>
       <title>Remote Destop Protocol</title>
-      <link>http://localhost:56251/tags/remote-destop-protocol/</link>
+      <link>http://localhost:57152/tags/remote-destop-protocol/</link>
       <pubDate>Sat, 07 Dec 2024 22:41:01 +0300</pubDate>
-      <guid>http://localhost:56251/tags/remote-destop-protocol/</guid>
+      <guid>http://localhost:57152/tags/remote-destop-protocol/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>http://localhost:56251/tags/security/</link>
+      <link>http://localhost:57152/tags/security/</link>
       <pubDate>Sat, 07 Dec 2024 22:41:01 +0300</pubDate>
-      <guid>http://localhost:56251/tags/security/</guid>
+      <guid>http://localhost:57152/tags/security/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows FireWall</title>
-      <link>http://localhost:56251/tags/windows-firewall/</link>
+      <link>http://localhost:57152/tags/windows-firewall/</link>
       <pubDate>Sat, 07 Dec 2024 22:41:01 +0300</pubDate>
-      <guid>http://localhost:56251/tags/windows-firewall/</guid>
+      <guid>http://localhost:57152/tags/windows-firewall/</guid>
       <description></description>
     </item>
     <item>
       <title>Active Directory Connection</title>
-      <link>http://localhost:56251/tags/active-directory-connection/</link>
+      <link>http://localhost:57152/tags/active-directory-connection/</link>
       <pubDate>Tue, 03 Dec 2024 20:53:07 +0300</pubDate>
-      <guid>http://localhost:56251/tags/active-directory-connection/</guid>
+      <guid>http://localhost:57152/tags/active-directory-connection/</guid>
       <description></description>
     </item>
     <item>
       <title>Auth0</title>
-      <link>http://localhost:56251/tags/auth0/</link>
+      <link>http://localhost:57152/tags/auth0/</link>
       <pubDate>Tue, 03 Dec 2024 20:53:07 +0300</pubDate>
-      <guid>http://localhost:56251/tags/auth0/</guid>
+      <guid>http://localhost:57152/tags/auth0/</guid>
       <description></description>
     </item>
     <item>
       <title>Kimlik Ve Erisim Yonetimi</title>
-      <link>http://localhost:56251/tags/kimlik-ve-erisim-yonetimi/</link>
+      <link>http://localhost:57152/tags/kimlik-ve-erisim-yonetimi/</link>
       <pubDate>Tue, 03 Dec 2024 20:53:07 +0300</pubDate>
-      <guid>http://localhost:56251/tags/kimlik-ve-erisim-yonetimi/</guid>
+      <guid>http://localhost:57152/tags/kimlik-ve-erisim-yonetimi/</guid>
       <description></description>
     </item>
     <item>
       <title>Access Management</title>
-      <link>http://localhost:56251/tags/access-management/</link>
+      <link>http://localhost:57152/tags/access-management/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
-      <guid>http://localhost:56251/tags/access-management/</guid>
+      <guid>http://localhost:57152/tags/access-management/</guid>
       <description></description>
     </item>
     <item>
       <title>AD DS</title>
-      <link>http://localhost:56251/tags/ad-ds/</link>
+      <link>http://localhost:57152/tags/ad-ds/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
-      <guid>http://localhost:56251/tags/ad-ds/</guid>
+      <guid>http://localhost:57152/tags/ad-ds/</guid>
       <description></description>
     </item>
     <item>
       <title>AD LDS</title>
-      <link>http://localhost:56251/tags/ad-lds/</link>
+      <link>http://localhost:57152/tags/ad-lds/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
-      <guid>http://localhost:56251/tags/ad-lds/</guid>
+      <guid>http://localhost:57152/tags/ad-lds/</guid>
       <description></description>
     </item>
     <item>
       <title>Directory Services</title>
-      <link>http://localhost:56251/tags/directory-services/</link>
+      <link>http://localhost:57152/tags/directory-services/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
-      <guid>http://localhost:56251/tags/directory-services/</guid>
+      <guid>http://localhost:57152/tags/directory-services/</guid>
       <description></description>
     </item>
     <item>
       <title>Kullanıcı Erişimi</title>
-      <link>http://localhost:56251/tags/kullan%C4%B1c%C4%B1-eri%C5%9Fimi/</link>
+      <link>http://localhost:57152/tags/kullan%C4%B1c%C4%B1-eri%C5%9Fimi/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
-      <guid>http://localhost:56251/tags/kullan%C4%B1c%C4%B1-eri%C5%9Fimi/</guid>
+      <guid>http://localhost:57152/tags/kullan%C4%B1c%C4%B1-eri%C5%9Fimi/</guid>
       <description></description>
     </item>
     <item>
       <title>LDAP</title>
-      <link>http://localhost:56251/tags/ldap/</link>
+      <link>http://localhost:57152/tags/ldap/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
-      <guid>http://localhost:56251/tags/ldap/</guid>
+      <guid>http://localhost:57152/tags/ldap/</guid>
       <description></description>
     </item>
     <item>
       <title>LDAP Authentication</title>
-      <link>http://localhost:56251/tags/ldap-authentication/</link>
+      <link>http://localhost:57152/tags/ldap-authentication/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
-      <guid>http://localhost:56251/tags/ldap-authentication/</guid>
+      <guid>http://localhost:57152/tags/ldap-authentication/</guid>
       <description></description>
     </item>
     <item>
       <title>LDAP Authorization</title>
-      <link>http://localhost:56251/tags/ldap-authorization/</link>
+      <link>http://localhost:57152/tags/ldap-authorization/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
-      <guid>http://localhost:56251/tags/ldap-authorization/</guid>
+      <guid>http://localhost:57152/tags/ldap-authorization/</guid>
       <description></description>
     </item>
     <item>
       <title>Merkezi Kimlik Yönetimi</title>
-      <link>http://localhost:56251/tags/merkezi-kimlik-y%C3%B6netimi/</link>
+      <link>http://localhost:57152/tags/merkezi-kimlik-y%C3%B6netimi/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
-      <guid>http://localhost:56251/tags/merkezi-kimlik-y%C3%B6netimi/</guid>
+      <guid>http://localhost:57152/tags/merkezi-kimlik-y%C3%B6netimi/</guid>
       <description></description>
     </item>
     <item>
       <title>Node.js LDAP</title>
-      <link>http://localhost:56251/tags/node.js-ldap/</link>
+      <link>http://localhost:57152/tags/node.js-ldap/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
-      <guid>http://localhost:56251/tags/node.js-ldap/</guid>
+      <guid>http://localhost:57152/tags/node.js-ldap/</guid>
       <description></description>
     </item>
     <item>
       <title>Web Güvenliği</title>
-      <link>http://localhost:56251/tags/web-g%C3%BCvenli%C4%9Fi/</link>
+      <link>http://localhost:57152/tags/web-g%C3%BCvenli%C4%9Fi/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
-      <guid>http://localhost:56251/tags/web-g%C3%BCvenli%C4%9Fi/</guid>
+      <guid>http://localhost:57152/tags/web-g%C3%BCvenli%C4%9Fi/</guid>
       <description></description>
     </item>
     <item>
       <title>Web Uygulaması</title>
-      <link>http://localhost:56251/tags/web-uygulamas%C4%B1/</link>
+      <link>http://localhost:57152/tags/web-uygulamas%C4%B1/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
-      <guid>http://localhost:56251/tags/web-uygulamas%C4%B1/</guid>
+      <guid>http://localhost:57152/tags/web-uygulamas%C4%B1/</guid>
       <description></description>
     </item>
     <item>
       <title>Yetkilendirme</title>
-      <link>http://localhost:56251/tags/yetkilendirme/</link>
+      <link>http://localhost:57152/tags/yetkilendirme/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
-      <guid>http://localhost:56251/tags/yetkilendirme/</guid>
+      <guid>http://localhost:57152/tags/yetkilendirme/</guid>
       <description></description>
     </item>
     <item>
       <title>Aktif Dizin</title>
-      <link>http://localhost:56251/tags/aktif-dizin/</link>
+      <link>http://localhost:57152/tags/aktif-dizin/</link>
       <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
-      <guid>http://localhost:56251/tags/aktif-dizin/</guid>
+      <guid>http://localhost:57152/tags/aktif-dizin/</guid>
       <description></description>
     </item>
     <item>
       <title>Domaindeki Cihazlara Mesaj</title>
-      <link>http://localhost:56251/tags/domaindeki-cihazlara-mesaj/</link>
+      <link>http://localhost:57152/tags/domaindeki-cihazlara-mesaj/</link>
       <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
-      <guid>http://localhost:56251/tags/domaindeki-cihazlara-mesaj/</guid>
+      <guid>http://localhost:57152/tags/domaindeki-cihazlara-mesaj/</guid>
       <description></description>
     </item>
     <item>
       <title>It Güvenlik Bildirimleri</title>
-      <link>http://localhost:56251/tags/it-g%C3%BCvenlik-bildirimleri/</link>
+      <link>http://localhost:57152/tags/it-g%C3%BCvenlik-bildirimleri/</link>
       <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
-      <guid>http://localhost:56251/tags/it-g%C3%BCvenlik-bildirimleri/</guid>
+      <guid>http://localhost:57152/tags/it-g%C3%BCvenlik-bildirimleri/</guid>
       <description></description>
     </item>
     <item>
       <title>Kullanıcı Bilgilendirme</title>
-      <link>http://localhost:56251/tags/kullan%C4%B1c%C4%B1-bilgilendirme/</link>
+      <link>http://localhost:57152/tags/kullan%C4%B1c%C4%B1-bilgilendirme/</link>
       <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
-      <guid>http://localhost:56251/tags/kullan%C4%B1c%C4%B1-bilgilendirme/</guid>
+      <guid>http://localhost:57152/tags/kullan%C4%B1c%C4%B1-bilgilendirme/</guid>
       <description></description>
     </item>
     <item>
       <title>Powershell Mesaj Gönderme</title>
-      <link>http://localhost:56251/tags/powershell-mesaj-g%C3%B6nderme/</link>
+      <link>http://localhost:57152/tags/powershell-mesaj-g%C3%B6nderme/</link>
       <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
-      <guid>http://localhost:56251/tags/powershell-mesaj-g%C3%B6nderme/</guid>
+      <guid>http://localhost:57152/tags/powershell-mesaj-g%C3%B6nderme/</guid>
       <description></description>
     </item>
     <item>
       <title>Şifre Süresi Bildirimleri</title>
-      <link>http://localhost:56251/tags/%C5%9Fifre-s%C3%BCresi-bildirimleri/</link>
+      <link>http://localhost:57152/tags/%C5%9Fifre-s%C3%BCresi-bildirimleri/</link>
       <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
-      <guid>http://localhost:56251/tags/%C5%9Fifre-s%C3%BCresi-bildirimleri/</guid>
+      <guid>http://localhost:57152/tags/%C5%9Fifre-s%C3%BCresi-bildirimleri/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows Mesaj Gönderimi</title>
-      <link>http://localhost:56251/tags/windows-mesaj-g%C3%B6nderimi/</link>
+      <link>http://localhost:57152/tags/windows-mesaj-g%C3%B6nderimi/</link>
       <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
-      <guid>http://localhost:56251/tags/windows-mesaj-g%C3%B6nderimi/</guid>
+      <guid>http://localhost:57152/tags/windows-mesaj-g%C3%B6nderimi/</guid>
       <description></description>
     </item>
     <item>
       <title>Erişim Kontrolü</title>
-      <link>http://localhost:56251/tags/eri%C5%9Fim-kontrol%C3%BC/</link>
+      <link>http://localhost:57152/tags/eri%C5%9Fim-kontrol%C3%BC/</link>
       <pubDate>Thu, 21 Nov 2024 21:30:49 +0300</pubDate>
-      <guid>http://localhost:56251/tags/eri%C5%9Fim-kontrol%C3%BC/</guid>
+      <guid>http://localhost:57152/tags/eri%C5%9Fim-kontrol%C3%BC/</guid>
       <description></description>
     </item>
     <item>
       <title>Güvenlik Sıkılaştırması</title>
-      <link>http://localhost:56251/tags/g%C3%BCvenlik-s%C4%B1k%C4%B1la%C5%9Ft%C4%B1rmas%C4%B1/</link>
+      <link>http://localhost:57152/tags/g%C3%BCvenlik-s%C4%B1k%C4%B1la%C5%9Ft%C4%B1rmas%C4%B1/</link>
       <pubDate>Thu, 21 Nov 2024 21:30:49 +0300</pubDate>
-      <guid>http://localhost:56251/tags/g%C3%BCvenlik-s%C4%B1k%C4%B1la%C5%9Ft%C4%B1rmas%C4%B1/</guid>
+      <guid>http://localhost:57152/tags/g%C3%BCvenlik-s%C4%B1k%C4%B1la%C5%9Ft%C4%B1rmas%C4%B1/</guid>
       <description></description>
     </item>
     <item>
       <title>Kimlik Ve Erişim Yönetimi (IAM)</title>
-      <link>http://localhost:56251/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi-iam/</link>
+      <link>http://localhost:57152/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi-iam/</link>
       <pubDate>Thu, 21 Nov 2024 21:30:49 +0300</pubDate>
-      <guid>http://localhost:56251/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi-iam/</guid>
+      <guid>http://localhost:57152/tags/kimlik-ve-eri%C5%9Fim-y%C3%B6netimi-iam/</guid>
       <description></description>
     </item>
     <item>
       <title>Rol Ve Yetki Yönetimi</title>
-      <link>http://localhost:56251/tags/rol-ve-yetki-y%C3%B6netimi/</link>
+      <link>http://localhost:57152/tags/rol-ve-yetki-y%C3%B6netimi/</link>
       <pubDate>Thu, 21 Nov 2024 21:30:49 +0300</pubDate>
-      <guid>http://localhost:56251/tags/rol-ve-yetki-y%C3%B6netimi/</guid>
+      <guid>http://localhost:57152/tags/rol-ve-yetki-y%C3%B6netimi/</guid>
       <description></description>
     </item>
     <item>
       <title>Self Servis</title>
-      <link>http://localhost:56251/tags/self-servis/</link>
+      <link>http://localhost:57152/tags/self-servis/</link>
       <pubDate>Thu, 21 Nov 2024 21:30:49 +0300</pubDate>
-      <guid>http://localhost:56251/tags/self-servis/</guid>
+      <guid>http://localhost:57152/tags/self-servis/</guid>
       <description></description>
     </item>
     <item>
       <title>Yetki Gözden Geçirme</title>
-      <link>http://localhost:56251/tags/yetki-g%C3%B6zden-ge%C3%A7irme/</link>
+      <link>http://localhost:57152/tags/yetki-g%C3%B6zden-ge%C3%A7irme/</link>
       <pubDate>Thu, 21 Nov 2024 21:30:49 +0300</pubDate>
-      <guid>http://localhost:56251/tags/yetki-g%C3%B6zden-ge%C3%A7irme/</guid>
+      <guid>http://localhost:57152/tags/yetki-g%C3%B6zden-ge%C3%A7irme/</guid>
       <description></description>
     </item>
     <item>
       <title>Apache Directory Studio</title>
-      <link>http://localhost:56251/tags/apache-directory-studio/</link>
+      <link>http://localhost:57152/tags/apache-directory-studio/</link>
       <pubDate>Wed, 13 Nov 2024 20:55:50 +0300</pubDate>
-      <guid>http://localhost:56251/tags/apache-directory-studio/</guid>
+      <guid>http://localhost:57152/tags/apache-directory-studio/</guid>
       <description></description>
     </item>
     <item>
       <title>Identity Access Management</title>
-      <link>http://localhost:56251/tags/identity-access-management/</link>
+      <link>http://localhost:57152/tags/identity-access-management/</link>
       <pubDate>Wed, 13 Nov 2024 20:55:50 +0300</pubDate>
-      <guid>http://localhost:56251/tags/identity-access-management/</guid>
+      <guid>http://localhost:57152/tags/identity-access-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Oracle LDAP</title>
-      <link>http://localhost:56251/tags/oracle-ldap/</link>
+      <link>http://localhost:57152/tags/oracle-ldap/</link>
       <pubDate>Wed, 13 Nov 2024 20:55:50 +0300</pubDate>
-      <guid>http://localhost:56251/tags/oracle-ldap/</guid>
+      <guid>http://localhost:57152/tags/oracle-ldap/</guid>
       <description></description>
     </item>
     <item>
       <title>ErişimTalebiYönetimi</title>
-      <link>http://localhost:56251/tags/eri%C5%9Fimtalebiy%C3%B6netimi/</link>
+      <link>http://localhost:57152/tags/eri%C5%9Fimtalebiy%C3%B6netimi/</link>
       <pubDate>Sat, 09 Nov 2024 12:28:23 +0300</pubDate>
-      <guid>http://localhost:56251/tags/eri%C5%9Fimtalebiy%C3%B6netimi/</guid>
+      <guid>http://localhost:57152/tags/eri%C5%9Fimtalebiy%C3%B6netimi/</guid>
       <description></description>
     </item>
     <item>
       <title>KullanıcıErişimİzinleri</title>
-      <link>http://localhost:56251/tags/kullan%C4%B1c%C4%B1eri%C5%9Fimizinleri/</link>
+      <link>http://localhost:57152/tags/kullan%C4%B1c%C4%B1eri%C5%9Fimizinleri/</link>
       <pubDate>Sat, 09 Nov 2024 12:28:23 +0300</pubDate>
-      <guid>http://localhost:56251/tags/kullan%C4%B1c%C4%B1eri%C5%9Fimizinleri/</guid>
+      <guid>http://localhost:57152/tags/kullan%C4%B1c%C4%B1eri%C5%9Fimizinleri/</guid>
       <description></description>
     </item>
     <item>
       <title>Bilgi Ve Iletişim Güvenliği</title>
-      <link>http://localhost:56251/tags/bilgi-ve-ileti%C5%9Fim-g%C3%BCvenli%C4%9Fi/</link>
+      <link>http://localhost:57152/tags/bilgi-ve-ileti%C5%9Fim-g%C3%BCvenli%C4%9Fi/</link>
       <pubDate>Tue, 24 Sep 2024 21:31:21 +0300</pubDate>
-      <guid>http://localhost:56251/tags/bilgi-ve-ileti%C5%9Fim-g%C3%BCvenli%C4%9Fi/</guid>
+      <guid>http://localhost:57152/tags/bilgi-ve-ileti%C5%9Fim-g%C3%BCvenli%C4%9Fi/</guid>
       <description></description>
     </item>
     <item>
       <title>Siber Tedbirler</title>
-      <link>http://localhost:56251/tags/siber-tedbirler/</link>
+      <link>http://localhost:57152/tags/siber-tedbirler/</link>
       <pubDate>Tue, 24 Sep 2024 21:31:21 +0300</pubDate>
-      <guid>http://localhost:56251/tags/siber-tedbirler/</guid>
+      <guid>http://localhost:57152/tags/siber-tedbirler/</guid>
       <description></description>
     </item>
     <item>
       <title>Güvenlik</title>
-      <link>http://localhost:56251/tags/g%C3%BCvenlik/</link>
+      <link>http://localhost:57152/tags/g%C3%BCvenlik/</link>
       <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
-      <guid>http://localhost:56251/tags/g%C3%BCvenlik/</guid>
+      <guid>http://localhost:57152/tags/g%C3%BCvenlik/</guid>
       <description></description>
     </item>
     <item>
       <title>Identity Lifecycle</title>
-      <link>http://localhost:56251/tags/identity-lifecycle/</link>
+      <link>http://localhost:57152/tags/identity-lifecycle/</link>
       <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
-      <guid>http://localhost:56251/tags/identity-lifecycle/</guid>
+      <guid>http://localhost:57152/tags/identity-lifecycle/</guid>
       <description></description>
     </item>
     <item>
       <title>Individual Access Review</title>
-      <link>http://localhost:56251/tags/individual-access-review/</link>
+      <link>http://localhost:57152/tags/individual-access-review/</link>
       <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
-      <guid>http://localhost:56251/tags/individual-access-review/</guid>
+      <guid>http://localhost:57152/tags/individual-access-review/</guid>
       <description></description>
     </item>
     <item>
       <title>Role Management</title>
-      <link>http://localhost:56251/tags/role-management/</link>
+      <link>http://localhost:57152/tags/role-management/</link>
       <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
-      <guid>http://localhost:56251/tags/role-management/</guid>
+      <guid>http://localhost:57152/tags/role-management/</guid>
       <description></description>
     </item>
     <item>
       <title>User Lifecycle Management</title>
-      <link>http://localhost:56251/tags/user-lifecycle-management/</link>
+      <link>http://localhost:57152/tags/user-lifecycle-management/</link>
       <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
-      <guid>http://localhost:56251/tags/user-lifecycle-management/</guid>
+      <guid>http://localhost:57152/tags/user-lifecycle-management/</guid>
       <description></description>
     </item>
     <item>
       <title>User Permissions</title>
-      <link>http://localhost:56251/tags/user-permissions/</link>
+      <link>http://localhost:57152/tags/user-permissions/</link>
       <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
-      <guid>http://localhost:56251/tags/user-permissions/</guid>
+      <guid>http://localhost:57152/tags/user-permissions/</guid>
       <description></description>
     </item>
     <item>
       <title>User Review Process</title>
-      <link>http://localhost:56251/tags/user-review-process/</link>
+      <link>http://localhost:57152/tags/user-review-process/</link>
       <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
-      <guid>http://localhost:56251/tags/user-review-process/</guid>
+      <guid>http://localhost:57152/tags/user-review-process/</guid>
       <description></description>
     </item>
     <item>
       <title>Yetki Yönetimi</title>
-      <link>http://localhost:56251/tags/yetki-y%C3%B6netimi/</link>
+      <link>http://localhost:57152/tags/yetki-y%C3%B6netimi/</link>
       <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
-      <guid>http://localhost:56251/tags/yetki-y%C3%B6netimi/</guid>
+      <guid>http://localhost:57152/tags/yetki-y%C3%B6netimi/</guid>
       <description></description>
     </item>
     <item>
       <title>Güvenlik Yönetimi</title>
-      <link>http://localhost:56251/tags/g%C3%BCvenlik-y%C3%B6netimi/</link>
+      <link>http://localhost:57152/tags/g%C3%BCvenlik-y%C3%B6netimi/</link>
       <pubDate>Fri, 09 Aug 2024 15:00:00 +0300</pubDate>
-      <guid>http://localhost:56251/tags/g%C3%BCvenlik-y%C3%B6netimi/</guid>
+      <guid>http://localhost:57152/tags/g%C3%BCvenlik-y%C3%B6netimi/</guid>
       <description></description>
     </item>
     <item>
       <title>IDM Toolu</title>
-      <link>http://localhost:56251/tags/idm-toolu/</link>
+      <link>http://localhost:57152/tags/idm-toolu/</link>
       <pubDate>Fri, 09 Aug 2024 15:00:00 +0300</pubDate>
-      <guid>http://localhost:56251/tags/idm-toolu/</guid>
+      <guid>http://localhost:57152/tags/idm-toolu/</guid>
       <description></description>
     </item>
     <item>
       <title>İş Süreçleri Ve Güvenlik</title>
-      <link>http://localhost:56251/tags/i%C5%9F-s%C3%BCre%C3%A7leri-ve-g%C3%BCvenlik/</link>
+      <link>http://localhost:57152/tags/i%C5%9F-s%C3%BCre%C3%A7leri-ve-g%C3%BCvenlik/</link>
       <pubDate>Fri, 09 Aug 2024 15:00:00 +0300</pubDate>
-      <guid>http://localhost:56251/tags/i%C5%9F-s%C3%BCre%C3%A7leri-ve-g%C3%BCvenlik/</guid>
+      <guid>http://localhost:57152/tags/i%C5%9F-s%C3%BCre%C3%A7leri-ve-g%C3%BCvenlik/</guid>
       <description></description>
     </item>
     <item>
       <title>Kullanıcı Yetkilendirme</title>
-      <link>http://localhost:56251/tags/kullan%C4%B1c%C4%B1-yetkilendirme/</link>
+      <link>http://localhost:57152/tags/kullan%C4%B1c%C4%B1-yetkilendirme/</link>
       <pubDate>Fri, 09 Aug 2024 15:00:00 +0300</pubDate>
-      <guid>http://localhost:56251/tags/kullan%C4%B1c%C4%B1-yetkilendirme/</guid>
+      <guid>http://localhost:57152/tags/kullan%C4%B1c%C4%B1-yetkilendirme/</guid>
       <description></description>
     </item>
     <item>
       <title>Rol Tabanlı Erişim</title>
-      <link>http://localhost:56251/tags/rol-tabanl%C4%B1-eri%C5%9Fim/</link>
+      <link>http://localhost:57152/tags/rol-tabanl%C4%B1-eri%C5%9Fim/</link>
       <pubDate>Fri, 09 Aug 2024 15:00:00 +0300</pubDate>
-      <guid>http://localhost:56251/tags/rol-tabanl%C4%B1-eri%C5%9Fim/</guid>
+      <guid>http://localhost:57152/tags/rol-tabanl%C4%B1-eri%C5%9Fim/</guid>
       <description></description>
     </item>
     <item>
       <title>Yetki Sertifikasyonu</title>
-      <link>http://localhost:56251/tags/yetki-sertifikasyonu/</link>
+      <link>http://localhost:57152/tags/yetki-sertifikasyonu/</link>
       <pubDate>Fri, 09 Aug 2024 15:00:00 +0300</pubDate>
-      <guid>http://localhost:56251/tags/yetki-sertifikasyonu/</guid>
+      <guid>http://localhost:57152/tags/yetki-sertifikasyonu/</guid>
       <description></description>
     </item>
     <item>
       <title>ErişimYönetimi</title>
-      <link>http://localhost:56251/tags/eri%C5%9Fimy%C3%B6netimi/</link>
+      <link>http://localhost:57152/tags/eri%C5%9Fimy%C3%B6netimi/</link>
       <pubDate>Mon, 05 Aug 2024 21:00:41 +0300</pubDate>
-      <guid>http://localhost:56251/tags/eri%C5%9Fimy%C3%B6netimi/</guid>
+      <guid>http://localhost:57152/tags/eri%C5%9Fimy%C3%B6netimi/</guid>
       <description></description>
     </item>
     <item>
       <title>RoleMining</title>
-      <link>http://localhost:56251/tags/rolemining/</link>
+      <link>http://localhost:57152/tags/rolemining/</link>
       <pubDate>Mon, 05 Aug 2024 21:00:41 +0300</pubDate>
-      <guid>http://localhost:56251/tags/rolemining/</guid>
+      <guid>http://localhost:57152/tags/rolemining/</guid>
       <description></description>
     </item>
     <item>
       <title>RolMadenciliği</title>
-      <link>http://localhost:56251/tags/rolmadencili%C4%9Fi/</link>
+      <link>http://localhost:57152/tags/rolmadencili%C4%9Fi/</link>
       <pubDate>Mon, 05 Aug 2024 21:00:41 +0300</pubDate>
-      <guid>http://localhost:56251/tags/rolmadencili%C4%9Fi/</guid>
+      <guid>http://localhost:57152/tags/rolmadencili%C4%9Fi/</guid>
       <description></description>
     </item>
     <item>
       <title>RolYönetimi</title>
-      <link>http://localhost:56251/tags/roly%C3%B6netimi/</link>
+      <link>http://localhost:57152/tags/roly%C3%B6netimi/</link>
       <pubDate>Mon, 05 Aug 2024 21:00:41 +0300</pubDate>
-      <guid>http://localhost:56251/tags/roly%C3%B6netimi/</guid>
+      <guid>http://localhost:57152/tags/roly%C3%B6netimi/</guid>
       <description></description>
     </item>
     <item>
       <title>YetkiYönetimi</title>
-      <link>http://localhost:56251/tags/yetkiy%C3%B6netimi/</link>
+      <link>http://localhost:57152/tags/yetkiy%C3%B6netimi/</link>
       <pubDate>Mon, 05 Aug 2024 21:00:41 +0300</pubDate>
-      <guid>http://localhost:56251/tags/yetkiy%C3%B6netimi/</guid>
+      <guid>http://localhost:57152/tags/yetkiy%C3%B6netimi/</guid>
       <description></description>
     </item>
     <item>
       <title>Ibm</title>
-      <link>http://localhost:56251/tags/ibm/</link>
+      <link>http://localhost:57152/tags/ibm/</link>
       <pubDate>Wed, 24 Jul 2024 15:45:08 +0300</pubDate>
-      <guid>http://localhost:56251/tags/ibm/</guid>
+      <guid>http://localhost:57152/tags/ibm/</guid>
       <description></description>
     </item>
     <item>
       <title>Ibm Security Verify Sso</title>
-      <link>http://localhost:56251/tags/ibm-security-verify-sso/</link>
+      <link>http://localhost:57152/tags/ibm-security-verify-sso/</link>
       <pubDate>Wed, 24 Jul 2024 15:45:08 +0300</pubDate>
-      <guid>http://localhost:56251/tags/ibm-security-verify-sso/</guid>
+      <guid>http://localhost:57152/tags/ibm-security-verify-sso/</guid>
       <description></description>
     </item>
     <item>
       <title>Security Verify Cloud</title>
-      <link>http://localhost:56251/tags/security-verify-cloud/</link>
+      <link>http://localhost:57152/tags/security-verify-cloud/</link>
       <pubDate>Wed, 24 Jul 2024 15:45:08 +0300</pubDate>
-      <guid>http://localhost:56251/tags/security-verify-cloud/</guid>
+      <guid>http://localhost:57152/tags/security-verify-cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Paydaş Katılımı</title>
-      <link>http://localhost:56251/tags/payda%C5%9F-kat%C4%B1l%C4%B1m%C4%B1/</link>
+      <link>http://localhost:57152/tags/payda%C5%9F-kat%C4%B1l%C4%B1m%C4%B1/</link>
       <pubDate>Sun, 14 Jul 2024 20:53:09 +0300</pubDate>
-      <guid>http://localhost:56251/tags/payda%C5%9F-kat%C4%B1l%C4%B1m%C4%B1/</guid>
+      <guid>http://localhost:57152/tags/payda%C5%9F-kat%C4%B1l%C4%B1m%C4%B1/</guid>
       <description></description>
     </item>
     <item>
       <title>SOD Matrisi (Segregation of Duties)</title>
-      <link>http://localhost:56251/tags/sod-matrisi-segregation-of-duties/</link>
+      <link>http://localhost:57152/tags/sod-matrisi-segregation-of-duties/</link>
       <pubDate>Sun, 14 Jul 2024 20:53:09 +0300</pubDate>
-      <guid>http://localhost:56251/tags/sod-matrisi-segregation-of-duties/</guid>
+      <guid>http://localhost:57152/tags/sod-matrisi-segregation-of-duties/</guid>
       <description></description>
     </item>
     <item>
       <title>Iam Dashboard</title>
-      <link>http://localhost:56251/tags/iam-dashboard/</link>
+      <link>http://localhost:57152/tags/iam-dashboard/</link>
       <pubDate>Sun, 30 Jun 2024 12:00:00 +0300</pubDate>
-      <guid>http://localhost:56251/tags/iam-dashboard/</guid>
+      <guid>http://localhost:57152/tags/iam-dashboard/</guid>
       <description></description>
     </item>
     <item>
       <title>Iam Metrics</title>
-      <link>http://localhost:56251/tags/iam-metrics/</link>
+      <link>http://localhost:57152/tags/iam-metrics/</link>
       <pubDate>Sun, 30 Jun 2024 12:00:00 +0300</pubDate>
-      <guid>http://localhost:56251/tags/iam-metrics/</guid>
+      <guid>http://localhost:57152/tags/iam-metrics/</guid>
       <description></description>
     </item>
     <item>
       <title>Çalışan Hesapları Oluşturma</title>
-      <link>http://localhost:56251/tags/%C3%A7al%C4%B1%C5%9Fan-hesaplar%C4%B1-olu%C5%9Fturma/</link>
+      <link>http://localhost:57152/tags/%C3%A7al%C4%B1%C5%9Fan-hesaplar%C4%B1-olu%C5%9Fturma/</link>
       <pubDate>Mon, 17 Jun 2024 12:00:00 +0300</pubDate>
-      <guid>http://localhost:56251/tags/%C3%A7al%C4%B1%C5%9Fan-hesaplar%C4%B1-olu%C5%9Fturma/</guid>
+      <guid>http://localhost:57152/tags/%C3%A7al%C4%B1%C5%9Fan-hesaplar%C4%B1-olu%C5%9Fturma/</guid>
       <description></description>
     </item>
     <item>
       <title>Çalışan Provizyonlama</title>
-      <link>http://localhost:56251/tags/%C3%A7al%C4%B1%C5%9Fan-provizyonlama/</link>
+      <link>http://localhost:57152/tags/%C3%A7al%C4%B1%C5%9Fan-provizyonlama/</link>
       <pubDate>Mon, 17 Jun 2024 12:00:00 +0300</pubDate>
-      <guid>http://localhost:56251/tags/%C3%A7al%C4%B1%C5%9Fan-provizyonlama/</guid>
+      <guid>http://localhost:57152/tags/%C3%A7al%C4%B1%C5%9Fan-provizyonlama/</guid>
       <description></description>
     </item>
     <item>
       <title>Idm Kullanici Provizyonlama</title>
-      <link>http://localhost:56251/tags/idm-kullanici-provizyonlama/</link>
+      <link>http://localhost:57152/tags/idm-kullanici-provizyonlama/</link>
       <pubDate>Mon, 17 Jun 2024 12:00:00 +0300</pubDate>
-      <guid>http://localhost:56251/tags/idm-kullanici-provizyonlama/</guid>
+      <guid>http://localhost:57152/tags/idm-kullanici-provizyonlama/</guid>
       <description></description>
     </item>
     <item>
       <title>Kullanici Provizyonlama</title>
-      <link>http://localhost:56251/tags/kullanici-provizyonlama/</link>
+      <link>http://localhost:57152/tags/kullanici-provizyonlama/</link>
       <pubDate>Mon, 17 Jun 2024 12:00:00 +0300</pubDate>
-      <guid>http://localhost:56251/tags/kullanici-provizyonlama/</guid>
+      <guid>http://localhost:57152/tags/kullanici-provizyonlama/</guid>
       <description></description>
     </item>
     <item>
       <title>Entitlement</title>
-      <link>http://localhost:56251/tags/entitlement/</link>
+      <link>http://localhost:57152/tags/entitlement/</link>
       <pubDate>Tue, 04 Jun 2024 21:45:54 +0300</pubDate>
-      <guid>http://localhost:56251/tags/entitlement/</guid>
+      <guid>http://localhost:57152/tags/entitlement/</guid>
       <description></description>
     </item>
     <item>
       <title>2FA</title>
-      <link>http://localhost:56251/tags/2fa/</link>
+      <link>http://localhost:57152/tags/2fa/</link>
       <pubDate>Sat, 30 Mar 2024 22:17:41 +0300</pubDate>
-      <guid>http://localhost:56251/tags/2fa/</guid>
+      <guid>http://localhost:57152/tags/2fa/</guid>
       <description></description>
     </item>
     <item>
       <title>FIDO</title>
-      <link>http://localhost:56251/tags/fido/</link>
+      <link>http://localhost:57152/tags/fido/</link>
       <pubDate>Sat, 30 Mar 2024 22:17:41 +0300</pubDate>
-      <guid>http://localhost:56251/tags/fido/</guid>
+      <guid>http://localhost:57152/tags/fido/</guid>
       <description></description>
     </item>
     <item>
       <title>UAF</title>
-      <link>http://localhost:56251/tags/uaf/</link>
+      <link>http://localhost:57152/tags/uaf/</link>
       <pubDate>Sat, 30 Mar 2024 22:17:41 +0300</pubDate>
-      <guid>http://localhost:56251/tags/uaf/</guid>
+      <guid>http://localhost:57152/tags/uaf/</guid>
       <description></description>
     </item>
   </channel>

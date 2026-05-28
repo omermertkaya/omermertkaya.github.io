@@ -42,9 +42,17 @@ Askerlik bitmeden iş bulmam gerektiği düşüncesi ile 2020 sonlarına doğru 
 
 ### AgeSA
 
-2022 yılının ortalarında enflasyonun bir hayli artması ile iş değiştirmek durumunda kaldım. AgeSA Hayat ve Emelilik'te Identity and Access Management Uzman Yardımcısı olarak pozisyondan teklif aldım. Teklif ekonomik olarak çıkmazdan beni kurtacağı için çok sevdiğim Türk Telekom'dan ayrılmak durumnda kaldım. Türk Telekom'da öğrendiklerim ve bana kattığı bilgiler için hep teşekkürü borç bileceğim.
+2022 yılının ortalarında, artan enflasyonun etkisiyle kariyerimde yeni bir sayfa açma kararı aldım. AgeSA Hayat ve Emeklilik'ten Identity and Access Management Uzman Yardımcısı pozisyonu için teklif geldi ve bu fırsatı değerlendirerek uzun süre büyük bir tutkuyla çalıştığım Türk Telekom'dan ayrıldım. 
 
-2024 yılı itibariyle AgeSA'da çalışmaya devam ediyorum ve kendimi Identity and Access Management alanında geliştirmeye devam ediyorum.
+Türk Telekom'daki deneyimim, mesleki gelişimim açısından son derece değerli bir dönemdi; bu süreçte edindiğim bilgi ve beceriler, kariyerimin temel taşlarından birini oluşturmaktadır.
+AgeSA'daki kariyerime Uzman Yardımcısı olarak başladım ve üç yıl içinde iki terfiyle Kıdemli Uzman pozisyonuna yükseldim. 
+
+Bu süreç, hem teknik uzmanlığımı derinleştirdiğim hem de kurumsal düzeyde önemli sorumluluklar üstlendiğim verimli bir dönem oldu. 
+
+### Monofor
+
+Kariyerimin bu döneminde, Amerikan merkezli bir Kimlik ve Erişim Yönetimi platformunun IDM, IAM, IGA ve PAM alanlarında uçtan uca çözümler sunan Monofor bünyesinde yer alma fırsatı buldum. Üretici firma çatısı altında hem ürün geliştirme süreçlerine doğrudan katkı sağlarken hem de danışmanlık rolüyle bu teknolojiyi Türkiye'nin önde gelen kurumlarına başarıyla aktarmaya devam etmekteyim.
+
 
 #### Sportif ve İlgi Alanları
 

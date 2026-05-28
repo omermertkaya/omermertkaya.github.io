@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Entitlement on Ömer Mert Kaya</title>
-    <link>http://localhost:56251/tags/entitlement/</link>
+    <link>http://localhost:57152/tags/entitlement/</link>
     <description>Recent content in Entitlement on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Jun 2024 21:45:54 +0300</lastBuildDate>
-    <atom:link href="http://localhost:56251/tags/entitlement/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57152/tags/entitlement/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Entitlement Nedir?</title>
-      <link>http://localhost:56251/posts/entitlement-nedir/</link>
+      <link>http://localhost:57152/posts/entitlement-nedir/</link>
       <pubDate>Tue, 04 Jun 2024 21:45:54 +0300</pubDate>
-      <guid>http://localhost:56251/posts/entitlement-nedir/</guid>
+      <guid>http://localhost:57152/posts/entitlement-nedir/</guid>
       <description>&lt;p&gt;Entitlement kavramı, kimlik erişimi yönetimi(Identity Access Management) ürünlerinde en fazla kullandığımız kavramlardan biridir. Yetki verme veya hak verme anlamına gelen Entitlement, aslında bir kimliğin erişim haklarının bütünüdür.&lt;/p&gt;</description>
     </item>
   </channel>

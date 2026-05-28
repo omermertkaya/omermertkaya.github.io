@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AD DS on Ömer Mert Kaya</title>
-    <link>http://localhost:56251/tags/ad-ds/</link>
+    <link>http://localhost:57152/tags/ad-ds/</link>
     <description>Recent content in AD DS on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 30 Nov 2024 20:41:05 +0300</lastBuildDate>
-    <atom:link href="http://localhost:56251/tags/ad-ds/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57152/tags/ad-ds/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Active Directory Ldap Authorization Nedir? LDAP ile Web Uygulamasında Yetkilendirme Nasıl Yapılır?</title>
-      <link>http://localhost:56251/posts/ldap-authorization/</link>
+      <link>http://localhost:57152/posts/ldap-authorization/</link>
       <pubDate>Sat, 30 Nov 2024 20:41:05 +0300</pubDate>
-      <guid>http://localhost:56251/posts/ldap-authorization/</guid>
+      <guid>http://localhost:57152/posts/ldap-authorization/</guid>
       <description>&lt;p&gt;Ülkemizde ve dünyada birçok kuruluş, kullanıcı doğrulama ve yetkilendirme işlemleri için Active Directory (AD) gibi merkezi kimlik yönetimi sistemlerini kullanıyor. Bu sistemler, organizasyon içinde kullanıcıların ve grupların yönetimini kolaylaştırıyor. LDAP (Lightweight Directory Access Protocol) ise Active Directory gibi dizin hizmetlerine erişim sağlamak için kullanılan bir protokoldür. Bu protokol sayesinde Active Directory&amp;rsquo;deki nesnelerle iletişime geçebiliyoruz. Bizim üzerinde duracağımız kullanıcılar ve güvenlik gruplarını LDAP protokolü ile Nodejs ile yaptığımız web uygulamamızda kullanacağız.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Active Directory Ldap Authentication Nedir? LDAP ile Giriş Yapma Nasıl Yapılır?</title>
-      <link>http://localhost:56251/posts/ldap-authentication-nedir/</link>
+      <link>http://localhost:57152/posts/ldap-authentication-nedir/</link>
       <pubDate>Thu, 28 Nov 2024 15:00:00 +0300</pubDate>
-      <guid>http://localhost:56251/posts/ldap-authentication-nedir/</guid>
+      <guid>http://localhost:57152/posts/ldap-authentication-nedir/</guid>
       <description>&lt;p&gt;Günümüzde uygulama güvenliği açısından giriş ekranları kritik bir öneme sahiptir. Eski uygulamalarda genellikle kullanıcı bilgileri ve şifreler, uygulamanın kendi veritabanında saklanırdı. Kullanıcılar uygulamaya giriş yaparken kayıt olduktan sonra belirledikleri kullanıcı adı ve şifreyi kullanırlardı. Ancak, bu yöntem günümüzde pek çok zorluk yaratmaktadır.&lt;/p&gt;</description>
     </item>
   </channel>

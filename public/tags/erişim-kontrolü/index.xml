@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Erişim Kontrolü on Ömer Mert Kaya</title>
-    <link>http://localhost:56251/tags/eri%C5%9Fim-kontrol%C3%BC/</link>
+    <link>http://localhost:57152/tags/eri%C5%9Fim-kontrol%C3%BC/</link>
     <description>Recent content in Erişim Kontrolü on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 21 Nov 2024 21:30:49 +0300</lastBuildDate>
-    <atom:link href="http://localhost:56251/tags/eri%C5%9Fim-kontrol%C3%BC/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57152/tags/eri%C5%9Fim-kontrol%C3%BC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rol ve Yetki Sahiplerinin Gözden Geçirme Süreci</title>
-      <link>http://localhost:56251/posts/rol-yetki-sahibi-gozden-gecirme-sureci/</link>
+      <link>http://localhost:57152/posts/rol-yetki-sahibi-gozden-gecirme-sureci/</link>
       <pubDate>Thu, 21 Nov 2024 21:30:49 +0300</pubDate>
-      <guid>http://localhost:56251/posts/rol-yetki-sahibi-gozden-gecirme-sureci/</guid>
+      <guid>http://localhost:57152/posts/rol-yetki-sahibi-gozden-gecirme-sureci/</guid>
       <description>&lt;p&gt;Kimlik ve Erişim Yönetimi (IAM) sistemlerinin en önemli bileşenlerinden biri, kullanıcı yetkilerinin düzenli olarak gözden geçirilmesidir. Bu süreç, organizasyonun güvenlik ve işlevsellik standartlarını sürdürebilmesi açısından kritik öneme sahiptir. Yıllık olarak gerçekleştirilebilecek bu süreci iki temel adımda ele alabiliriz:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kimlik ve Erişim Yönetiminde Yetki Gözden Geçirme Çalışmaları</title>
-      <link>http://localhost:56251/posts/rol-yetki-gozden-gecirme/</link>
+      <link>http://localhost:57152/posts/rol-yetki-gozden-gecirme/</link>
       <pubDate>Fri, 09 Aug 2024 15:00:00 +0300</pubDate>
-      <guid>http://localhost:56251/posts/rol-yetki-gozden-gecirme/</guid>
+      <guid>http://localhost:57152/posts/rol-yetki-gozden-gecirme/</guid>
       <description>&lt;p&gt;Kimlik ve Erişim Yönetimi (IAM) sistemlerinde yetki/erişim gözden geçirme süreci, erişimlerin denetlenmesi amacıyla yürütülen çalışmaların genel tanımıdır. IAM ürünlerinde, genellikle erişim kontrolü çalışmalarını gerçekleştirmek için bir altyapı sunulur. Bu altyapı içinde en sık gerçekleştirilen gözden geçirme çalışması, kullanıcı yetki gözden geçirme çalışmasıdır.&lt;/p&gt;</description>
     </item>
   </channel>

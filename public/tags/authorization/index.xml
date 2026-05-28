@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authorization on Ömer Mert Kaya</title>
-    <link>http://localhost:56251/tags/authorization/</link>
+    <link>http://localhost:57152/tags/authorization/</link>
     <description>Recent content in Authorization on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Jan 2025 18:57:49 +0300</lastBuildDate>
-    <atom:link href="http://localhost:56251/tags/authorization/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57152/tags/authorization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Authentication, Authorization, Accounting (AAA) Nedir?</title>
-      <link>http://localhost:56251/posts/aaa-nedir/</link>
+      <link>http://localhost:57152/posts/aaa-nedir/</link>
       <pubDate>Thu, 02 Jan 2025 18:57:49 +0300</pubDate>
-      <guid>http://localhost:56251/posts/aaa-nedir/</guid>
+      <guid>http://localhost:57152/posts/aaa-nedir/</guid>
       <description>&lt;p&gt;Siber güvenlikte sorunların tespitinde ve yapılandırılmasında birçok kavram kullanıyoruz. Bunlardan belki en çok bilinen ve temel olanlardan biri CIA&amp;rsquo;dir.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Auth0 Nedir? Active Directory ile Auth0 Bağlantısı ve Web Uygulamasında Giriş Yapma</title>
-      <link>http://localhost:56251/posts/auth0-nedir-active-directory-ile-baglanti/</link>
+      <link>http://localhost:57152/posts/auth0-nedir-active-directory-ile-baglanti/</link>
       <pubDate>Tue, 03 Dec 2024 20:53:07 +0300</pubDate>
-      <guid>http://localhost:56251/posts/auth0-nedir-active-directory-ile-baglanti/</guid>
+      <guid>http://localhost:57152/posts/auth0-nedir-active-directory-ile-baglanti/</guid>
       <description>&lt;h2 id=&#34;auth0-nedir&#34;&gt;Auth0 Nedir?&lt;/h2&gt;&#xA;&lt;p&gt;Okta firmasının Auth0 uygulaması, &lt;strong&gt;Kimlik Ve Erişim Yönetimi&lt;/strong&gt; çözümleri sunan platformudur.&#xA;Auth0, kimlik doğrulama, kullanıcı yönetimi ve güvenli erişim gibi yöntemler sunar. Auth0 özellikle kurumsalların yanı sıra geliştiriciler için hızlı entegrasyon sunarak kimlik yönetimi ihtiyaçlarını karşılayan hızlı, kolay ve güvenli çözümler sunar.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Aktif Dizindeki Tüm Cihazlara Mesaj Gönderme</title>
-      <link>http://localhost:56251/posts/aktif-dizinde-tum-cihazlara-mesaj-gonderme/</link>
+      <link>http://localhost:57152/posts/aktif-dizinde-tum-cihazlara-mesaj-gonderme/</link>
       <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
-      <guid>http://localhost:56251/posts/aktif-dizinde-tum-cihazlara-mesaj-gonderme/</guid>
+      <guid>http://localhost:57152/posts/aktif-dizinde-tum-cihazlara-mesaj-gonderme/</guid>
       <description>&lt;p&gt;tags = [&amp;lsquo;sanallaştırma&amp;rsquo;, &amp;lsquo;virtualization&amp;rsquo;, &amp;lsquo;hypervisor&amp;rsquo;, &amp;rsquo;type 1 hypervisor&amp;rsquo;, &amp;rsquo;type 2 hypervisor&amp;rsquo;, &amp;lsquo;bare metal&amp;rsquo;, &amp;lsquo;hosted hypervisor&amp;rsquo;, &amp;lsquo;vmware&amp;rsquo;, &amp;lsquo;virtualbox&amp;rsquo;, &amp;lsquo;kvm&amp;rsquo;, &amp;lsquo;xen&amp;rsquo;, &amp;lsquo;hyper-v&amp;rsquo;, &amp;lsquo;sanal makineler&amp;rsquo;, &amp;lsquo;it altyapı&amp;rsquo;, &amp;lsquo;sistem yönetimi&amp;rsquo;, &amp;lsquo;devops&amp;rsquo;, &amp;rsquo;linux deneyimi&amp;rsquo;]&lt;/p&gt;</description>
     </item>
     <item>
       <title>Authentication Authorization Kavramları</title>
-      <link>http://localhost:56251/posts/authentication-authorization-kavramlari/</link>
+      <link>http://localhost:57152/posts/authentication-authorization-kavramlari/</link>
       <pubDate>Thu, 11 Jul 2024 22:30:46 +0300</pubDate>
-      <guid>http://localhost:56251/posts/authentication-authorization-kavramlari/</guid>
+      <guid>http://localhost:57152/posts/authentication-authorization-kavramlari/</guid>
       <description>&lt;p&gt;Authentication ve Authorization, birbirinden farklı iki önemli kavramdır.&lt;/p&gt;&#xA;&lt;h2 id=&#34;authentication-authn---kimlik-doğrulama&#34;&gt;Authentication (AuthN) - Kimlik Doğrulama&lt;/h2&gt;&#xA;&lt;p&gt;Authentication, &amp;ldquo;Kimsin Sen?&amp;rdquo; sorusunu yanıtlar.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Domaindeki Cihazlara Mesaj on Ömer Mert Kaya</title>
-    <link>http://localhost:56251/tags/domaindeki-cihazlara-mesaj/</link>
+    <link>http://localhost:57152/tags/domaindeki-cihazlara-mesaj/</link>
     <description>Recent content in Domaindeki Cihazlara Mesaj on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Nov 2024 22:45:02 +0300</lastBuildDate>
-    <atom:link href="http://localhost:56251/tags/domaindeki-cihazlara-mesaj/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57152/tags/domaindeki-cihazlara-mesaj/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aktif Dizindeki Tüm Cihazlara Mesaj Gönderme</title>
-      <link>http://localhost:56251/posts/aktif-dizinde-tum-cihazlara-mesaj-gonderme/</link>
+      <link>http://localhost:57152/posts/aktif-dizinde-tum-cihazlara-mesaj-gonderme/</link>
       <pubDate>Sun, 24 Nov 2024 22:45:02 +0300</pubDate>
-      <guid>http://localhost:56251/posts/aktif-dizinde-tum-cihazlara-mesaj-gonderme/</guid>
+      <guid>http://localhost:57152/posts/aktif-dizinde-tum-cihazlara-mesaj-gonderme/</guid>
       <description>&lt;p&gt;tags = [&amp;lsquo;sanallaştırma&amp;rsquo;, &amp;lsquo;virtualization&amp;rsquo;, &amp;lsquo;hypervisor&amp;rsquo;, &amp;rsquo;type 1 hypervisor&amp;rsquo;, &amp;rsquo;type 2 hypervisor&amp;rsquo;, &amp;lsquo;bare metal&amp;rsquo;, &amp;lsquo;hosted hypervisor&amp;rsquo;, &amp;lsquo;vmware&amp;rsquo;, &amp;lsquo;virtualbox&amp;rsquo;, &amp;lsquo;kvm&amp;rsquo;, &amp;lsquo;xen&amp;rsquo;, &amp;lsquo;hyper-v&amp;rsquo;, &amp;lsquo;sanal makineler&amp;rsquo;, &amp;lsquo;it altyapı&amp;rsquo;, &amp;lsquo;sistem yönetimi&amp;rsquo;, &amp;lsquo;devops&amp;rsquo;, &amp;rsquo;linux deneyimi&amp;rsquo;]&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Access Control on Ömer Mert Kaya</title>
-    <link>http://localhost:56251/tags/access-control/</link>
+    <link>http://localhost:57152/tags/access-control/</link>
     <description>Recent content in Access Control on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 10 Dec 2024 00:31:03 +0300</lastBuildDate>
-    <atom:link href="http://localhost:56251/tags/access-control/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57152/tags/access-control/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kimlik Ve Erişim Yonetiminde Sanal Asistanlar</title>
-      <link>http://localhost:56251/posts/kimlik-ve-erisim-yonetiminde-sanal-asistanlar/</link>
+      <link>http://localhost:57152/posts/kimlik-ve-erisim-yonetiminde-sanal-asistanlar/</link>
       <pubDate>Tue, 10 Dec 2024 00:31:03 +0300</pubDate>
-      <guid>http://localhost:56251/posts/kimlik-ve-erisim-yonetiminde-sanal-asistanlar/</guid>
+      <guid>http://localhost:57152/posts/kimlik-ve-erisim-yonetiminde-sanal-asistanlar/</guid>
       <description>&lt;p&gt;Kimlik ve Erişim Yönetimi (IAM) sistemlerinde, özellikle helpdesk tarafında çalışanlarımızdan sıklıkla sorular alıyoruz. Bu durum, IT kökenli olmayan çalışanlarımız için oldukça normal; çünkü kimlik ve erişim yönetimi süreçleri genellikle teknik bilgi gerektiriyor. Bu nedenle, çalışanlarımızı bu süreçlerde daha iyi bilgilendirmek ve desteklemek önemli bir gereklilik haline geliyor.&lt;/p&gt;</description>
     </item>
   </channel>
