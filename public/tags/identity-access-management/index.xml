@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Identity Access Management on Ömer Mert Kaya</title>
-    <link>http://localhost:55743/tags/identity-access-management/</link>
+    <link>http://localhost:56251/tags/identity-access-management/</link>
     <description>Recent content in Identity Access Management on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 13 Nov 2024 20:55:50 +0300</lastBuildDate>
-    <atom:link href="http://localhost:55743/tags/identity-access-management/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:56251/tags/identity-access-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Birden Fazla Ldap Bağlantısını Tek Uygulamadan Yönetmek</title>
-      <link>http://localhost:55743/posts/birden-fazla-ldap-baglantisi-yonetme/</link>
+      <link>http://localhost:56251/posts/birden-fazla-ldap-baglantisi-yonetme/</link>
       <pubDate>Wed, 13 Nov 2024 20:55:50 +0300</pubDate>
-      <guid>http://localhost:55743/posts/birden-fazla-ldap-baglantisi-yonetme/</guid>
+      <guid>http://localhost:56251/posts/birden-fazla-ldap-baglantisi-yonetme/</guid>
       <description>&lt;p&gt;Kimlik ve Erişim Yönetimi(IAM) sistemlerinde birçok uç uygulama ile bağlantı halinde çalışıyoruz.&#xA;Bunlardan en önemli olanlardan diyebileceğimiz Aktif Dizin(Acitve Directory) bir LDAP dizin yönetim sistemidir.&#xA;Oracle LDAP yine aktif dizine benzer bir sistemdir ve kullanıcıları, grupları yönetebilirsiniz.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kimlik ve Erişim Yönetiminin Şirketinizde Başarılı Olması İçin Paydaş Katılımının Önemi</title>
-      <link>http://localhost:55743/posts/iam-basarili-olmasi/</link>
+      <link>http://localhost:56251/posts/iam-basarili-olmasi/</link>
       <pubDate>Sun, 14 Jul 2024 20:53:09 +0300</pubDate>
-      <guid>http://localhost:55743/posts/iam-basarili-olmasi/</guid>
+      <guid>http://localhost:56251/posts/iam-basarili-olmasi/</guid>
       <description>&lt;p&gt;Identity and Access Management&amp;rsquo;ın (Kimlik ve Erişim Yönetiminin) başarılı olması birçok etkene bağlıdır ve bunlardan en önemlilerinden biri de paydaş katılımının değeridir. Örneğin, şirketinize çok uyumlu bir IAM ürünü aldınız ve IAM ekibi olarak ürünün teknik yönetimi tarafında çok başarılı işler yapıyorsunuz.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kullanıcı Provizyonlama Nedir?</title>
-      <link>http://localhost:55743/posts/kullanici-provizyonlama-nedir/</link>
+      <link>http://localhost:56251/posts/kullanici-provizyonlama-nedir/</link>
       <pubDate>Mon, 17 Jun 2024 12:00:00 +0300</pubDate>
-      <guid>http://localhost:55743/posts/kullanici-provizyonlama-nedir/</guid>
+      <guid>http://localhost:56251/posts/kullanici-provizyonlama-nedir/</guid>
       <description>&lt;p&gt;Identity and Access Management (IAM) ürünlerinin en temel ve belki de en önemli görevlerinden biri kullanıcı provizyonlama işlemleridir. Kullanıcı provizyonlama, bir kullanıcının hesaplarını ve erişimlerini birden fazla uygulama veya sistemde aynı anda oluşturma, sürdürme, güncelleme ve silme sürecidir.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Entitlement Nedir?</title>
-      <link>http://localhost:55743/posts/entitlement-nedir/</link>
+      <link>http://localhost:56251/posts/entitlement-nedir/</link>
       <pubDate>Tue, 04 Jun 2024 21:45:54 +0300</pubDate>
-      <guid>http://localhost:55743/posts/entitlement-nedir/</guid>
+      <guid>http://localhost:56251/posts/entitlement-nedir/</guid>
       <description>&lt;p&gt;Entitlement kavramı, kimlik erişimi yönetimi(Identity Access Management) ürünlerinde en fazla kullandığımız kavramlardan biridir. Yetki verme veya hak verme anlamına gelen Entitlement, aslında bir kimliğin erişim haklarının bütünüdür.&lt;/p&gt;</description>
     </item>
   </channel>

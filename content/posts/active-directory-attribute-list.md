@@ -1,12 +1,10 @@
 +++
 title = 'Active Directory Attributes List'
 date = 2026-05-27T16:36:30+03:00
-draft = true
+draft = false
 +++
 
 
-> **Kaynak:** [activedirectorypro.com](https://activedirectorypro.com/how-to-view-user-attributes-in-active-directory/)  
-> **Son Güncelleme:** 16 Nisan 2026 — Matt Roberts
 
 Bu sayfa, Active Directory kullanıcı niteliklerinin (attributes) eksiksiz bir referansıdır. Tablolar, Active Directory Users and Computers (ADUC) arayüzündeki sekmelere göre düzenlenmiştir. Her tablo; kullanıcı dostu adı, LDAP nitelik adını ve örnek bir değeri içerir. PowerShell betikleri yazarken, CSV içe aktarmaları oluştururken veya LDAP sorguları yapılandırırken bu sayfayı referans olarak kullanabilirsiniz.
 
@@ -45,6 +43,9 @@ Bu sayfa, Active Directory kullanıcı niteliklerinin (attributes) eksiksiz bir 
 | Email                    | mail                       | jsmith@company.com |
 | Web Page                 | wWWHomePage                | www.company.com    |
 
+
+![active directory general](/images/active-directory-attribute/ldap-mapping-1a.webp)
+
 ---
 
 ### Address (Adres) Sekmesi
@@ -59,6 +60,9 @@ Bu sayfa, Active Directory kullanıcı niteliklerinin (attributes) eksiksiz bir 
 | Country              | co                  | United States   |
 | Country Abbreviation | c                   | US              |
 | Country Code         | countryCode         | 840             |
+
+![active directory adres](/images/active-directory-attribute/ldap-mapping-2.jpg)
+
 
 ---
 
@@ -77,6 +81,9 @@ Bu sayfa, Active Directory kullanıcı niteliklerinin (attributes) eksiksiz bir 
 | Password Never Expires                  | userAccountControl  | 66048              |
 | User Cannot Change Password             | userAccountControl  | 68                 |
 
+![active directory account](/images/active-directory-attribute/ldap-mapping-3.jpg)
+
+
 ---
 
 ### Profile (Profil) Sekmesi
@@ -88,6 +95,8 @@ Bu sayfa, Active Directory kullanıcı niteliklerinin (attributes) eksiksiz bir 
 | Home Folder (Local Path)    | homeDirectory    | C:\Users\jsmith          |
 | Home Folder (Connect Drive) | homeDrive        | H:                       |
 | Home Folder (To Path)       | homeDirectory    | \\server\home\jsmith     |
+
+![active directory profile](/images/active-directory-attribute/ldap-mapping-4.jpg)
 
 ---
 
@@ -101,6 +110,7 @@ Bu sayfa, Active Directory kullanıcı niteliklerinin (attributes) eksiksiz bir 
 | Fax                | facsimileTelephoneNumber | 949-555-1111 |
 | IP Phone           | ipPhone                  | 5001         |
 
+![active directory phone](/images/active-directory-attribute/ldap-mapping-5.jpg)
 ---
 
 ### Organization (Organizasyon) Sekmesi
@@ -117,6 +127,7 @@ Bu sayfa, Active Directory kullanıcı niteliklerinin (attributes) eksiksiz bir 
 | Employee Type      | employeeType        | Full-Time                           |
 | Division           | division            | North America                       |
 
+![active directory organization](/images/active-directory-attribute/ldap-mapping-6.jpg)
 ---
 
 ### Exchange / E-posta
@@ -169,27 +180,3 @@ Bu sayfa, Active Directory kullanıcı niteliklerinin (attributes) eksiksiz bir 
 | Extension Attribute 15 | extensionAttribute15 | Custom Value |
 
 ---
-
-## ADUC ile Kullanıcı Niteliklerini Görüntüleme
-
-Active Directory Users and Computers (ADUC) üzerinden kullanıcı niteliklerini görüntülemek için aşağıdaki adımları izleyin.
-
-### Adım 1 — ADUC'u Açın
-
-`dsa.msc` komutunu çalıştırarak veya Başlat menüsünden **Active Directory Users and Computers** uygulamasını açın.
-
-### Adım 2 — Advanced Features (Gelişmiş Özellikler) Seçeneğini Etkinleştirin
-
-Menü çubuğundan **View > Advanced Features** seçeneğine tıklayın.
-
-> Bu ayar kalıcıdır; ADUC'u her açtığınızda yeniden etkinleştirmenize gerek yoktur.
-
-### Adım 3 — Attribute Editor (Nitelik Düzenleyici) Sekmesini Açın
-
-Gelişmiş özellikler etkinleştirildikten sonra herhangi bir kullanıcı hesabını açın ve **Attribute Editor** sekmesine tıklayın. Bu sekme, söz konusu kullanıcı hesabına ait tüm nitelikleri listeler.
-
-> Boş niteliklerin görünmesini istemiyorsanız **Filter > Show only attributes that have values** seçeneğini kullanın. Bu seçenek, listelenen nitelik sayısını önemli ölçüde azaltır.
-
----
-
-*Kaynak: [Active Directory Pro](https://activedirectorypro.com/how-to-view-user-attributes-in-active-directory/)*

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abstraction Soyutlama on Ömer Mert Kaya</title>
-    <link>http://localhost:55743/tags/abstraction-soyutlama/</link>
+    <link>http://localhost:56251/tags/abstraction-soyutlama/</link>
     <description>Recent content in Abstraction Soyutlama on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Dec 2024 20:33:05 +0300</lastBuildDate>
-    <atom:link href="http://localhost:55743/tags/abstraction-soyutlama/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:56251/tags/abstraction-soyutlama/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Access Certification Nedir?</title>
-      <link>http://localhost:55743/posts/access-certification/</link>
+      <link>http://localhost:56251/posts/access-certification/</link>
       <pubDate>Mon, 16 Dec 2024 20:33:05 +0300</pubDate>
-      <guid>http://localhost:55743/posts/access-certification/</guid>
+      <guid>http://localhost:56251/posts/access-certification/</guid>
       <description>&lt;p&gt;Kimlik ve Erişim Yönetimi (IAM), organizasyonlarda bilgi teknolojisi altyapısının ve hassas verilerin güvenliğini sağlamak için kritik bir role sahiptir. IAM&amp;rsquo;in önemli bir bileşeni olan Access Certification (Erişim Sertifikasyonu), kullanıcıların sahip oldukları yetki ve rollerin düzenli olarak kontrol edilmesi sürecini ifade eder. Bu yazıda, Access Certification&amp;rsquo;ın ne olduğunu, şirketinizde nasıl uygulayabileceğinizi inceleyeceğz.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kimlik ve Erişim Yönetiminde Abstraction Kavramını İnceleyelim</title>
-      <link>http://localhost:55743/posts/abstraction-kavramini-inceleyelim/</link>
+      <link>http://localhost:56251/posts/abstraction-kavramini-inceleyelim/</link>
       <pubDate>Sun, 15 Dec 2024 14:49:06 +0300</pubDate>
-      <guid>http://localhost:55743/posts/abstraction-kavramini-inceleyelim/</guid>
+      <guid>http://localhost:56251/posts/abstraction-kavramini-inceleyelim/</guid>
       <description>&lt;p&gt;Kimlik ve Erişim Yönetiminde kavramlar serisinde &lt;strong&gt;Abstraction (Soyutlama)&lt;/strong&gt; kavramını hep birlikte inceleyelim.&lt;/p&gt;</description>
     </item>
   </channel>

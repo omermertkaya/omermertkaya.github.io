@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Iam Dashboard on Ömer Mert Kaya</title>
-    <link>http://localhost:55743/tags/iam-dashboard/</link>
+    <link>http://localhost:56251/tags/iam-dashboard/</link>
     <description>Recent content in Iam Dashboard on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 30 Jun 2024 12:00:00 +0300</lastBuildDate>
-    <atom:link href="http://localhost:55743/tags/iam-dashboard/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:56251/tags/iam-dashboard/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kimlik ve Erişim Yönetimi(IAM) Dashboard Örneği - Metrikler</title>
-      <link>http://localhost:55743/posts/kimlik-ve-erisim-yonetimi-dashboard/</link>
+      <link>http://localhost:56251/posts/kimlik-ve-erisim-yonetimi-dashboard/</link>
       <pubDate>Sun, 30 Jun 2024 12:00:00 +0300</pubDate>
-      <guid>http://localhost:55743/posts/kimlik-ve-erisim-yonetimi-dashboard/</guid>
+      <guid>http://localhost:56251/posts/kimlik-ve-erisim-yonetimi-dashboard/</guid>
       <description>&lt;p&gt;Kimlik ve Erişim Yönetimi (IAM) ile yaptığımız entegrasyonlarla birçok işlem ve süreci otomatikleştiriyoruz. Peki, otomatikleştirdiğimiz bu süreçlerin metriklerini ve yaptığımız işin kalitesini doğru gösterebiliyor muyuz?&lt;/p&gt;</description>
     </item>
   </channel>

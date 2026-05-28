@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Saml on Ömer Mert Kaya</title>
-    <link>http://localhost:55743/tags/saml/</link>
+    <link>http://localhost:56251/tags/saml/</link>
     <description>Recent content in Saml on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Mar 2026 20:00:34 +0300</lastBuildDate>
-    <atom:link href="http://localhost:55743/tags/saml/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:56251/tags/saml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Saml Authentication Nedir?</title>
-      <link>http://localhost:55743/posts/saml-authentication-nedir/</link>
+      <link>http://localhost:56251/posts/saml-authentication-nedir/</link>
       <pubDate>Mon, 16 Mar 2026 20:00:34 +0300</pubDate>
-      <guid>http://localhost:55743/posts/saml-authentication-nedir/</guid>
+      <guid>http://localhost:56251/posts/saml-authentication-nedir/</guid>
       <description>&lt;p&gt;&lt;strong&gt;SAML (Security Assertion Markup Language)&lt;/strong&gt;, sistemler arasında kimlik doğrulama bilgilerinin güvenli bir şekilde aktarılmasını sağlayan bir protokoldür.&lt;/p&gt;</description>
     </item>
     <item>
       <title>IBM Security Verify SAML Authentication</title>
-      <link>http://localhost:55743/posts/ibm-security-verify-kullanimi-saml/</link>
+      <link>http://localhost:56251/posts/ibm-security-verify-kullanimi-saml/</link>
       <pubDate>Wed, 24 Jul 2024 15:45:08 +0300</pubDate>
-      <guid>http://localhost:55743/posts/ibm-security-verify-kullanimi-saml/</guid>
+      <guid>http://localhost:56251/posts/ibm-security-verify-kullanimi-saml/</guid>
       <description>&lt;p&gt;Selamlar,&lt;/p&gt;&#xA;&lt;p&gt;Bu yazımda, cloud tabanlı IBM Security Verify&amp;rsquo;in deneme sürümü ile SAML giriş yapma senaryosunu çalışacağız.&lt;/p&gt;</description>
     </item>
   </channel>

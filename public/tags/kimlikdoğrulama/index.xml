@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>KimlikDoğrulama on Ömer Mert Kaya</title>
-    <link>http://localhost:55743/tags/kimlikdo%C4%9Frulama/</link>
+    <link>http://localhost:56251/tags/kimlikdo%C4%9Frulama/</link>
     <description>Recent content in KimlikDoğrulama on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Mar 2026 20:00:34 +0300</lastBuildDate>
-    <atom:link href="http://localhost:55743/tags/kimlikdo%C4%9Frulama/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:56251/tags/kimlikdo%C4%9Frulama/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Saml Authentication Nedir?</title>
-      <link>http://localhost:55743/posts/saml-authentication-nedir/</link>
+      <link>http://localhost:56251/posts/saml-authentication-nedir/</link>
       <pubDate>Mon, 16 Mar 2026 20:00:34 +0300</pubDate>
-      <guid>http://localhost:55743/posts/saml-authentication-nedir/</guid>
+      <guid>http://localhost:56251/posts/saml-authentication-nedir/</guid>
       <description>&lt;p&gt;&lt;strong&gt;SAML (Security Assertion Markup Language)&lt;/strong&gt;, sistemler arasında kimlik doğrulama bilgilerinin güvenli bir şekilde aktarılmasını sağlayan bir protokoldür.&lt;/p&gt;</description>
     </item>
   </channel>

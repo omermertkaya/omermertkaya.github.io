@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Individual Access Review on Ömer Mert Kaya</title>
-    <link>http://localhost:55743/tags/individual-access-review/</link>
+    <link>http://localhost:56251/tags/individual-access-review/</link>
     <description>Recent content in Individual Access Review on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Sep 2024 23:25:18 +0300</lastBuildDate>
-    <atom:link href="http://localhost:55743/tags/individual-access-review/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:56251/tags/individual-access-review/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kullanıcı Yetki Gözden Geçirme Süreci Raporlama(Dashboard)</title>
-      <link>http://localhost:55743/posts/kullanici-yetki-gozden-gecirme-rapor/</link>
+      <link>http://localhost:56251/posts/kullanici-yetki-gozden-gecirme-rapor/</link>
       <pubDate>Fri, 20 Sep 2024 23:25:18 +0300</pubDate>
-      <guid>http://localhost:55743/posts/kullanici-yetki-gozden-gecirme-rapor/</guid>
+      <guid>http://localhost:56251/posts/kullanici-yetki-gozden-gecirme-rapor/</guid>
       <description>&lt;p&gt;Yetki gözden geçirme süreçleri, Kimlik ve Erişim Yönetimi (IAM) sistemlerinin güvenliği artıran en önemli bileşenlerinden biridir. Yıllık yetki ve rol gözden geçirme sürecinde, çalışanların erişim hakları ve rolleri yöneticiler tarafından değerlendirilir. Bu süreç, sadece onay mekanizmalarının dışında, güvenliği daha da sıkılaştırmak adına ek bir kontrol sağlar.&lt;/p&gt;</description>
     </item>
   </channel>
