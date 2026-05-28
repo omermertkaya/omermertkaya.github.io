@@ -1,6 +1,6 @@
 +++
 title = 'Veritabanı İşleöşeri DDL, DML Nedir'
-date = 2026-04-01T16:36:30+03:00
+date = 2026-05-27T16:36:30+03:00
 draft = true
 +++
 
