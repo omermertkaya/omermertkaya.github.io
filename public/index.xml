@@ -6,12 +6,12 @@
     <description>Recent content on Ömer Mert Kaya</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 May 2026 16:36:30 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 11:00:30 +0300</lastBuildDate>
     <atom:link href="http://localhost:56251/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Active Directory Attributes List</title>
       <link>http://localhost:56251/posts/active-directory-attribute-list/</link>
-      <pubDate>Wed, 27 May 2026 16:36:30 +0300</pubDate>
+      <pubDate>Thu, 28 May 2026 11:00:30 +0300</pubDate>
       <guid>http://localhost:56251/posts/active-directory-attribute-list/</guid>
       <description>&lt;p&gt;Bu sayfa, Active Directory kullanıcı niteliklerinin (attributes) eksiksiz bir referansıdır. Tablolar, Active Directory Users and Computers (ADUC) arayüzündeki sekmelere göre düzenlenmiştir. Her tablo; kullanıcı dostu adı, LDAP nitelik adını ve örnek bir değeri içerir. PowerShell betikleri yazarken, CSV içe aktarmaları oluştururken veya LDAP sorguları yapılandırırken bu sayfayı referans olarak kullanabilirsiniz.&lt;/p&gt;</description>
     </item>

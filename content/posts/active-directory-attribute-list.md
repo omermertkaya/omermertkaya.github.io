@@ -1,8 +1,8 @@
 +++
 title = 'Active Directory Attributes List'
-date = 2026-05-27T16:36:30+03:00
+date = 2026-05-28T11:00:30+03:00
 draft = false
-+++
++++ 
 
 
 
