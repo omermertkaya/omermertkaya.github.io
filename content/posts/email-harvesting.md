@@ -2,6 +2,7 @@
 title = 'Email Harvesting: Siber Güvenlik Perspektifinden İnceleme ve Python ile Bir Örnek'
 date = 2025-03-12T10:41:21+03:00
 draft = false
+translationKey = 'email-harvesting'
 tags = ['Bug Bounty', 'Cybersecurity', 'Email Security', 'Red Team', 'Phishing']
 +++
 

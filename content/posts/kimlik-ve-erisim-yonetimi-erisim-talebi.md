@@ -2,6 +2,7 @@
 title = 'Kimlik Ve Erişim Yönetimi - Erişim Talebi Yönetimi'
 date = 2024-11-09T12:28:23+03:00
 draft = false
+translationKey = 'kimlik-ve-erisim-yonetimi-erisim-talebi'
 tags = ['kimlik ve erişim yönetimi','identity and access management','ErişimTalebiYönetimi','KullanıcıErişimİzinleri']
 +++
 

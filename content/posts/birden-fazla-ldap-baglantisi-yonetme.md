@@ -2,6 +2,7 @@
 title = 'Birden Fazla Ldap Bağlantısını Tek Uygulamadan Yönetmek'
 date = 2024-11-13T20:55:50+03:00
 draft = false
+translationKey = 'birden-fazla-ldap-baglantisi-yonetme'
 tags = ['IAM','identity access management','LDAP','Apache Directory Studio','Oracle LDAP']
 +++
 

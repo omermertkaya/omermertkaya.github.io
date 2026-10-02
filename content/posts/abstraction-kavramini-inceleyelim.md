@@ -2,6 +2,7 @@
 title = 'Kimlik ve Erişim Yönetiminde Abstraction Kavramını İnceleyelim'
 date = 2024-12-15T14:49:06+03:00
 draft = false
+translationKey = 'abstraction-kavramini-inceleyelim'
 tags = ['Kimlik Yönetimi', 'Erişim Yönetimi', 'kimlik ve erişim yönetimi', 'Abstraction Soyutlama', 'Dijital Güvenlik', 'Rol Tabanlı Erişim Kontrolü RBAC']
 
 +++

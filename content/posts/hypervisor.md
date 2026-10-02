@@ -2,6 +2,7 @@
 title = 'Hypervisor Tip1 ve Tip2'
 date = 2026-03-30T18:00:13+03:00
 draft = false
+translationKey = 'hypervisor'
 +++
 
 

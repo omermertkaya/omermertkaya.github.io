@@ -1,0 +1,62 @@
+.site-tagline {
+    font-family: "Noto Sans","Segoe UI","Helvetica Neue",Helvetica,Roboto,FreeSans,sans-serif;
+    font-size: 1em;
+    color: #5F5F5F;
+    margin-top: 0.3em;
+}
+
+.site-keywords {
+    font-family: "Noto Sans","Segoe UI","Helvetica Neue",Helvetica,Roboto,FreeSans,sans-serif;
+    font-size: 0.85em;
+    letter-spacing: 0.02em;
+    color: #898989;
+    margin-top: 0.2em;
+}
+
+.site-name-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+
+.lang-switcher {
+    display: flex;
+    gap: 0.3em;
+    font-family: "Noto Sans","Segoe UI","Helvetica Neue",Helvetica,Roboto,FreeSans,sans-serif;
+    font-size: 0.55em;
+
+    .lang-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25em;
+        color: #898989;
+        text-decoration: none;
+        padding: 0.15em 0.5em;
+        border-radius: 999px;
+        border: 1px solid #D2D2D2;
+        transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+
+        .lang-flag {
+            font-size: 0.95em;
+            line-height: 1;
+        }
+
+        .lang-code {
+            font-weight: 600;
+            letter-spacing: 0.02em;
+        }
+
+        &.active {
+            color: #4a6b8a;
+            background-color: rgba(74, 107, 138, 0.15);
+            border-color: rgba(74, 107, 138, 0.4);
+        }
+
+        &:not(.active):hover {
+            color: #4a6b8a;
+            border-color: #4a6b8a;
+        }
+    }
+}

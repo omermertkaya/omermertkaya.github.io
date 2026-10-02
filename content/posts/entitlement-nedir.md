@@ -2,6 +2,7 @@
 title = 'Entitlement Nedir?'
 date = 2024-06-04T21:45:54+03:00
 draft = false
+translationKey = 'entitlement-nedir'
 tags = ['entitlement','identity access management','kimlik ve erişim yönetimi']
 +++
 

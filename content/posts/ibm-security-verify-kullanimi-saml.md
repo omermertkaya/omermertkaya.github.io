@@ -2,6 +2,7 @@
 title = 'IBM Security Verify SAML Authentication'
 date = 2024-07-24T15:45:08+03:00
 draft = false
+translationKey = 'ibm-security-verify-kullanimi-saml'
 tags = ['ibm','security verify cloud','saml','ibm security verify sso']
 +++
 

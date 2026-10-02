@@ -1,8 +1,0 @@
-{{ define "main" }}
-  {{ .Content }}
-  {{ $pages := where site.RegularPages "Section" "posts" }}
-  {{ range first 5 ($pages.ByDate.Reverse) }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  {{ end }}
-{{ end }}

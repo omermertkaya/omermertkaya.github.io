@@ -6,6 +6,8 @@ date = 2025-01-02T18:57:49+03:00
 
 draft = false
 
+translationKey = 'AAA-Nedir'
+
 tags = ['Kimlik Yönetimi', 'Erişim Yönetimi', 'kimlik ve erişim yönetimi', 'AAA Nedir', 'Dijital Güvenlik', 'Siber Güvenlik','IDM Kavramları','IAM Kavramları','Kimlik Doğrulama','Authorization','Accounting']
 
 +++

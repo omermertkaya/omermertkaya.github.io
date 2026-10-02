@@ -2,6 +2,7 @@
 title = 'Kullanıcı Yetki Gözden Geçirme Süreci Raporlama(Dashboard)'
 date = 2024-09-20T23:25:18+03:00
 draft = false
+translationKey = 'kullanici-yetki-gozden-gecirme-rapor'
 tags = ['IAM','kimlik yönetimi','access management','yetki gözden geçirme','role management','user permissions','identity lifecycle','güvenlik','security','kullanıcı erişimi','yetki yönetimi','user review process','individual access review','user lifecycle management','kimlik doğrulama']
 +++
 

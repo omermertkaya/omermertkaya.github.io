@@ -2,6 +2,7 @@
 title = 'Şifrelerin Ötesinde FIDO Çözümü'
 date = 2024-03-30T22:17:41+03:00
 draft = false
+translationKey = 'Şifrelerin-Ötesinde-FIDO-Çözümü'
 tags = ['FIDO','UAF','2FA']
 +++
 

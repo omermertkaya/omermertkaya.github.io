@@ -3,6 +3,7 @@
 title = 'Kimlik ve Erişim Yönetimi(IAM) Dashboard Örneği - Metrikler'
 date = 2024-06-30T12:00:00+03:00
 draft = false
+translationKey = 'kimlik-ve-erisim-yonetimi-dashboard'
 tags = ['kimlik ve erişim yönetimi','identity and access management','iam metrics','iam dashboard']
 +++
 

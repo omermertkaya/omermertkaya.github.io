@@ -1,10 +1,11 @@
 baseURL = "https://omermertkaya.github.io/"
-languageCode = "en-us"
-title = "Ömer Mert Kaya"
 theme = "noteworthy"
 enableRobotsTXT = true
 paginate = 5 # Set the number of posts to show before overflowing to the next page.
 summaryLength = 10 # Configure how long the post summary should be on the homepage.
+
+defaultContentLanguage = "tr"
+defaultContentLanguageInSubdir = false # Turkish stays at the root (/posts/...), English lives under /en/...
 
 # Add your Google Analytics identifier: UA-XXXXXXXX-X
 googleAnalytics = ""
@@ -24,73 +25,163 @@ disqusShortname = ""
 [markup.goldmark.renderer]
     unsafe = true
 
-[params]
-    math = true
-    # Blog description at the top of the homepage. Supports markdown.
-    description = "Ömer Mert Kaya'nın Kişisel Sayfası, Identity And Access Management Engineer"
+[languages]
+    [languages.tr]
+        languageCode = "tr-TR"
+        languageName = "Türkçe"
+        weight = 1
+        title = "Ömer Mert Kaya"
 
-    showReadMore = false
+        [languages.tr.params]
+            math = true
+            # Blog description at the top of the homepage. Supports markdown.
+            description = "Ömer Mert Kaya'nın Kişisel Sayfası, Identity And Access Management Engineer"
 
-    # Set enableKofi to true to enable the Ko-fi support button. Add your Ko-fi ID to link to your account.
-    enableKofi = false
-    kofi = ""
+            # Shown under the name in the header, and reused as the schema.org jobTitle.
+            jobTitle = "Identity & Access Management Engineer"
+            expertiseTags = ["IAM", "IGA", "IDM", "PAM", "Identity Security"]
 
-    # Add links to your accounts. Remove the ones you don't want to include.
-    # Main
-    email = "omermertkaya@hotmail.com.tr"
-    linkedin = "https://linkedin.com/in/omermertkaya"
+            # Reused as schema.org Person.knowsAbout on the home and about pages.
+            knowsAbout = [
+                "Identity and Access Management",
+                "Identity Governance and Administration",
+                "Identity Management",
+                "Privileged Access Management",
+                "Authentication",
+                "Authorization",
+                "Single Sign-On",
+                "SAML",
+                "OpenID Connect",
+                "RBAC",
+                "ABAC",
+                "Identity Security",
+            ]
 
-    # Programming
-    github = "https://github.com/omermertkaya"
+            showReadMore = false
 
-    # Youtube
-    youtube = "https://www.youtube.com/@mekod3763"
-    
-    # Medium hesabınızın bağlantısını ekleyin.
-    medium = "https://medium.com/@omermertkaya"  # Buraya Medium kullanıcı adınızı ekleyin.
+            # Set enableKofi to true to enable the Ko-fi support button. Add your Ko-fi ID to link to your account.
+            enableKofi = false
+            kofi = ""
 
-    # SEO settings
+            # Add links to your accounts. Remove the ones you don't want to include.
+            # Main
+            email = "omermertkaya@hotmail.com.tr"
+            linkedin = "https://linkedin.com/in/omermertkaya"
 
-    author = "Omer Mert KAYA"
-    keywords = "ömer mert kaya'nın kişisel bloğu, identity and access management, kimlik ve erişim yönetimi, security blog, security engineer"
+            # Programming
+            github = "https://github.com/omermertkaya"
 
-# Menu links along the sidebar navigation.
+            # Youtube
+            youtube = "https://www.youtube.com/@mekod3763"
 
+            # Medium hesabınızın bağlantısını ekleyin.
+            medium = "https://medium.com/@omermertkaya"
 
-[[menu.main]]
-    identifier = "Anasayfa"
-    name = "Anasayfa"
-    url = "/"
-    weight = 1 # Weight is an integer used to sort the menu items. The sorting goes from smallest to largest numbers. If weight is not defined for each menu entry, Hugo will sort the entries alphabetically.
+            # SEO settings
+            author = "Omer Mert KAYA"
+            keywords = "ömer mert kaya'nın kişisel bloğu, identity and access management, kimlik ve erişim yönetimi, security blog, security engineer"
 
+        [[languages.tr.menu.main]]
+            identifier = "Anasayfa"
+            name = "Anasayfa"
+            url = "/"
+            weight = 1
 
-[[menu.main]]
-    identifier = "about"
-    name = "Hakkında"
-    url = "/about/"
-    weight = 2 # Weight is an integer used to sort the menu items. The sorting goes from smallest to largest numbers. If weight is not defined for each menu entry, Hugo will sort the entries alphabetically.
+        [[languages.tr.menu.main]]
+            identifier = "about"
+            name = "Hakkında"
+            url = "/about/"
+            weight = 2
 
-[[menu.main]]
-    identifier = "ozgecmis"
-    name = "Özgeçmiş"
-    url = "/ozgecmis/"
-    weight = 3 # Weight is an integer used to sort the menu items. The sorting goes from smallest to largest numbers. If weight is not defined for each menu entry, Hugo will sort the entries alphabetically.
+        [[languages.tr.menu.main]]
+            identifier = "ozgecmis"
+            name = "Özgeçmiş"
+            url = "/ozgecmis/"
+            weight = 3
 
+        [[languages.tr.menu.main]]
+            identifier = "tags"
+            name = "Etiketler"
+            url = "/tags/"
+            weight = 4
 
+        [[languages.tr.menu.main]]
+            identifier = "archives"
+            name = "Arşiv"
+            url = "/archives/"
+            weight = 5
 
-[[menu.main]]
-    identifier = "tags"
-    name = "Etiketler"
-    url = "/tags/"
-    weight = 4
+    [languages.en]
+        languageCode = "en-US"
+        languageName = "English"
+        weight = 2
+        title = "Ömer Mert Kaya"
 
-[[menu.main]]
-    name = "Arşiv"
-    identifier = "archives"
-    url = "/archives/"
-    weight = 5
+        [languages.en.params]
+            math = true
+            description = "Personal page of Ömer Mert Kaya, Identity and Access Management Engineer"
 
-    
+            jobTitle = "Identity & Access Management Engineer"
+            expertiseTags = ["IAM", "IGA", "IDM", "PAM", "Identity Security"]
+
+            knowsAbout = [
+                "Identity and Access Management",
+                "Identity Governance and Administration",
+                "Identity Management",
+                "Privileged Access Management",
+                "Authentication",
+                "Authorization",
+                "Single Sign-On",
+                "SAML",
+                "OpenID Connect",
+                "RBAC",
+                "ABAC",
+                "Identity Security",
+            ]
+
+            showReadMore = false
+
+            enableKofi = false
+            kofi = ""
+
+            email = "omermertkaya@hotmail.com.tr"
+            linkedin = "https://linkedin.com/in/omermertkaya"
+            github = "https://github.com/omermertkaya"
+            youtube = "https://www.youtube.com/@mekod3763"
+            medium = "https://medium.com/@omermertkaya"
+
+            author = "Omer Mert KAYA"
+            keywords = "ömer mert kaya personal blog, identity and access management, iam engineer, security blog, security engineer"
+
+        [[languages.en.menu.main]]
+            identifier = "home"
+            name = "Home"
+            url = "/en/"
+            weight = 1
+
+        [[languages.en.menu.main]]
+            identifier = "about"
+            name = "About"
+            url = "/en/about/"
+            weight = 2
+
+        [[languages.en.menu.main]]
+            identifier = "resume"
+            name = "Resume"
+            url = "/en/resume/"
+            weight = 3
+
+        [[languages.en.menu.main]]
+            identifier = "tags"
+            name = "Tags"
+            url = "/en/tags/"
+            weight = 4
+
+        [[languages.en.menu.main]]
+            identifier = "archives"
+            name = "Archives"
+            url = "/en/archives/"
+            weight = 5
 
 # Privacy configurations: https://gohugo.io/about/hugo-and-gdpr/
 [privacy]

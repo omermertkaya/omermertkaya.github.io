@@ -2,6 +2,7 @@
 title = 'IBM Security Verify Kullanımı'
 date = 2024-04-02T20:11:04+03:00
 draft = true
+translationKey = 'ibm-security-verify-kullanimi'
 tags = ['authentication','ibm','security verify']
 +++
 

@@ -2,6 +2,7 @@
 title = 'Rol ve Yetki Sahiplerinin Gözden Geçirme Süreci'
 date = 2024-11-21T21:30:49+03:00
 draft = false
+translationKey = 'rol-yetki-sahibi-gozden-gecirme-sureci'
 tags = ['Kimlik ve Erişim Yönetimi (IAM)', 'Yetki Gözden Geçirme', 'Erişim Yönetimi', 'Rol ve Yetki Yönetimi', 'Yetkilendirme', 'Siber Güvenlik', 'Self Servis', 'Güvenlik Sıkılaştırması', 'Erişim Kontrolü']
 +++
 

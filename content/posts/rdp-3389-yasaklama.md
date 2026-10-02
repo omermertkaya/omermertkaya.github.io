@@ -2,6 +2,7 @@
 title = 'Aktif Dizin Domainde RDP 3389 Portu Yasaklama'
 date = 2024-12-07T22:41:01+03:00
 draft = false
+translationKey = 'rdp-3389-yasaklama'
 tags = ['Active Directory', 'RDP', 'Windows FireWall', 'security','enterprise security','rdp','remote destop protocol','3389']
 +++
 

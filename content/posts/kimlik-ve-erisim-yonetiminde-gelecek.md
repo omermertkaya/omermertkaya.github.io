@@ -2,6 +2,7 @@
 title = 'Kimlik Ve Erişim Yönetiminde Dünyada Önümüzdeki Dönemlerde Neler Olacak?'
 date = 2024-12-11T23:58:14+03:00
 draft = false
+translationKey = 'kimlik-ve-erisim-yonetiminde-gelecek'
 tags =  ['kimlik ve erişim yönetimi','identity and access management','Siber Güvenlik','Zero Trust Sıfır Güven','IAM geleceği']
 +++
 

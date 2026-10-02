@@ -2,6 +2,7 @@
 title = 'Kullanıcı Yaşam Döngüsü Şirketler için Neyi İfade Eder?'
 date = 2024-06-17T12:00:00+03:00
 draft = true
+translationKey = 'kullanici-yasam-dongusunu'
 tags = ['kullanici yasam dongusu','user lifecycle management','idm kullanici provizyonlama','identity access management','kimlik ve erişim yönetimi']
 +++
 

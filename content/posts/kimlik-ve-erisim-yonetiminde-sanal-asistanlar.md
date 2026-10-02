@@ -2,6 +2,7 @@
 title = 'Kimlik Ve Erişim Yonetiminde Sanal Asistanlar'
 date = 2024-12-10T00:31:03+03:00
 draft = false
+translationKey = 'kimlik-ve-erisim-yonetiminde-sanal-asistanlar'
 tags = ['identity management', 'access control', 'security automation', 'IAM solutions', 'Microsoft 365 agents', 'employee self-service']
 +++
 

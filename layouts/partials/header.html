@@ -1,0 +1,22 @@
+<header>
+    <div class="site-title">
+        <a href="{{ "/" | relLangURL }}"><img src="/images/profile_photo.png" height="150" alt="Omer Mert KAYA's photo"/>
+            <br>
+        <div class="site-name-row">
+            <a href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a>
+            {{ partial "language-switcher.html" . }}
+        </div>
+        {{ with .Site.Params.jobTitle }}<div class="site-tagline">{{ . }}</div>{{ end }}
+        {{ with .Site.Params.expertiseTags }}<div class="site-keywords">{{ delimit . " · " }}</div>{{ end }}
+    </div>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R77KDNEKTX"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-R77KDNEKTX');
+    </script>
+</header>

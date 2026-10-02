@@ -2,6 +2,7 @@
 title = 'Active Directory Attributes List'
 date = 2026-05-28T11:00:30+03:00
 draft = false
+translationKey = 'active-directory-attribute-list'
 +++ 
 
 

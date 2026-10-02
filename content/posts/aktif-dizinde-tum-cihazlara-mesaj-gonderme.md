@@ -2,6 +2,7 @@
 title = 'Aktif Dizindeki Tüm Cihazlara Mesaj Gönderme'
 date = 2024-11-24T22:45:02+03:00
 draft = false
+translationKey = 'aktif-dizinde-tum-cihazlara-mesaj-gonderme'
 tags = ['authentication', 'authorization', 'kimlik ve erişim yönetimi', 'aktif dizin', 'powershell mesaj gönderme', 'domaindeki cihazlara mesaj', 'windows mesaj gönderimi', 'şifre süresi bildirimleri', 'kullanıcı bilgilendirme', 'it güvenlik bildirimleri']
 +++
 

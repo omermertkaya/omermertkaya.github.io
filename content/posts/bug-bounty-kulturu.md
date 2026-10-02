@@ -2,6 +2,7 @@
 title = 'Bug Bounty Kültürü Neden Önemlidir?'
 date = 2025-01-13T10:00:41+03:00
 draft = false
+translationKey = 'bug-bounty-kulturu'
 tags = ['Bug Bounty', 'Cybersecurity', 'Security Awareness', 'Vulnerability Management', 'Internal Security', 'Proactive Security', 'Information Security', 'Penetration Testing', 'Ethical Hacking', 'Employee Engagement', 'Security Culture', 'Security Best Practices', 'Threat Detection', 'Risk Management']
 +++
 

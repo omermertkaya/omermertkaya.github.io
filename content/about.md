@@ -4,6 +4,8 @@ type: section
 title: "Hakkında"
 ---
 
+**Ömer Mert Kaya is an Identity & Access Management Engineer specializing in IAM, IGA, IDM, PAM, authentication and authorization.**
+
 Merhabalar, Kişisel Blog sayfama hoş geldiniz. Bendeniz Ömer Mert Kaya.
 
 ## İlköğretim ve Lise
@@ -18,7 +20,7 @@ Mynet’in sunduğu website yapma servisi olan mysite'de hazır temalar seçerek
 
 ### Bilgisayar Mühendisliği ve LC Waikiki
 
-2014 yılında Süleyman Demirel Üniversitesi Bilgisayar Mühendisliği bölümünü kazandım. Üniversitede Kredi ve Yurtlar Kurumu (KYK) kredisi yetmediği için kendi ayaklarımın üstünde durmam gerekti. Bu dönemde webden kazandıklarım da yetmeyince ilk iş deneyimim olan LC Waikiki’de satış danışmanı olarak çalışmaya başladım. Belki Isparta’ya gitmiş olanlar varsa 2015 - 2019 yılları arasında İyaşpark AVM’de bana rastlamışsındır.
+2014 yılında Süleyman Demirel Üniversitesi Bilgisayar Mühendisliği (Computer Engineering) bölümünü kazandım. Üniversitede Kredi ve Yurtlar Kurumu (KYK) kredisi yetmediği için kendi ayaklarımın üstünde durmam gerekti. Bu dönemde webden kazandıklarım da yetmeyince ilk iş deneyimim olan LC Waikiki’de satış danışmanı olarak çalışmaya başladım. Belki Isparta’ya gitmiş olanlar varsa 2015 - 2019 yılları arasında İyaşpark AVM’de bana rastlamışsındır.
 
 ## Staj
 
@@ -51,7 +53,9 @@ Bu süreç, hem teknik uzmanlığımı derinleştirdiğim hem de kurumsal düzey
 
 ### Monofor
 
-Kariyerimin bu döneminde, Amerikan merkezli bir Kimlik ve Erişim Yönetimi platformunun IDM, IAM, IGA ve PAM alanlarında uçtan uca çözümler sunan Monofor bünyesinde yer alma fırsatı buldum. Üretici firma çatısı altında hem ürün geliştirme süreçlerine doğrudan katkı sağlarken hem de danışmanlık rolüyle bu teknolojiyi Türkiye'nin önde gelen kurumlarına başarıyla aktarmaya devam etmekteyim.
+Kariyerimin bu döneminde, Amerikan merkezli bir Kimlik ve Erişim Yönetimi (Identity Security) platformunun IDM, IAM, IGA ve PAM alanlarında uçtan uca çözümler sunan Monofor bünyesinde yer alma fırsatı buldum. Üretici firma çatısı altında hem ürün geliştirme süreçlerine doğrudan katkı sağlarken hem de danışmanlık rolüyle bu teknolojiyi Türkiye'nin önde gelen kurumlarına başarıyla aktarmaya devam etmekteyim.
+
+Bugün Monofor'da; kimlik yaşam döngüsü yönetimi, erişim yönetişimi (IGA), ayrıcalıklı hesap yönetimi (PAM) ve authentication/authorization süreçlerini kapsayan uçtan uca Identity Security çözümleri üzerinde çalışıyorum.
 
 
 #### Sportif ve İlgi Alanları

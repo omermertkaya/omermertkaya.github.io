@@ -1,0 +1,23 @@
+[page]
+other = "Sayfa"
+
+[of]
+other = "/"
+
+[newer]
+other = "Yeni"
+
+[older]
+other = "Eski"
+
+[tagged]
+other = "Etiketlendi"
+
+[read_more]
+other = "Devamını oku..."
+
+[noteworthy_theme]
+other = "Noteworthy teması"
+
+[built_with_hugo]
+other = "Hugo ile yapıldı"

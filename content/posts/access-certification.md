@@ -2,6 +2,7 @@
 title = 'Access Certification Nedir?'
 date = 2024-12-16T20:33:05+03:00
 draft = false
+translationKey = 'access-certification'
 tags = ['Kimlik Yönetimi', 'Erişim Yönetimi', 'Kimlik ve Erişim Yönetimi', 'Abstraction Soyutlama', 'Dijital Güvenlik', 'Rol Tabanlı Erişim Kontrolü RBAC', 'Zero-Trust Güvenlik Modeli', 'IAM Stratejileri', 'Erişim Gözden Geçirme', 'Entitlement Management']
 
 +++

@@ -3,6 +3,7 @@
 title = 'IAM & IAG & IGA & IDM Kavramları ve Farkları'
 date = 2025-02-16T22:00:00+03:00
 draft = false
+translationKey = 'IAM-IAG-IGA-IDM-Farklari'
 tags = ['IAM','IAG','IGA','IDM','Kavramları']
 +++
 

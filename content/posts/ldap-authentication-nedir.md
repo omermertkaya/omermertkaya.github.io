@@ -2,6 +2,7 @@
 title = 'Active Directory Ldap Authentication Nedir? LDAP ile Giriş Yapma Nasıl Yapılır?'
 date = 2024-11-28T15:00:00+03:00
 draft = false
+translationKey = 'ldap-authentication-nedir'
 tags = ['IAM', 'kimlik yönetimi', 'access management','security', 'kullanıcı erişimi',  'kimlik doğrulama', 'LDAP', 'Active Directory', 'authentication', 'SSO', 'LDAP Authentication', 'directory services', 'AD DS', 'AD LDS', 'enterprise security']
 +++
 

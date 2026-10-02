@@ -2,6 +2,7 @@
 title = 'Saml Authentication Nedir?'
 date = 2026-03-16T20:00:34+03:00
 draft = false
+translationKey = 'saml-authentication-nedir'
 tags = ['SAML','SAMLAuthentication','SSO','SingleSignOn','IAM','KimlikveErişimYönetimi','IdentityAndAccessManagement','FederatedIdentity','KimlikDoğrulama','SiberGüvenlik','BilgiGüvenliği','AccessManagement','Authentication','IdentityFederation']
 +++
 

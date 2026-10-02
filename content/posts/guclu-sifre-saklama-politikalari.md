@@ -2,6 +2,7 @@
 title = 'Güçlü Şifre Saklama Politikaları'
 date = 2024-11-24T12:30:36+03:00
 draft = false
+translationKey = 'guclu-sifre-saklama-politikalari'
 +++
 
 Şifreleri saldırganlardan korumanın birçok yöntemi var. Yazımızda bu yöntemlerden bahsedeceğiz.

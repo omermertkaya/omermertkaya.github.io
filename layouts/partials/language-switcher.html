@@ -1,0 +1,21 @@
+{{- $flags := dict "tr" "🇹🇷" "en" "🇬🇧" }}
+{{- if gt (len site.Languages) 1 }}
+<div class="lang-switcher">
+  {{- range site.Languages }}
+    {{- $thisLang := . }}
+    {{- $url := "" }}
+    {{- range $.AllTranslations }}
+      {{- if eq .Language.Lang $thisLang.Lang }}{{ $url = .RelPermalink }}{{ end }}
+    {{- end }}
+    {{- if not $url }}
+      {{- range site.Home.AllTranslations }}
+        {{- if eq .Language.Lang $thisLang.Lang }}{{ $url = .RelPermalink }}{{ end }}
+      {{- end }}
+    {{- end }}
+    <a href="{{ $url }}" class="lang-link{{ if eq $thisLang.Lang site.Language.Lang }} active{{ end }}">
+      <span class="lang-flag">{{ index $flags $thisLang.Lang }}</span>
+      <span class="lang-code">{{ upper $thisLang.Lang }}</span>
+    </a>
+  {{- end }}
+</div>
+{{- end }}

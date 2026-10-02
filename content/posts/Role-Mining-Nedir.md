@@ -2,6 +2,7 @@
 title = 'Rol Madenciliği (Role Mining): IAM Sistemlerinde Etkin Rol Yapılarının Oluşturulması'
 date = 2024-08-05T21:00:41+03:00
 draft = false
+translationKey = 'Role-Mining-Nedir'
 tags = ['RolMadenciliği','RoleMining','IAM','KimlikveErişimYönetimi','IdentityAndAccessManagement','SiberGüvenlik','BilgiGüvenliği','ErişimYönetimi','RolYönetimi','YetkiYönetimi']
 +++
 

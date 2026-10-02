@@ -2,6 +2,7 @@
 title = 'Clerk Authentication Nedir?'
 date = 2024-03-30T16:57:45+03:00
 draft = false
+translationKey = 'clerk-authentication-nedir'
 tags = ['authentication']
 +++
 

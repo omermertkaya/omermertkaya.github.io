@@ -2,6 +2,7 @@
 title = 'Authentication Authorization Kavramları'
 date = 2024-07-11T22:30:46+03:00
 draft = false
+translationKey = 'authentication-authorization-kavramlari'
 tags = ['authentication','authorization','kimlik ve erisim yonetimi']
 +++
 

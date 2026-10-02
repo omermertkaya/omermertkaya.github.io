@@ -2,6 +2,7 @@
 title = 'Kimlik ve Erişim Yönetimi Tedbirleri: Cumhurbaşkanlığı Bilgi Güvenliği Rehberi Perspektifine Göz Atalım'
 date = 2024-09-24T21:31:21+03:00
 draft = false
+translationKey = 'kimlik-ve-erisim-yonetimi-bilgi-ve-iletisim-guvenligi-rehberinden'
 tags = ['kimlik ve erişim yönetimi', 'identity and access management','bilgi ve iletişim güvenliği', 'siber tedbirler',]
 +++
 

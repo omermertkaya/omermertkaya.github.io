@@ -2,6 +2,7 @@
 title = 'Kimlik ve Erişim Yönetiminin Şirketinizde Başarılı Olması İçin Paydaş Katılımının Önemi'
 date = 2024-07-14T20:53:09+03:00
 draft = false
+translationKey = 'iam-basarili-olmasi'
 tags = ['IAM','identity access management','Paydaş Katılımı','Erişim Yönetimi','SOD Matrisi (Segregation of Duties)']
 +++
 

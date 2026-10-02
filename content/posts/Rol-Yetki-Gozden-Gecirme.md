@@ -2,6 +2,7 @@
 title = 'Kimlik ve Erişim Yönetiminde Yetki Gözden Geçirme Çalışmaları'
 date = 2024-08-09T15:00:00+03:00
 draft = false
+translationKey = 'Rol-Yetki-Gozden-Gecirme'
 tags = ['Kimlik ve Erişim Yönetimi (IAM)', 'Yetki Gözden Geçirme', 'Erişim Yönetimi', 'IDM Toolu', 'Kullanıcı Yetkilendirme', 'Yetki Sertifikasyonu', 'Erişim Kontrolü', 'Güvenlik Yönetimi', 'Yetki Yönetimi', 'Rol Tabanlı Erişim', 'İş Süreçleri ve Güvenlik']
 +++
 

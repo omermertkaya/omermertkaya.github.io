@@ -2,6 +2,7 @@
 title = 'Kullanıcı Provizyonlama Nedir?'
 date = 2024-06-17T12:00:00+03:00
 draft = false
+translationKey = 'kullanici-provizyonlama-nedir'
 tags = ['identity access management','kimlik ve erişim yönetimi','kullanici provizyonlama','çalışan provizyonlama','çalışan hesapları oluşturma','idm kullanici provizyonlama']
 +++
 
