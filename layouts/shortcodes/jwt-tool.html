@@ -1,0 +1,59 @@
+{{- $tr := eq .Page.Language.Lang "tr" }}
+<div class="jwt-tool"
+  id="jwt-tool"
+  data-err-format="{{ if $tr }}Bu geçerli bir JWT gibi görünmüyor (nokta ile ayrılmış 3 parça bekleniyor).{{ else }}This does not look like a valid JWT (expected 3 dot-separated parts).{{ end }}"
+  data-err-decode="{{ if $tr }}Token çözülemedi: {{ else }}Could not decode token: {{ end }}"
+  data-err-json="{{ if $tr }}Geçersiz JSON: {{ else }}Invalid JSON: {{ end }}"
+  data-err-verify="{{ if $tr }}Doğrulama hatası: {{ else }}Verification error: {{ end }}"
+  data-err-key="{{ if $tr }}Public key okunamadı: {{ else }}Could not parse public key: {{ end }}"
+  data-ok-msg="{{ if $tr }}✅ İmza doğrulandı{{ else }}✅ Signature verified{{ end }}"
+  data-bad-msg="{{ if $tr }}❌ İmza geçersiz{{ else }}❌ Invalid signature{{ end }}"
+  data-signed-msg="{{ if $tr }}✅ Bu secret ile yeniden imzalandı{{ else }}✅ Re-signed with this secret{{ end }}"
+  data-unknown-alg="{{ if $tr }}Desteklenmeyen algoritma:{{ else }}Unsupported algorithm:{{ end }}"
+>
+  <p class="jwt-tool-notice">
+    {{ if $tr }}🔒 Tüm işlemler tarayıcınızda yapılır. Hiçbir token, secret veya anahtar herhangi bir sunucuya gönderilmez.{{ else }}🔒 Everything runs in your browser. No token, secret, or key is ever sent to a server.{{ end }}
+  </p>
+
+  <div class="jwt-tool-columns">
+    <div class="jwt-tool-col">
+      <label for="jwt-encoded">{{ if $tr }}Encoded (JWT){{ else }}Encoded (JWT){{ end }}</label>
+      <textarea id="jwt-encoded" class="jwt-tool-encoded" spellcheck="false" placeholder="{{ if $tr }}Buraya bir JWT yapıştırın...{{ else }}Paste a JWT here...{{ end }}"></textarea>
+    </div>
+    <div class="jwt-tool-col">
+      <label>{{ if $tr }}Başlık (Header){{ else }}Header{{ end }} <span class="jwt-tool-alg-badge" id="jwt-alg-badge"></span></label>
+      <textarea id="jwt-header" class="jwt-tool-json" spellcheck="false"></textarea>
+      <label>{{ if $tr }}Veri (Payload){{ else }}Payload{{ end }}</label>
+      <textarea id="jwt-payload" class="jwt-tool-json" spellcheck="false"></textarea>
+    </div>
+  </div>
+
+  <div id="jwt-error" class="jwt-tool-error" hidden></div>
+
+  <div class="jwt-tool-verify">
+    <h4>{{ if $tr }}İmza Doğrulama{{ else }}Signature Verification{{ end }}</h4>
+
+    <div id="jwt-verify-hmac" class="jwt-tool-verify-panel" hidden>
+      <label for="jwt-secret">{{ if $tr }}Paylaşılan Anahtar (Secret){{ else }}Shared Secret{{ end }}</label>
+      <input id="jwt-secret" type="text" placeholder="your-256-bit-secret">
+      <div class="jwt-tool-actions">
+        <button id="jwt-verify-btn" type="button" class="jwt-tool-btn">{{ if $tr }}İmzayı Doğrula{{ else }}Verify Signature{{ end }}</button>
+        <button id="jwt-sign-btn" type="button" class="jwt-tool-btn jwt-tool-btn-secondary">{{ if $tr }}Bu Secret ile Yeniden İmzala{{ else }}Re-sign With This Secret{{ end }}</button>
+      </div>
+    </div>
+
+    <div id="jwt-verify-pubkey" class="jwt-tool-verify-panel" hidden>
+      <label for="jwt-pubkey">{{ if $tr }}Public Key (PEM, SPKI formatı){{ else }}Public Key (PEM, SPKI format){{ end }}</label>
+      <textarea id="jwt-pubkey" class="jwt-tool-pubkey" spellcheck="false" placeholder="-----BEGIN PUBLIC KEY-----&#10;...&#10;-----END PUBLIC KEY-----"></textarea>
+      <div class="jwt-tool-actions">
+        <button id="jwt-verify-pub-btn" type="button" class="jwt-tool-btn">{{ if $tr }}İmzayı Doğrula{{ else }}Verify Signature{{ end }}</button>
+      </div>
+    </div>
+
+    <div id="jwt-verify-none" class="jwt-tool-verify-panel" hidden></div>
+
+    <div id="jwt-verify-result" class="jwt-tool-result" hidden></div>
+  </div>
+</div>
+
+<script src="{{ "js/jwt-tool.js" | relURL }}" defer></script>

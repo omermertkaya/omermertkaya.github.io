@@ -1,0 +1,19 @@
+{{ define "main" }}
+<h1 class="post-title">{{ .Title }}</h1>
+
+<div class="tool-section-intro">
+  {{ .Content }}
+</div>
+
+<div class="tool-card-grid">
+  {{ range .Pages.ByTitle }}
+  <a class="tool-card" href="{{ .RelPermalink }}">
+    <span class="tool-card-title">{{ .Title }}</span>
+    {{ with .Params.description }}<span class="tool-card-desc">{{ . }}</span>{{ end }}
+    <span class="tool-card-cta">
+      {{ if eq $.Site.Language.Lang "tr" }}Aç{{ else }}Open{{ end }} →
+    </span>
+  </a>
+  {{ end }}
+</div>
+{{ end }}

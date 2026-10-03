@@ -100,16 +100,22 @@ disqusShortname = ""
             weight = 3
 
         [[languages.tr.menu.main]]
+            identifier = "araclar"
+            name = "Araçlar"
+            url = "/araclar/"
+            weight = 4
+
+        [[languages.tr.menu.main]]
             identifier = "tags"
             name = "Etiketler"
             url = "/tags/"
-            weight = 4
+            weight = 5
 
         [[languages.tr.menu.main]]
             identifier = "archives"
             name = "Arşiv"
             url = "/archives/"
-            weight = 5
+            weight = 6
 
     [languages.en]
         languageCode = "en-US"
@@ -172,16 +178,22 @@ disqusShortname = ""
             weight = 3
 
         [[languages.en.menu.main]]
+            identifier = "tools"
+            name = "Tools"
+            url = "/en/tools/"
+            weight = 4
+
+        [[languages.en.menu.main]]
             identifier = "tags"
             name = "Tags"
             url = "/en/tags/"
-            weight = 4
+            weight = 5
 
         [[languages.en.menu.main]]
             identifier = "archives"
             name = "Archives"
             url = "/en/archives/"
-            weight = 5
+            weight = 6
 
 # Privacy configurations: https://gohugo.io/about/hugo-and-gdpr/
 [privacy]

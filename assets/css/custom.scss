@@ -60,3 +60,239 @@
         }
     }
 }
+
+.tool-back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #898989;
+    text-decoration: none;
+    margin-bottom: 1em;
+    transition: color 0.2s ease;
+
+    &:hover {
+        color: #4a6b8a;
+    }
+}
+
+.tool-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 1em;
+    margin-top: 1.5em;
+}
+
+.tool-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    padding: 1.3em;
+    border-radius: 14px;
+    border: 1px solid #EEEEEE;
+    background: #fff;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+    transition: box-shadow 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
+
+    &:hover {
+        box-shadow: 0 10px 24px rgba(74, 107, 138, 0.16);
+        border-color: rgba(74, 107, 138, 0.4);
+        transform: translateY(-3px);
+    }
+
+    .tool-card-title {
+        font-family: "Noto Serif","Segoe UI","Helvetica Neue",Helvetica,Roboto,FreeSans,serif;
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #4a6b8a;
+    }
+
+    .tool-card-desc {
+        font-size: 0.88rem;
+        line-height: 1.5;
+        color: #898989;
+    }
+
+    .tool-card-cta {
+        margin-top: auto;
+        padding-top: 0.6em;
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #4a6b8a;
+    }
+}
+
+.jwt-tool {
+    font-family: "Noto Sans","Segoe UI","Helvetica Neue",Helvetica,Roboto,FreeSans,sans-serif;
+    margin: 1.8em 0;
+    padding: 1.6em;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #FAFBFC 0%, #F4F6F8 100%);
+    border: 1px solid #EAEDF0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 12px 28px rgba(74, 107, 138, 0.06);
+
+    textarea, input {
+        width: 100%;
+        box-sizing: border-box;
+        font-family: Menlo,Monaco,"Courier New",monospace;
+        font-size: 0.85rem;
+        line-height: 1.5;
+        padding: 0.7em 0.8em;
+        border: 1px solid #E0E4E8;
+        border-radius: 10px;
+        background: #fff;
+        color: #3d3d3d;
+        resize: vertical;
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+        &:focus {
+            outline: none;
+            border-color: #4a6b8a;
+            box-shadow: 0 0 0 3px rgba(74, 107, 138, 0.15);
+        }
+    }
+
+    label {
+        display: block;
+        font-weight: 700;
+        font-size: 0.78rem;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #8a94a3;
+        margin: 1em 0 0.4em;
+    }
+
+    .jwt-tool-notice {
+        display: inline-block;
+        font-size: 0.82rem;
+        color: #5F5F5F;
+        background: rgba(74, 107, 138, 0.08);
+        border-radius: 999px;
+        padding: 0.35em 0.9em;
+        margin-bottom: 1.2em;
+    }
+
+    .jwt-tool-columns {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.6em;
+    }
+
+    .jwt-tool-col {
+        flex: 1 1 280px;
+        min-width: 0;
+    }
+
+    .jwt-tool-encoded {
+        height: 220px;
+        word-break: break-all;
+        border-left: 3px solid #4a6b8a;
+    }
+
+    .jwt-tool-json {
+        height: 95px;
+    }
+
+    .jwt-tool-pubkey {
+        height: 110px;
+    }
+
+    .jwt-tool-alg-badge {
+        display: inline-block;
+        font-family: Menlo,Monaco,"Courier New",monospace;
+        font-size: 0.72rem;
+        font-weight: 700;
+        color: #fff;
+        background: #4a6b8a;
+        border-radius: 999px;
+        padding: 0.15em 0.65em;
+        margin-left: 0.5em;
+        letter-spacing: 0.02em;
+    }
+
+    .jwt-tool-error {
+        color: #b5473f;
+        background: rgba(181, 71, 63, 0.08);
+        border: 1px solid rgba(181, 71, 63, 0.3);
+        border-radius: 10px;
+        padding: 0.7em 0.9em;
+        margin-top: 1.2em;
+        font-size: 0.85rem;
+    }
+
+    .jwt-tool-verify {
+        margin-top: 1.8em;
+        padding-top: 1.4em;
+        border-top: 1px solid rgba(0, 0, 0, 0.06);
+
+        h4 {
+            margin: 0 0 0.3em;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            color: #8a94a3;
+        }
+    }
+
+    .jwt-tool-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.7em;
+        margin-top: 1em;
+    }
+
+    .jwt-tool-btn {
+        font-family: inherit;
+        font-size: 0.85rem;
+        font-weight: 700;
+        color: #fff;
+        background: #4a6b8a;
+        border: none;
+        border-radius: 999px;
+        padding: 0.6em 1.3em;
+        cursor: pointer;
+        box-shadow: 0 2px 6px rgba(74, 107, 138, 0.3);
+        transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+
+        &:hover {
+            background: darken(#4a6b8a, 8%);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(74, 107, 138, 0.35);
+        }
+
+        &.jwt-tool-btn-secondary {
+            background: #fff;
+            color: #4a6b8a;
+            border: 1px solid #c9d3dc;
+            box-shadow: none;
+
+            &:hover {
+                background: #f0f3f6;
+                box-shadow: none;
+            }
+        }
+    }
+
+    .jwt-tool-result {
+        margin-top: 1em;
+        font-weight: 700;
+        font-size: 0.9rem;
+        padding: 0.6em 0.9em;
+        border-radius: 10px;
+
+        &.jwt-tool-result-ok {
+            color: #2f7a4d;
+            background: rgba(47, 122, 77, 0.1);
+        }
+
+        &.jwt-tool-result-bad {
+            color: #b5473f;
+            background: rgba(181, 71, 63, 0.1);
+        }
+    }
+}

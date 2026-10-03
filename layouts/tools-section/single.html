@@ -1,0 +1,11 @@
+{{ define "main" }}
+{{ with .CurrentSection }}
+<a class="tool-back-link" href="{{ .RelPermalink }}">← {{ .Title }}</a>
+{{ end }}
+
+<h1 class="post-title">{{ .Title }}</h1>
+
+<div class="tool-section-intro">
+  {{ .Content }}
+</div>
+{{ end }}
