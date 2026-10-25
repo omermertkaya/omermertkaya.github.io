@@ -5,14 +5,55 @@
     <meta name="format-detection" content="telephone=no"/>
     <meta name="robots" content="index, follow">
 
+    {{/* Per-page description: use the page's own Description, fall back to its summary, then the site description */}}
+    {{ $desc := .Site.Params.description }}
+    {{ with .Description }}{{ $desc = . }}{{ else }}{{ if and .IsPage .Summary }}{{ $desc = .Summary | plainify | chomp }}{{ end }}{{ end }}
+    {{ $desc = $desc | plainify | chomp | truncate 200 }}
 
-    <meta name="description" content="{{ .Site.Params.description }}">
-    <meta name="keywords" content="{{ .Site.Params.keywords }}">
+    {{/* Page title used for both <title> and social cards */}}
+    {{ $pageTitle := cond .IsHome .Site.Title (printf "%s | %s" .Title .Site.Title) }}
+
+    {{/* Default social-share image (absolute URL); a page may override with its own `images` front matter */}}
+    {{ $ogImage := "images/profile_photo.png" | absURL }}
+    {{ with .Params.images }}{{ with index . 0 }}{{ $ogImage = . | absURL }}{{ end }}{{ end }}
+
+    <meta name="description" content="{{ $desc }}">
+    <meta name="keywords" content="{{ with .Params.keywords }}{{ delimit . ", " }}{{ else }}{{ .Site.Params.keywords }}{{ end }}">
     <meta name="author" content="{{ .Site.Params.author }}">
     <link rel="canonical" href="{{ .Permalink }}">
 
+    {{/* hreflang alternates so Google serves the right language version (TR at root, EN under /en/) */}}
+    {{ if .IsTranslated }}
+    {{ range .AllTranslations }}
+    <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+    {{ end }}
+    <link rel="alternate" hreflang="x-default" href="{{ (index .AllTranslations 0).Permalink }}">
+    {{ end }}
 
-    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <title>{{ $pageTitle }}</title>
+
+    {{/* Open Graph — previews on LinkedIn, Facebook, Slack, WhatsApp, etc. */}}
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:title" content="{{ $pageTitle }}">
+    <meta property="og:description" content="{{ $desc }}">
+    <meta property="og:type" content="{{ cond .IsPage "article" "website" }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:image" content="{{ $ogImage }}">
+    <meta property="og:locale" content="{{ .Site.Language.LanguageCode }}">
+    {{ range .Translations }}<meta property="og:locale:alternate" content="{{ .Site.Language.LanguageCode }}">
+    {{ end }}
+    {{ if .IsPage }}
+    <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+    {{ with .Lastmod }}<meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
+    {{ range .Params.tags }}<meta property="article:tag" content="{{ . }}">
+    {{ end }}{{ end }}
+
+    {{/* Twitter / X card */}}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ $pageTitle }}">
+    <meta name="twitter:description" content="{{ $desc }}">
+    <meta name="twitter:image" content="{{ $ogImage }}">
+
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}">
@@ -50,6 +91,26 @@
         "knowsAbout" .Site.Params.knowsAbout
     }}
     <script type="application/ld+json">{{ jsonify (dict "indent" "  ") $person | safeJS }}</script>
+    {{ end }}
+
+    {{/* Structured data for blog posts: BlogPosting rich result */}}
+    {{ if and .IsPage (eq .Section "posts") }}
+    {{ $article := dict
+        "@context" "https://schema.org"
+        "@type" "BlogPosting"
+        "headline" .Title
+        "description" $desc
+        "image" $ogImage
+        "url" .Permalink
+        "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
+        "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+        "inLanguage" .Site.Language.LanguageCode
+        "author" (dict "@type" "Person" "name" .Site.Params.author "url" .Site.BaseURL)
+        "publisher" (dict "@type" "Person" "name" .Site.Params.author "url" .Site.BaseURL)
+        "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+    }}
+    {{ with .Params.tags }}{{ $article = merge $article (dict "keywords" (delimit . ", ")) }}{{ end }}
+    <script type="application/ld+json">{{ jsonify (dict "indent" "  ") $article | safeJS }}</script>
     {{ end }}
 
     {{- if not hugo.IsServer -}}
